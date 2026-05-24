@@ -78,18 +78,40 @@ jobs:
         if: inputs.job == 'check_api_budget'
         run: |
           python -c "
-          import json, os
-          from datetime import date
-          f = 'data/logs/api_usage.json'
-          if os.path.exists(f):
-              data = json.load(open(f))
-              today = date.today().isoformat()
-              calls = data.get(today, {}).get('calls', 0)
-              print(f'API calls today: {calls}/100')
-              print(f'Remaining: {100-calls}')
+          import httpx, os, json
+          from datetime import date, timedelta
+
+          key = os.environ.get('FOOTBALL_DATA_API_KEY', '')
+          print(f'Key found: {\"YES - length \" + str(len(key)) if key else \"NO - KEY IS MISSING\"}')
+          print(f'Key preview: {key[:8]}...' if len(key) > 8 else f'Key value: [{key}]')
+
+          if not key:
+              print('ERROR: FOOTBALL_DATA_API_KEY secret is not set in GitHub')
+              exit(1)
+
+          headers = {'X-Auth-Token': key}
+          date_from = date.today().isoformat()
+          date_to   = (date.today() + timedelta(days=14)).isoformat()
+          url = f'https://api.football-data.org/v4/competitions/PL/matches'
+          params = {'dateFrom': date_from, 'dateTo': date_to}
+
+          print(f'Testing URL: {url}')
+          print(f'Date range: {date_from} to {date_to}')
+
+          r = httpx.get(url, headers=headers, params=params, timeout=15)
+          print(f'HTTP Status: {r.status_code}')
+          data = r.json()
+          print(f'Response keys: {list(data.keys())}')
+          if 'matches' in data:
+              print(f'Matches found: {len(data[\"matches\"])}')
+              if data['matches']:
+                  m = data['matches'][0]
+                  print(f'First match: {m[\"homeTeam\"][\"name\"]} vs {m[\"awayTeam\"][\"name\"]} on {m[\"utcDate\"]}')
           else:
-              print('No API usage data yet - normal on first run')
+              print(f'Full response: {json.dumps(data, indent=2)[:500]}')
           "
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
 
       - name: Commit changes
         if: inputs.job != 'check_api_budget'
