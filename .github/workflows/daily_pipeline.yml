@@ -1,0 +1,72 @@
+name: Daily Prediction Pipeline
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    inputs:
+      force_retrain:
+        description: 'Force ML model retraining'
+        required: false
+        default: 'false'
+        type: boolean
+      skip_import:
+        description: 'Skip API import (use existing data)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  daily_pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Create data directories
+        run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+
+      - name: Step 1 - Import data from football API
+        if: ${{ inputs.skip_import != 'true' }}
+        run: python -m pipeline.step1_import_data
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2024' }}
+
+      - name: Step 2 - Calculate team statistics
+        run: python -m pipeline.step2_calculate_stats
+
+      - name: Step 3 - Generate predictions
+        run: python -m pipeline.step3_generate_predictions
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Step 4 - Evaluate prediction results
+        run: python -m pipeline.step4_evaluate_results
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "Prediction Bot"
+          git config user.email "bot@github-actions.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Daily predictions $(date +%Y-%m-%d)"
+            git push
+          fi
