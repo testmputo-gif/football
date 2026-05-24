@@ -1,0 +1,93 @@
+// src/components/PredictionCard.jsx
+import { Link } from 'react-router-dom'
+import { format } from 'date-fns'
+import { ConfidenceMeter, MarketBadge, FormGuide } from './ui'
+import { Clock } from 'lucide-react'
+
+export default function PredictionCard({ fixture }) {
+  const pred = fixture.predictions || {}
+  const date = new Date(fixture.fixture_date)
+
+  const winner = pred.winner || {}
+  const over25 = pred.over25 || {}
+  const btts = pred.btts || {}
+
+  return (
+    <Link to={`/fixture/${fixture.id}`}
+      className="block bg-slate-800 hover:bg-slate-750 border border-slate-700 hover:border-emerald-500/50 rounded-xl p-4 transition-all group"
+    >
+      {/* League + time */}
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-1.5">
+          {fixture.league_logo && (
+            <img src={fixture.league_logo} alt="" className="w-4 h-4 object-contain" />
+          )}
+          <span className="text-xs text-slate-400 font-medium truncate max-w-[130px]">{fixture.league_name}</span>
+        </div>
+        <span className="flex items-center gap-1 text-xs text-slate-500">
+          <Clock size={10} />
+          {format(date, 'EEE d MMM · HH:mm')}
+        </span>
+      </div>
+
+      {/* Teams + most likely score */}
+      <div className="flex items-center justify-between gap-2 mb-4">
+        <div className="flex items-center gap-2 flex-1 min-w-0">
+          {fixture.home_team_logo && (
+            <img src={fixture.home_team_logo} alt="" className="w-7 h-7 object-contain shrink-0" />
+          )}
+          <span className="font-semibold text-sm text-white truncate">{fixture.home_team_name}</span>
+        </div>
+        <div className="flex flex-col items-center px-2 shrink-0">
+          {fixture.most_likely_score ? (
+            <>
+              <span className="text-emerald-400 font-bold text-sm">{fixture.most_likely_score}</span>
+              <span className="text-slate-600 text-xs">likely</span>
+            </>
+          ) : (
+            <span className="text-slate-600 text-xs">VS</span>
+          )}
+        </div>
+        <div className="flex items-center gap-2 flex-1 min-w-0 justify-end">
+          <span className="font-semibold text-sm text-white truncate text-right">{fixture.away_team_name}</span>
+          {fixture.away_team_logo && (
+            <img src={fixture.away_team_logo} alt="" className="w-7 h-7 object-contain shrink-0" />
+          )}
+        </div>
+      </div>
+
+      {/* Form */}
+      {(fixture.home_form || fixture.away_form) && (
+        <div className="flex justify-between mb-3 px-1">
+          <FormGuide form={fixture.home_form} />
+          <FormGuide form={fixture.away_form} />
+        </div>
+      )}
+
+      {/* Prediction markets */}
+      {fixture.no_prediction_reason ? (
+        <div className="pt-3 border-t border-slate-700 text-center text-xs text-slate-500 italic">
+          Prediction pending
+        </div>
+      ) : (
+        <div className="grid grid-cols-3 gap-2 pt-3 border-t border-slate-700">
+          {[
+            { label: 'Winner', data: winner },
+            { label: 'Over 2.5', data: over25 },
+            { label: 'BTTS', data: btts },
+          ].map(({ label, data }) => (
+            <div key={label} className="text-center">
+              <div className="text-xs text-slate-500 mb-1">{label}</div>
+              <MarketBadge pick={data.pick} />
+              <div className="mt-1"><ConfidenceMeter value={data.confidence} size="sm" /></div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div className="mt-3 text-xs text-slate-600 group-hover:text-emerald-500 text-center transition-colors">
+        Full analysis →
+      </div>
+    </Link>
+  )
+}
