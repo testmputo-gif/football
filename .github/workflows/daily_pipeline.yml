@@ -2,7 +2,10 @@ name: Daily Prediction Pipeline
 
 on:
   schedule:
+    # 4:00 AM UTC every day
     - cron: '0 4 * * *'
+
+  # Manual trigger from GitHub Actions UI
   workflow_dispatch:
     inputs:
       force_retrain:
@@ -17,12 +20,13 @@ on:
         type: boolean
 
 jobs:
+  # ── Job 1: Daily data pipeline ──────────────────────────────────────────────
   daily_pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (full history for data files)
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -35,12 +39,16 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r pipeline/requirements.txt
+        run: |
+          pip install --upgrade pip
+          pip install -r pipeline/requirements.txt
 
       - name: Create data directories
-        run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+        run: |
+          mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
 
-      - name: Step 1 - Import data from football API
+      # ── Step 1: Import match data and fixtures from API ──────────────────
+      - name: Step 1 — Import data from football API
         if: ${{ inputs.skip_import != 'true' }}
         run: python -m pipeline.step1_import_data
         env:
@@ -48,25 +56,163 @@ jobs:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
           CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2024' }}
 
-      - name: Step 2 - Calculate team statistics
+      # ── Step 2: Calculate all statistics ────────────────────────────────
+      - name: Step 2 — Calculate team statistics, Elo, H2H
         run: python -m pipeline.step2_calculate_stats
 
-      - name: Step 3 - Generate predictions
+      # ── Step 3: Generate predictions ─────────────────────────────────────
+      - name: Step 3 — Generate predictions (Dixon-Coles + ML)
         run: python -m pipeline.step3_generate_predictions
         env:
           MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
 
-      - name: Step 4 - Evaluate prediction results
+      # ── Step 4: Evaluate yesterday's predictions ─────────────────────────
+      - name: Step 4 — Evaluate prediction results
         run: python -m pipeline.step4_evaluate_results
 
+      # ── Commit all updated data files back to repo ────────────────────────
       - name: Commit updated data files
         run: |
-          git config user.name "Prediction Bot"
+          git config user.name "Prediction Bot 🤖"
           git config user.email "bot@github-actions.com"
+
           git add data/
+
+          # Only commit if there are actual changes
           if git diff --staged --quiet; then
             echo "No data changes to commit"
           else
-            git commit -m "Daily predictions $(date +%Y-%m-%d)"
+            FIXTURE_COUNT=$(python -c "
+          import json
+          try:
+              d = json.load(open('data/predictions/latest.json'))
+              print(len(d.get('fixtures', [])))
+          except:
+              print('?')
+          ")
+            git commit -m "📊 Daily predictions $(date +%Y-%m-%d) — ${FIXTURE_COUNT} fixtures"
+            git push
+            echo "✅ Data committed and pushed"
+          fi
+
+      # ── Summary ───────────────────────────────────────────────────────────
+      - name: Pipeline summary
+        if: always()
+        run: |
+          echo "## Pipeline Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          python -c "
+          import json, os
+          from datetime import date
+
+          summary = []
+
+          # API usage
+          try:
+              usage_file = 'data/logs/api_usage.json'
+              if os.path.exists(usage_file):
+                  data = json.load(open(usage_file))
+                  today = date.today().isoformat()
+                  calls = data.get(today, {}).get('calls', 0)
+                  summary.append(f'- **API calls today:** {calls}/100')
+          except: pass
+
+          # Predictions
+          try:
+              pred = json.load(open('data/predictions/latest.json'))
+              n = len(pred.get('fixtures', []))
+              made = sum(1 for f in pred.get('fixtures', []) if f.get('no_prediction_reason') is None)
+              summary.append(f'- **Fixtures with predictions:** {made}/{n}')
+          except: pass
+
+          # Accuracy
+          try:
+              acc = json.load(open('data/accuracy/results.json'))
+              o25 = acc.get('by_market', {}).get('over25', {})
+              if o25.get('total', 0) > 0:
+                  pct = o25['correct'] / o25['total'] * 100
+                  summary.append(f\"- **Over 2.5 accuracy:** {pct:.1f}% ({o25['correct']}/{o25['total']})\")
+          except: pass
+
+          for line in summary:
+              print(line)
+          " >> $GITHUB_STEP_SUMMARY
+
+  # ── Job 2: Monthly ML retraining (1st of month or manual) ───────────────────
+  monthly_retrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    needs: daily_pipeline
+    # Run on 1st of month OR when manually forced
+    if: |
+      github.event_name == 'workflow_dispatch' && inputs.force_retrain == 'true' ||
+      (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 4') && contains(github.run_id, '1'))
+
+    steps:
+      - name: Check if first of month
+        id: date_check
+        run: |
+          DAY=$(date +%d)
+          if [ "$DAY" = "01" ] || [ "${{ inputs.force_retrain }}" = "true" ]; then
+            echo "should_retrain=true" >> $GITHUB_OUTPUT
+            echo "Retraining triggered (day=$DAY, force=${{ inputs.force_retrain }})"
+          else
+            echo "should_retrain=false" >> $GITHUB_OUTPUT
+            echo "Not first of month ($DAY) and force not set — skipping retrain"
+          fi
+
+      - name: Checkout repository
+        if: steps.date_check.outputs.should_retrain == 'true'
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Python
+        if: steps.date_check.outputs.should_retrain == 'true'
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install ML dependencies
+        if: steps.date_check.outputs.should_retrain == 'true'
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Train ML models
+        if: steps.date_check.outputs.should_retrain == 'true'
+        run: |
+          echo "🧠 Starting monthly model retraining..."
+          python -m pipeline.step5_train_models
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Commit updated models
+        if: steps.date_check.outputs.should_retrain == 'true'
+        run: |
+          git config user.name "ML Training Bot 🧠"
+          git config user.email "mlbot@github-actions.com"
+          git add data/models/
+          if git diff --staged --quiet; then
+            echo "No model changes"
+          else
+            git commit -m "🧠 Monthly model retrain $(date +%Y-%m)"
             git push
           fi
+
+      - name: Retrain summary
+        if: steps.date_check.outputs.should_retrain == 'true'
+        run: |
+          echo "## ML Retraining Summary" >> $GITHUB_STEP_SUMMARY
+          python -c "
+          import json
+          try:
+              meta = json.load(open('data/models/model_meta.json'))
+              print(f\"- **Training samples:** {meta.get('training_samples', 0)}\")
+              print(f\"- **Models trained:** {meta.get('ml_available', False)}\")
+              acc = meta.get('accuracy_on_training', {})
+              for market, score in acc.items():
+                  print(f\"- **{market} CV accuracy:** {score:.1%}\")
+          except Exception as e:
+              print(f'Could not read model meta: {e}')
+          " >> $GITHUB_STEP_SUMMARY

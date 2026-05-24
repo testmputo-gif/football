@@ -49,7 +49,6 @@ jobs:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
           CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2024' }}
-          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
 
       - name: Import only
         if: inputs.job == 'import_only'
@@ -87,8 +86,10 @@ jobs:
               calls = data.get(today, {}).get('calls', 0)
               print(f'API calls today: {calls}/100')
               print(f'Remaining: {100-calls}')
+              for d, v in sorted(data.items())[-7:]:
+                  print(f'  {d}: {v[\"calls\"]} calls')
           else:
-              print('No API usage data yet - normal on first run')
+              print('No API usage data yet')
           "
 
       - name: Commit changes
@@ -97,5 +98,5 @@ jobs:
           git config user.name "Manual Pipeline Bot"
           git config user.email "bot@github-actions.com"
           git add data/
-          git diff --staged --quiet || git commit -m "Manual run: ${{ inputs.job }} $(date +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "🔧 Manual run: ${{ inputs.job }} $(date +%Y-%m-%d)"
           git push || echo "Nothing to push"
