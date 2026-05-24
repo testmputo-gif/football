@@ -47,7 +47,7 @@ ACTIVE_LEAGUES = [
     {"id": 61,  "name": "Ligue 1",                "country": "France"},
 ]
 ACTIVE_LEAGUE_IDS = [l["id"] for l in ACTIVE_LEAGUES]
-CURRENT_SEASON = int(os.environ.get("CURRENT_SEASON", "2024"))
+CURRENT_SEASON = int(os.environ.get("CURRENT_SEASON", "2025"))
 
 # ── Prediction Engine Thresholds ──────────────────────────────────────────────
 MIN_MATCHES_FOR_PREDICTION = 8   # Min completed matches needed
