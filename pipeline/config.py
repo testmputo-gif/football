@@ -48,7 +48,7 @@ ACTIVE_LEAGUES = [
 ]
 # Always include Brazil and Copa IDs regardless of season
 ALWAYS_ACTIVE_IDS = [71, 13]   # Brazil Serie A, Copa Libertadores
-ACTIVE_LEAGUE_IDS = list(set([l["id"] for l in ACTIVE_LEAGUES] + ALWAYS_ACTIVE_IDS))
+ACTIVE_LEAGUE_IDS = [l["id"] for l in ACTIVE_LEAGUES] + [71, 13]
 CURRENT_SEASON = int(os.environ.get("CURRENT_SEASON", "2025"))
 
 # ── Prediction Engine Thresholds ──────────────────────────────────────────────
