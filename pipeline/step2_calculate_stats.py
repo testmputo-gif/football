@@ -29,7 +29,7 @@ from pipeline.data_store import (
     get_league_baselines, save_league_baselines,
     get_h2h_data, save_h2h_data
 )
-from pipeline.config import ACTIVE_LEAGUE_IDS
+ffrom pipeline.config import ACTIVE_LEAGUE_IDS, ACTIVE_LEAGUES
 
 log = logging.getLogger(__name__)
 
@@ -55,7 +55,11 @@ def run():
     matches.sort(key=lambda m: m.get("match_date", ""))
 
     # Filter to active leagues only
-    matches = [m for m in matches if m.get("league_id") in ACTIVE_LEAGUE_IDS]
+   # Get league IDs from actual match data (not just config)
+# This handles leagues like Brazil/Copa that have different IDs
+all_league_ids_in_data = list({m.get("league_id") for m in matches if m.get("league_id")})
+log.info(f"League IDs found in match data: {all_league_ids_in_data}")
+matches = [m for m in matches if m.get("league_id") in all_league_ids_in_data]
     log.info(f"Processing {len(matches)} matches across {len(ACTIVE_LEAGUE_IDS)} leagues")
 
     # ── Step 2a: Calculate league baselines ──────────────────────────────────
