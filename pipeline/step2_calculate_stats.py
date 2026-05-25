@@ -59,7 +59,9 @@ def run():
 # This handles leagues like Brazil/Copa that have different IDs
 all_league_ids_in_data = list({m.get("league_id") for m in matches if m.get("league_id")})
 log.info(f"League IDs found in match data: {all_league_ids_in_data}")
-matches = [m for m in matches if m.get("league_id") in all_league_ids_in_data]
+league_ids_in_data = list({m.get("league_id") for m in matches if m.get("league_id")})
+log.info(f"League IDs found in data: {league_ids_in_data}")
+matches = [m for m in matches if m.get("league_id") in league_ids_in_data]
     log.info(f"Processing {len(matches)} matches across {len(ACTIVE_LEAGUE_IDS)} leagues")
 
     # ── Step 2a: Calculate league baselines ──────────────────────────────────
