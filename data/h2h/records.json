@@ -1,5 +1,15 @@
 {
   "records": {
+    "bsd_0_bsd_0": {
+      "matches_played": 163,
+      "home_wins": 40,
+      "away_wins": 76,
+      "draws": 47,
+      "avg_goals": 2.601,
+      "btts_rate": 0.534,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "2051_5683": {
       "matches_played": 2,
       "home_wins": 1,
@@ -621,5 +631,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-05-26T21:02:45.753364"
+  "last_updated": "2026-05-26T21:34:24.087247"
 }
