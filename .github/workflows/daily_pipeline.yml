@@ -46,6 +46,7 @@ jobs:
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          BSD_API_KEY: ${{ secrets.BSD_API_KEY }}
           CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2025' }}
 
       - name: Step 2 - Calculate team statistics
