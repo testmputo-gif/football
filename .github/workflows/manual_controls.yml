@@ -113,11 +113,11 @@ jobs:
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
 
-      - name: Commit changes
+     - name: Commit changes
         if: inputs.job != 'check_api_budget'
         run: |
           git config user.name "Manual Pipeline Bot"
           git config user.email "bot@github-actions.com"
           git add data/
-          git diff --staged --quiet || git commit -m "Manual run: ${{ inputs.job }} $(date +%Y-%m-%d)"
-          git push || echo "Nothing to push"
+          git status
+          git diff --staged --quiet && echo "No changes to commit" || (git commit -m "Pipeline run: ${{ inputs.job }} $(date +%Y-%m-%d)" && git push && echo "Data pushed successfully")
