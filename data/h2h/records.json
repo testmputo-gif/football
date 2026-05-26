@@ -30,6 +30,36 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_2051_fd_5683": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 2.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4437_fd_7055": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4439_fd_9373": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 1.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "4261_5170": {
       "matches_played": 2,
       "home_wins": 0,
@@ -41,6 +71,26 @@
       "avg_cards": 0.0
     },
     "2061_4520": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4261_fd_5170": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "draws": 2,
+      "avg_goals": 2.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_2061_fd_4520": {
       "matches_played": 2,
       "home_wins": 1,
       "away_wins": 1,
@@ -70,6 +120,26 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_4268_fd_7912": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4364_fd_4528": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "1771_6993": {
       "matches_played": 2,
       "home_wins": 0,
@@ -81,6 +151,26 @@
       "avg_cards": 0.0
     },
     "2070_9379": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 1.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_1771_fd_6993": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_2070_fd_9379": {
       "matches_played": 2,
       "home_wins": 2,
       "away_wins": 0,
@@ -110,7 +200,37 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_1765_fd_2052": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_1779_fd_4441": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "6989_9357": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_6989_fd_9357": {
       "matches_played": 2,
       "home_wins": 1,
       "away_wins": 1,
@@ -140,7 +260,37 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_1769_fd_5347": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_2066_fd_7865": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "5184_7580": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_5184_fd_7580": {
       "matches_played": 2,
       "home_wins": 0,
       "away_wins": 1,
@@ -170,6 +320,26 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_2066_fd_4528": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 1.5,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_6989_fd_9379": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 5.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "2070_9357": {
       "matches_played": 2,
       "home_wins": 2,
@@ -180,7 +350,27 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_2070_fd_9357": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 4.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "1771_2061": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_1771_fd_2061": {
       "matches_played": 2,
       "home_wins": 1,
       "away_wins": 0,
@@ -210,6 +400,26 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_4437_fd_7912": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4439_fd_5347": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "4441_7580": {
       "matches_played": 2,
       "home_wins": 1,
@@ -230,7 +440,37 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_4441_fd_7580": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4364_fd_7865": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "4520_6993": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4520_fd_6993": {
       "matches_played": 2,
       "home_wins": 0,
       "away_wins": 2,
@@ -260,7 +500,37 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_1783_fd_2051": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_1769_fd_9373": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "4268_7055": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_4268_fd_7055": {
       "matches_played": 2,
       "home_wins": 1,
       "away_wins": 0,
@@ -290,7 +560,37 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_1765_fd_4261": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_2052_fd_5170": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 5.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "1779_5184": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_1779_fd_5184": {
       "matches_played": 2,
       "home_wins": 1,
       "away_wins": 0,
@@ -309,7 +609,17 @@
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "fd_5683_fd_7119": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-05-26T14:16:10.992151"
+  "last_updated": "2026-05-26T20:47:53.336685"
 }
