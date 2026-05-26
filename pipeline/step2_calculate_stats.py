@@ -71,7 +71,7 @@ def run():
     elo_ratings = _calculate_elo_ratings(matches)
     for team_id, elo_data in elo_ratings.items():
         if team_id in team_stats:
-            team_stats[team_id].update(elo_data)
+            team_stats[str(team_id)].update(elo_data) if str(team_id) in team_stats else None
 
     # Step 2d: H2H records
     h2h_records = _calculate_h2h(matches)
@@ -236,7 +236,7 @@ def _calculate_team_statistics(matches: list, league_stats: dict) -> dict:
         attack_rating  = min(100, (home_atk + away_atk) / 2 * 50)
         defense_rating = min(100, max(0, 100 - (home_def + away_def) / 2 * 50))
 
-        team_stats[team_id] = {
+        team_stats[str(team_id)] = {
             "team_id":             team_id,
             "league_id":           lid,
             "total_matches_played": total,
@@ -405,7 +405,7 @@ def _calculate_elo_ratings(matches: list) -> dict:
         played[atid] += 1
 
     return {
-        tid: {
+        str(tid): {
             "elo_rating":         round(ratings[tid], 2),
             "elo_matches_played": played[tid],
         }
