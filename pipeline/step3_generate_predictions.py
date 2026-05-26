@@ -487,9 +487,9 @@ def _predict_fixture(
     result = {**fixture}
 
     # ── Data sufficiency check ────────────────────────────────────────────────
-    home_stats = team_stats.get(home_id, {})
-    away_stats = team_stats.get(away_id, {})
-    league = league_baselines.get(league_id, {})
+    home_stats = team_stats.get(str(home_id), {})
+    away_stats = team_stats.get(str(away_id), {})
+    league = league_baselines.get(str(league_id), {})
 
     home_total = home_stats.get("total_matches_played", 0)
     away_total = away_stats.get("total_matches_played", 0)
