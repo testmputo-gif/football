@@ -537,8 +537,8 @@ def _parse_bsd_fixture(match: dict, comp: dict, upcoming_data: dict) -> str:
         match.get("away_team_name") or
         match.get("awayTeam", {}).get("name", "Unknown")
     )
-    home_team_id = match.get("home_team_id") or match.get("homeTeam", {}).get("id", 0)
-    away_team_id = match.get("away_team_id") or match.get("awayTeam", {}).get("id", 0)
+    home_team_id = match.get("home_team_id") or match.get("homeTeam", {}).get("id") or match_id
+    away_team_id = match.get("away_team_id") or match.get("awayTeam", {}).get("id") or f"a{match_id}"
 
     event_date = match.get("event_date") or match.get("date") or match.get("utcDate", "")
 
