@@ -583,6 +583,23 @@ def _parse_bsd_fixture(match: dict, comp: dict, upcoming_data: dict) -> str:
 # MAIN RUN FUNCTION
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _is_future_fixture(fixture: dict, now_utc) -> bool:
+    """Returns True if fixture is in the future (not yet played)."""
+    date_str = fixture.get("fixture_date", "")
+    if not date_str:
+        return True  # Keep if no date
+    try:
+        from datetime import timezone
+        fixture_dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        if fixture_dt.tzinfo is None:
+            fixture_dt = fixture_dt.replace(tzinfo=timezone.utc)
+        # Keep fixtures that havent started yet (with 2 hour buffer for running matches)
+        from datetime import timedelta
+        return fixture_dt > (now_utc - timedelta(hours=2))
+    except Exception:
+        return True  # Keep if date cant be parsed
+
+
 def run():
     log.info("=" * 60)
     log.info("Step 1: Importing data from football-data.org + BSD API")
@@ -597,7 +614,20 @@ def run():
     existing_count = len(match_history["matches"])
     log.info(f"Existing match history: {existing_count} matches (will be preserved)")
 
-    upcoming_data  = {"fixtures": []}
+    # Load EXISTING upcoming fixtures first - then ADD new ones
+    # This prevents count dropping when API returns fewer results on any given day
+    existing_upcoming = get_upcoming_fixtures()
+    upcoming_data = {"fixtures": list(existing_upcoming.get("fixtures", []))}
+
+    # Remove fixtures that are now in the past (more than 2 hours ago)
+    from datetime import timezone
+    now_utc = datetime.now(timezone.utc)
+    upcoming_data["fixtures"] = [
+        f for f in upcoming_data["fixtures"]
+        if _is_future_fixture(f, now_utc)
+    ]
+    log.info(f"Existing upcoming fixtures kept: {len(upcoming_data['fixtures'])} (past ones removed)")
+
     referee_data   = get_referee_data()
     if "referees" not in referee_data:
         referee_data["referees"] = {}
