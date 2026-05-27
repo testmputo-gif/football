@@ -1,19 +1,17 @@
 // src/services/data.js
-// All data is read from JSON files in the GitHub repo.
-// In production (Vercel), these files are served as static assets
-// from the /public directory (which maps to our data/ folder).
-// In development, same thing via Vite's publicDir setting.
+// Central data service - reads JSON files served as static assets by Vercel
+// All data lives in the data/ folder, committed to GitHub, served at root path
 
 const BASE = import.meta.env.VITE_DATA_BASE_URL || ''
 
-// Cache responses for the session to avoid re-fetching
+// Session cache to avoid re-fetching same files
 const _cache = new Map()
 
 async function fetchJSON(path) {
   if (_cache.has(path)) return _cache.get(path)
   try {
     const res = await fetch(`${BASE}${path}`)
-    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`)
     const data = await res.json()
     _cache.set(path, data)
     return data
@@ -34,19 +32,43 @@ export async function getPredictionsByDate(dateStr) {
 }
 
 export async function getFixtureById(fixtureId) {
+  // Search latest predictions first
   const data = await getLatestPredictions()
-  if (!data) return null
-  const fixture = data.fixtures?.find(f => f.id === fixtureId || String(f.api_fixture_id) === String(fixtureId))
-  // Also check recent dates if not found in latest
-  if (!fixture) {
-    const recent = await getRecentPredictionDates()
-    for (const dateStr of recent.slice(0, 5)) {
-      const dayData = await getPredictionsByDate(dateStr)
-      const found = dayData?.fixtures?.find(f => f.id === fixtureId || String(f.api_fixture_id) === String(fixtureId))
-      if (found) return found
-    }
+  if (data?.fixtures) {
+    // Try exact match on id field
+    let found = data.fixtures.find(f => f.id === fixtureId)
+    if (found) return found
+
+    // Try matching api_fixture_id
+    found = data.fixtures.find(f => String(f.api_fixture_id) === String(fixtureId))
+    if (found) return found
+
+    // Try partial match - the id might be a substring
+    found = data.fixtures.find(f =>
+      f.id && (
+        f.id === fixtureId ||
+        f.id.includes(fixtureId) ||
+        fixtureId.includes(f.id)
+      )
+    )
+    if (found) return found
   }
-  return fixture || null
+
+  // Search last 7 days of predictions if not found in latest
+  const dates = await getRecentPredictionDates()
+  for (const dateStr of dates.slice(0, 7)) {
+    const dayData = await getPredictionsByDate(dateStr)
+    if (!dayData?.fixtures) continue
+
+    const found = dayData.fixtures.find(f =>
+      f.id === fixtureId ||
+      String(f.api_fixture_id) === String(fixtureId) ||
+      (f.id && fixtureId && (f.id.includes(fixtureId) || fixtureId.includes(f.id)))
+    )
+    if (found) return found
+  }
+
+  return null
 }
 
 // ── Fixtures ──────────────────────────────────────────────────────────────────
@@ -63,7 +85,15 @@ export async function getTeamStatistics() {
 
 export async function getTeamById(teamId) {
   const data = await getTeamStatistics()
-  return data?.teams?.[teamId] || null
+  if (!data?.teams) return null
+  // Try direct lookup, then string version, then prefixed versions
+  return (
+    data.teams[teamId] ||
+    data.teams[String(teamId)] ||
+    data.teams[`fd_${teamId}`] ||
+    data.teams[`bsd_${teamId}`] ||
+    null
+  )
 }
 
 // ── Leagues ───────────────────────────────────────────────────────────────────
@@ -87,7 +117,7 @@ export async function getModelMeta() {
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 export async function getRecentPredictionDates() {
-  // We don't have a directory listing, so check last 14 days
+  // Check last 14 days
   const dates = []
   const today = new Date()
   for (let i = 0; i < 14; i++) {
@@ -108,19 +138,27 @@ export async function getTopPicks(market = 'over25', minConfidence = 65, limit =
   const data = await getLatestPredictions()
   if (!data?.fixtures) return []
 
-  const confidenceKey = {
-    winner: 'winner', over25: 'over25', btts: 'btts',
-    corners: 'corners_85', cards: 'cards_35'
-  }[market] || market
+  const marketKeyMap = {
+    winner:  'winner',
+    over25:  'over25',
+    btts:    'btts',
+    corners: 'corners_85',
+    cards:   'cards_35',
+  }
+  const marketKey = marketKeyMap[market] || market
 
   return data.fixtures
     .filter(f => {
-      const pred = f.predictions?.[confidenceKey]
-      return pred && pred.pick !== 'no_pick' && pred.confidence >= minConfidence
+      const pred = f.predictions?.[marketKey]
+      return pred &&
+        pred.pick !== 'no_pick' &&
+        pred.pick !== null &&
+        pred.confidence != null &&
+        pred.confidence >= minConfidence
     })
     .sort((a, b) => {
-      const ca = a.predictions?.[confidenceKey]?.confidence || 0
-      const cb = b.predictions?.[confidenceKey]?.confidence || 0
+      const ca = a.predictions?.[marketKey]?.confidence || 0
+      const cb = b.predictions?.[marketKey]?.confidence || 0
       return cb - ca
     })
     .slice(0, limit)
@@ -138,5 +176,6 @@ export async function searchFixtures(query) {
   )
 }
 
-// Clear cache (useful after data updates)
-export function clearCache() { _cache.clear() }
+export function clearCache() {
+  _cache.clear()
+}
