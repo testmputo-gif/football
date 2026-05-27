@@ -179,3 +179,4 @@ export async function searchFixtures(query) {
 export function clearCache() {
   _cache.clear()
 }
+
