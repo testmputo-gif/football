@@ -40,7 +40,7 @@ jobs:
       - name: Create data directories
         run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
 
-      - name: Step 1 - Import data from football API
+      - name: Step 1 - Import data from football APIs
         if: ${{ inputs.skip_import != 'true' }}
         run: python -m pipeline.step1_import_data
         env:
@@ -60,7 +60,7 @@ jobs:
       - name: Step 4 - Evaluate prediction results
         run: python -m pipeline.step4_evaluate_results
 
-      - name: Commit all updated data files
+      - name: Commit data and trigger Vercel deploy
         run: |
           git config user.name "Prediction Bot"
           git config user.email "bot@github-actions.com"
@@ -71,7 +71,17 @@ jobs:
           else
             git commit -m "Daily predictions $(date +%Y-%m-%d)"
             git push
-            echo "Data committed and pushed successfully"
+            echo "Data pushed successfully"
+          fi
+
+      - name: Trigger Vercel deployment
+        if: always()
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "Vercel deploy hook triggered"
+          else
+            echo "No VERCEL_DEPLOY_HOOK secret set - Vercel will auto-deploy from GitHub push"
           fi
 
       - name: Pipeline summary
@@ -86,14 +96,21 @@ jobs:
               pred = json.load(open('data/predictions/latest.json'))
               n    = len(pred.get('fixtures', []))
               made = sum(1 for f in pred.get('fixtures', []) if not f.get('no_prediction_reason'))
-              summary.append(f'- Fixtures with predictions: {made}/{n}')
+              summary.append(f'- Fixtures: {n}')
+              summary.append(f'- Predictions made: {made}')
           except Exception as e:
               summary.append(f'- Could not read predictions: {e}')
+          try:
+              hist = json.load(open('data/matches/history.json'))
+              total = len(hist.get('matches', {}))
+              summary.append(f'- Total match history: {total}')
+          except:
+              pass
           try:
               acc  = json.load(open('data/accuracy/results.json'))
               o25  = acc.get('by_market', {}).get('over25', {})
               if o25.get('total', 0) > 0:
-                  pct = o25[\"correct\"] / o25[\"total\"] * 100
+                  pct = o25['correct'] / o25['total'] * 100
                   summary.append(f'- Over 2.5 accuracy: {pct:.1f}% ({o25[\"correct\"]}/{o25[\"total\"]})')
           except:
               pass
@@ -143,4 +160,11 @@ jobs:
             git commit -m "Monthly model retrain $(date +%Y-%m)"
             git push
             echo "Models committed and pushed"
+          fi
+
+      - name: Trigger Vercel deployment
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "Vercel deploy hook triggered"
           fi
