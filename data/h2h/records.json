@@ -1,12 +1,12 @@
 {
   "records": {
     "bsd_0_bsd_0": {
-      "matches_played": 165,
+      "matches_played": 168,
       "home_wins": 41,
-      "away_wins": 76,
+      "away_wins": 79,
       "draws": 48,
-      "avg_goals": 2.618,
-      "btts_rate": 0.539,
+      "avg_goals": 2.607,
+      "btts_rate": 0.53,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -20,12 +20,52 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_4268_fd_4437": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "draws": 2,
+      "avg_goals": 0.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_7055_fd_7912": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "fd_2066_fd_4364": {
       "matches_played": 2,
       "home_wins": 1,
       "away_wins": 1,
       "draws": 0,
       "avg_goals": 1.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_2051_fd_7119": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_1783_fd_5683": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.5,
       "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -651,5 +691,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-05-27T16:50:39.049144"
+  "last_updated": "2026-05-28T12:05:30.659015"
 }
