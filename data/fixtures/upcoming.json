@@ -241,54 +241,6 @@
       "away_xg_adjustment": 1.0
     },
     {
-      "id": "13_1771_4520_20260529",
-      "api_fixture_id": "fd_557130",
-      "fixture_date": "2026-05-29T00:30:00Z",
-      "league_id": 13,
-      "league_name": "Copa Libertadores",
-      "league_country": "South America",
-      "league_logo": null,
-      "season": 2025,
-      "round": "6",
-      "venue": null,
-      "home_team_id": "fd_1771",
-      "home_team_name": "Cruzeiro EC",
-      "home_team_logo": "https://crests.football-data.org/1771.png",
-      "away_team_id": "fd_4520",
-      "away_team_name": "Barcelona SC",
-      "away_team_logo": "https://crests.football-data.org/4520.png",
-      "referee_name": null,
-      "status": "TIMED",
-      "is_featured": false,
-      "data_source": "football_data",
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0
-    },
-    {
-      "id": "13_2061_6993_20260529",
-      "api_fixture_id": "fd_557131",
-      "fixture_date": "2026-05-29T00:30:00Z",
-      "league_id": 13,
-      "league_name": "Copa Libertadores",
-      "league_country": "South America",
-      "league_logo": null,
-      "season": 2025,
-      "round": "6",
-      "venue": null,
-      "home_team_id": "fd_2061",
-      "home_team_name": "CA Boca Juniors",
-      "home_team_logo": "https://crests.football-data.org/2061.png",
-      "away_team_id": "fd_6993",
-      "away_team_name": "CD Universidad Católica",
-      "away_team_logo": "https://crests.football-data.org/6993.png",
-      "referee_name": null,
-      "status": "TIMED",
-      "is_featured": false,
-      "data_source": "football_data",
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0
-    },
-    {
       "id": "113_7167_a7167_20260530",
       "api_fixture_id": "bsd_7167",
       "fixture_date": "2026-05-30T23:00:00+04:00",
@@ -1549,5 +1501,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-05-29T00:43:18.486674"
+  "last_updated": "2026-05-29T14:21:29.485544"
 }
