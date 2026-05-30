@@ -30,12 +30,32 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "fd_1771_fd_4520": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "fd_4528_fd_7865": {
       "matches_played": 2,
       "home_wins": 2,
       "away_wins": 0,
       "draws": 0,
       "avg_goals": 3.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "fd_2061_fd_6993": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.0,
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -771,5 +791,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-05-29T14:21:29.579406"
+  "last_updated": "2026-05-30T10:30:56.556095"
 }
