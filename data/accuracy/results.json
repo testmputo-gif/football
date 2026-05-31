@@ -1,7 +1,658 @@
 {
-  "last_updated": "2026-05-30T10:30:57.723500",
-  "total_evaluated": 0,
-  "by_market": {},
-  "calibration": {},
-  "recent_results": []
+  "last_updated": "2026-05-31T11:08:31.130710",
+  "total_evaluated": 15,
+  "by_market": {
+    "winner": {
+      "total": 5,
+      "correct": 5
+    },
+    "over25": {
+      "total": 10,
+      "correct": 10
+    },
+    "btts": {
+      "total": 10,
+      "correct": 5
+    }
+  },
+  "calibration": {
+    "winner_70": {
+      "market": "winner",
+      "bucket": 70,
+      "total": 5,
+      "correct": 5
+    },
+    "over25_75": {
+      "market": "over25",
+      "bucket": 75,
+      "total": 3,
+      "correct": 3
+    },
+    "btts_65": {
+      "market": "btts",
+      "bucket": 65,
+      "total": 3,
+      "correct": 0
+    },
+    "over25_65": {
+      "market": "over25",
+      "bucket": 65,
+      "total": 7,
+      "correct": 7
+    },
+    "btts_60": {
+      "market": "btts",
+      "bucket": 60,
+      "total": 5,
+      "correct": 5
+    },
+    "btts_55": {
+      "market": "btts",
+      "bucket": 55,
+      "total": 2,
+      "correct": 0
+    }
+  },
+  "recent_results": [
+    {
+      "fixture_id": "71_1777_1770_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "EC Bahia",
+      "away_team": "Botafogo FR",
+      "league": "Brasileirao Serie A",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 66.2,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.5,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1783_4241_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CR Flamengo",
+      "away_team": "Coritiba FBC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1768_4364_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CA Paranaense",
+      "away_team": "Mirassol FC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 74.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1777_1770_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "EC Bahia",
+      "away_team": "Botafogo FR",
+      "league": "Brasileirao Serie A",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 66.2,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.5,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1783_4241_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CR Flamengo",
+      "away_team": "Coritiba FBC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1768_4364_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CA Paranaense",
+      "away_team": "Mirassol FC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 71.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1777_1770_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "EC Bahia",
+      "away_team": "Botafogo FR",
+      "league": "Brasileirao Serie A",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 66.2,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.5,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1783_4241_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CR Flamengo",
+      "away_team": "Coritiba FBC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 77.2,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 66.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1768_4364_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CA Paranaense",
+      "away_team": "Mirassol FC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 71.3,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1777_1770_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "EC Bahia",
+      "away_team": "Botafogo FR",
+      "league": "Brasileirao Serie A",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 66.2,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.5,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1783_4241_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CR Flamengo",
+      "away_team": "Coritiba FBC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 77.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 66.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1768_4364_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CA Paranaense",
+      "away_team": "Mirassol FC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 71.7,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1777_1770_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "EC Bahia",
+      "away_team": "Botafogo FR",
+      "league": "Brasileirao Serie A",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 66.2,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.5,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1783_4241_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CR Flamengo",
+      "away_team": "Coritiba FBC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 77.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 66.2,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_1768_4364_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "CA Paranaense",
+      "away_team": "Mirassol FC",
+      "league": "Brasileirao Serie A",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 71.5,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    }
+  ]
 }
