@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-31T11:08:31.130710",
-  "total_evaluated": 15,
+  "last_updated": "2026-06-01T20:41:39.448622",
+  "total_evaluated": 26,
   "by_market": {
     "winner": {
-      "total": 5,
-      "correct": 5
+      "total": 16,
+      "correct": 16
     },
     "over25": {
       "total": 10,
@@ -51,9 +51,461 @@
       "bucket": 55,
       "total": 2,
       "correct": 0
+    },
+    "winner_65": {
+      "market": "winner",
+      "bucket": 65,
+      "total": 6,
+      "correct": 6
+    },
+    "winner_60": {
+      "market": "winner",
+      "bucket": 60,
+      "total": 5,
+      "correct": 5
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "71_4286_6684_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "RB Bragantino",
+      "away_team": "SC Internacional",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.4,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_6685_1782_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Santos FC",
+      "away_team": "EC Vitória",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 60.3,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_4286_6684_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "RB Bragantino",
+      "away_team": "SC Internacional",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.4,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_6685_1782_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Santos FC",
+      "away_team": "EC Vitória",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 60.3,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_4286_6684_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "RB Bragantino",
+      "away_team": "SC Internacional",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.4,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_6685_1782_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Santos FC",
+      "away_team": "EC Vitória",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 60.3,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_4286_6684_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "RB Bragantino",
+      "away_team": "SC Internacional",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.4,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_6685_1782_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Santos FC",
+      "away_team": "EC Vitória",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 60.3,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_4286_6684_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "RB Bragantino",
+      "away_team": "SC Internacional",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.4,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_6685_1782_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Santos FC",
+      "away_team": "EC Vitória",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 60.3,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_4286_6684_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "RB Bragantino",
+      "away_team": "SC Internacional",
+      "league": "Brasileirao Serie A",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "71_1777_1770_20260530",
       "fixture_date": "2026-05-30",
