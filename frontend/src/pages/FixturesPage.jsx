@@ -163,8 +163,13 @@ export default function FixturesPage() {
 
   const filtered = useMemo(() => {
     const fixtures = data?.fixtures || []
+    // Strip fixtures whose date has already passed (keep today and future)
+    const todayStr = new Date().toISOString().split('T')[0]
 
     let result = fixtures.filter(f => {
+      // Drop past fixtures
+      const fDate = f.fixture_date?.split('T')[0]
+      if (fDate && fDate < todayStr) return false
       // Must have a prediction if toggle on
       if (onlyPredicted && f.no_prediction_reason) return false
 
