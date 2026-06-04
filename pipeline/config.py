@@ -22,7 +22,6 @@ PATHS = {
     "logs_dir":        DATA / "logs",
 }
 
-# Ensure all data directories exist
 for _p in [
     DATA / "fixtures", DATA / "teams", DATA / "leagues",
     DATA / "accuracy", DATA / "models", DATA / "logs",
@@ -41,30 +40,76 @@ FOOTBALL_API_SAFETY_BUFFER  = 10
 FOOTBALL_DATA_API_KEY  = os.environ.get("FOOTBALL_DATA_API_KEY", "")
 FOOTBALL_DATA_BASE_URL = "https://api.football-data.org/v4"
 
+# OpenLigaDB — completely free, no key needed (Germany + Austria)
+OPENLIGADB_BASE_URL = "https://api.openligadb.de"
+
+# API-Ninjas Football — free tier 10,000 req/month, no daily cap
+API_NINJAS_KEY = os.environ.get("API_NINJAS_KEY", "")
+
 # ── Season ────────────────────────────────────────────────────────────────────
 CURRENT_SEASON = int(os.environ.get("CURRENT_SEASON", "2025"))
 
 # ── Active Leagues ────────────────────────────────────────────────────────────
-# These are used by step2_calculate_stats.py
-# Brazil (71) and Copa Libertadores (13) are always included
-# European leagues are added automatically in August by step1_import_data.py
+# Grouped by region and whether they run year-round
+#
+# YEAR-ROUND leagues (always active — these keep predictions flowing May–Aug
+# when European leagues are on summer break):
+#
+#  • Brasileirao Serie A        Brazil        Jun–Dec
+#  • Argentine Primera Division Argentina     Feb–Dec
+#  • MLS                        USA/Canada    Mar–Nov
+#  • Eredivisie                 Netherlands   Aug–May  (resumes Aug)
+#  • J1 League                  Japan         Feb–Nov
+#  • Finnish Veikkausliiga      Finland       Apr–Oct
+#  • Austrian Bundesliga        Austria       Jul–May  (resumes Jul)
+#  • Copa Libertadores          S. America    Feb–Nov
+#  • Copa Sudamericana          S. America    Feb–Nov
+#
+# Note on API coverage for year-round leagues:
+#  - Brasileirao, MLS, J1, Veikkausliiga, Argentine → api-football.com (IDs below)
+#  - Austrian Bundesliga → api-football.com ID 218 OR OpenLigaDB (free, no key)
+#  - Eredivisie resumes in August so it's already in the list
+#
+# EUROPEAN leagues (auto-activate August via step1_import_data.py):
+#  Premier League, Bundesliga, Serie A, La Liga, Ligue 1,
+#  Championship, Champions League, Europa League
 
 ACTIVE_LEAGUES = [
-    {"id": 71,  "name": "Brasileirao Serie A", "country": "Brazil"},
-    {"id": 13,  "name": "Copa Libertadores",   "country": "South America"},
-    {"id": 39,  "name": "Premier League",      "country": "England"},
-    {"id": 78,  "name": "Bundesliga",          "country": "Germany"},
-    {"id": 135, "name": "Serie A",             "country": "Italy"},
-    {"id": 140, "name": "La Liga",             "country": "Spain"},
-    {"id": 61,  "name": "Ligue 1",             "country": "France"},
-    {"id": 88,  "name": "Eredivisie",          "country": "Netherlands"},
-    {"id": 94,  "name": "Primeira Liga",       "country": "Portugal"},
-    {"id": 40,  "name": "Championship",        "country": "England"},
-    {"id": 2,   "name": "Champions League",    "country": "Europe"},
+    # ── Year-round South America ──────────────────────────────────────────────
+    {"id": 71,  "name": "Brasileirao Serie A",        "country": "Brazil",        "year_round": True},
+    {"id": 13,  "name": "Copa Libertadores",          "country": "South America", "year_round": True},
+    {"id": 11,  "name": "Copa Sudamericana",          "country": "South America", "year_round": True},
+    {"id": 128, "name": "Argentine Primera Division", "country": "Argentina",     "year_round": True},
+    {"id": 72,  "name": "Brasileirao Serie B",        "country": "Brazil",        "year_round": True},
+
+    # ── Year-round North America ──────────────────────────────────────────────
+    {"id": 253, "name": "MLS",                        "country": "USA",           "year_round": True},
+
+    # ── Year-round Asia/Pacific ───────────────────────────────────────────────
+    {"id": 98,  "name": "J1 League",                  "country": "Japan",         "year_round": True},
+    {"id": 292, "name": "K League 1",                 "country": "South Korea",   "year_round": True},
+
+    # ── Year-round / early-restart Europe ────────────────────────────────────
+    {"id": 88,  "name": "Eredivisie",                 "country": "Netherlands",   "year_round": False},
+    {"id": 218, "name": "Austrian Bundesliga",        "country": "Austria",       "year_round": True},
+    {"id": 244, "name": "Finnish Veikkausliiga",      "country": "Finland",       "year_round": True},
+    {"id": 94,  "name": "Primeira Liga",              "country": "Portugal",      "year_round": False},
+
+    # ── Major European (resume Aug, kept here for continuity) ────────────────
+    {"id": 39,  "name": "Premier League",             "country": "England",       "year_round": False},
+    {"id": 40,  "name": "Championship",               "country": "England",       "year_round": False},
+    {"id": 78,  "name": "Bundesliga",                 "country": "Germany",       "year_round": False},
+    {"id": 135, "name": "Serie A",                    "country": "Italy",         "year_round": False},
+    {"id": 140, "name": "La Liga",                    "country": "Spain",         "year_round": False},
+    {"id": 61,  "name": "Ligue 1",                    "country": "France",        "year_round": False},
+    {"id": 2,   "name": "Champions League",           "country": "Europe",        "year_round": False},
+    {"id": 3,   "name": "Europa League",              "country": "Europe",        "year_round": False},
 ]
 
-# All league IDs in one flat list - used for filtering match data
 ACTIVE_LEAGUE_IDS = [league["id"] for league in ACTIVE_LEAGUES]
+
+# Leagues that should ALWAYS be fetched regardless of month
+YEAR_ROUND_LEAGUE_IDS = [l["id"] for l in ACTIVE_LEAGUES if l.get("year_round")]
 
 # ── Prediction Engine Thresholds ──────────────────────────────────────────────
 MIN_MATCHES_FOR_PREDICTION = 8
