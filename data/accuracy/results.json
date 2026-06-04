@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-06-03T18:39:10.709117",
-  "total_evaluated": 26,
+  "last_updated": "2026-06-04T07:09:06.010500",
+  "total_evaluated": 46,
   "by_market": {
     "winner": {
-      "total": 16,
-      "correct": 16
+      "total": 26,
+      "correct": 26
     },
     "over25": {
-      "total": 10,
-      "correct": 10
+      "total": 30,
+      "correct": 30
     },
     "btts": {
-      "total": 10,
+      "total": 20,
       "correct": 5
     }
   },
@@ -49,23 +49,835 @@
     "btts_55": {
       "market": "btts",
       "bucket": 55,
-      "total": 2,
+      "total": 12,
       "correct": 0
     },
     "winner_65": {
       "market": "winner",
       "bucket": 65,
-      "total": 6,
-      "correct": 6
+      "total": 16,
+      "correct": 16
     },
     "winner_60": {
       "market": "winner",
       "bucket": 60,
       "total": 5,
       "correct": 5
+    },
+    "over25_60": {
+      "market": "over25",
+      "bucket": 60,
+      "total": 10,
+      "correct": 10
+    },
+    "over25_70": {
+      "market": "over25",
+      "bucket": 70,
+      "total": 10,
+      "correct": 10
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "113_0_0_20260601",
+      "fixture_date": "2026-06-01",
+      "home_team": "Remo",
+      "away_team": "São Paulo",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260601",
+      "fixture_date": "2026-06-01",
+      "home_team": "Cruzeiro",
+      "away_team": "Fluminense",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Vasco da Gama",
+      "away_team": "Atlético Mineiro",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Palmeiras",
+      "away_team": "Chapecoense",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Red Bull Bragantino",
+      "away_team": "Internacional",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Fagiano Okayama",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Shimizu S-Pulse",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Santos",
+      "away_team": "Vitória",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Bahia",
+      "away_team": "Botafogo",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260531",
+      "fixture_date": "2026-05-31",
+      "home_team": "Grêmio",
+      "away_team": "Corinthians",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Athletico",
+      "away_team": "Mirassol",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Flamengo",
+      "away_team": "Coritiba",
+      "league": "Allsvenskan",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Kyoto Sanga FC",
+      "away_team": "Kashiwa Reysol",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "V-Varen Nagasaki",
+      "away_team": "Mito Hollyhock",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Avispa Fukuoka",
+      "away_team": "JEF United Chiba",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Gamba Osaka",
+      "away_team": "Tokyo Verdy",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Cerezo Osaka",
+      "away_team": "FC Tokyo",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Nagoya Grampus",
+      "away_team": "Machida Zelvia",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Sanfrecce Hiroshima",
+      "away_team": "Kawasaki Frontale",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_0_0_20260530",
+      "fixture_date": "2026-05-30",
+      "home_team": "Vissel Kobe",
+      "away_team": "Kashima Antlers",
+      "league": "J1 League",
+      "actual_score": "5-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "71_4286_6684_20260531",
       "fixture_date": "2026-05-31",

@@ -734,7 +734,42 @@
       "data_source": "bsd",
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0
+    },
+    {
+      "id": "292_207247_a207247_20260618",
+      "api_fixture_id": "bsd_207247",
+      "fixture_date": "2026-06-18T13:59:00+04:00",
+      "league_id": 292,
+      "league_name": "K League 1",
+      "league_country": "South Korea",
+      "league_logo": null,
+      "season": 2026,
+      "round": "",
+      "venue": {
+        "id": 1299,
+        "name": "Raatti Stadion",
+        "city": "Oulu",
+        "country": "Finland",
+        "capacity": 4400,
+        "latitude": 65.020099,
+        "longitude": 25.465105,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
+      },
+      "home_team_id": "bsd_207247",
+      "home_team_name": "AC Oulu",
+      "home_team_logo": null,
+      "away_team_id": "bsd_a207247",
+      "away_team_name": "IFK Mariehamn",
+      "away_team_logo": null,
+      "referee_name": null,
+      "status": "notstarted",
+      "is_featured": false,
+      "data_source": "bsd",
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-06-03T18:39:09.286271"
+  "last_updated": "2026-06-04T07:09:04.811209"
 }
