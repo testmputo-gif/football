@@ -1,27 +1,24 @@
-// src/services/data.js
-// Central data service - reads JSON files served as static assets by Vercel
-// All data lives in the data/ folder, committed to GitHub, served at root path
+// src/services/data.js — Central data service
+// Reads JSON files served as static assets by Vercel from the data/ folder
 
 const BASE = import.meta.env.VITE_DATA_BASE_URL || ''
-
-// Session cache to avoid re-fetching same files
 const _cache = new Map()
 
 async function fetchJSON(path) {
   if (_cache.has(path)) return _cache.get(path)
   try {
     const res = await fetch(`${BASE}${path}`)
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`)
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const data = await res.json()
     _cache.set(path, data)
     return data
   } catch (e) {
-    console.warn(`Failed to fetch ${path}:`, e.message)
+    console.warn(`fetchJSON failed [${path}]:`, e.message)
     return null
   }
 }
 
-// ── Predictions ───────────────────────────────────────────────────────────────
+// ── Predictions ────────────────────────────────────────────────────────────────
 
 export async function getLatestPredictions() {
   return await fetchJSON('/predictions/latest.json')
@@ -31,138 +28,120 @@ export async function getPredictionsByDate(dateStr) {
   return await fetchJSON(`/predictions/${dateStr}.json`)
 }
 
-export async function getFixtureById(fixtureId) {
-  // Search latest predictions first
-  const data = await getLatestPredictions()
-  if (data?.fixtures) {
-    // Try exact match on id field
-    let found = data.fixtures.find(f => f.id === fixtureId)
-    if (found) return found
+/**
+ * Load ALL fixtures: upcoming (latest.json) + past (from dated files).
+ * Returns { upcoming: [...], past: [...] }
+ * "past" includes the actual score from match history when available.
+ */
+export async function getAllFixtures() {
+  const [latestData, historyData, accuracyData] = await Promise.all([
+    getLatestPredictions(),
+    getMatchHistory(),
+    getAccuracyData(),
+  ])
 
-    // Try matching api_fixture_id
-    found = data.fixtures.find(f => String(f.api_fixture_id) === String(fixtureId))
-    if (found) return found
+  const today = new Date().toISOString().split('T')[0]
 
-    // Try partial match - the id might be a substring
-    found = data.fixtures.find(f =>
-      f.id && (
-        f.id === fixtureId ||
-        f.id.includes(fixtureId) ||
-        fixtureId.includes(f.id)
-      )
-    )
-    if (found) return found
+  // Build a lookup of scored results from accuracy recent_results
+  const scoredMap = {}
+  for (const r of (accuracyData?.recent_results || [])) {
+    if (r.fixture_id) scoredMap[r.fixture_id] = r
   }
 
-  // Search last 7 days of predictions if not found in latest
-  const dates = await getRecentPredictionDates()
-  for (const dateStr of dates.slice(0, 7)) {
-    const dayData = await getPredictionsByDate(dateStr)
-    if (!dayData?.fixtures) continue
+  // Upcoming: latest.json, dates >= today
+  const upcoming = (latestData?.fixtures || []).filter(f => {
+    const fDate = f.fixture_date?.split('T')[0] || ''
+    return fDate >= today
+  })
 
-    const found = dayData.fixtures.find(f =>
-      f.id === fixtureId ||
-      String(f.api_fixture_id) === String(fixtureId) ||
-      (f.id && fixtureId && (f.id.includes(fixtureId) || fixtureId.includes(f.id)))
-    )
-    if (found) return found
+  // Past: collect from last 30 days of prediction files
+  const pastMap = new Map()
+  const pastPromises = []
+  for (let i = 1; i <= 30; i++) {
+    const d = new Date()
+    d.setDate(d.getDate() - i)
+    const dateStr = d.toISOString().split('T')[0]
+    pastPromises.push(getPredictionsByDate(dateStr).then(data => ({ dateStr, data })))
   }
+  const pastResults = await Promise.allSettled(pastPromises)
+  for (const res of pastResults) {
+    if (res.status !== 'fulfilled' || !res.value?.data?.fixtures) continue
+    for (const f of res.value.data.fixtures) {
+      const fDate = f.fixture_date?.split('T')[0] || ''
+      if (fDate < today && !pastMap.has(f.id)) {
+        // Attach scoring data if available
+        const scored = scoredMap[f.id]
+        pastMap.set(f.id, { ...f, _scored: scored || null })
+      }
+    }
+  }
+  const past = [...pastMap.values()].sort((a, b) =>
+    (b.fixture_date || '').localeCompare(a.fixture_date || '')
+  )
 
+  return {
+    upcoming,
+    past,
+    meta: {
+      generated_at: latestData?.generated_at,
+      ml_active: latestData?.ml_active ?? false,
+      total_upcoming: upcoming.length,
+      total_past: past.length,
+    }
+  }
+}
+
+/**
+ * Find a single fixture by ID — searches upcoming then past prediction files.
+ */
+export async function getFixtureById(targetId) {
+  if (!targetId) return null
+  const id = decodeURIComponent(targetId)
+
+  const isMatch = f =>
+    f.id === id || String(f.api_fixture_id) === id ||
+    f.id === targetId || String(f.api_fixture_id) === targetId
+
+  // Search latest first
+  const latest = await getLatestPredictions()
+  const found = (latest?.fixtures || []).find(isMatch)
+  if (found) return found
+
+  // Then dated files (last 30 days)
+  for (let i = 1; i <= 30; i++) {
+    const d = new Date()
+    d.setDate(d.getDate() - i)
+    const dateStr = d.toISOString().split('T')[0]
+    const data = await getPredictionsByDate(dateStr)
+    const f = (data?.fixtures || []).find(isMatch)
+    if (f) return f
+  }
   return null
 }
 
-// ── Fixtures ──────────────────────────────────────────────────────────────────
+// ── Match History ──────────────────────────────────────────────────────────────
 
-export async function getUpcomingFixtures() {
-  return await fetchJSON('/fixtures/upcoming.json')
+export async function getMatchHistory() {
+  return await fetchJSON('/matches/history.json')
 }
 
-// ── Teams ─────────────────────────────────────────────────────────────────────
-
-export async function getTeamStatistics() {
-  return await fetchJSON('/teams/statistics.json')
-}
-
-export async function getTeamById(teamId) {
-  const data = await getTeamStatistics()
-  if (!data?.teams) return null
-  // Try direct lookup, then string version, then prefixed versions
-  return (
-    data.teams[teamId] ||
-    data.teams[String(teamId)] ||
-    data.teams[`fd_${teamId}`] ||
-    data.teams[`bsd_${teamId}`] ||
-    null
-  )
-}
-
-// ── Leagues ───────────────────────────────────────────────────────────────────
-
-export async function getLeagueBaselines() {
-  return await fetchJSON('/leagues/baselines.json')
-}
-
-// ── Accuracy ──────────────────────────────────────────────────────────────────
+// ── Accuracy & Self-Scoring ────────────────────────────────────────────────────
 
 export async function getAccuracyData() {
   return await fetchJSON('/accuracy/results.json')
 }
 
-// ── Model metadata ────────────────────────────────────────────────────────────
+// ── Teams / Leagues ────────────────────────────────────────────────────────────
+
+export async function getTeamStatistics() {
+  return await fetchJSON('/teams/statistics.json')
+}
 
 export async function getModelMeta() {
   return await fetchJSON('/models/model_meta.json')
 }
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
-
-export async function getRecentPredictionDates() {
-  // Check last 14 days
-  const dates = []
-  const today = new Date()
-  for (let i = 0; i < 14; i++) {
-    const d = new Date(today)
-    d.setDate(today.getDate() - i)
-    dates.push(d.toISOString().split('T')[0])
-  }
-  return dates
-}
-
-export async function getTodaysPredictions() {
-  const latest = await getLatestPredictions()
-  if (!latest) return { fixtures: [], generated_at: null }
-  return latest
-}
-
-export async function getTopPicks(market = 'over25', minConfidence = 65, limit = 10) {
-  const data = await getLatestPredictions()
-  if (!data?.fixtures) return []
-
-  const marketKeyMap = {
-    winner:  'winner',
-    over25:  'over25',
-    btts:    'btts',
-    corners: 'corners_85',
-    cards:   'cards_35',
-  }
-  const marketKey = marketKeyMap[market] || market
-
-  return data.fixtures
-    .filter(f => {
-      const pred = f.predictions?.[marketKey]
-      return pred &&
-        pred.pick !== 'no_pick' &&
-        pred.pick !== null &&
-        pred.confidence != null &&
-        pred.confidence >= minConfidence
-    })
-    .sort((a, b) => {
-      const ca = a.predictions?.[marketKey]?.confidence || 0
-      const cb = b.predictions?.[marketKey]?.confidence || 0
-      return cb - ca
-    })
-    .slice(0, limit)
-}
+// ── Search ─────────────────────────────────────────────────────────────────────
 
 export async function searchFixtures(query) {
   if (!query || query.length < 2) return []
@@ -176,7 +155,22 @@ export async function searchFixtures(query) {
   )
 }
 
-export function clearCache() {
-  _cache.clear()
+// ── Helpers ────────────────────────────────────────────────────────────────────
+
+export function getBestConfidence(fixture) {
+  const preds = fixture?.predictions || {}
+  const values = Object.values(preds)
+    .map(p => p?.confidence)
+    .filter(c => c != null && typeof c === 'number')
+  return values.length ? Math.max(...values) : null
 }
 
+export function getConfidenceLabel(conf) {
+  if (conf == null) return { label: 'No data', color: 'text-slate-500', bg: 'bg-slate-700/50', border: 'border-slate-600' }
+  if (conf >= 80) return { label: 'Very Strong', color: 'text-emerald-300', bg: 'bg-emerald-900/40', border: 'border-emerald-600/50' }
+  if (conf >= 70) return { label: 'Strong',      color: 'text-green-400',   bg: 'bg-green-900/30',  border: 'border-green-600/40'  }
+  if (conf >= 60) return { label: 'Moderate',    color: 'text-yellow-400',  bg: 'bg-yellow-900/20', border: 'border-yellow-600/30' }
+  return              { label: 'Weak',         color: 'text-orange-400',  bg: 'bg-orange-900/20', border: 'border-orange-600/30' }
+}
+
+export function clearCache() { _cache.clear() }
