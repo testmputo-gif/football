@@ -133,4 +133,5 @@ export default function PredictionCard({ fixture }) {
       </div>
     </Link>
   )
-}
+                                 }
+  
