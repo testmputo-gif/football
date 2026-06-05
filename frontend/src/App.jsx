@@ -1,12 +1,13 @@
-// frontend/src/App.jsx
+// src/App.jsx
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import { useState } from 'react'
-import { Home, Calendar, Search, BarChart2, Menu, X } from 'lucide-react'
-import HomePage from './pages/HomePage'
-import FixturesPage from './pages/FixturesPage'
+import { Home, Calendar, Search, BarChart2, History, Menu, X } from 'lucide-react'
+import HomePage      from './pages/HomePage'
+import FixturesPage  from './pages/FixturesPage'
+import HistoryPage   from './pages/HistoryPage'
 import PredictionPage from './pages/PredictionPage'
-import SearchPage from './pages/SearchPage'
-import AccuracyPage from './pages/AccuracyPage'
+import SearchPage    from './pages/SearchPage'
+import AccuracyPage  from './pages/AccuracyPage'
 
 function NavItem({ to, icon: Icon, label, end }) {
   return (
@@ -33,9 +34,10 @@ export default function App() {
               <span className="text-emerald-400">StatPredict</span>
             </NavLink>
             <div className="hidden md:flex items-center gap-1">
-              <NavItem to="/" icon={Home} label="Home" end />
+              <NavItem to="/"         icon={Home}     label="Home"       end />
               <NavItem to="/fixtures" icon={Calendar} label="Fixtures" />
-              <NavItem to="/search" icon={Search} label="Search" />
+              <NavItem to="/history"  icon={History}  label="History" />
+              <NavItem to="/search"   icon={Search}   label="Search" />
               <NavItem to="/accuracy" icon={BarChart2} label="Track Record" />
             </div>
             <button className="md:hidden p-2 text-slate-400" onClick={() => setOpen(!open)}>
@@ -43,26 +45,28 @@ export default function App() {
             </button>
           </div>
           {open && (
-            <div className="md:hidden border-t border-slate-700 px-4 py-3 flex flex-col gap-1">
-              <NavItem to="/" icon={Home} label="Home" end />
+            <div className="md:hidden border-t border-slate-700 px-4 py-3 flex flex-col gap-1" onClick={() => setOpen(false)}>
+              <NavItem to="/"         icon={Home}     label="Home"       end />
               <NavItem to="/fixtures" icon={Calendar} label="Fixtures" />
-              <NavItem to="/search" icon={Search} label="Search" />
+              <NavItem to="/history"  icon={History}  label="History" />
+              <NavItem to="/search"   icon={Search}   label="Search" />
               <NavItem to="/accuracy" icon={BarChart2} label="Track Record" />
             </div>
           )}
         </nav>
         <main className="max-w-6xl mx-auto px-4 py-6">
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/fixtures" element={<FixturesPage />} />
+            <Route path="/"           element={<HomePage />} />
+            <Route path="/fixtures"   element={<FixturesPage />} />
+            <Route path="/history"    element={<HistoryPage />} />
             <Route path="/fixture/:id" element={<PredictionPage />} />
-            <Route path="/search" element={<SearchPage />} />
-            <Route path="/accuracy" element={<AccuracyPage />} />
+            <Route path="/search"     element={<SearchPage />} />
+            <Route path="/accuracy"   element={<AccuracyPage />} />
           </Routes>
         </main>
         <footer className="mt-16 border-t border-slate-700 py-6 text-center text-slate-500 text-xs">
-          <p>StatPredict — Statistical football prediction engine powered by Dixon-Coles &amp; ML</p>
-          <p className="mt-1">Predictions are statistical estimates only. Always bet responsibly.</p>
+          <p>StatPredict — Statistical football analysis engine · Dixon-Coles + ML</p>
+          <p className="mt-1">Confidence scores are statistical estimates only. Not financial advice.</p>
         </footer>
       </div>
     </BrowserRouter>
