@@ -299,4 +299,5 @@ export default function PredictionPage() {
       </div>
     </div>
   )
-}
+    }
+    
