@@ -2,16 +2,16 @@
   "leagues": {
     "98": {
       "league_id": 98,
-      "sample_matches": 64,
-      "avg_goals_home": 1.5469,
-      "avg_goals_away": 1.1562,
-      "avg_goals_total": 2.7031,
+      "sample_matches": 65,
+      "avg_goals_home": 1.5385,
+      "avg_goals_away": 1.1538,
+      "avg_goals_total": 2.6923,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4531,
-      "draw_rate": 0.2812,
-      "away_win_rate": 0.2656,
-      "home_advantage_factor": 1.3378
+      "home_win_rate": 0.4462,
+      "draw_rate": 0.2923,
+      "away_win_rate": 0.2615,
+      "home_advantage_factor": 1.3333
     },
     "71": {
       "league_id": 71,
@@ -28,29 +28,29 @@
     },
     "113": {
       "league_id": 113,
-      "sample_matches": 69,
-      "avg_goals_home": 1.5362,
-      "avg_goals_away": 1.0725,
-      "avg_goals_total": 2.6087,
+      "sample_matches": 75,
+      "avg_goals_home": 1.5467,
+      "avg_goals_away": 1.0933,
+      "avg_goals_total": 2.64,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4638,
-      "draw_rate": 0.2899,
-      "away_win_rate": 0.2464,
-      "home_advantage_factor": 1.4324
+      "home_win_rate": 0.4533,
+      "draw_rate": 0.3067,
+      "away_win_rate": 0.24,
+      "home_advantage_factor": 1.4146
     },
     "292": {
       "league_id": 292,
-      "sample_matches": 56,
-      "avg_goals_home": 1.4464,
-      "avg_goals_away": 0.9107,
-      "avg_goals_total": 2.3571,
+      "sample_matches": 57,
+      "avg_goals_home": 1.4737,
+      "avg_goals_away": 0.9298,
+      "avg_goals_total": 2.4035,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.5,
-      "draw_rate": 0.3214,
-      "away_win_rate": 0.1786,
-      "home_advantage_factor": 1.5882
+      "home_win_rate": 0.5088,
+      "draw_rate": 0.3158,
+      "away_win_rate": 0.1754,
+      "home_advantage_factor": 1.5849
     },
     "13": {
       "league_id": 13,
@@ -79,5 +79,5 @@
       "home_advantage_factor": 1.4118
     }
   },
-  "last_updated": "2026-06-05T20:39:14.102300"
+  "last_updated": "2026-06-06T10:59:57.154102"
 }
