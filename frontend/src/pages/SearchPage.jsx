@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { searchFixtures } from '../services/data'
-import { format } from 'date-fns'
+import { safeFormat } from '../services/data'
 import { Search, Loader } from 'lucide-react'
 
 export default function SearchPage() {
@@ -45,7 +45,7 @@ export default function SearchPage() {
                 <div>
                   <p className="text-white font-medium text-sm">{f.home_team_name} vs {f.away_team_name}</p>
                   <p className="text-slate-500 text-xs mt-0.5">
-                    {f.league_name} · {f.fixture_date ? format(new Date(f.fixture_date), 'EEE d MMM HH:mm') : '—'}
+                    {f.league_name} · {f.fixture_date ? safeFormat(f.fixture_date, 'datetime') : '—'}
                   </p>
                 </div>
                 {!f.no_prediction_reason && (
@@ -60,4 +60,5 @@ export default function SearchPage() {
       )}
     </div>
   )
-}
+      }
+            
