@@ -1,9 +1,9 @@
 // src/pages/HomePage.jsx
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { getAllFixtures, getAccuracyData, getModelMeta, getBestConfidence, getConfidenceLabel } from '../services/data'
+import { getAllFixtures, getAccuracyData, getBestConfidence, getConfidenceLabel, safeFormat } from '../services/data'
 import { Spinner } from '../components/ui'
-import { format } from 'date-fns'
+
 import { Database, Target, Zap, BarChart2, CheckCircle2, History, Calendar, TrendingUp } from 'lucide-react'
 
 function StatCard({ icon: Icon, label, value, sub, color }) {
@@ -46,7 +46,7 @@ export default function HomePage() {
   const o25Acc    = accuracy?.by_market?.over25
 
   const generatedAt = meta?.generated_at
-    ? format(new Date(meta.generated_at), 'HH:mm, d MMM UTC')
+    ? safeFormat(meta.generated_at, 'datetime')
     : null
 
   return (
@@ -187,4 +187,5 @@ export default function HomePage() {
       </div>
     </div>
   )
-}
+  }
+                                          
