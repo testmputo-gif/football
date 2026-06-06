@@ -1,8 +1,9 @@
 // src/pages/PredictionPage.jsx — Full fixture detail page
 import { useState, useEffect } from 'react'
+import { safeFormat } from '../services/data'
 import { useParams, Link } from 'react-router-dom'
 import { ConfidenceMeter, MarketBadge, FormGuide, Spinner, ScoreMatrix, StatBar, WinProbBar } from '../components/ui'
-import { format } from 'date-fns'
+
 import { ArrowLeft, Info, AlertCircle } from 'lucide-react'
 
 // ── Market row used in predictions tab ────────────────────────────────────────
@@ -98,7 +99,7 @@ export default function PredictionPage() {
 
   const pred = fixture.predictions || {}
   const dateStr = fixture.fixture_date
-    ? format(new Date(fixture.fixture_date), "EEEE d MMMM yyyy · HH:mm 'UTC'")
+    ? safeFormat(fixture.fixture_date, 'datetime')
     : '—'
 
   return (
@@ -300,3 +301,4 @@ export default function PredictionPage() {
     </div>
   )
     }
+    
