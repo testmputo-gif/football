@@ -4,9 +4,9 @@
 
 import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { getAllFixtures, getAccuracyData, getBestConfidence, getConfidenceLabel } from '../services/data'
+import { getAllFixtures, getAccuracyData, getBestConfidence, getConfidenceLabel, safeFormat, safeDateStr } from '../services/data'
 import { Spinner } from '../components/ui'
-import { format } from 'date-fns'
+
 import { CheckCircle2, XCircle, MinusCircle, BarChart2, TrendingUp } from 'lucide-react'
 
 // ── Score pill ─────────────────────────────────────────────────────────────────
@@ -49,7 +49,7 @@ function HistoryCard({ fixture }) {
   }, [scored])
 
   let dateStr = '—'
-  try { dateStr = format(new Date(fixture.fixture_date), 'EEE d MMM · HH:mm') } catch (_) {}
+  try { dateStr = safeFormat(fixture.fixture_date, 'datetime') } catch (_) {}
 
   return (
     <div className="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden">
@@ -273,7 +273,7 @@ export default function HistoryPage() {
             <section key={date}>
               <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-2 mt-4">
                 <span className="w-2 h-2 rounded-full bg-slate-500 inline-block" />
-                {format(new Date(date + 'T12:00:00'), 'EEEE, MMMM d')}
+                {safeFormat(date + 'T12:00:00', 'fulldate')}
                 <span className="text-slate-600 normal-case font-normal">
                   · {dayFixtures.filter(f => f._scored).length}/{dayFixtures.length} scored
                 </span>
@@ -287,4 +287,5 @@ export default function HistoryPage() {
     </div>
   )
             }
-            
+
+                      
