@@ -1,6 +1,6 @@
 // src/pages/PredictionPage.jsx — Full fixture detail page
 import { useState, useEffect } from 'react'
-import { safeFormat } from '../services/data'
+import { safeFormat, getFixtureById } from '../services/data'
 import { useParams, Link } from 'react-router-dom'
 import { ConfidenceMeter, MarketBadge, FormGuide, Spinner, ScoreMatrix, StatBar, WinProbBar } from '../components/ui'
 
@@ -30,38 +30,7 @@ const TAB_LABELS = {
   reasoning:   'Reasoning',
 }
 
-// ── Fixture lookup — searches latest.json then last 14 days ──────────────────
-async function findFixture(targetId) {
-  if (!targetId) return null
-  const decoded = decodeURIComponent(targetId)
-
-  const isMatch = (f) => {
-    if (!f) return false
-    const fid  = String(f.id || '')
-    const afid = String(f.api_fixture_id || '')
-    return fid === decoded || afid === decoded || fid === targetId || afid === targetId
-  }
-
-  // Always try latest first
-  const urls = ['/predictions/latest.json']
-  const today = new Date()
-  for (let i = 0; i < 14; i++) {
-    const d = new Date(today)
-    d.setDate(today.getDate() - i)
-    urls.push(`/predictions/${d.toISOString().split('T')[0]}.json`)
-  }
-
-  for (const url of urls) {
-    try {
-      const res = await fetch(url)
-      if (!res.ok) continue
-      const data = await res.json()
-      const found = (data.fixtures || []).find(isMatch)
-      if (found) return found
-    } catch (_) {}
-  }
-  return null
-}
+// Fixture lookup handled by getFixtureById in data.js
 
 // ── Main component ────────────────────────────────────────────────────────────
 export default function PredictionPage() {
@@ -74,7 +43,7 @@ export default function PredictionPage() {
   useEffect(() => {
     setLoading(true)
     setNotFound(false)
-    findFixture(id).then(f => {
+    getFixtureById(id).then(f => {
       if (f) setFixture(f)
       else setNotFound(true)
     }).finally(() => setLoading(false))
@@ -301,4 +270,3 @@ export default function PredictionPage() {
     </div>
   )
     }
-    
