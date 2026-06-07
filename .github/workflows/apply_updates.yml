@@ -1516,13 +1516,79 @@ jobs:
           git config user.name "Auto-Update Bot"
           git config user.email "bot@github-actions.com"
           git add -A
-          git status
-          git diff --staged --stat
-          git commit -m "Auto-update: apply latest code changes $(date +%Y-%m-%d)"
-          git push
-          echo "Done - Vercel will auto-deploy now"
+          if git diff --staged --quiet; then
+            echo "No file changes detected - code already up to date"
+          else
+            git commit -m "Auto-update: apply latest code changes $(date +%Y-%m-%d)"
+            git push
+            echo "Committed and pushed - Vercel will auto-deploy"
+          fi
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install pipeline dependencies
+        run: pip install -r pipeline/requirements.txt --quiet
+
+      - name: Create data directories
+        run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+
+      - name: Run full pipeline with TheSportsDB backfill
+        run: |
+          echo "=== Running Step 1: Import data (with TheSportsDB backfill) ==="
+          python -m pipeline.step1_import_data
+          echo "=== Running Step 2: Calculate stats ==="
+          python -m pipeline.step2_calculate_stats
+          echo "=== Running Step 3: Generate predictions ==="
+          python -m pipeline.step3_generate_predictions
+          echo "=== Running Step 4: Evaluate results ==="
+          python -m pipeline.step4_evaluate_results
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          BSD_API_KEY: ${{ secrets.BSD_API_KEY }}
+          CURRENT_SEASON: "2025"
+          MODEL_VERSION: "v1.0.0"
+
+      - name: Commit data and trigger deploy
+        run: |
+          git config user.name "Pipeline Bot"
+          git config user.email "bot@github-actions.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No new data"
+          else
+            git commit -m "Pipeline run: full_pipeline $(date +%Y-%m-%d)"
+            git push
+            echo "Data pushed - Vercel deploying now"
+          fi
 
       - name: Summary
+        if: always()
         run: |
-          echo "## Files updated" >> $GITHUB_STEP_SUMMARY
-          git diff HEAD~1 --name-only >> $GITHUB_STEP_SUMMARY || echo "Check git log" >> $GITHUB_STEP_SUMMARY
+          echo "## Pipeline Summary" >> $GITHUB_STEP_SUMMARY
+          python3 -c "
+          import json
+          try:
+              pred = json.load(open('data/predictions/latest.json'))
+              n    = len(pred.get('fixtures', []))
+              made = sum(1 for f in pred.get('fixtures', []) if not f.get('no_prediction_reason'))
+              print(f'- Fixtures today: {n}')
+              print(f'- Predictions made: {made}')
+              print(f'- Still building data: {n - made}')
+          except Exception as e:
+              print(f'- Could not read predictions: {e}')
+          try:
+              hist = json.load(open('data/matches/history.json'))
+              total = len(hist.get('matches', {}))
+              print(f'- Match history total: {total}')
+              leagues = {}
+              for m in hist.get('matches', {}).values():
+                  ln = m.get('league_name', 'Unknown')
+                  leagues[ln] = leagues.get(ln, 0) + 1
+              for ln, cnt in sorted(leagues.items(), key=lambda x: -x[1]):
+                  print(f'  · {ln}: {cnt} matches')
+          except Exception as e:
+              print(f'- Could not read history: {e}')
+          " >> $GITHUB_STEP_SUMMARY
