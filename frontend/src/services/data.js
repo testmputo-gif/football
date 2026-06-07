@@ -166,4 +166,3 @@ export function getConfidenceLabel(conf) {
 }
 
 export function clearCache() { _cache.clear() }
-      
