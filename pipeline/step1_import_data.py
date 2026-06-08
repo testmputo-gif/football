@@ -568,14 +568,21 @@ def run():
 
     # Check API quota before starting
     status_data = apisports_get("status")
+    remaining = 100
     if status_data:
-        acct = status_data.get("response", {}).get("requests", {})
-        used      = acct.get("current", "?")
-        limit     = acct.get("limit_day", "?")
-        remaining = acct.get("remaining", 100)
-        log.info(f"API-Sports quota: {used}/{limit} used today, {remaining} remaining")
-    else:
-        remaining = 100
+        try:
+            resp = status_data.get("response", {})
+            # response can be a list or dict depending on API version
+            if isinstance(resp, list):
+                resp = resp[0] if resp else {}
+            acct      = resp.get("requests", {})
+            used      = acct.get("current", "?")
+            limit     = acct.get("limit_day", "?")
+            remaining = int(acct.get("remaining", 100))
+            log.info(f"API-Sports quota: {used}/{limit} used today, {remaining} remaining")
+        except Exception as e:
+            log.warning(f"Could not parse quota status: {e}")
+            remaining = 100
 
     # ── STEP A: Today's fixtures (1 request) ─────────────────────────────────
     log.info("\n--- STEP A: Today's fixtures (all leagues, 1 API call) ---")
