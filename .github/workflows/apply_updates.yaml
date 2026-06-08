@@ -17,11 +17,10 @@ jobs:
           persist-credentials: true
           fetch-depth: 1
 
-      - name: Write updated source files
+      - name: Write pipeline/step1_import_data.py
         run: |
-          echo "Writing pipeline/step1_import_data.py..."
-          mkdir -p $(dirname "pipeline/step1_import_data.py")
-          cat << 'B64END' | base64 -d > "pipeline/step1_import_data.py"
+          mkdir -p pipeline
+          cat << 'B64END' | base64 -d > pipeline/step1_import_data.py
           IiIiCnBpcGVsaW5lL3N0ZXAxX2ltcG9ydF9kYXRhLnB5ICDigJQgUkVXUklUVEVOCgpTVFJBVEVHWToKPT09PT09PT09ClRoZSBv
           bGQgYXBwcm9hY2ggZmV0Y2hlZCBvbmUgbGVhZ3VlIGF0IGEgdGltZSwgd2FzdGluZyBBUEkgcXVvdGEgYW5kIG1pc3NpbmcKaHVu
           ZHJlZHMgb2YgYWN0aXZlIGxlYWd1ZXMuIFRoZSBuZXcgYXBwcm9hY2g6CgpTT1VSQ0UgMSDigJQgQVBJLUZvb3RiYWxsIChhcGkt
@@ -411,18 +410,19 @@ jobs:
           LnV0YykKICAgICAgICByZXR1cm4gZHQgPiAobm93X3V0YyAtIHRpbWVkZWx0YShob3Vycz0yKSkKICAgIGV4Y2VwdCBFeGNlcHRp
           b246CiAgICAgICAgcmV0dXJuIFRydWUKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcnVuKCkK
           B64END
-          echo "All files written successfully"
+          echo "step1_import_data.py written"
 
-      - name: Commit and push
+      - name: Commit and push code changes
         run: |
           git config user.name "Auto-Update Bot"
           git config user.email "bot@github-actions.com"
           git add -A
           if git diff --staged --quiet; then
-            echo "No changes detected"
+            echo "No code changes to commit"
           else
             git commit -m "Rewrite step1: date-based fetching all leagues in 1 API call"
             git push
+            echo "Code changes pushed"
           fi
 
       - name: Setup Python
@@ -434,17 +434,19 @@ jobs:
         run: pip install -r pipeline/requirements.txt --quiet
 
       - name: Create data directories
-        run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+        run: |
+          mkdir -p data/fixtures data/predictions data/teams data/leagues
+          mkdir -p data/accuracy data/models data/logs data/matches data/h2h data/referees
 
       - name: Run full pipeline
         run: |
-          echo "=== Step 1: Import data (all leagues via date-based fetch) ==="
+          echo "Step 1 - Import data"
           python -m pipeline.step1_import_data
-          echo "=== Step 2: Calculate statistics ==="
+          echo "Step 2 - Calculate statistics"
           python -m pipeline.step2_calculate_stats
-          echo "=== Step 3: Generate predictions ==="
+          echo "Step 3 - Generate predictions"
           python -m pipeline.step3_generate_predictions
-          echo "=== Step 4: Evaluate results ==="
+          echo "Step 4 - Evaluate results"
           python -m pipeline.step4_evaluate_results
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
@@ -452,7 +454,7 @@ jobs:
           CURRENT_SEASON: "2025"
           MODEL_VERSION: "v1.0.0"
 
-      - name: Commit data and deploy
+      - name: Commit data and trigger deploy
         run: |
           git config user.name "Pipeline Bot"
           git config user.email "bot@github-actions.com"
@@ -460,45 +462,35 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new data to commit"
           else
-            TOTAL=$(python3 -c "import json; d=json.load(open('data/predictions/latest.json')); print(len(d.get('fixtures',[])))" 2>/dev/null || echo "?")
-            PRED=$(python3 -c "import json; d=json.load(open('data/predictions/latest.json')); print(sum(1 for f in d.get('fixtures',[]) if not f.get('no_prediction_reason')))" 2>/dev/null || echo "?")
-            git commit -m "Pipeline: ${TOTAL} fixtures, ${PRED} predictions $(date +%Y-%m-%d)"
+            git commit -m "Pipeline data update $(date +%Y-%m-%d)"
             git push
-            echo "Deployed — Vercel rebuilding now"
+            echo "Data pushed - Vercel deploying"
           fi
 
-      - name: Summary
+      - name: Write summary script
+        run: |
+          cat << 'B64END' | base64 -d > /tmp/summary.py
+          aW1wb3J0IGpzb24sIHN5cwp0cnk6CiAgICBwcmVkID0ganNvbi5sb2FkKG9wZW4oImRhdGEvcHJlZGljdGlvbnMvbGF0ZXN0Lmpz
+          b24iKSkKICAgIGZpeHR1cmVzID0gcHJlZC5nZXQoImZpeHR1cmVzIiwgW10pCiAgICBuID0gbGVuKGZpeHR1cmVzKQogICAgbWFk
+          ZSA9IHN1bSgxIGZvciBmIGluIGZpeHR1cmVzIGlmIG5vdCBmLmdldCgibm9fcHJlZGljdGlvbl9yZWFzb24iKSkKICAgIHByaW50
+          KCItIEZpeHR1cmVzIHRvZGF5OiAiICsgc3RyKG4pKQogICAgcHJpbnQoIi0gUHJlZGljdGlvbnMgbWFkZTogIiArIHN0cihtYWRl
+          KSkKICAgIHByaW50KCItIEJ1aWxkaW5nIGRhdGE6ICIgKyBzdHIobiAtIG1hZGUpKQogICAgbGVhZ3VlcyA9IHt9CiAgICBmb3Ig
+          ZiBpbiBmaXh0dXJlczoKICAgICAgICBsbiA9IGYuZ2V0KCJsZWFndWVfbmFtZSIsICJVbmtub3duIikKICAgICAgICBsZWFndWVz
+          W2xuXSA9IGxlYWd1ZXMuZ2V0KGxuLCAwKSArIDEKICAgIHByaW50KCItIEFjdGl2ZSBsZWFndWVzOiAiICsgc3RyKGxlbihsZWFn
+          dWVzKSkpCiAgICBmb3IgbG4sIGNudCBpbiBzb3J0ZWQobGVhZ3Vlcy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKVs6MjBd
+          OgogICAgICAgIHByaW50KCIgICIgKyBsbiArICI6ICIgKyBzdHIoY250KSArICIgZml4dHVyZXMiKQpleGNlcHQgRXhjZXB0aW9u
+          IGFzIGU6CiAgICBwcmludCgiRXJyb3IgcmVhZGluZyBwcmVkaWN0aW9uczogIiArIHN0cihlKSkKdHJ5OgogICAgaGlzdCA9IGpz
+          b24ubG9hZChvcGVuKCJkYXRhL21hdGNoZXMvaGlzdG9yeS5qc29uIikpCiAgICB0b3RhbCA9IGxlbihoaXN0LmdldCgibWF0Y2hl
+          cyIsIHt9KSkKICAgIHByaW50KCItIE1hdGNoIGhpc3RvcnkgdG90YWw6ICIgKyBzdHIodG90YWwpKQogICAgbGVhZ3VlcyA9IHt9
+          CiAgICBmb3IgbSBpbiBoaXN0LmdldCgibWF0Y2hlcyIsIHt9KS52YWx1ZXMoKToKICAgICAgICBsbiA9IG0uZ2V0KCJsZWFndWVf
+          bmFtZSIsICJVbmtub3duIikKICAgICAgICBsZWFndWVzW2xuXSA9IGxlYWd1ZXMuZ2V0KGxuLCAwKSArIDEKICAgIGZvciBsbiwg
+          Y250IGluIHNvcnRlZChsZWFndWVzLml0ZW1zKCksIGtleT1sYW1iZGEgeDogLXhbMV0pWzoyMF06CiAgICAgICAgcHJpbnQoIiAg
+          IiArIGxuICsgIjogIiArIHN0cihjbnQpICsgIiBtYXRjaGVzIikKZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgcHJpbnQoIkVy
+          cm9yIHJlYWRpbmcgaGlzdG9yeTogIiArIHN0cihlKSkK
+          B64END
+
+      - name: Pipeline summary
         if: always()
         run: |
           echo "## Pipeline Summary" >> $GITHUB_STEP_SUMMARY
-          python3 -c "
-import json, os
-try:
-    pred = json.load(open('data/predictions/latest.json'))
-    n    = len(pred.get('fixtures', []))
-    made = sum(1 for f in pred.get('fixtures', []) if not f.get('no_prediction_reason'))
-    print(f'- **Fixtures today:** {n}')
-    print(f'- **Predictions made:** {made}')
-    print(f'- **Building data:** {n - made}')
-    leagues = {}
-    for f in pred.get('fixtures', []):
-        ln = f.get('league_name','?')
-        leagues[ln] = leagues.get(ln,0) + 1
-    print(f'- **Active leagues today:** {len(leagues)}')
-    for ln,cnt in sorted(leagues.items(), key=lambda x:-x[1])[:15]:
-        print(f'  · {ln}: {cnt} fixtures')
-except Exception as e:
-    print(f'- Error reading predictions: {e}')
-try:
-    hist = json.load(open('data/matches/history.json'))
-    total = len(hist.get('matches', {}))
-    print(f'- **Total match history:** {total}')
-    leagues = {}
-    for m in hist.get('matches', {}).values():
-        ln = m.get('league_name','?')
-        leagues[ln] = leagues.get(ln,0) + 1
-    for ln,cnt in sorted(leagues.items(), key=lambda x:-x[1])[:15]:
-        print(f'  · {ln}: {cnt} matches')
-except Exception as e:
-    print(f'- Error reading history: {e}')
-" >> $GITHUB_STEP_SUMMARY
+          python3 /tmp/summary.py >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not generate summary" >> $GITHUB_STEP_SUMMARY
