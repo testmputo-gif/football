@@ -369,60 +369,64 @@ jobs:
           cyIgbm90IGluIHJlZmVyZWVfZGF0YToKICAgICAgICByZWZlcmVlX2RhdGFbInJlZmVyZWVzIl0gPSB7fQoKICAgIGlmIG5vdCBB
           UElTUE9SVFNfS0VZOgogICAgICAgIGxvZy5lcnJvcigiRk9PVEJBTExfREFUQV9BUElfS0VZIChhcGktc3BvcnRzIGtleSkgbm90
           IHNldCDigJQgY2Fubm90IGZldGNoIGZpeHR1cmVzIikKICAgICAgICByZXR1cm4ge30KCiAgICAjIENoZWNrIEFQSSBxdW90YSBi
-          ZWZvcmUgc3RhcnRpbmcKICAgIHN0YXR1c19kYXRhID0gYXBpc3BvcnRzX2dldCgic3RhdHVzIikKICAgIGlmIHN0YXR1c19kYXRh
-          OgogICAgICAgIGFjY3QgPSBzdGF0dXNfZGF0YS5nZXQoInJlc3BvbnNlIiwge30pLmdldCgicmVxdWVzdHMiLCB7fSkKICAgICAg
-          ICB1c2VkICAgICAgPSBhY2N0LmdldCgiY3VycmVudCIsICI/IikKICAgICAgICBsaW1pdCAgICAgPSBhY2N0LmdldCgibGltaXRf
-          ZGF5IiwgIj8iKQogICAgICAgIHJlbWFpbmluZyA9IGFjY3QuZ2V0KCJyZW1haW5pbmciLCAxMDApCiAgICAgICAgbG9nLmluZm8o
-          ZiJBUEktU3BvcnRzIHF1b3RhOiB7dXNlZH0ve2xpbWl0fSB1c2VkIHRvZGF5LCB7cmVtYWluaW5nfSByZW1haW5pbmciKQogICAg
-          ZWxzZToKICAgICAgICByZW1haW5pbmcgPSAxMDAKCiAgICAjIOKUgOKUgCBTVEVQIEE6IFRvZGF5J3MgZml4dHVyZXMgKDEgcmVx
-          dWVzdCkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA
-          4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgICBsb2cuaW5mbygiXG4tLS0gU1RFUCBBOiBUb2RheSdzIGZpeHR1cmVz
-          IChhbGwgbGVhZ3VlcywgMSBBUEkgY2FsbCkgLS0tIikKICAgIGgxLCB1MSA9IGZldGNoX3RvZGF5c19maXh0dXJlcyhtYXRjaF9o
-          aXN0b3J5LCB1cGNvbWluZ19kYXRhLCBub3dfdXRjKQoKICAgICMg4pSA4pSAIFNURVAgQjogUmVjZW50IHJlc3VsdHMgZm9yIHNj
-          b3JpbmcgKHVwIHRvIDMgcmVxdWVzdHMpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAog
-          ICAgbG9nLmluZm8oIlxuLS0tIFNURVAgQjogUmVjZW50IHJlc3VsdHMgKGxhc3QgMyBkYXlzKSAtLS0iKQogICAgaDIgPSBmZXRj
-          aF9yZWNlbnRfcmVzdWx0cyhtYXRjaF9oaXN0b3J5LCB1cGNvbWluZ19kYXRhLCBub3dfdXRjLCBkYXlzX2JhY2s9MikKCiAgICAj
-          IOKUgOKUgCBTVEVQIEM6IFVwY29taW5nIGZpeHR1cmVzIG5leHQgNyBkYXlzICg3IHJlcXVlc3RzKSDilIDilIDilIDilIDilIDi
-          lIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICAgIGxvZy5pbmZvKCJcbi0tLSBTVEVQIEM6IFVwY29t
-          aW5nIGZpeHR1cmVzIG5leHQgNyBkYXlzIC0tLSIpCiAgICB1MiA9IGZldGNoX3VwY29taW5nX25leHRfZGF5cyhtYXRjaF9oaXN0
-          b3J5LCB1cGNvbWluZ19kYXRhLCBub3dfdXRjLCBkYXlzX2FoZWFkPTcpCgogICAgIyDilIDilIAgU1RFUCBEOiBIaXN0b3J5IGJh
-          Y2tmaWxsIGZvciBuZXcgbGVhZ3VlcyAodXAgdG8gMTUgcmVxdWVzdHMpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogICAg
-          bG9nLmluZm8oIlxuLS0tIFNURVAgRDogSGlzdG9yeSBiYWNrZmlsbCBmb3IgbGVhZ3VlcyB3aXRoIGluc3VmZmljaWVudCBkYXRh
-          IC0tLSIpCiAgICBiYWNrZmlsbF9yZXFzID0gcnVuX2hpc3RvcnlfYmFja2ZpbGwobWF0Y2hfaGlzdG9yeSwgdXBjb21pbmdfZGF0
-          YSwgbm93X3V0YykKCiAgICAjIOKUgOKUgCBTVEVQIEU6IGZvb3RiYWxsLWRhdGEub3JnIHN1cHBsZW1lbnQgKG5vIHF1b3RhIGNv
-          c3QpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogICAgbG9nLmluZm8oIlxuLS0t
-          IFNURVAgRTogZm9vdGJhbGwtZGF0YS5vcmcgc3VwcGxlbWVudCAtLS0iKQogICAgcnVuX2Zvb3RiYWxsX2RhdGFfc3VwcGxlbWVu
-          dChtYXRjaF9oaXN0b3J5LCB1cGNvbWluZ19kYXRhLCBub3dfdXRjKQoKICAgICMgU2F2ZQogICAgc2F2ZV9tYXRjaF9oaXN0b3J5
-          KG1hdGNoX2hpc3RvcnkpCiAgICBzYXZlX3VwY29taW5nX2ZpeHR1cmVzKHVwY29taW5nX2RhdGEpCiAgICBzYXZlX3JlZmVyZWVf
-          ZGF0YShyZWZlcmVlX2RhdGEpCgogICAgZmluYWxfY291bnQgPSBsZW4obWF0Y2hfaGlzdG9yeVsibWF0Y2hlcyJdKQogICAgbG9n
-          LmluZm8oIlxuIiArICI9IiAqIDYwKQogICAgbG9nLmluZm8oIlN0ZXAgMSBDb21wbGV0ZSIpCiAgICBsb2cuaW5mbyhmIiAgTWF0
-          Y2ggaGlzdG9yeSBiZWZvcmU6ICB7ZXhpc3RpbmdfY291bnR9IikKICAgIGxvZy5pbmZvKGYiICBOZXcgbWF0Y2hlcyBhZGRlZDog
-          ICAgIHtmaW5hbF9jb3VudCAtIGV4aXN0aW5nX2NvdW50fSIpCiAgICBsb2cuaW5mbyhmIiAgTWF0Y2ggaGlzdG9yeSBhZnRlcjog
-          ICB7ZmluYWxfY291bnR9IikKICAgIGxvZy5pbmZvKGYiICBVcGNvbWluZyBmaXh0dXJlczogICAgIHtsZW4odXBjb21pbmdfZGF0
-          YVsnZml4dHVyZXMnXSl9IikKICAgIGxvZy5pbmZvKGYiICBBUEkgcmVxdWVzdHMgdXNlZDogICAgIH57NCArIGJhY2tmaWxsX3Jl
-          cXN9IChkYWlseSArIGJhY2tmaWxsKSIpCiAgICBsb2cuaW5mbygiPSIgKiA2MCkKCiAgICByZXR1cm4gewogICAgICAgICJleGlz
-          dGluZ19tYXRjaGVzIjogZXhpc3RpbmdfY291bnQsCiAgICAgICAgIm5ld19tYXRjaGVzIjogICAgICBmaW5hbF9jb3VudCAtIGV4
-          aXN0aW5nX2NvdW50LAogICAgICAgICJ0b3RhbF9tYXRjaGVzIjogICAgZmluYWxfY291bnQsCiAgICAgICAgInVwY29taW5nX2Zp
-          eHR1cmVzIjogbGVuKHVwY29taW5nX2RhdGFbImZpeHR1cmVzIl0pLAogICAgfQoKCmRlZiBfaXNfZnV0dXJlX2ZpeHR1cmUoZml4
-          dHVyZSwgbm93X3V0Yyk6CiAgICB0cnk6CiAgICAgICAgZHMgPSBmaXh0dXJlLmdldCgiZml4dHVyZV9kYXRlIiwgIiIpCiAgICAg
-          ICAgaWYgbm90IGRzOiByZXR1cm4gVHJ1ZQogICAgICAgIGR0ID0gZGF0ZXRpbWUuZnJvbWlzb2Zvcm1hdChkcy5yZXBsYWNlKCJa
-          IiwgIiswMDowMCIpKQogICAgICAgIGlmIGR0LnR6aW5mbyBpcyBOb25lOiBkdCA9IGR0LnJlcGxhY2UodHppbmZvPXRpbWV6b25l
-          LnV0YykKICAgICAgICByZXR1cm4gZHQgPiAobm93X3V0YyAtIHRpbWVkZWx0YShob3Vycz0yKSkKICAgIGV4Y2VwdCBFeGNlcHRp
-          b246CiAgICAgICAgcmV0dXJuIFRydWUKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcnVuKCkK
+          ZWZvcmUgc3RhcnRpbmcKICAgIHN0YXR1c19kYXRhID0gYXBpc3BvcnRzX2dldCgic3RhdHVzIikKICAgIHJlbWFpbmluZyA9IDEw
+          MAogICAgaWYgc3RhdHVzX2RhdGE6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXNwID0gc3RhdHVzX2RhdGEuZ2V0KCJyZXNw
+          b25zZSIsIHt9KQogICAgICAgICAgICAjIHJlc3BvbnNlIGNhbiBiZSBhIGxpc3Qgb3IgZGljdCBkZXBlbmRpbmcgb24gQVBJIHZl
+          cnNpb24KICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShyZXNwLCBsaXN0KToKICAgICAgICAgICAgICAgIHJlc3AgPSByZXNwWzBd
+          IGlmIHJlc3AgZWxzZSB7fQogICAgICAgICAgICBhY2N0ICAgICAgPSByZXNwLmdldCgicmVxdWVzdHMiLCB7fSkKICAgICAgICAg
+          ICAgdXNlZCAgICAgID0gYWNjdC5nZXQoImN1cnJlbnQiLCAiPyIpCiAgICAgICAgICAgIGxpbWl0ICAgICA9IGFjY3QuZ2V0KCJs
+          aW1pdF9kYXkiLCAiPyIpCiAgICAgICAgICAgIHJlbWFpbmluZyA9IGludChhY2N0LmdldCgicmVtYWluaW5nIiwgMTAwKSkKICAg
+          ICAgICAgICAgbG9nLmluZm8oZiJBUEktU3BvcnRzIHF1b3RhOiB7dXNlZH0ve2xpbWl0fSB1c2VkIHRvZGF5LCB7cmVtYWluaW5n
+          fSByZW1haW5pbmciKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgbG9nLndhcm5pbmcoZiJDb3Vs
+          ZCBub3QgcGFyc2UgcXVvdGEgc3RhdHVzOiB7ZX0iKQogICAgICAgICAgICByZW1haW5pbmcgPSAxMDAKCiAgICAjIOKUgOKUgCBT
+          VEVQIEE6IFRvZGF5J3MgZml4dHVyZXMgKDEgcmVxdWVzdCkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA
+          4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgICBsb2cuaW5mbygi
+          XG4tLS0gU1RFUCBBOiBUb2RheSdzIGZpeHR1cmVzIChhbGwgbGVhZ3VlcywgMSBBUEkgY2FsbCkgLS0tIikKICAgIGgxLCB1MSA9
+          IGZldGNoX3RvZGF5c19maXh0dXJlcyhtYXRjaF9oaXN0b3J5LCB1cGNvbWluZ19kYXRhLCBub3dfdXRjKQoKICAgICMg4pSA4pSA
+          IFNURVAgQjogUmVjZW50IHJlc3VsdHMgZm9yIHNjb3JpbmcgKHVwIHRvIDMgcmVxdWVzdHMpIOKUgOKUgOKUgOKUgOKUgOKUgOKU
+          gOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogICAgbG9nLmluZm8oIlxuLS0tIFNURVAgQjogUmVjZW50IHJlc3VsdHMgKGxh
+          c3QgMyBkYXlzKSAtLS0iKQogICAgaDIgPSBmZXRjaF9yZWNlbnRfcmVzdWx0cyhtYXRjaF9oaXN0b3J5LCB1cGNvbWluZ19kYXRh
+          LCBub3dfdXRjLCBkYXlzX2JhY2s9MikKCiAgICAjIOKUgOKUgCBTVEVQIEM6IFVwY29taW5nIGZpeHR1cmVzIG5leHQgNyBkYXlz
+          ICg3IHJlcXVlc3RzKSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICAg
+          IGxvZy5pbmZvKCJcbi0tLSBTVEVQIEM6IFVwY29taW5nIGZpeHR1cmVzIG5leHQgNyBkYXlzIC0tLSIpCiAgICB1MiA9IGZldGNo
+          X3VwY29taW5nX25leHRfZGF5cyhtYXRjaF9oaXN0b3J5LCB1cGNvbWluZ19kYXRhLCBub3dfdXRjLCBkYXlzX2FoZWFkPTcpCgog
+          ICAgIyDilIDilIAgU1RFUCBEOiBIaXN0b3J5IGJhY2tmaWxsIGZvciBuZXcgbGVhZ3VlcyAodXAgdG8gMTUgcmVxdWVzdHMpIOKU
+          gOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogICAgbG9nLmluZm8oIlxuLS0tIFNURVAgRDogSGlzdG9yeSBiYWNrZmlsbCBmb3Ig
+          bGVhZ3VlcyB3aXRoIGluc3VmZmljaWVudCBkYXRhIC0tLSIpCiAgICBiYWNrZmlsbF9yZXFzID0gcnVuX2hpc3RvcnlfYmFja2Zp
+          bGwobWF0Y2hfaGlzdG9yeSwgdXBjb21pbmdfZGF0YSwgbm93X3V0YykKCiAgICAjIOKUgOKUgCBTVEVQIEU6IGZvb3RiYWxsLWRh
+          dGEub3JnIHN1cHBsZW1lbnQgKG5vIHF1b3RhIGNvc3QpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKU
+          gOKUgOKUgOKUgAogICAgbG9nLmluZm8oIlxuLS0tIFNURVAgRTogZm9vdGJhbGwtZGF0YS5vcmcgc3VwcGxlbWVudCAtLS0iKQog
+          ICAgcnVuX2Zvb3RiYWxsX2RhdGFfc3VwcGxlbWVudChtYXRjaF9oaXN0b3J5LCB1cGNvbWluZ19kYXRhLCBub3dfdXRjKQoKICAg
+          ICMgU2F2ZQogICAgc2F2ZV9tYXRjaF9oaXN0b3J5KG1hdGNoX2hpc3RvcnkpCiAgICBzYXZlX3VwY29taW5nX2ZpeHR1cmVzKHVw
+          Y29taW5nX2RhdGEpCiAgICBzYXZlX3JlZmVyZWVfZGF0YShyZWZlcmVlX2RhdGEpCgogICAgZmluYWxfY291bnQgPSBsZW4obWF0
+          Y2hfaGlzdG9yeVsibWF0Y2hlcyJdKQogICAgbG9nLmluZm8oIlxuIiArICI9IiAqIDYwKQogICAgbG9nLmluZm8oIlN0ZXAgMSBD
+          b21wbGV0ZSIpCiAgICBsb2cuaW5mbyhmIiAgTWF0Y2ggaGlzdG9yeSBiZWZvcmU6ICB7ZXhpc3RpbmdfY291bnR9IikKICAgIGxv
+          Zy5pbmZvKGYiICBOZXcgbWF0Y2hlcyBhZGRlZDogICAgIHtmaW5hbF9jb3VudCAtIGV4aXN0aW5nX2NvdW50fSIpCiAgICBsb2cu
+          aW5mbyhmIiAgTWF0Y2ggaGlzdG9yeSBhZnRlcjogICB7ZmluYWxfY291bnR9IikKICAgIGxvZy5pbmZvKGYiICBVcGNvbWluZyBm
+          aXh0dXJlczogICAgIHtsZW4odXBjb21pbmdfZGF0YVsnZml4dHVyZXMnXSl9IikKICAgIGxvZy5pbmZvKGYiICBBUEkgcmVxdWVz
+          dHMgdXNlZDogICAgIH57NCArIGJhY2tmaWxsX3JlcXN9IChkYWlseSArIGJhY2tmaWxsKSIpCiAgICBsb2cuaW5mbygiPSIgKiA2
+          MCkKCiAgICByZXR1cm4gewogICAgICAgICJleGlzdGluZ19tYXRjaGVzIjogZXhpc3RpbmdfY291bnQsCiAgICAgICAgIm5ld19t
+          YXRjaGVzIjogICAgICBmaW5hbF9jb3VudCAtIGV4aXN0aW5nX2NvdW50LAogICAgICAgICJ0b3RhbF9tYXRjaGVzIjogICAgZmlu
+          YWxfY291bnQsCiAgICAgICAgInVwY29taW5nX2ZpeHR1cmVzIjogbGVuKHVwY29taW5nX2RhdGFbImZpeHR1cmVzIl0pLAogICAg
+          fQoKCmRlZiBfaXNfZnV0dXJlX2ZpeHR1cmUoZml4dHVyZSwgbm93X3V0Yyk6CiAgICB0cnk6CiAgICAgICAgZHMgPSBmaXh0dXJl
+          LmdldCgiZml4dHVyZV9kYXRlIiwgIiIpCiAgICAgICAgaWYgbm90IGRzOiByZXR1cm4gVHJ1ZQogICAgICAgIGR0ID0gZGF0ZXRp
+          bWUuZnJvbWlzb2Zvcm1hdChkcy5yZXBsYWNlKCJaIiwgIiswMDowMCIpKQogICAgICAgIGlmIGR0LnR6aW5mbyBpcyBOb25lOiBk
+          dCA9IGR0LnJlcGxhY2UodHppbmZvPXRpbWV6b25lLnV0YykKICAgICAgICByZXR1cm4gZHQgPiAobm93X3V0YyAtIHRpbWVkZWx0
+          YShob3Vycz0yKSkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcmV0dXJuIFRydWUKCgppZiBfX25hbWVfXyA9PSAiX19t
+          YWluX18iOgogICAgcnVuKCkK
           B64END
           echo "step1_import_data.py written"
 
-      - name: Commit and push code changes
+      - name: Commit code changes
         run: |
           git config user.name "Auto-Update Bot"
           git config user.email "bot@github-actions.com"
           git add -A
           if git diff --staged --quiet; then
-            echo "No code changes to commit"
+            echo "No code changes"
           else
-            git commit -m "Rewrite step1: date-based fetching all leagues in 1 API call"
+            git commit -m "Fix step1: handle list response from api-sports status endpoint"
             git push
-            echo "Code changes pushed"
           fi
 
       - name: Setup Python
@@ -430,7 +434,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install pipeline dependencies
+      - name: Install dependencies
         run: pip install -r pipeline/requirements.txt --quiet
 
       - name: Create data directories
@@ -454,20 +458,21 @@ jobs:
           CURRENT_SEASON: "2025"
           MODEL_VERSION: "v1.0.0"
 
-      - name: Commit data and trigger deploy
+      - name: Commit data and deploy
         run: |
           git config user.name "Pipeline Bot"
           git config user.email "bot@github-actions.com"
           git add data/
           if git diff --staged --quiet; then
-            echo "No new data to commit"
+            echo "No new data"
           else
             git commit -m "Pipeline data update $(date +%Y-%m-%d)"
             git push
-            echo "Data pushed - Vercel deploying"
+            echo "Deployed"
           fi
 
       - name: Write summary script
+        if: always()
         run: |
           cat << 'B64END' | base64 -d > /tmp/summary.py
           aW1wb3J0IGpzb24sIHN5cwp0cnk6CiAgICBwcmVkID0ganNvbi5sb2FkKG9wZW4oImRhdGEvcHJlZGljdGlvbnMvbGF0ZXN0Lmpz
@@ -478,15 +483,15 @@ jobs:
           ZiBpbiBmaXh0dXJlczoKICAgICAgICBsbiA9IGYuZ2V0KCJsZWFndWVfbmFtZSIsICJVbmtub3duIikKICAgICAgICBsZWFndWVz
           W2xuXSA9IGxlYWd1ZXMuZ2V0KGxuLCAwKSArIDEKICAgIHByaW50KCItIEFjdGl2ZSBsZWFndWVzOiAiICsgc3RyKGxlbihsZWFn
           dWVzKSkpCiAgICBmb3IgbG4sIGNudCBpbiBzb3J0ZWQobGVhZ3Vlcy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKVs6MjBd
-          OgogICAgICAgIHByaW50KCIgICIgKyBsbiArICI6ICIgKyBzdHIoY250KSArICIgZml4dHVyZXMiKQpleGNlcHQgRXhjZXB0aW9u
-          IGFzIGU6CiAgICBwcmludCgiRXJyb3IgcmVhZGluZyBwcmVkaWN0aW9uczogIiArIHN0cihlKSkKdHJ5OgogICAgaGlzdCA9IGpz
-          b24ubG9hZChvcGVuKCJkYXRhL21hdGNoZXMvaGlzdG9yeS5qc29uIikpCiAgICB0b3RhbCA9IGxlbihoaXN0LmdldCgibWF0Y2hl
-          cyIsIHt9KSkKICAgIHByaW50KCItIE1hdGNoIGhpc3RvcnkgdG90YWw6ICIgKyBzdHIodG90YWwpKQogICAgbGVhZ3VlcyA9IHt9
-          CiAgICBmb3IgbSBpbiBoaXN0LmdldCgibWF0Y2hlcyIsIHt9KS52YWx1ZXMoKToKICAgICAgICBsbiA9IG0uZ2V0KCJsZWFndWVf
-          bmFtZSIsICJVbmtub3duIikKICAgICAgICBsZWFndWVzW2xuXSA9IGxlYWd1ZXMuZ2V0KGxuLCAwKSArIDEKICAgIGZvciBsbiwg
-          Y250IGluIHNvcnRlZChsZWFndWVzLml0ZW1zKCksIGtleT1sYW1iZGEgeDogLXhbMV0pWzoyMF06CiAgICAgICAgcHJpbnQoIiAg
-          IiArIGxuICsgIjogIiArIHN0cihjbnQpICsgIiBtYXRjaGVzIikKZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgcHJpbnQoIkVy
-          cm9yIHJlYWRpbmcgaGlzdG9yeTogIiArIHN0cihlKSkK
+          OgogICAgICAgIHByaW50KCIgICIgKyBsbiArICI6ICIgKyBzdHIoY250KSkKZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgcHJp
+          bnQoIkVycm9yIHJlYWRpbmcgcHJlZGljdGlvbnM6ICIgKyBzdHIoZSkpCnRyeToKICAgIGhpc3QgPSBqc29uLmxvYWQob3Blbigi
+          ZGF0YS9tYXRjaGVzL2hpc3RvcnkuanNvbiIpKQogICAgdG90YWwgPSBsZW4oaGlzdC5nZXQoIm1hdGNoZXMiLCB7fSkpCiAgICBw
+          cmludCgiLSBNYXRjaCBoaXN0b3J5IHRvdGFsOiAiICsgc3RyKHRvdGFsKSkKICAgIGxlYWd1ZXMgPSB7fQogICAgZm9yIG0gaW4g
+          aGlzdC5nZXQoIm1hdGNoZXMiLCB7fSkudmFsdWVzKCk6CiAgICAgICAgbG4gPSBtLmdldCgibGVhZ3VlX25hbWUiLCAiVW5rbm93
+          biIpCiAgICAgICAgbGVhZ3Vlc1tsbl0gPSBsZWFndWVzLmdldChsbiwgMCkgKyAxCiAgICBmb3IgbG4sIGNudCBpbiBzb3J0ZWQo
+          bGVhZ3Vlcy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKVs6MjBdOgogICAgICAgIHByaW50KCIgICIgKyBsbiArICI6ICIg
+          KyBzdHIoY250KSkKZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgcHJpbnQoIkVycm9yIHJlYWRpbmcgaGlzdG9yeTogIiArIHN0
+          cihlKSkK
           B64END
 
       - name: Pipeline summary
