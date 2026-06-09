@@ -91,8 +91,8 @@
       "away_win_rate": 0.24,
       "home_advantage_factor": 1.4146
     },
-    "292": {
-      "league_id": 292,
+    "244": {
+      "league_id": 244,
       "sample_matches": 57,
       "avg_goals_home": 1.4737,
       "avg_goals_away": 0.9298,
@@ -105,5 +105,5 @@
       "home_advantage_factor": 1.5849
     }
   },
-  "last_updated": "2026-06-08T16:58:42.137486"
+  "last_updated": "2026-06-09T09:52:18.213279"
 }
