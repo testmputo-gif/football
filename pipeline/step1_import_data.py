@@ -1,42 +1,36 @@
 """
-pipeline/step1_import_data.py  — REWRITTEN
+pipeline/step1_import_data.py
 
-STRATEGY:
-=========
-The old approach fetched one league at a time, wasting API quota and missing
-hundreds of active leagues. The new approach:
+DATA SOURCES (in order of priority):
+======================================
+1. API-Football / api-sports.io (FOOTBALL_API_KEY)
+   - GET /fixtures?date=TODAY  → ALL leagues, ALL fixtures, 1 request
+   - GET /fixtures?date=D  for next 7 days → full week ahead
+   - GET /fixtures?league=X&season=Y&status=FT → history backfill
+   - 100 requests/day free
 
-SOURCE 1 — API-Football (api-sports.io) free tier, 100 req/day
-  • GET /fixtures?date=TODAY           → 1 request → ALL leagues, ALL fixtures today
-  • GET /fixtures?date=YESTERDAY&status=FT → 1 request → ALL finished results
-  • GET /fixtures?season=YEAR&league=X → 1 request per league for history backfill
-    (spread across days using remaining quota — 98 requests left after dailies)
+2. football-data.org (FOOTBALL_DATA_API_KEY)  
+   - No daily cap, 10 req/min
+   - Brasileirao, Copa Lib, + European leagues when in season
 
-  This gives us Venezuela, Spain 2nd div, Brazil Serie B, Int'l friendlies,
-  Costa Rica, Morocco, Argentina, Finland, Iceland, MLS — everything in 2 calls.
+3. OpenLigaDB (NO KEY NEEDED)
+   - German Bundesliga history + upcoming — completely free
 
-SOURCE 2 — football-data.org (free, 10 req/min, no daily cap)
-  • Supplements with deeper data for top European leagues (when in season)
-  • Also pulls Copa Libertadores and Brasileirao history
+CANONICAL TEAM IDs:
+===================
+All team IDs use format: team_{league_id}_{normalized_name}
+e.g. "team_244_hjk", "team_71_flamengo"
+This ensures history and fixtures always use the same key,
+regardless of which API provided the data.
 
-LEAGUES COVERED (year-round active right now):
-  Brazil Serie A + B, Copa Libertadores, Copa Sudamericana,
-  Argentina Liga Profesional, Venezuela, MLS, J1 League, K League 1,
-  Sweden Allsvenskan, Norway Eliteserien, Finland Veikkausliiga,
-  Iceland Urvalsdeild, Denmark Superliga, Turkey Super Lig,
-  Austrian Bundesliga, Greek Super League, Scottish Premiership,
-  Morocco Botola, International Friendlies + qualifiers
-
-HISTORY BACKFILL:
-  On first run for any new league, automatically pulls last 12 months of
-  results so predictions start immediately (not after weeks of waiting).
+BACKFILL LOGIC:
+===============
+Any league with < 10 matches in history triggers a 12-month backfill.
+This runs automatically until teams have enough data for predictions.
+Budget: up to 20 API calls per run for backfill.
 """
 
-import httpx
-import json
-import logging
-import time
-import os
+import httpx, json, logging, os, re, time
 from datetime import datetime, timedelta, date, timezone
 from pipeline.config import PATHS, CURRENT_SEASON
 from pipeline.data_store import (
@@ -47,428 +41,255 @@ from pipeline.data_store import (
 
 log = logging.getLogger(__name__)
 
-FOOTBALL_DATA_KEY  = os.environ.get("FOOTBALL_DATA_API_KEY", "")
-APISPORTS_KEY      = os.environ.get("FOOTBALL_DATA_API_KEY", "")  # same key works on both domains
+# ── API Keys ──────────────────────────────────────────────────────────────────
+APISPORTS_KEY     = os.environ.get("FOOTBALL_API_KEY", "") or os.environ.get("FOOTBALL_DATA_API_KEY", "")
+FOOTBALL_DATA_KEY = os.environ.get("FOOTBALL_DATA_API_KEY", "")
+
 APISPORTS_BASE     = "https://v3.football.api-sports.io"
 FOOTBALL_DATA_BASE = "https://api.football-data.org/v4"
+OPENLIGADB_BASE    = "https://api.openligadb.de"
 
-# ── Which leagues to backfill history for (api-football league IDs) ───────────
-# These are pulled once (or when teams have < 5 matches) to build history
-HISTORY_LEAGUES = [
-    # Year-round South America
-    {"id": 71,  "name": "Brasileirao Serie A",        "season": 2025},
-    {"id": 72,  "name": "Brasileirao Serie B",        "season": 2025},
-    {"id": 13,  "name": "Copa Libertadores",          "season": 2025},
-    {"id": 11,  "name": "Copa Sudamericana",          "season": 2025},
-    {"id": 128, "name": "Argentine Liga Profesional", "season": 2025},
-    {"id": 131, "name": "Venezuela Primera Division", "season": 2025},
-    # Year-round North America
-    {"id": 253, "name": "MLS",                        "season": 2025},
-    # Year-round Asia
-    {"id": 98,  "name": "J1 League",                  "season": 2026},
-    {"id": 292, "name": "K League 1",                 "season": 2026},
-    # Year-round Europe (summer leagues)
-    {"id": 103, "name": "Eliteserien Norway",         "season": 2026},
-    {"id": 113, "name": "Allsvenskan Sweden",         "season": 2026},
-    {"id": 244, "name": "Veikkausliiga Finland",      "season": 2026},
-    {"id": 164, "name": "Urvalsdeild Iceland",        "season": 2026},
-    {"id": 119, "name": "Denmark Superliga",          "season": "2025-2026"},
-    {"id": 203, "name": "Turkey Super Lig",           "season": "2024-2025"},
-    {"id": 218, "name": "Austrian Bundesliga",        "season": "2024-2025"},
-    {"id": 197, "name": "Greek Super League",         "season": "2024-2025"},
-    {"id": 179, "name": "Scottish Premiership",       "season": "2024-2025"},
-    {"id": 207, "name": "Swiss Super League",         "season": "2024-2025"},
-    {"id": 301, "name": "Morocco Botola Pro",         "season": 2025},
-    # European top leagues (winter — skip if not in season)
-    {"id": 39,  "name": "Premier League",             "season": 2025, "month_start": 8},
-    {"id": 78,  "name": "Bundesliga",                 "season": 2025, "month_start": 8},
-    {"id": 135, "name": "Serie A",                    "season": 2025, "month_start": 8},
-    {"id": 140, "name": "La Liga",                    "season": 2025, "month_start": 8},
-    {"id": 61,  "name": "Ligue 1",                    "season": 2025, "month_start": 8},
-    {"id": 88,  "name": "Eredivisie",                 "season": 2025, "month_start": 8},
-    {"id": 2,   "name": "Champions League",           "season": 2025, "month_start": 9},
+# ── Canonical team ID ─────────────────────────────────────────────────────────
+def canonical_team_id(league_id, team_name):
+    norm = re.sub(r'[^a-z0-9]+', '_', (team_name or '').lower().strip()).strip('_')
+    return f"team_{league_id}_{norm}"
+
+# ── Leagues for history backfill ──────────────────────────────────────────────
+BACKFILL_LEAGUES = [
+    # Year-round — highest priority
+    {"id": 71,  "name": "Brasileirao Serie A",     "season": 2025},
+    {"id": 72,  "name": "Brasileirao Serie B",     "season": 2025},
+    {"id": 13,  "name": "Copa Libertadores",       "season": 2025},
+    {"id": 11,  "name": "Copa Sudamericana",       "season": 2025},
+    {"id": 128, "name": "Argentine Liga Prof",     "season": 2025},
+    {"id": 131, "name": "Venezuela Primera",       "season": 2025},
+    {"id": 253, "name": "MLS",                     "season": 2025},
+    {"id": 98,  "name": "J1 League",               "season": 2026},
+    {"id": 292, "name": "K League 1",              "season": 2026},
+    {"id": 103, "name": "Eliteserien Norway",      "season": 2026},
+    {"id": 113, "name": "Allsvenskan Sweden",      "season": 2026},
+    {"id": 244, "name": "Veikkausliiga Finland",   "season": 2026},
+    {"id": 164, "name": "Urvalsdeild Iceland",     "season": 2026},
+    {"id": 119, "name": "Denmark Superliga",       "season": "2025-2026"},
+    {"id": 203, "name": "Turkey Super Lig",        "season": "2024-2025"},
+    {"id": 218, "name": "Austrian Bundesliga",     "season": "2024-2025"},
+    {"id": 197, "name": "Greek Super League",      "season": "2024-2025"},
+    {"id": 179, "name": "Scottish Premiership",    "season": "2024-2025"},
+    {"id": 207, "name": "Swiss Super League",      "season": "2024-2025"},
+    {"id": 301, "name": "Morocco Botola",          "season": 2025},
+    {"id": 383, "name": "Saudi Pro League",        "season": 2025},
+    {"id": 169, "name": "South Africa PSL",        "season": 2025},
+    {"id": 188, "name": "Nigeria NPFL",            "season": 2025},
+    # European top (active Aug+)
+    {"id": 39,  "name": "Premier League",          "season": 2025, "month_start": 8},
+    {"id": 78,  "name": "Bundesliga",              "season": 2025, "month_start": 8},
+    {"id": 135, "name": "Serie A",                 "season": 2025, "month_start": 8},
+    {"id": 140, "name": "La Liga",                 "season": 2025, "month_start": 8},
+    {"id": 61,  "name": "Ligue 1",                 "season": 2025, "month_start": 8},
+    {"id": 88,  "name": "Eredivisie",              "season": 2025, "month_start": 8},
+    {"id": 2,   "name": "Champions League",        "season": 2025, "month_start": 9},
+    {"id": 3,   "name": "Europa League",           "season": 2025, "month_start": 9},
 ]
 
-# How many history backfill requests to spend per pipeline run
-# (saves remaining quota for future days)
-MAX_BACKFILL_REQUESTS_PER_RUN = 15
+MAX_BACKFILL_PER_RUN = 20
 
+# ── Leagues that are NOT football (filter these out) ─────────────────────────
+NON_FOOTBALL_KEYWORDS = [
+    'nfl', 'nba', 'nhl', 'mlb', 'rugby', 'american football',
+    'basketball', 'baseball', 'ice hockey', 'cricket'
+]
 
-# ─────────────────────────────────────────────────────────────────────────────
-# HTTP HELPERS
-# ─────────────────────────────────────────────────────────────────────────────
+def is_football_fixture(fix):
+    sport = (fix.get('sport', {}).get('name', '') or '').lower()
+    if sport and sport != 'football' and sport != 'soccer':
+        return False
+    league_name = (fix.get('league', {}).get('name', '') or '').lower()
+    for kw in NON_FOOTBALL_KEYWORDS:
+        if kw in league_name:
+            return False
+    return True
 
+# ── HTTP helpers ──────────────────────────────────────────────────────────────
 def apisports_get(endpoint, params=None):
-    """API-Football / api-sports.io — counts against 100/day quota."""
     url = f"{APISPORTS_BASE}/{endpoint}"
-    headers = {
-        "x-apisports-key": APISPORTS_KEY,
-        "x-rapidapi-host": "v3.football.api-sports.io",
-    }
+    headers = {"x-apisports-key": APISPORTS_KEY}
     try:
         r = httpx.get(url, headers=headers, params=params or {}, timeout=30.0)
         if r.status_code == 429:
-            log.warning("API-Sports rate limited — waiting 60s")
-            time.sleep(60)
+            log.warning("  Rate limited — waiting 65s")
+            time.sleep(65)
             r = httpx.get(url, headers=headers, params=params or {}, timeout=30.0)
         if r.status_code == 200:
             data = r.json()
             remaining = r.headers.get("x-ratelimit-requests-remaining", "?")
-            log.info(f"  [API-Sports] {endpoint} OK — {remaining} requests remaining today")
+            log.info(f"  [{endpoint}] OK · {remaining} req remaining")
             return data
-        log.error(f"API-Sports HTTP {r.status_code}: {r.text[:120]}")
+        log.error(f"  API-Sports {r.status_code}: {r.text[:100]}")
         return None
     except Exception as e:
-        log.error(f"API-Sports request failed: {e}")
+        log.error(f"  API-Sports error: {e}")
         return None
 
-
-def football_data_get(endpoint, params=None):
-    """football-data.org — no daily cap, 10 req/min."""
-    url = f"{FOOTBALL_DATA_BASE}/{endpoint}"
+def fd_get(endpoint, params=None):
     try:
-        r = httpx.get(url,
+        r = httpx.get(f"{FOOTBALL_DATA_BASE}/{endpoint}",
             headers={"X-Auth-Token": FOOTBALL_DATA_KEY},
             params=params or {}, timeout=30.0)
         if r.status_code == 429:
-            log.warning("football-data.org rate limited — waiting 65s")
-            time.sleep(65)
-            r = httpx.get(url,
+            log.warning("  FD rate limited — waiting 65s"); time.sleep(65)
+            r = httpx.get(f"{FOOTBALL_DATA_BASE}/{endpoint}",
                 headers={"X-Auth-Token": FOOTBALL_DATA_KEY},
                 params=params or {}, timeout=30.0)
-        if r.status_code == 200:
-            return r.json()
-        log.error(f"football-data HTTP {r.status_code}: {r.text[:120]}")
-        return None
+        return r.json() if r.status_code == 200 else None
     except Exception as e:
-        log.error(f"football-data request failed: {e}")
-        return None
+        log.error(f"  football-data error: {e}"); return None
 
+def openligadb_get(endpoint):
+    try:
+        r = httpx.get(f"{OPENLIGADB_BASE}/{endpoint}", timeout=30.0)
+        return r.json() if r.status_code == 200 else None
+    except Exception as e:
+        log.error(f"  OpenLigaDB error: {e}"); return None
 
-# ─────────────────────────────────────────────────────────────────────────────
-# BACKFILL DETECTION
-# ─────────────────────────────────────────────────────────────────────────────
-
-def teams_needing_backfill(match_history, league_id, min_matches=5):
-    """Returns list of team IDs with fewer than min_matches in this league."""
-    team_counts = {}
-    for m in match_history.get("matches", {}).values():
-        if m.get("league_id") != league_id:
-            continue
-        for tid in [m.get("home_team_id"), m.get("away_team_id")]:
-            if tid:
-                team_counts[tid] = team_counts.get(tid, 0) + 1
-    return [tid for tid, cnt in team_counts.items() if cnt < min_matches]
-
-
-def league_needs_backfill(match_history, league_id, min_matches=5):
-    """True if this league has no history or teams with too few matches."""
-    league_matches = [
-        m for m in match_history.get("matches", {}).values()
-        if m.get("league_id") == league_id
-    ]
-    if len(league_matches) < 10:
-        return True
-    low = len(teams_needing_backfill(match_history, league_id, min_matches))
-    total_teams = len(set(
-        tid for m in league_matches
-        for tid in [m.get("home_team_id"), m.get("away_team_id")] if tid
-    ))
-    return total_teams > 0 and low / total_teams > 0.25
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# PARSE API-FOOTBALL RESPONSES
-# ─────────────────────────────────────────────────────────────────────────────
-
-def parse_apisports_fixture(fix, match_history, upcoming_data, now_utc,
-                             only_finished=False, only_upcoming=False):
-    """
-    Parse one fixture dict from api-sports.io response.
-    Routes to history or upcoming based on status.
-    """
-    fid    = fix.get("fixture", {}).get("id")
-    if not fid:
+# ── Parse API-Sports fixture ──────────────────────────────────────────────────
+def parse_apisports(fix, match_history, upcoming_data, now_utc,
+                    only_finished=False, only_upcoming=False):
+    if not is_football_fixture(fix):
         return "skipped"
 
-    status   = fix.get("fixture", {}).get("status", {}).get("short", "")
-    date_str = fix.get("fixture", {}).get("date", "")
+    fdata    = fix.get("fixture", {})
+    fid      = fdata.get("id")
+    if not fid: return "skipped"
+
+    status   = fdata.get("status", {}).get("short", "")
+    date_str = fdata.get("date", "")
     league   = fix.get("league", {})
     teams    = fix.get("teams", {})
     goals    = fix.get("goals", {})
 
-    league_id   = league.get("id")
-    league_name = league.get("name", "Unknown")
+    league_id      = league.get("id")
+    league_name    = league.get("name", "Unknown")
     league_country = league.get("country", "")
-    league_logo = league.get("logo")
-    season      = league.get("season", CURRENT_SEASON)
+    league_logo    = league.get("logo")
+    season         = league.get("season", CURRENT_SEASON)
 
-    home = teams.get("home", {})
-    away = teams.get("away", {})
-    home_id   = home.get("id")
-    away_id   = away.get("id")
+    home      = teams.get("home", {})
+    away      = teams.get("away", {})
     home_name = home.get("name", "Unknown")
     away_name = away.get("name", "Unknown")
     home_logo = home.get("logo")
     away_logo = away.get("logo")
 
-    key = f"apisports_{fid}"
+    # Canonical IDs — consistent regardless of API
+    home_id = canonical_team_id(league_id, home_name)
+    away_id = canonical_team_id(league_id, away_name)
+    key     = f"apisports_{fid}"
 
-    # Finished match → add to history
-    if status in ("FT", "AET", "PEN", "AWD") or \
-       (status in ("FT",) and goals.get("home") is not None):
-        if only_upcoming:
-            return "skipped"
-        if key in match_history["matches"]:
-            return "skipped"
+    # ── Finished match → history ──────────────────────────────────────────────
+    if status in ("FT", "AET", "PEN", "AWD"):
+        if only_upcoming: return "skipped"
+        if key in match_history["matches"]: return "skipped"
         home_g = goals.get("home")
         away_g = goals.get("away")
-        if home_g is None or away_g is None:
-            return "skipped"
+        if home_g is None or away_g is None: return "skipped"
 
-        stats = fix.get("statistics") or []
-        def get_stat(team_stats, stat_name):
-            for s in team_stats:
-                if s.get("type") == stat_name:
+        stats    = fix.get("statistics") or []
+        hs       = stats[0].get("statistics", []) if stats else []
+        as_      = stats[1].get("statistics", []) if len(stats) > 1 else []
+        def gs(lst, t):
+            for s in lst:
+                if s.get("type") == t:
                     v = s.get("value")
-                    return int(v) if v is not None and str(v).isdigit() else None
+                    try: return int(v)
+                    except: return None
             return None
 
-        home_stats = stats[0].get("statistics", []) if len(stats) > 0 else []
-        away_stats = stats[1].get("statistics", []) if len(stats) > 1 else []
+        venue_raw = fdata.get("venue")
+        venue_str = venue_raw.get("name") if isinstance(venue_raw, dict) else venue_raw
 
         match_history["matches"][key] = {
-            "api_fixture_id": key,
-            "league_id": league_id, "league_name": league_name,
-            "home_team_id": f"ap_{home_id}", "home_team_name": home_name,
-            "away_team_id": f"ap_{away_id}", "away_team_name": away_name,
+            "api_fixture_id": key, "league_id": league_id, "league_name": league_name,
+            "home_team_id": home_id, "home_team_name": home_name,
+            "away_team_id": away_id, "away_team_name": away_name,
             "match_date": date_str, "season": season,
             "home_goals": int(home_g), "away_goals": int(away_g),
-            "referee_name": fix.get("fixture", {}).get("referee"),
-            "venue": (fix.get("fixture", {}).get("venue") or {}).get("name") if isinstance(fix.get("fixture", {}).get("venue"), dict) else fix.get("fixture", {}).get("venue"),
+            "referee_name": fdata.get("referee"), "venue": venue_str,
             "data_source": "apisports",
-            "home_corners": get_stat(home_stats, "Corner Kicks"),
-            "away_corners": get_stat(away_stats, "Corner Kicks"),
-            "home_yellow_cards": get_stat(home_stats, "Yellow Cards"),
-            "away_yellow_cards": get_stat(away_stats, "Yellow Cards"),
-            "home_red_cards": get_stat(home_stats, "Red Cards"),
-            "away_red_cards": get_stat(away_stats, "Red Cards"),
-            "possession_home": get_stat(home_stats, "Ball Possession"),
-            "possession_away": get_stat(away_stats, "Ball Possession"),
-            "shots_home": get_stat(home_stats, "Total Shots"),
-            "shots_away": get_stat(away_stats, "Total Shots"),
-            "shots_on_target_home": get_stat(home_stats, "Shots on Goal"),
-            "shots_on_target_away": get_stat(away_stats, "Shots on Goal"),
-            "fouls_home": get_stat(home_stats, "Fouls"),
-            "fouls_away": get_stat(away_stats, "Fouls"),
+            "home_corners":          gs(hs, "Corner Kicks"),
+            "away_corners":          gs(as_, "Corner Kicks"),
+            "home_yellow_cards":     gs(hs, "Yellow Cards"),
+            "away_yellow_cards":     gs(as_, "Yellow Cards"),
+            "home_red_cards":        gs(hs, "Red Cards"),
+            "away_red_cards":        gs(as_, "Red Cards"),
+            "possession_home":       gs(hs, "Ball Possession"),
+            "possession_away":       gs(as_, "Ball Possession"),
+            "shots_home":            gs(hs, "Total Shots"),
+            "shots_away":            gs(as_, "Total Shots"),
+            "shots_on_target_home":  gs(hs, "Shots on Goal"),
+            "shots_on_target_away":  gs(as_, "Shots on Goal"),
+            "fouls_home":            gs(hs, "Fouls"),
+            "fouls_away":            gs(as_, "Fouls"),
         }
-        return "imported_history"
+        return "history"
 
-    # Upcoming / scheduled → add to fixtures
-    elif status in ("NS", "TBD", "SUSP", "PST", ""):
-        if only_finished:
-            return "skipped"
-        # Only include future fixtures
+    # ── Upcoming → fixtures ───────────────────────────────────────────────────
+    elif status in ("NS", "TBD", "PST", "SUSP", "") or not status:
+        if only_finished: return "skipped"
         try:
             dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            if dt < (now_utc - timedelta(hours=2)):
-                return "skipped"
+            if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
+            if dt < (now_utc - timedelta(hours=2)): return "skipped"
             date_ymd = dt.strftime("%Y%m%d")
         except Exception:
             date_ymd = date.today().strftime("%Y%m%d")
 
         uid = key
         existing_ids = {f.get("api_fixture_id") for f in upcoming_data["fixtures"]}
-        if uid in existing_ids:
-            return "skipped"
+        if uid in existing_ids: return "skipped"
+
+        venue_raw = fdata.get("venue")
+        venue_str = venue_raw.get("name") if isinstance(venue_raw, dict) else venue_raw
 
         upcoming_data["fixtures"].append({
-            "id": f"{league_id}_{home_id}_{away_id}_{date_ymd}",
+            "id":             f"{league_id}_{home_id}_{away_id}_{date_ymd}",
             "api_fixture_id": uid,
-            "fixture_date": date_str,
-            "league_id": league_id, "league_name": league_name,
+            "fixture_date":   date_str,
+            "league_id":      league_id, "league_name":    league_name,
             "league_country": league_country, "league_logo": league_logo,
-            "season": season,
-            "round": fix.get("league", {}).get("round", ""),
-            "venue": (fix.get("fixture", {}).get("venue") or {}).get("name") if isinstance(fix.get("fixture", {}).get("venue"), dict) else fix.get("fixture", {}).get("venue"),
-            "home_team_id": f"ap_{home_id}", "home_team_name": home_name,
-            "home_team_logo": home_logo,
-            "away_team_id": f"ap_{away_id}", "away_team_name": away_name,
-            "away_team_logo": away_logo,
-            "referee_name": fix.get("fixture", {}).get("referee"),
-            "status": status, "is_featured": False,
-            "data_source": "apisports",
+            "season":         season,
+            "round":          league.get("round", ""),
+            "venue":          venue_str,
+            "home_team_id":   home_id, "home_team_name": home_name, "home_team_logo": home_logo,
+            "away_team_id":   away_id, "away_team_name": away_name, "away_team_logo": away_logo,
+            "referee_name":   fdata.get("referee"),
+            "status":         status, "is_featured": False,
+            "data_source":    "apisports",
             "home_xg_adjustment": 1.0, "away_xg_adjustment": 1.0,
         })
-        return "imported_upcoming"
+        return "upcoming"
 
     return "skipped"
 
+# ── Backfill detection ────────────────────────────────────────────────────────
+def league_match_count(match_history, league_id):
+    return sum(1 for m in match_history.get("matches", {}).values()
+               if m.get("league_id") == league_id)
 
-# ─────────────────────────────────────────────────────────────────────────────
-# DAILY FETCHES — the core of the new strategy
-# ─────────────────────────────────────────────────────────────────────────────
-
-def fetch_todays_fixtures(match_history, upcoming_data, now_utc):
-    """
-    1 API call → ALL fixtures scheduled today across ALL leagues.
-    This is the key call that gets Venezuela, Morocco, Finland, etc.
-    """
-    today = date.today().isoformat()
-    log.info(f"\n  Fetching ALL fixtures for {today} (1 API call)...")
-    data = apisports_get("fixtures", {"date": today})
-    if not data:
-        return 0, 0
-
-    fixtures = data.get("response", [])
-    log.info(f"  API returned {len(fixtures)} fixtures today across all leagues")
-
-    hist_count = 0
-    upcoming_count = 0
-    leagues_seen = set()
-
-    for fix in fixtures:
-        result = parse_apisports_fixture(fix, match_history, upcoming_data, now_utc)
-        if result == "imported_history":   hist_count     += 1
-        elif result == "imported_upcoming": upcoming_count += 1
-        leagues_seen.add(fix.get("league", {}).get("name", "?"))
-
-    log.info(f"  Today: {upcoming_count} upcoming fixtures, {hist_count} finished")
-    log.info(f"  Leagues covered today: {len(leagues_seen)}")
-    for ln in sorted(leagues_seen)[:20]:
-        log.info(f"    · {ln}")
-
-    return hist_count, upcoming_count
-
-
-def fetch_recent_results(match_history, upcoming_data, now_utc, days_back=3):
-    """
-    Fetch finished matches from last N days — keeps history fresh.
-    Uses 1 API call per day (so max 3 calls here).
-    """
-    total = 0
-    for i in range(1, days_back + 1):
-        d = (date.today() - timedelta(days=i)).isoformat()
-        log.info(f"\n  Fetching finished results for {d}...")
-        data = apisports_get("fixtures", {"date": d, "status": "FT-AET-PEN"})
-        if not data:
-            continue
-        fixtures = data.get("response", [])
-        count = 0
-        for fix in fixtures:
-            r = parse_apisports_fixture(fix, match_history, upcoming_data, now_utc,
-                                        only_finished=True)
-            if r == "imported_history":
-                count += 1
-        log.info(f"  {d}: {count} new finished results added")
-        total += count
-        time.sleep(0.5)
-    return total
-
-
-def fetch_upcoming_next_days(match_history, upcoming_data, now_utc, days_ahead=7):
-    """
-    Fetch upcoming fixtures for next N days — so we have a week's worth.
-    Uses 1 API call per day.
-    """
-    total = 0
-    for i in range(1, days_ahead + 1):
-        d = (date.today() + timedelta(days=i)).isoformat()
-        data = apisports_get("fixtures", {"date": d})
-        if not data:
-            continue
-        fixtures = data.get("response", [])
-        count = 0
-        for fix in fixtures:
-            r = parse_apisports_fixture(fix, match_history, upcoming_data, now_utc,
-                                        only_upcoming=True)
-            if r == "imported_upcoming":
-                count += 1
-        if count > 0:
-            log.info(f"  {d}: {count} upcoming fixtures added")
-        total += count
-        time.sleep(0.3)
-    return total
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# HISTORY BACKFILL
-# ─────────────────────────────────────────────────────────────────────────────
-
-def run_history_backfill(match_history, upcoming_data, now_utc):
-    """
-    For leagues with insufficient history, pull full season data.
-    Spends up to MAX_BACKFILL_REQUESTS_PER_RUN API calls.
-    Prioritises leagues with the least data first.
-    """
+def leagues_needing_backfill(match_history):
     today_month = date.today().month
-    requests_used = 0
-
-    # Score leagues by how much they need backfilling
-    league_scores = []
-    for lg in HISTORY_LEAGUES:
-        # Skip seasonal leagues that aren't active
+    needs = []
+    for lg in BACKFILL_LEAGUES:
         if "month_start" in lg and today_month < lg["month_start"]:
             continue
-        league_id = lg["id"]
-        matches_count = sum(
-            1 for m in match_history.get("matches", {}).values()
-            if m.get("league_id") == league_id
-        )
-        if matches_count < 50:  # Needs backfill
-            league_scores.append((matches_count, lg))
+        cnt = league_match_count(match_history, lg["id"])
+        if cnt < 40:  # Needs backfill
+            needs.append((cnt, lg))
+    needs.sort(key=lambda x: x[0])  # Least data first
+    return needs
 
-    # Sort: least data first
-    league_scores.sort(key=lambda x: x[0])
-    log.info(f"\n  History backfill: {len(league_scores)} leagues need data")
-
-    for matches_count, lg in league_scores:
-        if requests_used >= MAX_BACKFILL_REQUESTS_PER_RUN:
-            log.info(f"  Backfill quota reached ({MAX_BACKFILL_REQUESTS_PER_RUN} requests)")
-            break
-
-        league_id = lg["id"]
-        season    = lg["season"]
-        name      = lg["name"]
-
-        log.info(f"\n  Backfilling {name} (currently {matches_count} matches)...")
-        data = apisports_get("fixtures", {
-            "league": league_id,
-            "season": season,
-            "status": "FT-AET-PEN"
-        })
-        requests_used += 1
-
-        if not data:
-            continue
-
-        fixtures = data.get("response", [])
-        count = 0
-        for fix in fixtures:
-            r = parse_apisports_fixture(fix, match_history, upcoming_data, now_utc,
-                                        only_finished=True)
-            if r == "imported_history":
-                count += 1
-
-        log.info(f"  {name}: {count} new historical matches added ({requests_used}/{MAX_BACKFILL_REQUESTS_PER_RUN} requests used)")
-        time.sleep(1)
-
-    return requests_used
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# FOOTBALL-DATA.ORG SUPPLEMENT (no quota cost)
-# ─────────────────────────────────────────────────────────────────────────────
-
-def run_football_data_supplement(match_history, upcoming_data, now_utc):
-    """
-    Supplements api-sports with deeper data from football-data.org.
-    No daily cap so we can pull more here.
-    """
+# ── Football-data.org supplement ──────────────────────────────────────────────
+def run_football_data(match_history, upcoming_data, now_utc):
     if not FOOTBALL_DATA_KEY:
-        log.warning("FOOTBALL_DATA_API_KEY not set — skipping football-data.org")
         return
 
     today_month = date.today().month
@@ -483,160 +304,298 @@ def run_football_data_supplement(match_history, upcoming_data, now_utc):
             {"code": "SA",  "name": "Serie A",         "league_id": 135},
             {"code": "PD",  "name": "La Liga",         "league_id": 140},
             {"code": "FL1", "name": "Ligue 1",         "league_id": 61},
+            {"code": "DED", "name": "Eredivisie",      "league_id": 88},
         ]
 
     for comp in comps:
         try:
-            # Get upcoming
-            data = football_data_get(
-                f"competitions/{comp['code']}/matches",
-                {"dateFrom": date.today().isoformat(),
-                 "dateTo": (date.today() + timedelta(days=14)).isoformat(),
-                 "status": "SCHEDULED,TIMED"}
-            )
+            data = fd_get(f"competitions/{comp['code']}/matches", {
+                "dateFrom": date.today().isoformat(),
+                "dateTo": (date.today() + timedelta(days=14)).isoformat(),
+                "status": "SCHEDULED,TIMED"
+            })
             count = 0
             if data and "matches" in data:
                 for m in data["matches"]:
-                    mid  = m.get("id")
+                    mid = m.get("id")
                     if not mid: continue
-                    uid  = f"fd_{mid}"
+                    uid = f"fd_{mid}"
                     if uid in {f.get("api_fixture_id") for f in upcoming_data["fixtures"]}:
                         continue
-                    ht = m.get("homeTeam", {})
-                    at = m.get("awayTeam", {})
+                    ht = m.get("homeTeam", {}); at = m.get("awayTeam", {})
                     utc_date = m.get("utcDate", "")
                     try:
                         dt = datetime.fromisoformat(utc_date.replace("Z", "+00:00"))
+                        if dt < (now_utc - timedelta(hours=2)): continue
                         date_ymd = dt.strftime("%Y%m%d")
-                    except Exception:
-                        date_ymd = date.today().strftime("%Y%m%d")
+                    except: continue
+                    hname = ht.get("name","?"); aname = at.get("name","?")
+                    hid = canonical_team_id(comp["league_id"], hname)
+                    aid = canonical_team_id(comp["league_id"], aname)
                     upcoming_data["fixtures"].append({
-                        "id": f"{comp['league_id']}_{ht.get('id')}_{at.get('id')}_{date_ymd}",
+                        "id": f"{comp['league_id']}_{hid}_{aid}_{date_ymd}",
                         "api_fixture_id": uid, "fixture_date": utc_date,
                         "league_id": comp["league_id"], "league_name": comp["name"],
                         "league_country": "", "league_logo": None,
-                        "season": CURRENT_SEASON, "round": str(m.get("matchday", "")),
+                        "season": CURRENT_SEASON, "round": str(m.get("matchday","")),
                         "venue": None,
-                        "home_team_id": f"fd_{ht.get('id')}", "home_team_name": ht.get("name", "?"),
+                        "home_team_id": hid, "home_team_name": hname,
                         "home_team_logo": ht.get("crest"),
-                        "away_team_id": f"fd_{at.get('id')}", "away_team_name": at.get("name", "?"),
+                        "away_team_id": aid, "away_team_name": aname,
                         "away_team_logo": at.get("crest"),
-                        "referee_name": None, "status": "SCHEDULED", "is_featured": False,
-                        "data_source": "football_data",
+                        "referee_name": None, "status": "SCHEDULED",
+                        "is_featured": False, "data_source": "football_data",
                         "home_xg_adjustment": 1.0, "away_xg_adjustment": 1.0,
                     })
                     count += 1
-            if count:
-                log.info(f"  [FD] {comp['name']}: {count} upcoming fixtures")
+            if count: log.info(f"  [FD] {comp['name']}: {count} upcoming")
             time.sleep(7)
         except Exception as e:
-            log.error(f"  [FD] {comp['name']} failed: {e}")
+            log.error(f"  [FD] {comp['name']}: {e}")
 
+# ── OpenLigaDB (free, no key) ─────────────────────────────────────────────────
+def run_openligadb(match_history, upcoming_data, now_utc):
+    """German Bundesliga — completely free, no API key needed."""
+    configs = [
+        {"shortcut": "bl1", "league_id": 78, "name": "Bundesliga", "season": 2025},
+        {"shortcut": "bl2", "league_id": 79, "name": "2. Bundesliga", "season": 2025},
+    ]
+    for cfg in configs:
+        try:
+            # Get upcoming matches
+            data = openligadb_get(f"getmatchdata/{cfg['shortcut']}/{cfg['season']}")
+            if not data: continue
+            count_h = 0; count_u = 0
+            for m in data:
+                match_dt_str = m.get("matchDateTimeUTC","")
+                try:
+                    dt = datetime.fromisoformat(match_dt_str.replace("Z","+00:00"))
+                    if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
+                except: continue
 
-# ─────────────────────────────────────────────────────────────────────────────
-# MAIN
-# ─────────────────────────────────────────────────────────────────────────────
+                team1 = (m.get("team1") or {}).get("teamName","?")
+                team2 = (m.get("team2") or {}).get("teamName","?")
+                hid   = canonical_team_id(cfg["league_id"], team1)
+                aid   = canonical_team_id(cfg["league_id"], team2)
+                key   = f"oldb_{m.get('matchID','')}"
 
+                results = m.get("matchResults") or []
+                final   = next((r for r in results if r.get("resultTypeID") == 2), None)
+
+                if final and m.get("matchIsFinished"):
+                    # Finished match
+                    if key not in match_history["matches"]:
+                        match_history["matches"][key] = {
+                            "api_fixture_id": key,
+                            "league_id": cfg["league_id"], "league_name": cfg["name"],
+                            "home_team_id": hid, "home_team_name": team1,
+                            "away_team_id": aid, "away_team_name": team2,
+                            "match_date": match_dt_str, "season": cfg["season"],
+                            "home_goals": final.get("pointsTeam1",0),
+                            "away_goals": final.get("pointsTeam2",0),
+                            "referee_name": None, "venue": None,
+                            "data_source": "openligadb",
+                            "home_corners": None, "away_corners": None,
+                            "home_yellow_cards": None, "away_yellow_cards": None,
+                            "home_red_cards": None, "away_red_cards": None,
+                            "possession_home": None, "possession_away": None,
+                            "shots_home": None, "shots_away": None,
+                            "shots_on_target_home": None, "shots_on_target_away": None,
+                            "fouls_home": None, "fouls_away": None,
+                        }
+                        count_h += 1
+                elif not m.get("matchIsFinished") and dt > (now_utc - timedelta(hours=2)):
+                    # Upcoming
+                    if key not in {f.get("api_fixture_id") for f in upcoming_data["fixtures"]}:
+                        upcoming_data["fixtures"].append({
+                            "id": f"{cfg['league_id']}_{hid}_{aid}_{dt.strftime('%Y%m%d')}",
+                            "api_fixture_id": key, "fixture_date": match_dt_str,
+                            "league_id": cfg["league_id"], "league_name": cfg["name"],
+                            "league_country": "Germany", "league_logo": None,
+                            "season": cfg["season"], "round": str(m.get("group",{}).get("groupName","")),
+                            "venue": None,
+                            "home_team_id": hid, "home_team_name": team1,
+                            "home_team_logo": (m.get("team1") or {}).get("teamIconUrl"),
+                            "away_team_id": aid, "away_team_name": team2,
+                            "away_team_logo": (m.get("team2") or {}).get("teamIconUrl"),
+                            "referee_name": None, "status": "NS", "is_featured": False,
+                            "data_source": "openligadb",
+                            "home_xg_adjustment": 1.0, "away_xg_adjustment": 1.0,
+                        })
+                        count_u += 1
+            if count_h or count_u:
+                log.info(f"  [OpenLigaDB] {cfg['name']}: +{count_h} history, +{count_u} upcoming")
+        except Exception as e:
+            log.error(f"  [OpenLigaDB] {cfg['name']}: {e}")
+
+# ── Future fixture filter ─────────────────────────────────────────────────────
+def is_future(fixture, now_utc):
+    try:
+        ds = fixture.get("fixture_date","")
+        if not ds: return True
+        dt = datetime.fromisoformat(ds.replace("Z","+00:00"))
+        if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
+        return dt > (now_utc - timedelta(hours=2))
+    except: return True
+
+# ── MAIN ──────────────────────────────────────────────────────────────────────
 def run():
-    log.info("=" * 60)
-    log.info("Step 1: Import data — api-sports.io (all leagues) + football-data.org")
-    log.info("=" * 60)
+    log.info("="*60)
+    log.info("Step 1: Import data")
+    log.info("="*60)
 
     match_history = get_match_history()
     if "matches" not in match_history:
         match_history["matches"] = {}
     existing_count = len(match_history["matches"])
-    log.info(f"Existing match history: {existing_count} matches")
+    log.info(f"Existing history: {existing_count} matches")
 
     existing_upcoming = get_upcoming_fixtures()
     now_utc = datetime.now(timezone.utc)
     upcoming_data = {
-        "fixtures": [
-            f for f in existing_upcoming.get("fixtures", [])
-            if _is_future_fixture(f, now_utc)
-        ]
+        "fixtures": [f for f in existing_upcoming.get("fixtures",[]) if is_future(f, now_utc)]
     }
-    log.info(f"Existing upcoming fixtures: {len(upcoming_data['fixtures'])} (past removed)")
+    log.info(f"Existing upcoming: {len(upcoming_data['fixtures'])} (past removed)")
 
     referee_data = get_referee_data()
     if "referees" not in referee_data:
         referee_data["referees"] = {}
 
-    if not APISPORTS_KEY:
-        log.error("FOOTBALL_DATA_API_KEY (api-sports key) not set — cannot fetch fixtures")
-        return {}
+    api_requests_used = 0
 
-    # Check API quota before starting
-    status_data = apisports_get("status")
-    remaining = 100
-    if status_data:
-        try:
-            resp = status_data.get("response", {})
-            # response can be a list or dict depending on API version
-            if isinstance(resp, list):
-                resp = resp[0] if resp else {}
-            acct      = resp.get("requests", {})
-            used      = acct.get("current", "?")
-            limit     = acct.get("limit_day", "?")
-            remaining = int(acct.get("remaining", 100))
-            log.info(f"API-Sports quota: {used}/{limit} used today, {remaining} remaining")
-        except Exception as e:
-            log.warning(f"Could not parse quota status: {e}")
-            remaining = 100
+    # ── A: Check quota ────────────────────────────────────────────────────────
+    remaining_quota = 95
+    if APISPORTS_KEY:
+        status_data = apisports_get("status")
+        api_requests_used += 1
+        if status_data:
+            try:
+                resp = status_data.get("response", {})
+                if isinstance(resp, list): resp = resp[0] if resp else {}
+                acct = resp.get("requests", {})
+                remaining_quota = int(acct.get("remaining", 95))
+                log.info(f"API quota: {acct.get('current','?')}/{acct.get('limit_day','?')} used, {remaining_quota} remaining")
+            except Exception as e:
+                log.warning(f"Could not parse quota: {e}")
+    else:
+        log.error("No FOOTBALL_API_KEY — api-sports.io disabled")
 
-    # ── STEP A: Today's fixtures (1 request) ─────────────────────────────────
-    log.info("\n--- STEP A: Today's fixtures (all leagues, 1 API call) ---")
-    h1, u1 = fetch_todays_fixtures(match_history, upcoming_data, now_utc)
+    # ── B: Today's fixtures (1 request = ALL leagues) ─────────────────────────
+    if APISPORTS_KEY and remaining_quota > 10:
+        today = date.today().isoformat()
+        log.info(f"\n--- B: All fixtures for {today} ---")
+        data = apisports_get("fixtures", {"date": today})
+        api_requests_used += 1
+        if data:
+            fixtures = data.get("response", [])
+            h_count = u_count = leagues_count = 0
+            leagues_today = set()
+            for fix in fixtures:
+                r = parse_apisports(fix, match_history, upcoming_data, now_utc)
+                if r == "history":   h_count += 1
+                elif r == "upcoming": u_count += 1
+                leagues_today.add((fix.get("league",{}).get("name","?")))
+            log.info(f"  Today: {u_count} upcoming, {h_count} finished across {len(leagues_today)} leagues")
+            for ln in sorted(leagues_today)[:20]:
+                log.info(f"    · {ln}")
 
-    # ── STEP B: Recent results for scoring (up to 3 requests) ────────────────
-    log.info("\n--- STEP B: Recent results (last 3 days) ---")
-    h2 = fetch_recent_results(match_history, upcoming_data, now_utc, days_back=2)
+    # ── C: Next 7 days (7 requests) ───────────────────────────────────────────
+    if APISPORTS_KEY and remaining_quota > 20:
+        log.info("\n--- C: Next 7 days ---")
+        for i in range(1, 8):
+            if api_requests_used >= remaining_quota - 5: break
+            d = (date.today() + timedelta(days=i)).isoformat()
+            data = apisports_get("fixtures", {"date": d})
+            api_requests_used += 1
+            if data:
+                count = sum(1 for fix in data.get("response",[])
+                           if parse_apisports(fix, match_history, upcoming_data, now_utc,
+                                             only_upcoming=True) == "upcoming")
+                if count: log.info(f"  {d}: +{count} upcoming")
+            time.sleep(0.3)
 
-    # ── STEP C: Upcoming fixtures next 7 days (7 requests) ───────────────────
-    log.info("\n--- STEP C: Upcoming fixtures next 7 days ---")
-    u2 = fetch_upcoming_next_days(match_history, upcoming_data, now_utc, days_ahead=7)
+    # ── D: Recent results (last 3 days) ───────────────────────────────────────
+    if APISPORTS_KEY and remaining_quota > 30:
+        log.info("\n--- D: Recent results (last 3 days) ---")
+        for i in range(1, 4):
+            if api_requests_used >= remaining_quota - 5: break
+            d = (date.today() - timedelta(days=i)).isoformat()
+            data = apisports_get("fixtures", {"date": d, "status": "FT-AET-PEN"})
+            api_requests_used += 1
+            if data:
+                count = sum(1 for fix in data.get("response",[])
+                           if parse_apisports(fix, match_history, upcoming_data, now_utc,
+                                             only_finished=True) == "history")
+                if count: log.info(f"  {d}: +{count} results")
+            time.sleep(0.3)
 
-    # ── STEP D: History backfill for new leagues (up to 15 requests) ─────────
-    log.info("\n--- STEP D: History backfill for leagues with insufficient data ---")
-    backfill_reqs = run_history_backfill(match_history, upcoming_data, now_utc)
+    # ── E: History backfill ───────────────────────────────────────────────────
+    needs_backfill = leagues_needing_backfill(match_history)
+    if APISPORTS_KEY and needs_backfill and remaining_quota > 40:
+        log.info(f"\n--- E: Backfill ({len(needs_backfill)} leagues need history) ---")
+        backfill_budget = min(MAX_BACKFILL_PER_RUN, remaining_quota - api_requests_used - 5)
+        done = 0
+        for cnt, lg in needs_backfill:
+            if done >= backfill_budget: break
+            if api_requests_used >= remaining_quota - 3: break
+            log.info(f"  Backfilling {lg['name']} (currently {cnt} matches)...")
+            data = apisports_get("fixtures", {
+                "league": lg["id"], "season": lg["season"], "status": "FT-AET-PEN"
+            })
+            api_requests_used += 1; done += 1
+            if data:
+                new = sum(1 for fix in data.get("response",[])
+                         if parse_apisports(fix, match_history, upcoming_data, now_utc,
+                                           only_finished=True) == "history")
+                log.info(f"    → +{new} historical matches")
+            time.sleep(1)
 
-    # ── STEP E: football-data.org supplement (no quota cost) ─────────────────
-    log.info("\n--- STEP E: football-data.org supplement ---")
-    run_football_data_supplement(match_history, upcoming_data, now_utc)
+    # ── F: football-data.org supplement (no quota cost) ──────────────────────
+    log.info("\n--- F: football-data.org supplement ---")
+    run_football_data(match_history, upcoming_data, now_utc)
 
-    # Save
+    # ── G: OpenLigaDB (free, no key) ─────────────────────────────────────────
+    log.info("\n--- G: OpenLigaDB (German Bundesliga, free) ---")
+    run_openligadb(match_history, upcoming_data, now_utc)
+
+    # ── H: Normalize all team IDs to canonical format ─────────────────────────
+    log.info("\n--- H: Normalizing team IDs ---")
+    normalized = 0
+    for m in match_history["matches"].values():
+        lid = m.get("league_id")
+        new_h = canonical_team_id(lid, m.get("home_team_name",""))
+        new_a = canonical_team_id(lid, m.get("away_team_name",""))
+        if m.get("home_team_id") != new_h or m.get("away_team_id") != new_a:
+            m["home_team_id"] = new_h; m["away_team_id"] = new_a
+            normalized += 1
+    for fx in upcoming_data["fixtures"]:
+        lid = fx.get("league_id")
+        new_h = canonical_team_id(lid, fx.get("home_team_name",""))
+        new_a = canonical_team_id(lid, fx.get("away_team_name",""))
+        if fx.get("home_team_id") != new_h or fx.get("away_team_id") != new_a:
+            fx["home_team_id"] = new_h; fx["away_team_id"] = new_a
+            normalized += 1
+    if normalized: log.info(f"  Normalized {normalized} team IDs")
+
+    # ── Save ──────────────────────────────────────────────────────────────────
     save_match_history(match_history)
     save_upcoming_fixtures(upcoming_data)
     save_referee_data(referee_data)
 
     final_count = len(match_history["matches"])
-    log.info("\n" + "=" * 60)
+    log.info("\n" + "="*60)
     log.info("Step 1 Complete")
-    log.info(f"  Match history before:  {existing_count}")
-    log.info(f"  New matches added:     {final_count - existing_count}")
-    log.info(f"  Match history after:   {final_count}")
-    log.info(f"  Upcoming fixtures:     {len(upcoming_data['fixtures'])}")
-    log.info(f"  API requests used:     ~{4 + backfill_reqs} (daily + backfill)")
-    log.info("=" * 60)
+    log.info(f"  History:   {existing_count} → {final_count} (+{final_count-existing_count})")
+    log.info(f"  Upcoming:  {len(upcoming_data['fixtures'])} fixtures")
+    log.info(f"  API calls: {api_requests_used}")
+    log.info("="*60)
 
     return {
-        "existing_matches": existing_count,
-        "new_matches":      final_count - existing_count,
-        "total_matches":    final_count,
-        "upcoming_fixtures": len(upcoming_data["fixtures"]),
+        "existing": existing_count, "total": final_count,
+        "new": final_count - existing_count,
+        "upcoming": len(upcoming_data["fixtures"]),
+        "api_calls": api_requests_used,
     }
-
-
-def _is_future_fixture(fixture, now_utc):
-    try:
-        ds = fixture.get("fixture_date", "")
-        if not ds: return True
-        dt = datetime.fromisoformat(ds.replace("Z", "+00:00"))
-        if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
-        return dt > (now_utc - timedelta(hours=2))
-    except Exception:
-        return True
-
 
 if __name__ == "__main__":
     run()
