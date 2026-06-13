@@ -1,0 +1,256 @@
+name: Daily Prediction Pipeline
+
+on:
+  schedule:
+    # 04:00 UTC daily — after most midnight European matches have finished
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    inputs:
+      force_retrain:
+        description: 'Force ML model retraining'
+        required: false
+        default: 'false'
+        type: boolean
+      skip_import:
+        description: 'Skip API import (re-use existing data — useful for debugging)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+  issues: write
+
+# Prevent two pipeline runs overlapping and corrupting data files
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  daily_pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Create data directories
+        run: |
+          mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+
+      # ── Step 1: Import data ─────────────────────────────────────────────────
+      - name: Step 1 - Import data from football APIs
+        if: ${{ inputs.skip_import != 'true' }}
+        id: step1
+        run: python -m pipeline.step1_import_data
+        env:
+          # Auto-detect season from date — overridable via GitHub variable
+          CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '' }}
+
+      # ── Step 2: Statistics ──────────────────────────────────────────────────
+      - name: Step 2 - Calculate team statistics
+        run: python -m pipeline.step2_calculate_stats
+
+      # ── Step 3: Predictions ─────────────────────────────────────────────────
+      - name: Step 3 - Generate predictions
+        run: python -m pipeline.step3_generate_predictions
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      # ── Step 4: Evaluate ────────────────────────────────────────────────────
+      - name: Step 4 - Evaluate prediction results
+        run: python -m pipeline.step4_evaluate_results
+
+      # ── Validate before commit ──────────────────────────────────────────────
+      - name: Validate outputs
+        run: python -m pipeline.validate_outputs
+
+      # ── Commit data ─────────────────────────────────────────────────────────
+      - name: Commit data files
+        run: |
+          git config user.name  "Prediction Bot"
+          git config user.email "bot@github-actions.com"
+          git add data/
+
+          if git diff --staged --quiet; then
+            echo "No data changes to commit — skipping push"
+          else
+            # Build a meaningful commit message
+            FIXTURE_COUNT=$(python3 -c "
+          import json
+          try:
+              p = json.load(open('data/predictions/latest.json'))
+              fx = p.get('fixtures', [])
+              pred = sum(1 for f in fx if not f.get('no_prediction_reason'))
+              leagues = len({f.get('league_name','?') for f in fx})
+              print(f'{pred} predictions across {leagues} leagues')
+          except:
+              print('predictions generated')
+            " 2>/dev/null || echo "predictions generated")
+
+            git commit -m "Daily predictions $(date +%Y-%m-%d): ${FIXTURE_COUNT}"
+            git push
+            echo "✓ Data pushed successfully"
+          fi
+
+      # ── Trigger Vercel ──────────────────────────────────────────────────────
+      - name: Trigger Vercel deployment
+        if: always()
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" | head -c 200
+            echo ""
+            echo "✓ Vercel deploy hook triggered"
+          else
+            echo "No VERCEL_DEPLOY_HOOK set — Vercel will auto-deploy from git push"
+          fi
+
+      # ── Summary for GitHub Actions UI ──────────────────────────────────────
+      - name: Pipeline summary
+        if: always()
+        run: |
+          echo "## Pipeline Summary — $(date +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+          python3 -c "
+          import json, sys
+          rows = []
+
+          try:
+              pred = json.load(open('data/predictions/latest.json'))
+              fx   = pred.get('fixtures', [])
+              made = sum(1 for f in fx if not f.get('no_prediction_reason'))
+              lgs  = len({f.get('league_name','?') for f in fx})
+              rows.append(f'| Fixtures | {len(fx)} |')
+              rows.append(f'| Predictions made | {made} |')
+              rows.append(f'| Leagues covered | {lgs} |')
+              rows.append(f'| ML active | {pred.get(\"ml_active\", False)} |')
+          except Exception as e:
+              rows.append(f'| Predictions | ERROR: {e} |')
+
+          try:
+              hist  = json.load(open('data/matches/history.json'))
+              total = len(hist.get('matches', {}))
+              rows.append(f'| Match history | {total} matches |')
+          except:
+              pass
+
+          try:
+              acc  = json.load(open('data/accuracy/results.json'))
+              o25  = acc.get('by_market', {}).get('over25', {})
+              if o25.get('total', 0) > 0:
+                  pct = o25['correct'] / o25['total'] * 100
+                  rows.append(f'| Over 2.5 accuracy | {pct:.1f}% ({o25[\"correct\"]}/{o25[\"total\"]}) |')
+          except:
+              pass
+
+          try:
+              ts = json.load(open('data/teams/statistics.json'))
+              teams = ts.get('teams', {})
+              null_elo = sum(1 for t in teams.values() if t.get('elo_rating') is None)
+              rows.append(f'| Teams with Elo | {len(teams) - null_elo}/{len(teams)} |')
+          except:
+              pass
+
+          print('| Metric | Value |')
+          print('|--------|-------|')
+          for r in rows:
+              print(r)
+          " >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "| Summary | Could not generate |" >> $GITHUB_STEP_SUMMARY
+
+      # ── Alert on failure ────────────────────────────────────────────────────
+      - name: Create failure issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const today  = new Date().toISOString().split('T')[0];
+
+            // Check if a failure issue for today already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              labels: 'pipeline-failure',
+              state:  'open',
+            });
+
+            const alreadyOpen = issues.data.some(i => i.title.includes(today));
+            if (alreadyOpen) {
+              console.log('Failure issue already open for today — skipping');
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              title: `⚠️ Pipeline failed on ${today}`,
+              body: [
+                `The daily prediction pipeline failed on ${today}.`,
+                ``,
+                `**Run:** ${runUrl}`,
+                ``,
+                `**Common causes:**`,
+                `- One or more free data sources are temporarily down or rate-limited`,
+                `- No fixtures found (off-season period)`,
+                `- JSON validation failed`,
+                ``,
+                `**Quick check:** Open the run logs above and look for the failing step.`,
+              ].join('\n'),
+              labels: ['pipeline-failure'],
+            });
+
+  # ── ML Training (manual trigger only) ──────────────────────────────────────
+  monthly_retrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    needs: daily_pipeline
+    if: github.event_name == 'workflow_dispatch' && inputs.force_retrain == 'true'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Create data directories
+        run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+
+      - name: Train ML models
+        run: python -m pipeline.step5_train_models
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Commit trained models
+        run: |
+          git config user.name  "ML Training Bot"
+          git config user.email "mlbot@github-actions.com"
+          git add data/models/
+          if git diff --staged --quiet; then
+            echo "No model changes to commit"
+          else
+            git commit -m "ML model retrain $(date +%Y-%m-%d)"
+            git push
+            echo "✓ Models committed and pushed"
+          fi
