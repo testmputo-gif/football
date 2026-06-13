@@ -1,0 +1,215 @@
+name: Manual Pipeline Controls
+
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which job to run'
+        required: true
+        type: choice
+        options:
+          - full_pipeline
+          - import_only
+          - stats_only
+          - predictions_only
+          - evaluate_only
+          - retrain_models
+          - check_api_budget
+
+permissions:
+  contents: write
+
+jobs:
+  run_selected_job:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Create data directories
+        run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+
+      - name: Run full pipeline
+        if: inputs.job == 'full_pipeline'
+        run: |
+          python -m pipeline.step1_import_data
+          python -m pipeline.step2_calculate_stats
+          python -m pipeline.step3_generate_predictions
+          python -m pipeline.step4_evaluate_results
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          BSD_API_KEY: ${{ secrets.BSD_API_KEY }}
+          CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2025' }}
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Import only
+        if: inputs.job == 'import_only'
+        run: python -m pipeline.step1_import_data
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          BSD_API_KEY: ${{ secrets.BSD_API_KEY }}
+          CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2025' }}
+
+      - name: Stats only
+        if: inputs.job == 'stats_only'
+        run: python -m pipeline.step2_calculate_stats
+
+      - name: Predictions only
+        if: inputs.job == 'predictions_only'
+        run: python -m pipeline.step3_generate_predictions
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Evaluate only
+        if: inputs.job == 'evaluate_only'
+        run: python -m pipeline.step4_evaluate_results
+
+      - name: Retrain ML models
+        if: inputs.job == 'retrain_models'
+        run: python -m pipeline.step5_train_models
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Check API budget
+        if: inputs.job == 'check_api_budget'
+        run: |
+          python -c "
+          import httpx, os, json
+          from datetime import date, timedelta
+
+          print('=== API KEY STATUS ===')
+
+          fd_key = os.environ.get('FOOTBALL_DATA_API_KEY', '')
+          bsd_key = os.environ.get('BSD_API_KEY', '')
+
+          print(f'FOOTBALL_DATA_API_KEY: {\"SET (length \" + str(len(fd_key)) + \")\" if fd_key else \"NOT SET\"}')
+          print(f'BSD_API_KEY:           {\"SET (length \" + str(len(bsd_key)) + \")\" if bsd_key else \"NOT SET\"}')
+
+          if fd_key:
+              print()
+              print('=== TESTING FOOTBALL-DATA.ORG ===')
+              headers = {'X-Auth-Token': fd_key}
+              date_from = date.today().isoformat()
+              date_to   = (date.today() + timedelta(days=7)).isoformat()
+              r = httpx.get(
+                  'https://api.football-data.org/v4/competitions/BSA/matches',
+                  headers=headers,
+                  params={'dateFrom': date_from, 'dateTo': date_to},
+                  timeout=15
+              )
+              print(f'HTTP Status: {r.status_code}')
+              data = r.json()
+              if 'matches' in data:
+                  print(f'Upcoming Brazil matches found: {len(data[\"matches\"])}')
+                  if data['matches']:
+                      m = data['matches'][0]
+                      print(f'Next: {m[\"homeTeam\"][\"name\"]} vs {m[\"awayTeam\"][\"name\"]} on {m[\"utcDate\"][:10]}')
+              else:
+                  print(f'Response: {json.dumps(data)[:200]}')
+
+          if bsd_key:
+              print()
+              print('=== TESTING BSD API ===')
+              headers = {'Authorization': f'Token {bsd_key}'}
+              r = httpx.get(
+                  'https://sports.bzzoiro.com/api/events/',
+                  headers=headers,
+                  params={'league': 8},
+                  timeout=15
+              )
+              print(f'HTTP Status: {r.status_code}')
+              if r.status_code == 200:
+                  data = r.json()
+                  events = data if isinstance(data, list) else data.get('events', data.get('results', []))
+                  if isinstance(events, list):
+                      print(f'Norway events found: {len(events)}')
+                  else:
+                      print(f'Response format: {list(data.keys()) if isinstance(data, dict) else type(data)}')
+              else:
+                  print(f'Response: {r.text[:200]}')
+
+          print()
+          print('=== MATCH HISTORY ===')
+          try:
+              import json as j
+              hist = j.load(open('data/matches/history.json'))
+              total = len(hist.get('matches', {}))
+              print(f'Total matches stored: {total}')
+              leagues = {}
+              for m in hist.get('matches', {}).values():
+                  ln = m.get('league_name', 'Unknown')
+                  leagues[ln] = leagues.get(ln, 0) + 1
+              for ln, count in sorted(leagues.items(), key=lambda x: -x[1]):
+                  print(f'  {ln}: {count} matches')
+          except Exception as e:
+              print(f'Could not read history: {e}')
+          "
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          BSD_API_KEY: ${{ secrets.BSD_API_KEY }}
+
+      - name: Commit all data changes
+        if: inputs.job != 'check_api_budget'
+        run: |
+          git config user.name "Manual Pipeline Bot"
+          git config user.email "bot@github-actions.com"
+          git add data/
+          git status
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Pipeline run: ${{ inputs.job }} $(date +%Y-%m-%d)"
+            git push
+            echo "Data committed and pushed successfully"
+          fi
+
+      - name: Trigger Vercel deployment
+        if: inputs.job != 'check_api_budget'
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "Vercel deploy hook triggered - website updating now"
+          else
+            echo "No VERCEL_DEPLOY_HOOK - Vercel will auto-deploy from GitHub push"
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          echo "## Job Summary: ${{ inputs.job }}" >> $GITHUB_STEP_SUMMARY
+          python -c "
+          import json, os
+          summary = []
+          try:
+              pred = json.load(open('data/predictions/latest.json'))
+              n    = len(pred.get('fixtures', []))
+              made = sum(1 for f in pred.get('fixtures', []) if not f.get('no_prediction_reason'))
+              summary.append(f'- Total fixtures: {n}')
+              summary.append(f'- Predictions made: {made}')
+              summary.append(f'- Skipped (insufficient data): {n - made}')
+          except Exception as e:
+              summary.append(f'- Predictions: could not read ({e})')
+          try:
+              hist = json.load(open('data/matches/history.json'))
+              summary.append(f'- Match history: {len(hist.get(\"matches\", {}))} matches total')
+          except:
+              pass
+          for line in summary:
+              print(line)
+          " >> $GITHUB_STEP_SUMMARY
