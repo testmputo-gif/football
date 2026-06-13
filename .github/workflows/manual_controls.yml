@@ -1,0 +1,168 @@
+name: Manual Pipeline Controls
+
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which job to run'
+        required: true
+        type: choice
+        options:
+          - full_pipeline
+          - import_only
+          - stats_only
+          - predictions_only
+          - evaluate_only
+          - retrain_models
+          - check_api_budget
+
+permissions:
+  contents: write
+
+jobs:
+  run_selected_job:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Create data directories
+        run: mkdir -p data/{fixtures,predictions,teams,leagues,accuracy,models,logs,matches,h2h,referees}
+
+      - name: Run full pipeline
+        if: inputs.job == 'full_pipeline'
+        run: |
+          python -m pipeline.step1_import_data
+          python -m pipeline.step2_calculate_stats
+          python -m pipeline.step3_generate_predictions
+          python -m pipeline.step4_evaluate_results
+        env:
+          CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2025' }}
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Import only
+        if: inputs.job == 'import_only'
+        run: python -m pipeline.step1_import_data
+        env:
+          CURRENT_SEASON: ${{ vars.CURRENT_SEASON || '2025' }}
+
+      - name: Stats only
+        if: inputs.job == 'stats_only'
+        run: python -m pipeline.step2_calculate_stats
+
+      - name: Predictions only
+        if: inputs.job == 'predictions_only'
+        run: python -m pipeline.step3_generate_predictions
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Evaluate only
+        if: inputs.job == 'evaluate_only'
+        run: python -m pipeline.step4_evaluate_results
+
+      - name: Retrain ML models
+        if: inputs.job == 'retrain_models'
+        run: python -m pipeline.step5_train_models
+        env:
+          MODEL_VERSION: ${{ vars.MODEL_VERSION || 'v1.0.0' }}
+
+      - name: Check data source status
+        if: inputs.job == 'check_api_budget'
+        run: |
+          python -c "
+          import httpx, json
+
+          print('=== FREE DATA SOURCE STATUS ===')
+
+          sources = {
+              'OpenLigaDB':  'https://api.openligadb.de/getmatchdata/bl1/2025',
+              'TheSportsDB': 'https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id=4328',
+              'ESPN':        'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard',
+              'ClubElo':     'http://clubelo.com/2026-05-14/ENG1',
+          }
+          for name, url in sources.items():
+              try:
+                  r = httpx.get(url, timeout=15)
+                  print(f'{name:<12} HTTP {r.status_code}')
+              except Exception as e:
+                  print(f'{name:<12} ERROR: {e}')
+
+          print()
+          print('=== MATCH HISTORY ===')
+          try:
+              hist = json.load(open('data/matches/history.json'))
+              total = len(hist.get('matches', {}))
+              print(f'Total matches stored: {total}')
+              leagues = {}
+              for m in hist.get('matches', {}).values():
+                  ln = m.get('league_name', 'Unknown')
+                  leagues[ln] = leagues.get(ln, 0) + 1
+              for ln, count in sorted(leagues.items(), key=lambda x: -x[1]):
+                  print(f'  {ln}: {count} matches')
+          except Exception as e:
+              print(f'Could not read history: {e}')
+          "
+
+      - name: Commit all data changes
+        if: inputs.job != 'check_api_budget'
+        run: |
+          git config user.name "Manual Pipeline Bot"
+          git config user.email "bot@github-actions.com"
+          git add data/
+          git status
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Pipeline run: ${{ inputs.job }} $(date +%Y-%m-%d)"
+            git push
+            echo "Data committed and pushed successfully"
+          fi
+
+      - name: Trigger Vercel deployment
+        if: inputs.job != 'check_api_budget'
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "Vercel deploy hook triggered - website updating now"
+          else
+            echo "No VERCEL_DEPLOY_HOOK - Vercel will auto-deploy from GitHub push"
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          echo "## Job Summary: ${{ inputs.job }}" >> $GITHUB_STEP_SUMMARY
+          python -c "
+          import json, os
+          summary = []
+          try:
+              pred = json.load(open('data/predictions/latest.json'))
+              n    = len(pred.get('fixtures', []))
+              made = sum(1 for f in pred.get('fixtures', []) if not f.get('no_prediction_reason'))
+              summary.append(f'- Total fixtures: {n}')
+              summary.append(f'- Predictions made: {made}')
+              summary.append(f'- Skipped (insufficient data): {n - made}')
+          except Exception as e:
+              summary.append(f'- Predictions: could not read ({e})')
+          try:
+              hist = json.load(open('data/matches/history.json'))
+              summary.append(f'- Match history: {len(hist.get(\"matches\", {}))} matches total')
+          except:
+              pass
+          for line in summary:
+              print(line)
+          " >> $GITHUB_STEP_SUMMARY
