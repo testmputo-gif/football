@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-13T07:46:41.281638+00:00",
-  "total_history": 1383,
+  "generated_at": "2026-06-13T10:04:01.560373+00:00",
+  "total_history": 1778,
   "total_upcoming": 25,
-  "new_history": 0,
+  "new_history": 395,
   "leagues_covered": 11,
   "sources": [
     {
@@ -34,8 +34,18 @@
     {
       "source": "football_data",
       "fixtures": 0,
-      "history": 0,
-      "leagues": [],
+      "history": 395,
+      "leagues": [
+        "Premier League",
+        "Bundesliga",
+        "Serie A",
+        "La Liga",
+        "Ligue 1",
+        "Eredivisie",
+        "Primeira Liga",
+        "Championship",
+        "Champions League"
+      ],
       "errors": [],
       "status": "ok"
     },

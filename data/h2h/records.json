@@ -4560,6 +4560,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_2_fc_bayern_m_nchen_team_2_paris_saint_germain_fc": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 5.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_13_ca_lan_s_team_13_ldu_de_quito": {
       "matches_played": 4,
       "home_wins": 2,
@@ -4616,6 +4626,16 @@
       "away_wins": 2,
       "draws": 0,
       "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_2_arsenal_fc_team_2_club_atl_tico_de_madrid": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -4827,6 +4847,26 @@
       "draws": 0,
       "avg_goals": 3.0,
       "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_40_hull_city_afc_team_40_millwall_fc": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_40_middlesbrough_fc_team_40_southampton_fc": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5231,5 +5271,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-06-13T07:46:41.397837"
+  "last_updated": "2026-06-13T10:04:01.688296"
 }
