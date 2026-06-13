@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-06-13T07:46:41.281638+00:00",
+  "total_history": 1383,
+  "total_upcoming": 25,
+  "new_history": 0,
+  "leagues_covered": 11,
+  "sources": [
+    {
+      "source": "openligadb",
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
+      "errors": [
+        "Austrian Bundesliga: no data"
+      ],
+      "status": "ok"
+    },
+    {
+      "source": "thesportsdb",
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
+      "errors": [],
+      "status": "ok"
+    },
+    {
+      "source": "espn",
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
+      "errors": [],
+      "status": "ok"
+    },
+    {
+      "source": "football_data",
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
+      "errors": [],
+      "status": "ok"
+    },
+    {
+      "source": "clubelo",
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
+      "errors": [],
+      "status": "ok"
+    }
+  ],
+  "upcoming_by_league": {
+    "Veikkausliiga": 13,
+    "Argentine Primera": 2,
+    "Austrian Bundesliga": 2,
+    "Denmark Superliga": 1,
+    "J1 League": 1,
+    "Brasileirao Serie A": 1,
+    "Greek Super League": 1,
+    "Turkey Super Lig": 1,
+    "Eredivisie": 1,
+    "Ligue 1": 1,
+    "La Liga": 1
+  },
+  "upcoming_by_source": {
+    "bsd": 12,
+    "thesportsdb": 13
+  }
+}
