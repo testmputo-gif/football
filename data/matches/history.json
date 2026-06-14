@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T11:11:22.945219",
+  "last_updated": "2026-06-14T11:51:42.420420",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -48847,6 +48847,28 @@
       "away_yellow_cards": null,
       "home_red_cards": null,
       "away_red_cards": null
+    },
+    "tsdb_2482709": {
+      "league_id": 119,
+      "league_name": "Denmark Superliga",
+      "home_team_id": "team_119_cb_1939_canarias",
+      "home_team_name": "CB 1939 Canarias",
+      "away_team_id": "team_119_fc_barcelona_basquet",
+      "away_team_name": "FC Barcelona Basquet",
+      "match_date": "2026-06-13T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Pabellón Santiago Martín",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2482709",
+      "home_goals": 76,
+      "away_goals": 85
     }
   }
 }
