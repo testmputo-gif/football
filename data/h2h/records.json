@@ -5269,7 +5269,17 @@
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "team_119_joventut_badalona_team_119_valencia_basket": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 164.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-06-14T11:51:42.597286"
+  "last_updated": "2026-06-15T19:14:16.574177"
 }

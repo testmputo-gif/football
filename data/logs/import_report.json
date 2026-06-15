@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-14T11:51:42.458813+00:00",
-  "total_history": 1779,
+  "generated_at": "2026-06-15T19:14:16.440560+00:00",
+  "total_history": 1781,
   "total_upcoming": 19,
-  "new_history": 1,
+  "new_history": 2,
   "leagues_covered": 11,
   "sources": [
     {
@@ -18,8 +18,9 @@
     {
       "source": "thesportsdb",
       "fixtures": 1,
-      "history": 1,
+      "history": 2,
       "leagues": [
+        "Turkey Super Lig",
         "Denmark Superliga"
       ],
       "errors": [],
@@ -56,7 +57,7 @@
     "La Liga": 1
   },
   "upcoming_by_source": {
-    "thesportsdb": 13,
-    "bsd": 6
+    "bsd": 6,
+    "thesportsdb": 13
   }
 }

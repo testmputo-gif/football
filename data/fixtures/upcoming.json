@@ -1,37 +1,6 @@
 {
   "fixtures": [
     {
-      "league_id": 119,
-      "league_name": "Denmark Superliga",
-      "home_team_id": "team_119_joventut_badalona",
-      "home_team_name": "Joventut Badalona",
-      "away_team_id": "team_119_valencia_basket",
-      "away_team_name": "Valencia Basket",
-      "match_date": "2026-06-14T18:00:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "Palau Municipal d'Esports de Badalona",
-      "data_source": "thesportsdb",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "119_team_119_joventut_badalona_team_119_valencia_basket_20260614",
-      "api_fixture_id": "tsdb_2483347",
-      "fixture_date": "2026-06-14T18:00:00+00:00",
-      "league_country": "Denmark",
-      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/4n3h6z1572778356.png",
-      "round": "0",
-      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/vuqqry1425410580.png",
-      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/9qyc231536398868.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0
-    },
-    {
       "id": "292_207242_a207242_20260617",
       "api_fixture_id": "bsd_207242",
       "fixture_date": "2026-06-17T19:00:00+04:00",
@@ -172,6 +141,37 @@
       "status": "notstarted",
       "is_featured": false,
       "data_source": "bsd",
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
+      "league_id": 119,
+      "league_name": "Denmark Superliga",
+      "home_team_id": "team_119_valencia_basket",
+      "home_team_name": "Valencia Basket",
+      "away_team_id": "team_119_fc_barcelona_basquet",
+      "away_team_name": "FC Barcelona Basquet",
+      "match_date": "2026-06-18T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Roig Arena",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "119_team_119_valencia_basket_team_119_fc_barcelona_basquet_20260618",
+      "api_fixture_id": "tsdb_2490980",
+      "fixture_date": "2026-06-18T18:00:00+00:00",
+      "league_country": "Denmark",
+      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/4n3h6z1572778356.png",
+      "round": "0",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/9qyc231536398868.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/0tz26j1729097443.png",
+      "status": "NS",
+      "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0
     },
@@ -520,5 +520,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-06-14T11:51:42.457967"
+  "last_updated": "2026-06-15T19:14:16.439730"
 }

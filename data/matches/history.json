@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T11:51:42.420420",
+  "last_updated": "2026-06-15T19:14:16.403101",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -48869,6 +48869,50 @@
       "api_fixture_id": "tsdb_2482709",
       "home_goals": 76,
       "away_goals": 85
+    },
+    "tsdb_2475202": {
+      "league_id": 203,
+      "league_name": "Turkey Super Lig",
+      "home_team_id": "team_203_greuther_f_rth",
+      "home_team_name": "Greuther Fürth",
+      "away_team_id": "team_203_rot_weiss_essen",
+      "away_team_name": "Rot-Weiss Essen",
+      "match_date": "2026-05-26T18:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Sportpark Ronhof Thomas Sommer",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2475202",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    "tsdb_2483347": {
+      "league_id": 119,
+      "league_name": "Denmark Superliga",
+      "home_team_id": "team_119_joventut_badalona",
+      "home_team_name": "Joventut Badalona",
+      "away_team_id": "team_119_valencia_basket",
+      "away_team_name": "Valencia Basket",
+      "match_date": "2026-06-14T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Palau Municipal d'Esports de Badalona",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2483347",
+      "home_goals": 75,
+      "away_goals": 87
     }
   }
 }
