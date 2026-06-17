@@ -176,6 +176,37 @@
       "away_xg_adjustment": 1.0
     },
     {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_v_kingur_reykjav_k",
+      "home_team_name": "Víkingur Reykjavík",
+      "away_team_id": "team_94_gy_ri_eto",
+      "away_team_name": "Győri ETO",
+      "match_date": "2026-07-07T17:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Víkingsvöllur",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "94_team_94_v_kingur_reykjav_k_team_94_gy_ri_eto_20260707",
+      "api_fixture_id": "tsdb_2491731",
+      "fixture_date": "2026-07-07T17:00:00+00:00",
+      "league_country": "Portugal",
+      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/facv1u1742998896.png",
+      "round": "400",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/srhq2w1579111270.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/mk29081781160208.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
       "league_id": 98,
       "league_name": "J1 League",
       "home_team_id": "team_98_fredrikstad",
@@ -520,5 +551,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-06-16T19:02:05.071233"
+  "last_updated": "2026-06-17T09:11:02.127963"
 }

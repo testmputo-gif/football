@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-16T19:02:05.072108+00:00",
+  "generated_at": "2026-06-17T09:11:02.128880+00:00",
   "total_history": 1781,
-  "total_upcoming": 19,
+  "total_upcoming": 20,
   "new_history": 0,
-  "leagues_covered": 11,
+  "leagues_covered": 12,
   "sources": [
     {
       "source": "openligadb",
@@ -17,9 +17,11 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 0,
+      "fixtures": 1,
       "history": 0,
-      "leagues": [],
+      "leagues": [
+        "Primeira Liga"
+      ],
       "errors": [],
       "status": "ok"
     },
@@ -45,6 +47,7 @@
     "Argentine Primera": 2,
     "Austrian Bundesliga": 2,
     "Denmark Superliga": 1,
+    "Primeira Liga": 1,
     "J1 League": 1,
     "Brasileirao Serie A": 1,
     "Greek Super League": 1,
@@ -55,6 +58,6 @@
   },
   "upcoming_by_source": {
     "bsd": 6,
-    "thesportsdb": 13
+    "thesportsdb": 14
   }
 }
