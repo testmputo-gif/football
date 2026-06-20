@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-19T09:13:27.628459+00:00",
+  "generated_at": "2026-06-20T07:56:52.873091+00:00",
   "total_history": 1782,
-  "total_upcoming": 15,
-  "new_history": 1,
-  "leagues_covered": 13,
+  "total_upcoming": 18,
+  "new_history": 0,
+  "leagues_covered": 14,
   "sources": [
     {
       "source": "openligadb",
@@ -18,16 +18,16 @@
     {
       "source": "thesportsdb",
       "fixtures": 1,
-      "history": 1,
+      "history": 0,
       "leagues": [
-        "Denmark Superliga"
+        "Premier League"
       ],
       "errors": [],
       "status": "ok"
     },
     {
       "source": "espn",
-      "fixtures": 1,
+      "fixtures": 2,
       "history": 0,
       "leagues": [
         "Allsvenskan"
@@ -40,21 +40,15 @@
       "fixtures": 0,
       "history": 0,
       "leagues": [],
-      "errors": [
-        "Premier League: timed out",
-        "La Liga: timed out",
-        "Bundesliga: timed out",
-        "Serie A: timed out",
-        "Ligue 1: timed out"
-      ],
+      "errors": [],
       "status": "ok"
     }
   ],
   "upcoming_by_league": {
+    "Allsvenskan": 3,
     "Argentine Primera": 2,
     "Austrian Bundesliga": 2,
     "Denmark Superliga": 1,
-    "Allsvenskan": 1,
     "Primeira Liga": 1,
     "J1 League": 1,
     "Brasileirao Serie A": 1,
@@ -62,11 +56,12 @@
     "Veikkausliiga": 1,
     "Turkey Super Lig": 1,
     "Eredivisie": 1,
+    "Premier League": 1,
     "Ligue 1": 1,
     "La Liga": 1
   },
   "upcoming_by_source": {
-    "thesportsdb": 14,
-    "espn": 1
+    "thesportsdb": 15,
+    "espn": 3
   }
 }
