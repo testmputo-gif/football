@@ -5279,7 +5279,17 @@
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "team_119_fc_barcelona_basquet_team_119_valencia_basket": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 201.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-06-20T07:56:53.014993"
+  "last_updated": "2026-06-21T08:41:02.243674"
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T07:56:52.835153",
+  "last_updated": "2026-06-21T08:41:02.074723",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -48935,6 +48935,28 @@
       "api_fixture_id": "tsdb_2490980",
       "home_goals": 112,
       "away_goals": 113
+    },
+    "tsdb_2490981": {
+      "league_id": 119,
+      "league_name": "Denmark Superliga",
+      "home_team_id": "team_119_valencia_basket",
+      "home_team_name": "Valencia Basket",
+      "away_team_id": "team_119_fc_barcelona_basquet",
+      "away_team_name": "FC Barcelona Basquet",
+      "match_date": "2026-06-20T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Roig Arena",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2490981",
+      "home_goals": 102,
+      "away_goals": 75
     }
   }
 }

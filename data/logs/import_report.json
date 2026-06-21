@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-20T07:56:52.873091+00:00",
-  "total_history": 1782,
-  "total_upcoming": 18,
-  "new_history": 0,
+  "generated_at": "2026-06-21T08:41:02.111505+00:00",
+  "total_history": 1783,
+  "total_upcoming": 21,
+  "new_history": 1,
   "leagues_covered": 14,
   "sources": [
     {
@@ -18,16 +18,16 @@
     {
       "source": "thesportsdb",
       "fixtures": 1,
-      "history": 0,
+      "history": 1,
       "leagues": [
-        "Premier League"
+        "Denmark Superliga"
       ],
       "errors": [],
       "status": "ok"
     },
     {
       "source": "espn",
-      "fixtures": 2,
+      "fixtures": 3,
       "history": 0,
       "leagues": [
         "Allsvenskan"
@@ -45,7 +45,7 @@
     }
   ],
   "upcoming_by_league": {
-    "Allsvenskan": 3,
+    "Allsvenskan": 6,
     "Argentine Primera": 2,
     "Austrian Bundesliga": 2,
     "Denmark Superliga": 1,
@@ -62,6 +62,6 @@
   },
   "upcoming_by_source": {
     "thesportsdb": 15,
-    "espn": 3
+    "espn": 6
   }
 }
