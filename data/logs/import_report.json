@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-22T09:54:22.295038+00:00",
-  "total_history": 1783,
+  "generated_at": "2026-06-23T07:56:31.341652+00:00",
+  "total_history": 1784,
   "total_upcoming": 23,
-  "new_history": 0,
+  "new_history": 1,
   "leagues_covered": 14,
   "sources": [
     {
@@ -17,19 +17,19 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 0,
-      "history": 0,
-      "leagues": [],
+      "fixtures": 1,
+      "history": 1,
+      "leagues": [
+        "Denmark Superliga"
+      ],
       "errors": [],
       "status": "ok"
     },
     {
       "source": "espn",
-      "fixtures": 2,
+      "fixtures": 0,
       "history": 0,
-      "leagues": [
-        "Allsvenskan"
-      ],
+      "leagues": [],
       "errors": [],
       "status": "ok"
     },

@@ -7,7 +7,7 @@
       "home_team_name": "FC Barcelona Basquet",
       "away_team_id": "team_119_valencia_basket",
       "away_team_name": "Valencia Basket",
-      "match_date": "2026-06-22T18:00:00+00:00",
+      "match_date": "2026-06-24T18:00:00+00:00",
       "season": 2025,
       "referee_name": null,
       "venue": "Palau Blaugrana",
@@ -18,9 +18,9 @@
       "away_yellow_cards": null,
       "home_red_cards": null,
       "away_red_cards": null,
-      "id": "119_team_119_fc_barcelona_basquet_team_119_valencia_basket_20260622",
-      "api_fixture_id": "tsdb_2490982",
-      "fixture_date": "2026-06-22T18:00:00+00:00",
+      "id": "119_team_119_fc_barcelona_basquet_team_119_valencia_basket_20260624",
+      "api_fixture_id": "tsdb_2495841",
+      "fixture_date": "2026-06-24T18:00:00+00:00",
       "league_country": "Denmark",
       "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/4n3h6z1572778356.png",
       "round": "0",
@@ -686,5 +686,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-06-22T09:54:22.293862"
+  "last_updated": "2026-06-23T07:56:31.340740"
 }
