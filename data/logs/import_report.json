@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-28T07:57:19.956997+00:00",
+  "generated_at": "2026-06-29T09:05:18.265052+00:00",
   "total_history": 1785,
-  "total_upcoming": 42,
+  "total_upcoming": 43,
   "new_history": 0,
   "leagues_covered": 15,
   "sources": [
@@ -25,11 +25,10 @@
     },
     {
       "source": "espn",
-      "fixtures": 10,
+      "fixtures": 1,
       "history": 0,
       "leagues": [
-        "Allsvenskan",
-        "Eliteserien"
+        "Allsvenskan"
       ],
       "errors": [],
       "status": "ok"
@@ -44,7 +43,7 @@
     }
   ],
   "upcoming_by_league": {
-    "Allsvenskan": 16,
+    "Allsvenskan": 17,
     "Eliteserien": 9,
     "Austrian Bundesliga": 3,
     "Primeira Liga": 2,
@@ -61,7 +60,7 @@
     "La Liga": 1
   },
   "upcoming_by_source": {
-    "espn": 23,
+    "espn": 24,
     "thesportsdb": 19
   }
 }

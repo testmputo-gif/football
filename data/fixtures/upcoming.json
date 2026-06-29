@@ -807,6 +807,37 @@
       "away_xg_adjustment": 1.0
     },
     {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_djurg_rden",
+      "home_team_name": "Djurgården",
+      "away_team_id": "team_113_halmstads_bk",
+      "away_team_name": "Halmstads BK",
+      "match_date": "2026-07-13T17:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Tele2 Arena",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "113_team_113_djurg_rden_team_113_halmstads_bk_20260713",
+      "api_fixture_id": "espn_401842751",
+      "fixture_date": "2026-07-13T17:00:00+00:00",
+      "league_country": "Sweden",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2339.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3017.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
       "league_id": 218,
       "league_name": "Austrian Bundesliga",
       "home_team_id": "team_218_botafogo",
@@ -1275,5 +1306,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-06-28T07:57:19.955541"
+  "last_updated": "2026-06-29T09:05:18.263565"
 }
