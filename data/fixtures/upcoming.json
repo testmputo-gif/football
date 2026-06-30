@@ -1257,6 +1257,37 @@
       "home_team_name": "Udinese",
       "away_team_id": "team_140_como",
       "away_team_name": "Como",
+      "match_date": "2026-08-22T16:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Bluenergy Stadium",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "140_team_140_udinese_team_140_como_20260822",
+      "api_fixture_id": "tsdb_2482138",
+      "fixture_date": "2026-08-22T16:30:00+00:00",
+      "league_country": "Spain",
+      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/67q3q21679951383.png",
+      "round": "1",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
+      "league_id": 140,
+      "league_name": "La Liga",
+      "home_team_id": "team_140_udinese",
+      "home_team_name": "Udinese",
+      "away_team_id": "team_140_como",
+      "away_team_name": "Como",
       "match_date": "2026-08-23T16:30:00+00:00",
       "season": 2025,
       "referee_name": null,
@@ -1306,5 +1337,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-06-29T09:05:18.263565"
+  "last_updated": "2026-06-30T08:01:12.400740"
 }
