@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T08:01:12.402353+00:00",
+  "generated_at": "2026-07-01T08:20:23.357174+00:00",
   "total_history": 1785,
   "total_upcoming": 44,
   "new_history": 0,
@@ -17,11 +17,9 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 1,
+      "fixtures": 0,
       "history": 0,
-      "leagues": [
-        "La Liga"
-      ],
+      "leagues": [],
       "errors": [],
       "status": "ok"
     },
