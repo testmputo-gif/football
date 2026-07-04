@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T07:27:45.844741",
+  "last_updated": "2026-07-04T06:54:00.265650",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -49001,6 +49001,28 @@
       "api_fixture_id": "tsdb_2495841",
       "home_goals": 84,
       "away_goals": 108
+    },
+    "espn_401842745": {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_ik_sirius",
+      "home_team_name": "IK Sirius",
+      "away_team_id": "team_113_mj_llby_aif",
+      "away_team_name": "Mjällby AIF",
+      "match_date": "2026-07-03T17:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Studenternas IP",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401842745",
+      "home_goals": 4,
+      "away_goals": 4
     }
   }
 }
