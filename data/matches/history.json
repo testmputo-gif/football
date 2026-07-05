@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T06:54:00.265650",
+  "last_updated": "2026-07-05T07:34:19.963824",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -49023,6 +49023,50 @@
       "api_fixture_id": "espn_401842745",
       "home_goals": 4,
       "away_goals": 4
+    },
+    "espn_401842743": {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_degerfors_if",
+      "home_team_name": "Degerfors IF",
+      "away_team_id": "team_113_malm_ff",
+      "away_team_name": "Malmö FF",
+      "match_date": "2026-07-04T13:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Stora Valla",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401842743",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    "espn_401842741": {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_halmstads_bk",
+      "home_team_name": "Halmstads BK",
+      "away_team_id": "team_113_v_ster_s_sk",
+      "away_team_name": "Västerås SK",
+      "match_date": "2026-07-04T13:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Örjans Vall",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401842741",
+      "home_goals": 1,
+      "away_goals": 3
     }
   }
 }
