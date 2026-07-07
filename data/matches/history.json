@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06T08:28:38.362547",
+  "last_updated": "2026-07-07T07:46:44.547075",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -49133,6 +49133,50 @@
       "api_fixture_id": "espn_401842742",
       "home_goals": 1,
       "away_goals": 2
+    },
+    "espn_401842740": {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_bk_h_cken",
+      "home_team_name": "BK Häcken",
+      "away_team_id": "team_113_djurg_rden",
+      "away_team_name": "Djurgården",
+      "match_date": "2026-07-06T17:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Bravida Arena",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401842740",
+      "home_goals": 2,
+      "away_goals": 4
+    },
+    "espn_401842744": {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_if_brommapojkarna",
+      "home_team_name": "IF Brommapojkarna",
+      "away_team_id": "team_113_gais",
+      "away_team_name": "GAIS",
+      "match_date": "2026-07-06T17:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Grimsta IP",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401842744",
+      "home_goals": 1,
+      "away_goals": 1
     }
   }
 }
