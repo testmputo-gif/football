@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T07:46:44.547075",
+  "last_updated": "2026-07-08T06:34:09.754388",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -49177,6 +49177,28 @@
       "api_fixture_id": "espn_401842744",
       "home_goals": 1,
       "away_goals": 1
+    },
+    "tsdb_2491731": {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_v_kingur_reykjav_k",
+      "home_team_name": "Víkingur Reykjavík",
+      "away_team_id": "team_94_gy_ri_eto",
+      "away_team_name": "Győri ETO",
+      "match_date": "2026-07-07T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Víkingsvöllur",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2491731",
+      "home_goals": 1,
+      "away_goals": 0
     }
   }
 }
