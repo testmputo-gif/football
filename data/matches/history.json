@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T06:34:09.754388",
+  "last_updated": "2026-07-10T07:42:22.537645",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -49199,6 +49199,28 @@
       "api_fixture_id": "tsdb_2491731",
       "home_goals": 1,
       "away_goals": 0
+    },
+    "tsdb_2491743": {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_maxline_vitebsk",
+      "home_team_name": "Maxline Vitebsk",
+      "away_team_id": "team_94_universitatea_craiova",
+      "away_team_name": "Universitatea Craiova",
+      "match_date": "2026-07-08T17:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Centraĺny Spartyŭny Komplieks Vitebsk",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2491743",
+      "home_goals": 1,
+      "away_goals": 4
     }
   }
 }
