@@ -2,16 +2,16 @@
   "leagues": {
     "103": {
       "league_id": 103,
-      "sample_matches": 65,
-      "avg_goals_home": 1.4308,
-      "avg_goals_away": 1.0769,
-      "avg_goals_total": 2.5077,
+      "sample_matches": 68,
+      "avg_goals_home": 1.4559,
+      "avg_goals_away": 1.0882,
+      "avg_goals_total": 2.5441,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4,
-      "draw_rate": 0.3077,
-      "away_win_rate": 0.2923,
-      "home_advantage_factor": 1.3286
+      "home_win_rate": 0.3971,
+      "draw_rate": 0.3088,
+      "away_win_rate": 0.2941,
+      "home_advantage_factor": 1.3378
     },
     "119": {
       "league_id": 119,
@@ -80,16 +80,16 @@
     },
     "98": {
       "league_id": 98,
-      "sample_matches": 86,
-      "avg_goals_home": 1.5349,
-      "avg_goals_away": 1.2442,
-      "avg_goals_total": 2.7791,
+      "sample_matches": 87,
+      "avg_goals_home": 1.5632,
+      "avg_goals_away": 1.2299,
+      "avg_goals_total": 2.7931,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4186,
-      "draw_rate": 0.2907,
-      "away_win_rate": 0.2907,
-      "home_advantage_factor": 1.2336
+      "home_win_rate": 0.4253,
+      "draw_rate": 0.2874,
+      "away_win_rate": 0.2874,
+      "home_advantage_factor": 1.271
     },
     "71": {
       "league_id": 71,
@@ -106,16 +106,16 @@
     },
     "113": {
       "league_id": 113,
-      "sample_matches": 90,
-      "avg_goals_home": 1.6556,
-      "avg_goals_away": 1.2556,
-      "avg_goals_total": 2.9111,
+      "sample_matches": 92,
+      "avg_goals_home": 1.6739,
+      "avg_goals_away": 1.2826,
+      "avg_goals_total": 2.9565,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4333,
-      "draw_rate": 0.2889,
-      "away_win_rate": 0.2778,
-      "home_advantage_factor": 1.3186
+      "home_win_rate": 0.4348,
+      "draw_rate": 0.2826,
+      "away_win_rate": 0.2826,
+      "home_advantage_factor": 1.3051
     },
     "244": {
       "league_id": 244,
@@ -235,5 +235,5 @@
       "home_advantage_factor": 1.4167
     }
   },
-  "last_updated": "2026-07-11T06:21:07.215127"
+  "last_updated": "2026-07-12T06:39:17.549179"
 }
