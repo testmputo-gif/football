@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T06:59:11.939493",
+  "last_updated": "2026-07-14T06:16:37.592730",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -49594,6 +49594,28 @@
       "away_red_cards": null,
       "api_fixture_id": "espn_401843374",
       "home_goals": 1,
+      "away_goals": 0
+    },
+    "espn_401842751": {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_djurg_rden",
+      "home_team_name": "Djurgården",
+      "away_team_id": "team_113_halmstads_bk",
+      "away_team_name": "Halmstads BK",
+      "match_date": "2026-07-13T17:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Tele2 Arena",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401842751",
+      "home_goals": 3,
       "away_goals": 0
     }
   }
