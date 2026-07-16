@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T06:21:23.655859",
+  "last_updated": "2026-07-16T06:25:19.164352",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -49638,6 +49638,28 @@
       "away_red_cards": null,
       "api_fixture_id": "tsdb_2491755",
       "home_goals": 2,
+      "away_goals": 1
+    },
+    "tsdb_2491752": {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_egnatia",
+      "home_team_name": "Egnatia",
+      "away_team_id": "team_94_petrocub_h_nce_ti",
+      "away_team_name": "Petrocub Hîncești",
+      "match_date": "2026-07-15T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Arena Egnatia",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2491752",
+      "home_goals": 6,
       "away_goals": 1
     }
   }
