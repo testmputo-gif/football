@@ -3390,6 +3390,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_128_banfield_team_128_hurac_n": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_78_sv_werder_bremen_team_78_tsg_hoffenheim": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5301,5 +5311,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-07-24T06:31:44.936555"
+  "last_updated": "2026-07-25T06:24:56.489476"
 }
