@@ -3410,12 +3410,42 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_128_estudiantes_de_la_plata_team_128_independiente": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_128_atl_tico_tucum_n_team_128_independiente_rivadavia": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_128_barracas_central_team_128_river_plate": {
       "matches_played": 2,
       "home_wins": 1,
       "away_wins": 1,
       "draws": 0,
       "avg_goals": 1.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_128_boca_juniors_team_128_deportivo_riestra": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.0,
       "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5341,5 +5371,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-07-26T06:42:59.262976"
+  "last_updated": "2026-07-27T07:39:13.171849"
 }
