@@ -67,16 +67,16 @@
     },
     "128": {
       "league_id": 128,
-      "sample_matches": 38,
-      "avg_goals_home": 1.0526,
-      "avg_goals_away": 0.9211,
-      "avg_goals_total": 1.9737,
+      "sample_matches": 42,
+      "avg_goals_home": 1.119,
+      "avg_goals_away": 0.881,
+      "avg_goals_total": 2.0,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4211,
-      "draw_rate": 0.2105,
-      "away_win_rate": 0.3684,
-      "home_advantage_factor": 1.1429
+      "home_win_rate": 0.4524,
+      "draw_rate": 0.2143,
+      "away_win_rate": 0.3333,
+      "home_advantage_factor": 1.2703
     },
     "98": {
       "league_id": 98,
@@ -184,16 +184,16 @@
     },
     "94": {
       "league_id": 94,
-      "sample_matches": 54,
-      "avg_goals_home": 1.5,
-      "avg_goals_away": 1.1852,
-      "avg_goals_total": 2.6852,
+      "sample_matches": 55,
+      "avg_goals_home": 1.5091,
+      "avg_goals_away": 1.1818,
+      "avg_goals_total": 2.6909,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4259,
-      "draw_rate": 0.3148,
-      "away_win_rate": 0.2593,
-      "home_advantage_factor": 1.2656
+      "home_win_rate": 0.4364,
+      "draw_rate": 0.3091,
+      "away_win_rate": 0.2545,
+      "home_advantage_factor": 1.2769
     },
     "39": {
       "league_id": 39,
@@ -249,15 +249,15 @@
     },
     "218": {
       "league_id": 218,
-      "sample_matches": 6,
-      "avg_goals_home": 1.5,
-      "avg_goals_away": 0.8333,
-      "avg_goals_total": 2.3333,
+      "sample_matches": 7,
+      "avg_goals_home": 1.5714,
+      "avg_goals_away": 0.7143,
+      "avg_goals_total": 2.2857,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.5,
-      "draw_rate": 0.3333,
-      "away_win_rate": 0.1667,
+      "home_win_rate": 0.5714,
+      "draw_rate": 0.2857,
+      "away_win_rate": 0.1429,
       "home_advantage_factor": 1.6
     },
     "262": {
@@ -274,5 +274,5 @@
       "home_advantage_factor": 1.05
     }
   },
-  "last_updated": "2026-07-28T06:33:13.256700"
+  "last_updated": "2026-07-29T06:36:25.664601"
 }
