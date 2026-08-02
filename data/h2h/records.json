@@ -5369,7 +5369,27 @@
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "team_71_portland_timbers_team_71_seattle_sounders": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 4.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_portland_timbers_team_253_seattle_sounders_fc": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 4.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-01T06:35:11.471539"
+  "last_updated": "2026-08-02T06:39:09.062907"
 }
