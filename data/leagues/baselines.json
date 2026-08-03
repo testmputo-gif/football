@@ -2,16 +2,16 @@
   "leagues": {
     "103": {
       "league_id": 103,
-      "sample_matches": 94,
-      "avg_goals_home": 1.4894,
-      "avg_goals_away": 1.1915,
-      "avg_goals_total": 2.6809,
+      "sample_matches": 98,
+      "avg_goals_home": 1.5306,
+      "avg_goals_away": 1.2653,
+      "avg_goals_total": 2.7959,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4149,
-      "draw_rate": 0.2553,
-      "away_win_rate": 0.3298,
-      "home_advantage_factor": 1.25
+      "home_win_rate": 0.4184,
+      "draw_rate": 0.2551,
+      "away_win_rate": 0.3265,
+      "home_advantage_factor": 1.2097
     },
     "119": {
       "league_id": 119,
@@ -67,29 +67,29 @@
     },
     "128": {
       "league_id": 128,
-      "sample_matches": 57,
-      "avg_goals_home": 1.1404,
-      "avg_goals_away": 0.9123,
-      "avg_goals_total": 2.0526,
+      "sample_matches": 63,
+      "avg_goals_home": 1.127,
+      "avg_goals_away": 0.9524,
+      "avg_goals_total": 2.0794,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4737,
-      "draw_rate": 0.193,
-      "away_win_rate": 0.3333,
-      "home_advantage_factor": 1.25
+      "home_win_rate": 0.4444,
+      "draw_rate": 0.1905,
+      "away_win_rate": 0.3651,
+      "home_advantage_factor": 1.1833
     },
     "98": {
       "league_id": 98,
-      "sample_matches": 97,
-      "avg_goals_home": 1.6186,
-      "avg_goals_away": 1.2062,
-      "avg_goals_total": 2.8247,
+      "sample_matches": 98,
+      "avg_goals_home": 1.6327,
+      "avg_goals_away": 1.2143,
+      "avg_goals_total": 2.8469,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4433,
-      "draw_rate": 0.268,
-      "away_win_rate": 0.2887,
-      "home_advantage_factor": 1.3419
+      "home_win_rate": 0.449,
+      "draw_rate": 0.2653,
+      "away_win_rate": 0.2857,
+      "home_advantage_factor": 1.3445
     },
     "71": {
       "league_id": 71,
@@ -106,29 +106,29 @@
     },
     "113": {
       "league_id": 113,
-      "sample_matches": 115,
-      "avg_goals_home": 1.6522,
-      "avg_goals_away": 1.1826,
-      "avg_goals_total": 2.8348,
+      "sample_matches": 118,
+      "avg_goals_home": 1.6356,
+      "avg_goals_away": 1.1949,
+      "avg_goals_total": 2.8305,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4435,
-      "draw_rate": 0.287,
-      "away_win_rate": 0.2696,
-      "home_advantage_factor": 1.3971
+      "home_win_rate": 0.4407,
+      "draw_rate": 0.2797,
+      "away_win_rate": 0.2797,
+      "home_advantage_factor": 1.3688
     },
     "244": {
       "league_id": 244,
-      "sample_matches": 63,
-      "avg_goals_home": 1.4444,
-      "avg_goals_away": 0.9206,
-      "avg_goals_total": 2.3651,
+      "sample_matches": 64,
+      "avg_goals_home": 1.4688,
+      "avg_goals_away": 0.9219,
+      "avg_goals_total": 2.3906,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.5079,
-      "draw_rate": 0.3016,
-      "away_win_rate": 0.1905,
-      "home_advantage_factor": 1.569
+      "home_win_rate": 0.5156,
+      "draw_rate": 0.2969,
+      "away_win_rate": 0.1875,
+      "home_advantage_factor": 1.5932
     },
     "40": {
       "league_id": 40,
@@ -262,17 +262,30 @@
     },
     "262": {
       "league_id": 262,
-      "sample_matches": 25,
-      "avg_goals_home": 1.24,
-      "avg_goals_away": 1.6,
-      "avg_goals_total": 2.84,
+      "sample_matches": 27,
+      "avg_goals_home": 1.3704,
+      "avg_goals_away": 1.5185,
+      "avg_goals_total": 2.8889,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.36,
-      "draw_rate": 0.16,
-      "away_win_rate": 0.48,
+      "home_win_rate": 0.4074,
+      "draw_rate": 0.1481,
+      "away_win_rate": 0.4444,
+      "home_advantage_factor": 1.05
+    },
+    "179": {
+      "league_id": 179,
+      "sample_matches": 5,
+      "avg_goals_home": 1.6,
+      "avg_goals_away": 1.8,
+      "avg_goals_total": 3.4,
+      "avg_corners": 10.0,
+      "avg_cards": 0.0,
+      "home_win_rate": 0.4,
+      "draw_rate": 0.2,
+      "away_win_rate": 0.4,
       "home_advantage_factor": 1.05
     }
   },
-  "last_updated": "2026-08-02T06:39:09.041955"
+  "last_updated": "2026-08-03T07:35:22.621812"
 }
