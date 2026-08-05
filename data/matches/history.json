@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T06:34:58.749280",
+  "last_updated": "2026-08-05T06:33:35.949650",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -55072,6 +55072,28 @@
       "away_red_cards": null,
       "api_fixture_id": "espn_401878411",
       "home_goals": 1,
+      "away_goals": 0
+    },
+    "tsdb_2552934": {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_dinamo_zagreb",
+      "home_team_name": "Dinamo Zagreb",
+      "away_team_id": "team_94_kauno_algiris",
+      "away_team_name": "Kauno Žalgiris",
+      "match_date": "2026-08-04T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Stadion Maksimir",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2552934",
+      "home_goals": 5,
       "away_goals": 0
     }
   }
