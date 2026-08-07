@@ -1,61 +1,6 @@
 {
   "fixtures": [
     {
-      "league_id": 128,
-      "league_name": "Argentine Primera",
-      "home_team_id": "team_128_uni_n_santa_fe",
-      "home_team_name": "Unión (Santa Fe)",
-      "away_team_id": "team_128_lan_s",
-      "away_team_name": "Lanús",
-      "match_date": "2026-08-06T22:00:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "15 de Abril",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "128_team_128_uni_n_santa_fe_team_128_lan_s_20260806",
-      "api_fixture_id": "espn_401841450",
-      "fixture_date": "2026-08-06T22:00:00+00:00",
-      "league_country": "Argentina",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0
-    },
-    {
-      "id": "203_134946_134943_20260807",
-      "api_fixture_id": "tsdb_2475336",
-      "fixture_date": "2026-08-07T00:00:00Z",
-      "league_id": 203,
-      "league_name": "Turkey Super Lig",
-      "league_country": "Turkey",
-      "league_logo": null,
-      "season": "2024-2025",
-      "round": "500",
-      "venue": "Tom Benson Hall of Fame Stadium",
-      "home_team_id": "team_203_arizona_cardinals",
-      "home_team_name": "Arizona Cardinals",
-      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/xvuwtw1420646838.png",
-      "away_team_id": "team_203_carolina_panthers",
-      "away_team_name": "Carolina Panthers",
-      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/xxyvvy1420940478.png",
-      "referee_name": null,
-      "status": "scheduled",
-      "is_featured": false,
-      "data_source": "thesportsdb",
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0
-    },
-    {
       "league_id": 98,
       "league_name": "J1 League",
       "home_team_id": "team_98_yokohama_f_marinos",
@@ -26399,5 +26344,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-08-06T06:36:58.779657"
+  "last_updated": "2026-08-07T05:44:13.518142"
 }
