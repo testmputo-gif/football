@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-07T05:44:16.245243",
-  "total_evaluated": 46,
+  "last_updated": "2026-08-08T05:03:12.824054",
+  "total_evaluated": 53,
   "by_market": {
     "winner": {
       "total": 26,
       "correct": 26
     },
     "over25": {
-      "total": 30,
+      "total": 37,
       "correct": 30
     },
     "btts": {
-      "total": 20,
+      "total": 27,
       "correct": 5
     }
   },
@@ -43,7 +43,7 @@
     "btts_60": {
       "market": "btts",
       "bucket": 60,
-      "total": 5,
+      "total": 12,
       "correct": 5
     },
     "btts_55": {
@@ -67,7 +67,7 @@
     "over25_60": {
       "market": "over25",
       "bucket": 60,
-      "total": 10,
+      "total": 17,
       "correct": 10
     },
     "over25_70": {
@@ -78,6 +78,286 @@
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "79_team_79_vfl_bochum_team_79_hertha_bsc_20260807",
+      "fixture_date": "2026-08-07",
+      "home_team": "VfL Bochum",
+      "away_team": "Hertha BSC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.2,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_vfl_bochum_team_79_hertha_bsc_20260807",
+      "fixture_date": "2026-08-07",
+      "home_team": "VfL Bochum",
+      "away_team": "Hertha BSC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.2,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_vfl_bochum_team_79_hertha_bsc_20260807",
+      "fixture_date": "2026-08-07",
+      "home_team": "VfL Bochum",
+      "away_team": "Hertha BSC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.2,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_vfl_bochum_team_79_hertha_bsc_20260807",
+      "fixture_date": "2026-08-07",
+      "home_team": "VfL Bochum",
+      "away_team": "Hertha BSC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.2,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_vfl_bochum_team_79_hertha_bsc_20260807",
+      "fixture_date": "2026-08-07",
+      "home_team": "VfL Bochum",
+      "away_team": "Hertha BSC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.2,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_vfl_bochum_team_79_hertha_bsc_20260807",
+      "fixture_date": "2026-08-07",
+      "home_team": "VfL Bochum",
+      "away_team": "Hertha BSC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.2,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_vfl_bochum_team_79_hertha_bsc_20260807",
+      "fixture_date": "2026-08-07",
+      "home_team": "VfL Bochum",
+      "away_team": "Hertha BSC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.2,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "113_0_0_20260601",
       "fixture_date": "2026-06-01",

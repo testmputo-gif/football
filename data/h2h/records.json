@@ -1711,12 +1711,12 @@
       "avg_cards": 0.0
     },
     "team_79_hertha_bsc_team_79_vfl_bochum": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 1,
       "draws": 1,
-      "avg_goals": 3.5,
-      "btts_rate": 1.0,
+      "avg_goals": 2.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-07T05:44:13.649130"
+  "last_updated": "2026-08-08T05:03:08.582094"
 }
