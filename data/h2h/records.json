@@ -221,12 +221,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_magdeburg_team_79_eintracht_braunschweig": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 0,
-      "avg_goals": 2.0,
-      "btts_rate": 0.0,
+      "avg_goals": 3.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -1441,12 +1441,12 @@
       "avg_cards": 0.0
     },
     "team_79_holstein_kiel_team_79_sv_darmstadt_98": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
       "away_wins": 1,
-      "draws": 1,
-      "avg_goals": 2.0,
-      "btts_rate": 0.5,
+      "draws": 2,
+      "avg_goals": 2.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2201,12 +2201,12 @@
       "avg_cards": 0.0
     },
     "team_79_dsc_arminia_bielefeld_team_79_karlsruher_sc": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 0,
-      "avg_goals": 4.5,
-      "btts_rate": 0.5,
+      "avg_goals": 4.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-08T05:03:08.582094"
+  "last_updated": "2026-08-09T05:10:57.699097"
 }
