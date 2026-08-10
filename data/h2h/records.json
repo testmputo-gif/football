@@ -2161,12 +2161,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_n_rnberg_team_79_dynamo_dresden": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-09T05:10:57.699097"
+  "last_updated": "2026-08-10T05:31:17.956517"
 }
