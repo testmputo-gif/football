@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-08-10T05:31:17.808312+00:00",
-  "total_history": 2088,
-  "total_upcoming": 758,
-  "new_history": 8,
+  "generated_at": "2026-08-11T05:14:42.718688+00:00",
+  "total_history": 2090,
+  "total_upcoming": 754,
+  "new_history": 2,
   "leagues_covered": 21,
   "sources": [
     {
       "source": "openligadb",
       "fixtures": 0,
-      "history": 3,
-      "leagues": [
-        "2. Bundesliga"
-      ],
+      "history": 0,
+      "leagues": [],
       "errors": [
         "Austrian Bundesliga: no data"
       ],
@@ -19,13 +17,10 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 4,
-      "history": 5,
+      "fixtures": 2,
+      "history": 2,
       "leagues": [
-        "Eredivisie",
-        "J1 League",
-        "Veikkausliiga",
-        "Austrian Bundesliga",
+        "Turkey Super Lig",
         "K League 1"
       ],
       "errors": [],
@@ -44,36 +39,42 @@
       "fixtures": 0,
       "history": 0,
       "leagues": [],
-      "errors": [],
+      "errors": [
+        "Premier League: timed out",
+        "La Liga: timed out",
+        "Bundesliga: timed out",
+        "Serie A: timed out",
+        "Ligue 1: timed out"
+      ],
       "status": "ok"
     }
   ],
   "upcoming_by_league": {
     "Bundesliga": 307,
     "2. Bundesliga": 297,
-    "Argentine Primera": 29,
+    "Argentine Primera": 27,
     "MLS": 16,
-    "Primeira Liga": 12,
     "Championship": 12,
-    "Allsvenskan": 11,
+    "Primeira Liga": 11,
     "J1 League": 11,
+    "Turkey Super Lig": 10,
     "Brasileirao": 10,
+    "Allsvenskan": 9,
     "Eredivisie": 9,
-    "Turkey Super Lig": 9,
     "Liga MX": 9,
     "Eliteserien": 8,
     "La Liga": 8,
     "Serie A": 2,
     "Austrian Bundesliga": 2,
     "Ligue 1": 2,
-    "K League 1": 1,
     "Veikkausliiga": 1,
+    "K League 1": 1,
     "Brasileirao Serie A": 1,
     "Premier League": 1
   },
   "upcoming_by_source": {
-    "espn": 135,
-    "thesportsdb": 20,
+    "thesportsdb": 21,
+    "espn": 130,
     "openligadb": 603
   }
 }
