@@ -4653,6 +4653,37 @@
     {
       "league_id": 94,
       "league_name": "Primeira Liga",
+      "home_team_id": "team_94_fenerbah_e",
+      "home_team_name": "Fenerbahçe",
+      "away_team_id": "team_94_lyon",
+      "away_team_name": "Lyon",
+      "match_date": "2026-08-18T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Chobani Stadyumu",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "94_team_94_fenerbah_e_team_94_lyon_20260818",
+      "api_fixture_id": "tsdb_2570473",
+      "fixture_date": "2026-08-18T19:00:00+00:00",
+      "league_country": "Portugal",
+      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/facv1u1742998896.png",
+      "round": "0",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
       "home_team_id": "team_94_celtic",
       "home_team_name": "Celtic",
       "away_team_id": "team_94_lask",
@@ -23337,5 +23368,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-08-12T05:42:47.831260"
+  "last_updated": "2026-08-13T05:44:28.125959"
 }
