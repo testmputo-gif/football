@@ -7155,6 +7155,37 @@
       "away_xg_adjustment": 1.0
     },
     {
+      "league_id": 119,
+      "league_name": "Denmark Superliga",
+      "home_team_id": "team_119_bilbao_basket",
+      "home_team_name": "Bilbao Basket",
+      "away_team_id": "team_119_basquet_manresa",
+      "away_team_name": "Basquet Manresa",
+      "match_date": "2026-09-26T16:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Bilbao Arena",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "119_team_119_bilbao_basket_team_119_basquet_manresa_20260926",
+      "api_fixture_id": "tsdb_2571725",
+      "fixture_date": "2026-09-26T16:00:00+00:00",
+      "league_country": "Denmark",
+      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/4n3h6z1572778356.png",
+      "round": "1",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/v7bo1i1664476071.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/f02ctj1684597687.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
       "league_id": 78,
       "league_name": "Bundesliga",
       "home_team_id": "team_78_borussia_dortmund",
@@ -23368,5 +23399,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-08-13T05:44:28.125959"
+  "last_updated": "2026-08-14T05:42:05.710749"
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T05:44:28.145659+00:00",
+  "generated_at": "2026-08-14T05:42:05.730245+00:00",
   "total_history": 2091,
-  "total_upcoming": 754,
+  "total_upcoming": 755,
   "new_history": 0,
-  "leagues_covered": 21,
+  "leagues_covered": 22,
   "sources": [
     {
       "source": "openligadb",
@@ -20,7 +20,7 @@
       "fixtures": 1,
       "history": 0,
       "leagues": [
-        "Primeira Liga"
+        "Denmark Superliga"
       ],
       "errors": [],
       "status": "ok"
@@ -63,11 +63,12 @@
     "Veikkausliiga": 1,
     "K League 1": 1,
     "Brasileirao Serie A": 1,
-    "Premier League": 1
+    "Premier League": 1,
+    "Denmark Superliga": 1
   },
   "upcoming_by_source": {
     "espn": 129,
     "openligadb": 603,
-    "thesportsdb": 22
+    "thesportsdb": 23
   }
 }
