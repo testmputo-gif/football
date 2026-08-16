@@ -1631,12 +1631,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_kaiserslautern_team_79_karlsruher_sc": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 2,
       "away_wins": 0,
-      "draws": 0,
-      "avg_goals": 4.0,
-      "btts_rate": 0.5,
+      "draws": 1,
+      "avg_goals": 2.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2821,11 +2821,11 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_n_rnberg_team_79_spvgg_greuther_f_rth": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 0,
       "draws": 2,
-      "avg_goals": 3.0,
+      "avg_goals": 4.0,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-15T04:35:49.949359"
+  "last_updated": "2026-08-16T04:40:34.464863"
 }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-15T04:35:49.790759+00:00",
-  "total_history": 2098,
-  "total_upcoming": 745,
-  "new_history": 7,
+  "generated_at": "2026-08-16T04:40:34.310960+00:00",
+  "total_history": 2113,
+  "total_upcoming": 687,
+  "new_history": 15,
   "leagues_covered": 22,
   "sources": [
     {
       "source": "openligadb",
       "fixtures": 0,
-      "history": 2,
+      "history": 4,
       "leagues": [
         "2. Bundesliga"
       ],
@@ -19,14 +19,19 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 4,
-      "history": 5,
+      "fixtures": 10,
+      "history": 11,
       "leagues": [
         "Championship",
+        "Serie A",
         "Eredivisie",
+        "Brasileirao Serie A",
         "J1 League",
+        "Allsvenskan",
+        "Eliteserien",
         "Veikkausliiga",
-        "Turkey Super Lig",
+        "Argentine Primera",
+        "Austrian Bundesliga",
         "K League 1"
       ],
       "errors": [],
@@ -51,22 +56,22 @@
   ],
   "upcoming_by_league": {
     "Bundesliga": 307,
-    "2. Bundesliga": 295,
-    "Argentine Primera": 25,
-    "MLS": 16,
-    "Championship": 11,
-    "Primeira Liga": 11,
-    "J1 League": 10,
-    "Brasileirao": 10,
-    "Turkey Super Lig": 9,
-    "Liga MX": 9,
-    "Allsvenskan": 8,
-    "Eredivisie": 8,
-    "La Liga": 8,
-    "Eliteserien": 7,
-    "Serie A": 2,
+    "2. Bundesliga": 291,
+    "Argentine Primera": 20,
+    "Primeira Liga": 8,
+    "Liga MX": 7,
+    "Allsvenskan": 7,
+    "Eliteserien": 6,
+    "Brasileirao": 6,
+    "La Liga": 6,
+    "Eredivisie": 5,
+    "MLS": 5,
+    "Turkey Super Lig": 4,
+    "Championship": 3,
     "Austrian Bundesliga": 2,
+    "Serie A": 2,
     "Ligue 1": 2,
+    "J1 League": 1,
     "Veikkausliiga": 1,
     "K League 1": 1,
     "Brasileirao Serie A": 1,
@@ -74,8 +79,8 @@
     "Denmark Superliga": 1
   },
   "upcoming_by_source": {
-    "espn": 122,
-    "openligadb": 601,
-    "thesportsdb": 22
+    "espn": 68,
+    "thesportsdb": 22,
+    "openligadb": 597
   }
 }

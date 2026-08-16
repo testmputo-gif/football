@@ -1,25 +1,25 @@
 {
-  "last_updated": "2026-08-15T04:35:54.372167",
-  "total_evaluated": 69,
+  "last_updated": "2026-08-16T04:40:37.828052",
+  "total_evaluated": 97,
   "by_market": {
     "winner": {
-      "total": 34,
+      "total": 48,
       "correct": 26
     },
     "over25": {
-      "total": 45,
-      "correct": 38
+      "total": 73,
+      "correct": 52
     },
     "btts": {
-      "total": 35,
-      "correct": 13
+      "total": 49,
+      "correct": 27
     }
   },
   "calibration": {
     "winner_70": {
       "market": "winner",
       "bucket": 70,
-      "total": 5,
+      "total": 19,
       "correct": 5
     },
     "over25_75": {
@@ -37,7 +37,7 @@
     "over25_65": {
       "market": "over25",
       "bucket": 65,
-      "total": 15,
+      "total": 29,
       "correct": 15
     },
     "btts_60": {
@@ -49,8 +49,8 @@
     "btts_55": {
       "market": "btts",
       "bucket": 55,
-      "total": 12,
-      "correct": 0
+      "total": 26,
+      "correct": 14
     },
     "winner_65": {
       "market": "winner",
@@ -81,9 +81,1135 @@
       "bucket": 55,
       "total": 8,
       "correct": 0
+    },
+    "over25_55": {
+      "market": "over25",
+      "bucket": 55,
+      "total": 14,
+      "correct": 14
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.2,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.3,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.2,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.3,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.2,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.3,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.2,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.3,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.2,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.3,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.2,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.3,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.2,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.5,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.1,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 58.4,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 72.8,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.5,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 55.9,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.5,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 56.3,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 56.3,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 56.3,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 56.3,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 56.3,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "1. FC Kaiserslautern",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 72.9,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 68.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_n_rnberg_20260815",
+      "fixture_date": "2026-08-15",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 56.2,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.7,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "79_team_79_karlsruher_sc_team_79_dsc_arminia_bielefeld_20260808",
       "fixture_date": "2026-08-08",
