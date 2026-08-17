@@ -1231,12 +1231,12 @@
       "avg_cards": 0.0
     },
     "team_79_dynamo_dresden_team_79_sv_darmstadt_98": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 3.0,
-      "btts_rate": 0.5,
+      "avg_goals": 2.333,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-16T04:40:34.464863"
+  "last_updated": "2026-08-17T04:46:08.997759"
 }

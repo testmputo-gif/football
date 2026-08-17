@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-16T04:40:37.828052",
-  "total_evaluated": 97,
+  "last_updated": "2026-08-17T04:46:13.020911",
+  "total_evaluated": 111,
   "by_market": {
     "winner": {
       "total": 48,
       "correct": 26
     },
     "over25": {
-      "total": 73,
+      "total": 87,
       "correct": 52
     },
     "btts": {
-      "total": 49,
+      "total": 63,
       "correct": 27
     }
   },
@@ -49,7 +49,7 @@
     "btts_55": {
       "market": "btts",
       "bucket": 55,
-      "total": 26,
+      "total": 40,
       "correct": 14
     },
     "winner_65": {
@@ -85,11 +85,571 @@
     "over25_55": {
       "market": "over25",
       "bucket": 55,
-      "total": 14,
+      "total": 28,
       "correct": 14
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.5,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.5,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.9,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.9,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.9,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.9,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.9,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.9,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
+      "fixture_date": "2026-08-16",
+      "home_team": "Dynamo Dresden",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_karlsruher_sc_20260815",
       "fixture_date": "2026-08-15",
@@ -3515,446 +4075,6 @@
           "confidence": 64.5,
           "correct": true,
           "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1783_4241_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CR Flamengo",
-      "away_team": "Coritiba FBC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 68.1,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 57.6,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1768_4364_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CA Paranaense",
-      "away_team": "Mirassol FC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 71.6,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1777_1770_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "EC Bahia",
-      "away_team": "Botafogo FR",
-      "league": "Brasileirao Serie A",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 66.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1783_4241_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CR Flamengo",
-      "away_team": "Coritiba FBC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 77.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 66.6,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1768_4364_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CA Paranaense",
-      "away_team": "Mirassol FC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 71.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1777_1770_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "EC Bahia",
-      "away_team": "Botafogo FR",
-      "league": "Brasileirao Serie A",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 66.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1783_4241_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CR Flamengo",
-      "away_team": "Coritiba FBC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 77.0,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 66.1,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1768_4364_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CA Paranaense",
-      "away_team": "Mirassol FC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 71.7,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1777_1770_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "EC Bahia",
-      "away_team": "Botafogo FR",
-      "league": "Brasileirao Serie A",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 66.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1783_4241_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CR Flamengo",
-      "away_team": "Coritiba FBC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 77.0,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 66.2,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1768_4364_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CA Paranaense",
-      "away_team": "Mirassol FC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 71.5,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
         },
         "corners": {
           "pick": "no_pick",
