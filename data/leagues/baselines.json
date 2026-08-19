@@ -184,15 +184,15 @@
     },
     "94": {
       "league_id": 94,
-      "sample_matches": 59,
-      "avg_goals_home": 1.5932,
-      "avg_goals_away": 1.1186,
-      "avg_goals_total": 2.7119,
+      "sample_matches": 60,
+      "avg_goals_home": 1.5667,
+      "avg_goals_away": 1.1,
+      "avg_goals_total": 2.6667,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4576,
-      "draw_rate": 0.3051,
-      "away_win_rate": 0.2373,
+      "home_win_rate": 0.45,
+      "draw_rate": 0.3167,
+      "away_win_rate": 0.2333,
       "home_advantage_factor": 1.4242
     },
     "39": {
@@ -300,5 +300,5 @@
       "home_advantage_factor": 1.05
     }
   },
-  "last_updated": "2026-08-18T04:40:06.919418"
+  "last_updated": "2026-08-19T04:41:29.897141"
 }
