@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:43:52.983865",
+  "last_updated": "2026-08-26T04:44:32.406370",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -57426,6 +57426,50 @@
       "away_red_cards": null,
       "api_fixture_id": "tsdb_2513959",
       "home_goals": 2,
+      "away_goals": 0
+    },
+    "tsdb_2506171": {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_valencia",
+      "home_team_name": "Valencia",
+      "away_team_id": "team_135_real_betis",
+      "away_team_name": "Real Betis",
+      "match_date": "2026-08-25T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estadio de Mestalla",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2506171",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    "tsdb_2570480": {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_bod_glimt",
+      "home_team_name": "Bodø/Glimt",
+      "away_team_id": "team_94_nec_nijmegen",
+      "away_team_name": "NEC Nijmegen",
+      "match_date": "2026-08-25T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Aspmyra Stadion",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2570480",
+      "home_goals": 3,
       "away_goals": 0
     }
   }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T04:43:53.026237+00:00",
-  "total_history": 2168,
+  "generated_at": "2026-08-26T04:44:32.465429+00:00",
+  "total_history": 2170,
   "total_upcoming": 613,
-  "new_history": 5,
+  "new_history": 2,
   "leagues_covered": 20,
   "sources": [
     {
@@ -17,14 +17,11 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 5,
-      "history": 5,
+      "fixtures": 2,
+      "history": 2,
       "leagues": [
-        "Premier League",
         "Serie A",
-        "La Liga",
-        "Austrian Bundesliga",
-        "K League 1"
+        "Primeira Liga"
       ],
       "errors": [],
       "status": "ok"
@@ -49,8 +46,8 @@
   "upcoming_by_league": {
     "Bundesliga": 307,
     "2. Bundesliga": 288,
-    "Primeira Liga": 1,
     "Serie A": 1,
+    "Primeira Liga": 1,
     "Veikkausliiga": 1,
     "Turkey Super Lig": 1,
     "Eredivisie": 1,
