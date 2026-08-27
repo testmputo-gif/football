@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T04:44:32.406370",
+  "last_updated": "2026-08-27T15:06:29.922244",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -57471,6 +57471,50 @@
       "api_fixture_id": "tsdb_2570480",
       "home_goals": 3,
       "away_goals": 0
+    },
+    "tsdb_2506175": {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_real_madrid",
+      "home_team_name": "Real Madrid",
+      "away_team_id": "team_135_real_sociedad",
+      "away_team_name": "Real Sociedad",
+      "match_date": "2026-08-26T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estadio Santiago Bernabéu",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2506175",
+      "home_goals": 4,
+      "away_goals": 1
+    },
+    "tsdb_2570484": {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_viking",
+      "home_team_name": "Viking",
+      "away_team_id": "team_94_dinamo_zagreb",
+      "away_team_name": "Dinamo Zagreb",
+      "match_date": "2026-08-26T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Viking Stadion",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2570484",
+      "home_goals": 3,
+      "away_goals": 1
     }
   }
 }

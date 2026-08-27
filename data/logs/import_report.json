@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T04:44:32.465429+00:00",
-  "total_history": 2170,
-  "total_upcoming": 613,
+  "generated_at": "2026-08-27T15:06:29.977261+00:00",
+  "total_history": 2172,
+  "total_upcoming": 612,
   "new_history": 2,
-  "leagues_covered": 20,
+  "leagues_covered": 19,
   "sources": [
     {
       "source": "openligadb",
@@ -17,7 +17,7 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 2,
+      "fixtures": 1,
       "history": 2,
       "leagues": [
         "Serie A",
@@ -47,7 +47,6 @@
     "Bundesliga": 307,
     "2. Bundesliga": 288,
     "Serie A": 1,
-    "Primeira Liga": 1,
     "Veikkausliiga": 1,
     "Turkey Super Lig": 1,
     "Eredivisie": 1,
@@ -66,7 +65,7 @@
     "MLS": 1
   },
   "upcoming_by_source": {
-    "thesportsdb": 19,
+    "thesportsdb": 18,
     "openligadb": 594
   }
 }
