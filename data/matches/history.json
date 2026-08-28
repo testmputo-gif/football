@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T15:06:29.922244",
+  "last_updated": "2026-08-28T16:26:20.169850",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -57515,6 +57515,28 @@
       "api_fixture_id": "tsdb_2570484",
       "home_goals": 3,
       "away_goals": 1
+    },
+    "tsdb_2506169": {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_barcelona",
+      "home_team_name": "Barcelona",
+      "away_team_id": "team_135_athletic_bilbao",
+      "away_team_name": "Athletic Bilbao",
+      "match_date": "2026-08-27T19:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Spotify Camp Nou",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2506169",
+      "home_goals": 2,
+      "away_goals": 0
     }
   }
 }
