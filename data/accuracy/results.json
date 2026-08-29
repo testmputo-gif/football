@@ -1,26 +1,26 @@
 {
-  "last_updated": "2026-08-28T16:26:23.724674",
-  "total_evaluated": 111,
+  "last_updated": "2026-08-29T10:57:34.479186",
+  "total_evaluated": 125,
   "by_market": {
     "winner": {
-      "total": 48,
-      "correct": 26
+      "total": 62,
+      "correct": 40
     },
     "over25": {
-      "total": 87,
-      "correct": 52
+      "total": 101,
+      "correct": 66
     },
     "btts": {
-      "total": 63,
-      "correct": 27
+      "total": 77,
+      "correct": 41
     }
   },
   "calibration": {
     "winner_70": {
       "market": "winner",
       "bucket": 70,
-      "total": 19,
-      "correct": 5
+      "total": 33,
+      "correct": 19
     },
     "over25_75": {
       "market": "over25",
@@ -87,9 +87,581 @@
       "bucket": 55,
       "total": 28,
       "correct": 14
+    },
+    "over25_85": {
+      "market": "over25",
+      "bucket": 85,
+      "total": 14,
+      "correct": 14
+    },
+    "btts_75": {
+      "market": "btts",
+      "bucket": 75,
+      "total": 14,
+      "correct": 14
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart_20260828",
+      "fixture_date": "2026-08-28",
+      "home_team": "FC Bayern München",
+      "away_team": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "actual_score": "5-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 73.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 78.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "79_team_79_dynamo_dresden_team_79_sv_darmstadt_98_20260816",
       "fixture_date": "2026-08-16",
@@ -3514,566 +4086,6 @@
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_6685_1782_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "Santos FC",
-      "away_team": "EC Vitória",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_4286_6684_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "RB Bragantino",
-      "away_team": "SC Internacional",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 65.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_6685_1782_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "Santos FC",
-      "away_team": "EC Vitória",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_4286_6684_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "RB Bragantino",
-      "away_team": "SC Internacional",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 65.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_6685_1782_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "Santos FC",
-      "away_team": "EC Vitória",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_4286_6684_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "RB Bragantino",
-      "away_team": "SC Internacional",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 65.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_6685_1782_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "Santos FC",
-      "away_team": "EC Vitória",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_4286_6684_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "RB Bragantino",
-      "away_team": "SC Internacional",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 65.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_6685_1782_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "Santos FC",
-      "away_team": "EC Vitória",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_4286_6684_20260531",
-      "fixture_date": "2026-05-31",
-      "home_team": "RB Bragantino",
-      "away_team": "SC Internacional",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 65.5,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1777_1770_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "EC Bahia",
-      "away_team": "Botafogo FR",
-      "league": "Brasileirao Serie A",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 66.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1783_4241_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CR Flamengo",
-      "away_team": "Coritiba FBC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 68.1,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 57.6,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1768_4364_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "CA Paranaense",
-      "away_team": "Mirassol FC",
-      "league": "Brasileirao Serie A",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 74.6,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_1777_1770_20260530",
-      "fixture_date": "2026-05-30",
-      "home_team": "EC Bahia",
-      "away_team": "Botafogo FR",
-      "league": "Brasileirao Serie A",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 66.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 64.5,
-          "correct": true,
           "actual": "yes"
         },
         "corners": {

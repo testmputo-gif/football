@@ -2341,12 +2341,12 @@
       "avg_cards": 0.0
     },
     "team_79_eintracht_braunschweig_team_79_hertha_bsc": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 1,
-      "avg_goals": 1.5,
-      "btts_rate": 0.5,
+      "avg_goals": 3.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2751,12 +2751,12 @@
       "avg_cards": 0.0
     },
     "team_78_fc_bayern_m_nchen_team_78_vfb_stuttgart": {
-      "matches_played": 2,
-      "home_wins": 2,
+      "matches_played": 3,
+      "home_wins": 3,
       "away_wins": 0,
       "draws": 0,
-      "avg_goals": 5.5,
-      "btts_rate": 0.5,
+      "avg_goals": 5.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-28T16:26:20.382592"
+  "last_updated": "2026-08-29T10:57:30.798559"
 }

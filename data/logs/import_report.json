@@ -1,15 +1,18 @@
 {
-  "generated_at": "2026-08-28T16:26:20.230366+00:00",
-  "total_history": 2173,
-  "total_upcoming": 614,
-  "new_history": 1,
-  "leagues_covered": 20,
+  "generated_at": "2026-08-29T10:57:30.653737+00:00",
+  "total_history": 2186,
+  "total_upcoming": 610,
+  "new_history": 13,
+  "leagues_covered": 19,
   "sources": [
     {
       "source": "openligadb",
       "fixtures": 0,
-      "history": 0,
-      "leagues": [],
+      "history": 3,
+      "leagues": [
+        "Bundesliga",
+        "2. Bundesliga"
+      ],
       "errors": [
         "Austrian Bundesliga: no data"
       ],
@@ -17,12 +20,20 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 3,
-      "history": 1,
+      "fixtures": 11,
+      "history": 10,
       "leagues": [
+        "Premier League",
+        "Championship",
         "Serie A",
-        "Primeira Liga",
-        "Veikkausliiga"
+        "La Liga",
+        "Ligue 1",
+        "Bundesliga",
+        "Eredivisie",
+        "J1 League",
+        "Veikkausliiga",
+        "Argentine Primera",
+        "K League 1"
       ],
       "errors": [],
       "status": "ok"
@@ -45,29 +56,28 @@
     }
   ],
   "upcoming_by_league": {
-    "Bundesliga": 307,
-    "2. Bundesliga": 288,
-    "Veikkausliiga": 2,
-    "Turkey Super Lig": 1,
-    "Serie A": 1,
-    "Eredivisie": 1,
-    "Ligue 1": 1,
-    "La Liga": 1,
-    "Championship": 1,
-    "Premier League": 1,
-    "K League 1": 1,
-    "Argentine Primera": 1,
+    "Bundesliga": 306,
+    "2. Bundesliga": 286,
+    "J1 League": 2,
     "Allsvenskan": 1,
     "Eliteserien": 1,
-    "J1 League": 1,
+    "Premier League": 1,
+    "Championship": 1,
+    "Veikkausliiga": 1,
+    "Eredivisie": 1,
+    "K League 1": 1,
+    "Serie A": 1,
+    "Ligue 1": 1,
+    "La Liga": 1,
     "Brasileirao Serie A": 1,
     "Austrian Bundesliga": 1,
+    "Argentine Primera": 1,
     "Primeira Liga": 1,
     "Denmark Superliga": 1,
     "MLS": 1
   },
   "upcoming_by_source": {
-    "thesportsdb": 20,
-    "openligadb": 594
+    "openligadb": 591,
+    "thesportsdb": 19
   }
 }
