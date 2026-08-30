@@ -1201,11 +1201,11 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_union_berlin_team_78_eintracht_frankfurt": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
       "away_wins": 0,
-      "draws": 1,
-      "avg_goals": 4.5,
+      "draws": 2,
+      "avg_goals": 5.0,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -1431,12 +1431,12 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_k_ln_team_78_tsg_hoffenheim": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "avg_goals": 3.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2241,12 +2241,12 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_dortmund_team_78_hamburger_sv": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 3.5,
-      "btts_rate": 1.0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2481,12 +2481,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_n_rnberg_team_79_dsc_arminia_bielefeld": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 2.0,
-      "btts_rate": 0.5,
+      "avg_goals": 3.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2531,11 +2531,11 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_m_nchengladbach_team_78_rb_leipzig": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 1,
-      "avg_goals": 0.5,
+      "avg_goals": 1.333,
       "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-29T10:57:30.798559"
+  "last_updated": "2026-08-30T09:52:20.882508"
 }
