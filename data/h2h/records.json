@@ -1111,12 +1111,12 @@
       "avg_cards": 0.0
     },
     "team_78_sc_freiburg_team_78_sv_werder_bremen": {
-      "matches_played": 2,
-      "home_wins": 2,
+      "matches_played": 3,
+      "home_wins": 3,
       "away_wins": 0,
       "draws": 0,
-      "avg_goals": 2.0,
-      "btts_rate": 0.0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2181,12 +2181,12 @@
       "avg_cards": 0.0
     },
     "team_79_hannover_96_team_79_sv_darmstadt_98": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 3.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2901,12 +2901,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_magdeburg_team_79_holstein_kiel": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 5.0,
-      "btts_rate": 1.0,
+      "avg_goals": 4.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5391,5 +5391,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-08-30T09:52:20.882508"
+  "last_updated": "2026-08-31T10:42:26.403487"
 }
