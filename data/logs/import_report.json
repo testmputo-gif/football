@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T08:34:59.076466+00:00",
-  "total_history": 2237,
+  "generated_at": "2026-09-03T08:42:55.420288+00:00",
+  "total_history": 2240,
   "total_upcoming": 597,
   "new_history": 3,
   "leagues_covered": 21,
@@ -21,8 +21,8 @@
       "history": 3,
       "leagues": [
         "Championship",
-        "Allsvenskan",
-        "Eliteserien"
+        "Eliteserien",
+        "Austrian Bundesliga"
       ],
       "errors": [],
       "status": "ok"
@@ -48,9 +48,6 @@
     "Bundesliga": 298,
     "2. Bundesliga": 279,
     "Primeira Liga": 2,
-    "Championship": 1,
-    "Eliteserien": 1,
-    "Austrian Bundesliga": 1,
     "Veikkausliiga": 1,
     "Ligue 1": 1,
     "Serie A": 1,
@@ -63,6 +60,9 @@
     "Brasileirao Serie A": 1,
     "Argentine Primera": 1,
     "Allsvenskan": 1,
+    "Championship": 1,
+    "Eliteserien": 1,
+    "Austrian Bundesliga": 1,
     "Denmark Superliga": 1,
     "MLS": 1,
     "Greek Super League": 1
