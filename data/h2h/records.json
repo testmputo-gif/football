@@ -1391,11 +1391,11 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_k_ln_team_78_vfb_stuttgart": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 2,
+      "away_wins": 3,
       "draws": 0,
-      "avg_goals": 3.5,
+      "avg_goals": 4.0,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -2511,12 +2511,12 @@
       "avg_cards": 0.0
     },
     "team_79_hannover_96_team_79_karlsruher_sc": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 2,
       "away_wins": 0,
-      "draws": 0,
-      "avg_goals": 3.5,
-      "btts_rate": 0.5,
+      "draws": 1,
+      "avg_goals": 3.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5389,7 +5389,17 @@
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "team_98_sandefjord_team_98_viking": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-09-04T08:37:38.796498"
+  "last_updated": "2026-09-05T08:12:44.721644"
 }
