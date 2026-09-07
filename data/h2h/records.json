@@ -1571,12 +1571,12 @@
       "avg_cards": 0.0
     },
     "team_78_1_fsv_mainz_05_team_78_hamburger_sv": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 1,
       "draws": 1,
-      "avg_goals": 3.0,
-      "btts_rate": 0.5,
+      "avg_goals": 3.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2831,12 +2831,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_magdeburg_team_79_hertha_bsc": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 2,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 0,
-      "avg_goals": 1.5,
-      "btts_rate": 0.0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2931,12 +2931,12 @@
       "avg_cards": 0.0
     },
     "team_78_eintracht_frankfurt_team_78_fc_augsburg": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 1,
-      "avg_goals": 1.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5401,5 +5401,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-09-06T08:29:57.041711"
+  "last_updated": "2026-09-07T09:06:25.309629"
 }
