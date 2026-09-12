@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-11T08:45:34.007267",
-  "total_evaluated": 288,
+  "last_updated": "2026-09-12T08:31:38.923577",
+  "total_evaluated": 302,
   "by_market": {
     "winner": {
-      "total": 157,
-      "correct": 135
+      "total": 171,
+      "correct": 149
     },
     "over25": {
       "total": 210,
@@ -55,14 +55,14 @@
     "winner_65": {
       "market": "winner",
       "bucket": 65,
-      "total": 30,
-      "correct": 30
+      "total": 31,
+      "correct": 31
     },
     "winner_60": {
       "market": "winner",
       "bucket": 60,
-      "total": 19,
-      "correct": 19
+      "total": 32,
+      "correct": 32
     },
     "over25_60": {
       "market": "over25",
@@ -114,6 +114,566 @@
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.5,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.7,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_dsc_arminia_bielefeld_20260911",
+      "fixture_date": "2026-09-11",
+      "home_team": "SV Darmstadt 98",
+      "away_team": "DSC Arminia Bielefeld",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "78_team_78_eintracht_frankfurt_team_78_fc_augsburg_20260906",
       "fixture_date": "2026-09-06",
@@ -3538,566 +4098,6 @@
           "pick": "yes",
           "confidence": 55.0,
           "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_sv_werder_bremen_20260830",
-      "fixture_date": "2026-08-30",
-      "home_team": "SC Freiburg",
-      "away_team": "SV Werder Bremen",
-      "league": "Bundesliga",
-      "actual_score": "4-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 55.5,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_magdeburg_team_79_holstein_kiel_20260830",
-      "fixture_date": "2026-08-30",
-      "home_team": "1. FC Magdeburg",
-      "away_team": "Holstein Kiel",
-      "league": "2. Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 59.1,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 60.2,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_sv_darmstadt_98_team_79_hannover_96_20260830",
-      "fixture_date": "2026-08-30",
-      "home_team": "SV Darmstadt 98",
-      "away_team": "Hannover 96",
-      "league": "2. Bundesliga",
-      "actual_score": "0-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.0,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_sv_werder_bremen_20260830",
-      "fixture_date": "2026-08-30",
-      "home_team": "SC Freiburg",
-      "away_team": "SV Werder Bremen",
-      "league": "Bundesliga",
-      "actual_score": "4-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 55.5,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_magdeburg_team_79_holstein_kiel_20260830",
-      "fixture_date": "2026-08-30",
-      "home_team": "1. FC Magdeburg",
-      "away_team": "Holstein Kiel",
-      "league": "2. Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 58.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 59.7,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_sv_werder_bremen_20260830",
-      "fixture_date": "2026-08-30",
-      "home_team": "SC Freiburg",
-      "away_team": "SV Werder Bremen",
-      "league": "Bundesliga",
-      "actual_score": "4-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 55.7,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_magdeburg_team_79_holstein_kiel_20260830",
-      "fixture_date": "2026-08-30",
-      "home_team": "1. FC Magdeburg",
-      "away_team": "Holstein Kiel",
-      "league": "2. Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 56.9,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 58.5,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_n_rnberg_team_79_dsc_arminia_bielefeld_20260829",
-      "fixture_date": "2026-08-29",
-      "home_team": "1. FC Nürnberg",
-      "away_team": "DSC Arminia Bielefeld",
-      "league": "2. Bundesliga",
-      "actual_score": "4-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 58.6,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_borussia_dortmund_team_78_hamburger_sv_20260829",
-      "fixture_date": "2026-08-29",
-      "home_team": "Borussia Dortmund",
-      "away_team": "Hamburger SV",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 79.6,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.0,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fc_k_ln_team_78_tsg_hoffenheim_20260829",
-      "fixture_date": "2026-08-29",
-      "home_team": "1. FC Köln",
-      "away_team": "TSG Hoffenheim",
-      "league": "Bundesliga",
-      "actual_score": "3-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 73.4,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 71.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fc_union_berlin_team_78_eintracht_frankfurt_20260829",
-      "fixture_date": "2026-08-29",
-      "home_team": "1. FC Union Berlin",
-      "away_team": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "actual_score": "3-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 73.0,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 70.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_rb_leipzig_team_78_borussia_m_nchengladbach_20260829",
-      "fixture_date": "2026-08-29",
-      "home_team": "RB Leipzig",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 67.6,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 56.9,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_n_rnberg_team_79_dsc_arminia_bielefeld_20260829",
-      "fixture_date": "2026-08-29",
-      "home_team": "1. FC Nürnberg",
-      "away_team": "DSC Arminia Bielefeld",
-      "league": "2. Bundesliga",
-      "actual_score": "4-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 58.8,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_borussia_dortmund_team_78_hamburger_sv_20260829",
-      "fixture_date": "2026-08-29",
-      "home_team": "Borussia Dortmund",
-      "away_team": "Hamburger SV",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 79.6,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.0,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
           "actual": "no"
         },
         "corners": {

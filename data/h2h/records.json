@@ -2091,11 +2091,11 @@
       "avg_cards": 0.0
     },
     "team_79_dsc_arminia_bielefeld_team_79_sv_darmstadt_98": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 1,
-      "avg_goals": 3.5,
+      "avg_goals": 3.333,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -3181,11 +3181,11 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_n_rnberg_team_79_hannover_96": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 4.5,
+      "avg_goals": 4.0,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5401,5 +5401,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-09-11T08:45:31.688980"
+  "last_updated": "2026-09-12T08:31:35.885140"
 }
