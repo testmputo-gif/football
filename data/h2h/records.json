@@ -1581,12 +1581,12 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_m_nchengladbach_team_78_sc_freiburg": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 1,
-      "avg_goals": 1.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2321,12 +2321,12 @@
       "avg_cards": 0.0
     },
     "team_78_1_fsv_mainz_05_team_78_eintracht_frankfurt": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 0,
-      "avg_goals": 2.0,
-      "btts_rate": 0.5,
+      "avg_goals": 2.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2551,12 +2551,12 @@
       "avg_cards": 0.0
     },
     "team_79_spvgg_greuther_f_rth_team_79_vfl_bochum": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
       "away_wins": 2,
-      "draws": 0,
-      "avg_goals": 3.0,
-      "btts_rate": 0.5,
+      "draws": 1,
+      "avg_goals": 2.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2581,11 +2581,11 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_k_ln_team_78_sv_werder_bremen": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
       "away_wins": 0,
-      "draws": 1,
-      "avg_goals": 3.0,
+      "draws": 2,
+      "avg_goals": 2.667,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -2771,12 +2771,12 @@
       "avg_cards": 0.0
     },
     "team_78_bayer_04_leverkusen_team_78_fc_augsburg": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
       "away_wins": 2,
-      "draws": 0,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "draws": 1,
+      "avg_goals": 3.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2881,10 +2881,10 @@
       "avg_cards": 0.0
     },
     "team_79_dynamo_dresden_team_79_eintracht_braunschweig": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
       "away_wins": 2,
-      "draws": 0,
+      "draws": 1,
       "avg_goals": 4.0,
       "btts_rate": 1.0,
       "avg_corners": null,
@@ -3101,22 +3101,22 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_kaiserslautern_team_79_1_fc_magdeburg": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 0,
       "avg_goals": 3.0,
-      "btts_rate": 0.5,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
     "team_78_tsg_hoffenheim_team_78_vfb_stuttgart": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 0,
       "draws": 2,
       "avg_goals": 3.0,
-      "btts_rate": 0.5,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5401,5 +5401,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-09-12T08:31:35.885140"
+  "last_updated": "2026-09-13T09:16:58.188953"
 }
