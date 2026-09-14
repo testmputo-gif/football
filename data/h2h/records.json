@@ -1661,12 +1661,12 @@
       "avg_cards": 0.0
     },
     "team_78_hamburger_sv_team_78_rb_leipzig": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 2,
+      "away_wins": 3,
       "draws": 0,
-      "avg_goals": 3.0,
-      "btts_rate": 1.0,
+      "avg_goals": 3.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5401,5 +5401,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-09-13T09:16:58.188953"
+  "last_updated": "2026-09-14T09:41:52.963409"
 }
