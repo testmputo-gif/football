@@ -771,11 +771,11 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_magdeburg_team_79_spvgg_greuther_f_rth": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
       "away_wins": 1,
-      "draws": 0,
-      "avg_goals": 9.0,
+      "draws": 1,
+      "avg_goals": 6.667,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -2221,12 +2221,12 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_union_berlin_team_78_fc_bayern_m_nchen": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 1,
-      "avg_goals": 4.0,
-      "btts_rate": 0.5,
+      "avg_goals": 5.0,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5401,5 +5401,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-09-18T08:55:21.199323"
+  "last_updated": "2026-09-19T08:40:14.614139"
 }
