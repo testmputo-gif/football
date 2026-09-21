@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-20T09:12:00.846075+00:00",
-  "total_history": 2429,
-  "total_upcoming": 612,
-  "new_history": 24,
+  "generated_at": "2026-09-21T09:47:22.605548+00:00",
+  "total_history": 2448,
+  "total_upcoming": 606,
+  "new_history": 19,
   "leagues_covered": 20,
   "sources": [
     {
       "source": "openligadb",
       "fixtures": 0,
-      "history": 9,
+      "history": 6,
       "leagues": [
         "Bundesliga",
         "2. Bundesliga"
@@ -20,8 +20,8 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 15,
-      "history": 15,
+      "fixtures": 13,
+      "history": 13,
       "leagues": [
         "Premier League",
         "Championship",
@@ -32,8 +32,6 @@
         "Eredivisie",
         "Brasileirao Serie A",
         "J1 League",
-        "Allsvenskan",
-        "Eliteserien",
         "Veikkausliiga",
         "Argentine Primera",
         "Austrian Bundesliga",
@@ -60,29 +58,29 @@
     }
   ],
   "upcoming_by_league": {
-    "2. Bundesliga": 297,
-    "Bundesliga": 297,
-    "Eredivisie": 1,
-    "Veikkausliiga": 1,
-    "La Liga": 1,
-    "Championship": 1,
-    "Serie A": 1,
-    "J1 League": 1,
-    "Premier League": 1,
-    "Ligue 1": 1,
-    "Austrian Bundesliga": 1,
-    "K League 1": 1,
+    "2. Bundesliga": 294,
+    "Bundesliga": 294,
     "Brasileirao Serie A": 1,
     "Argentine Primera": 1,
     "Allsvenskan": 1,
     "Eliteserien": 1,
     "Denmark Superliga": 1,
+    "Austrian Bundesliga": 1,
+    "Veikkausliiga": 1,
+    "J1 League": 1,
+    "K League 1": 1,
+    "Eredivisie": 1,
+    "Ligue 1": 1,
+    "Championship": 1,
+    "Serie A": 1,
+    "Premier League": 1,
+    "La Liga": 1,
     "Primeira Liga": 1,
     "MLS": 1,
     "Greek Super League": 1
   },
   "upcoming_by_source": {
     "thesportsdb": 19,
-    "openligadb": 593
+    "openligadb": 587
   }
 }

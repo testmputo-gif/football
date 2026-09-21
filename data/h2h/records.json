@@ -2981,12 +2981,12 @@
       "avg_cards": 0.0
     },
     "team_79_hannover_96_team_79_vfl_bochum": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 0,
       "draws": 2,
-      "avg_goals": 1.0,
-      "btts_rate": 0.5,
+      "avg_goals": 1.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -3161,12 +3161,12 @@
       "avg_cards": 0.0
     },
     "team_78_bayer_04_leverkusen_team_78_rb_leipzig": {
-      "matches_played": 2,
-      "home_wins": 2,
+      "matches_played": 3,
+      "home_wins": 3,
       "away_wins": 0,
       "draws": 0,
-      "avg_goals": 4.5,
-      "btts_rate": 1.0,
+      "avg_goals": 3.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5401,5 +5401,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-09-20T09:12:00.940313"
+  "last_updated": "2026-09-21T09:47:22.733120"
 }
