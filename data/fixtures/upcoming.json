@@ -125,6 +125,37 @@
       "away_xg_adjustment": 1.0
     },
     {
+      "league_id": 103,
+      "league_name": "Eliteserien",
+      "home_team_id": "team_103_bradford_city",
+      "home_team_name": "Bradford City",
+      "away_team_id": "team_103_barnsley",
+      "away_team_name": "Barnsley",
+      "match_date": "2026-09-26T14:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "University of Bradford Stadium",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "103_team_103_bradford_city_team_103_barnsley_20260926",
+      "api_fixture_id": "tsdb_2500783",
+      "fixture_date": "2026-09-26T14:00:00+00:00",
+      "league_country": "Norway",
+      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/afedb31688770443.png",
+      "round": "8",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/ebl8zx1781737432.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/glbmdm1781719675.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
       "league_id": 119,
       "league_name": "Denmark Superliga",
       "home_team_id": "team_119_bilbao_basket",
@@ -18787,5 +18818,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-09-21T09:47:22.593138"
+  "last_updated": "2026-09-22T09:11:21.663660"
 }
