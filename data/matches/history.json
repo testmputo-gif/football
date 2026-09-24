@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T09:13:03.861137",
+  "last_updated": "2026-09-24T09:08:17.912984",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -63587,6 +63587,28 @@
       "api_fixture_id": "tsdb_2513988",
       "home_goals": 3,
       "away_goals": 1
+    },
+    "tsdb_2406811": {
+      "league_id": 71,
+      "league_name": "Brasileirao Serie A",
+      "home_team_id": "team_71_seattle_sounders",
+      "home_team_name": "Seattle Sounders",
+      "away_team_id": "team_71_real_salt_lake",
+      "away_team_name": "Real Salt Lake",
+      "match_date": "2026-09-24T01:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Lumen Field",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2406811",
+      "home_goals": 2,
+      "away_goals": 0
     }
   }
 }

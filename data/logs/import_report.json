@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T09:13:03.924215+00:00",
-  "total_history": 2448,
+  "generated_at": "2026-09-24T09:08:17.978166+00:00",
+  "total_history": 2449,
   "total_upcoming": 607,
-  "new_history": 0,
+  "new_history": 1,
   "leagues_covered": 20,
   "sources": [
     {
@@ -17,9 +17,11 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 0,
-      "history": 0,
-      "leagues": [],
+      "fixtures": 1,
+      "history": 1,
+      "leagues": [
+        "Brasileirao Serie A"
+      ],
       "errors": [],
       "status": "ok"
     },
@@ -44,10 +46,10 @@
     "2. Bundesliga": 294,
     "Bundesliga": 294,
     "Eliteserien": 2,
-    "Brasileirao Serie A": 1,
     "Argentine Primera": 1,
     "Allsvenskan": 1,
     "Denmark Superliga": 1,
+    "Brasileirao Serie A": 1,
     "Austrian Bundesliga": 1,
     "Veikkausliiga": 1,
     "J1 League": 1,
