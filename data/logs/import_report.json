@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T09:08:17.978166+00:00",
+  "generated_at": "2026-09-25T09:30:54.081215+00:00",
   "total_history": 2449,
   "total_upcoming": 607,
-  "new_history": 1,
+  "new_history": 0,
   "leagues_covered": 20,
   "sources": [
     {
@@ -17,11 +17,9 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 1,
-      "history": 1,
-      "leagues": [
-        "Brasileirao Serie A"
-      ],
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
       "errors": [],
       "status": "ok"
     },
