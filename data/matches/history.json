@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T09:30:54.016932",
+  "last_updated": "2026-09-26T09:15:58.755132",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -63609,6 +63609,28 @@
       "api_fixture_id": "tsdb_2406811",
       "home_goals": 2,
       "away_goals": 0
+    },
+    "tsdb_2487534": {
+      "league_id": 128,
+      "league_name": "Argentine Primera",
+      "home_team_id": "team_128_tijuana",
+      "home_team_name": "Tijuana",
+      "away_team_id": "team_128_atlas",
+      "away_team_name": "Atlas",
+      "match_date": "2026-09-26T03:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estadio Caliente",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2487534",
+      "home_goals": 2,
+      "away_goals": 3
     }
   }
 }
