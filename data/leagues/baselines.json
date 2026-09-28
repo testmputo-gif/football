@@ -15,15 +15,15 @@
     },
     "119": {
       "league_id": 119,
-      "sample_matches": 23,
-      "avg_goals_home": 33.1739,
-      "avg_goals_away": 32.4783,
-      "avg_goals_total": 65.6522,
+      "sample_matches": 24,
+      "avg_goals_home": 35.5,
+      "avg_goals_away": 34.75,
+      "avg_goals_total": 70.25,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.5217,
-      "draw_rate": 0.087,
-      "away_win_rate": 0.3913,
+      "home_win_rate": 0.5417,
+      "draw_rate": 0.0833,
+      "away_win_rate": 0.375,
       "home_advantage_factor": 1.05
     },
     "79": {
@@ -67,16 +67,16 @@
     },
     "128": {
       "league_id": 128,
-      "sample_matches": 91,
-      "avg_goals_home": 1.1648,
-      "avg_goals_away": 0.989,
-      "avg_goals_total": 2.1538,
+      "sample_matches": 92,
+      "avg_goals_home": 1.1739,
+      "avg_goals_away": 1.0217,
+      "avg_goals_total": 2.1957,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4396,
-      "draw_rate": 0.2308,
-      "away_win_rate": 0.3297,
-      "home_advantage_factor": 1.1778
+      "home_win_rate": 0.4348,
+      "draw_rate": 0.2283,
+      "away_win_rate": 0.337,
+      "home_advantage_factor": 1.1489
     },
     "98": {
       "league_id": 98,
@@ -93,16 +93,16 @@
     },
     "71": {
       "league_id": 71,
-      "sample_matches": 255,
-      "avg_goals_home": 1.4902,
-      "avg_goals_away": 1.2196,
-      "avg_goals_total": 2.7098,
+      "sample_matches": 256,
+      "avg_goals_home": 1.4922,
+      "avg_goals_away": 1.2188,
+      "avg_goals_total": 2.7109,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4549,
-      "draw_rate": 0.2745,
-      "away_win_rate": 0.2706,
-      "home_advantage_factor": 1.2219
+      "home_win_rate": 0.457,
+      "draw_rate": 0.2734,
+      "away_win_rate": 0.2695,
+      "home_advantage_factor": 1.2244
     },
     "113": {
       "league_id": 113,
@@ -313,5 +313,5 @@
       "home_advantage_factor": 1.05
     }
   },
-  "last_updated": "2026-09-27T09:56:19.940364"
+  "last_updated": "2026-09-28T10:43:50.810179"
 }
