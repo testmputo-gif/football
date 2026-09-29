@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T10:43:50.614070",
+  "last_updated": "2026-09-29T10:32:25.891436",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -63807,6 +63807,28 @@
       "api_fixture_id": "tsdb_2571733",
       "home_goals": 89,
       "away_goals": 87
+    },
+    "tsdb_2511790": {
+      "league_id": 203,
+      "league_name": "Turkey Super Lig",
+      "home_team_id": "team_203_energie_cottbus",
+      "home_team_name": "Energie Cottbus",
+      "away_team_id": "team_203_st_pauli",
+      "away_team_name": "St Pauli",
+      "match_date": "2026-09-20T11:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "LEAG Energie Stadion",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2511790",
+      "home_goals": 1,
+      "away_goals": 1
     }
   }
 }

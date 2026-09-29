@@ -683,6 +683,37 @@
       "away_xg_adjustment": 1.0
     },
     {
+      "league_id": 203,
+      "league_name": "Turkey Super Lig",
+      "home_team_id": "team_203_hertha",
+      "home_team_name": "Hertha",
+      "away_team_id": "team_203_greuther_f_rth",
+      "away_team_name": "Greuther Fürth",
+      "match_date": "2026-10-10T11:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Olympiastadion",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "203_team_203_hertha_team_203_greuther_f_rth_20261010",
+      "api_fixture_id": "tsdb_2511791",
+      "fixture_date": "2026-10-10T11:30:00+00:00",
+      "league_country": "Turkey",
+      "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/hl40981534764789.png",
+      "round": "7",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/8okmtm1621593943.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/87n1901608237004.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
       "league_id": 140,
       "league_name": "La Liga",
       "home_team_id": "team_140_genoa",
@@ -18818,5 +18849,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-09-28T10:43:50.662667"
+  "last_updated": "2026-09-29T10:32:25.938678"
 }
