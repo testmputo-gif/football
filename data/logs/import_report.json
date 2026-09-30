@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T10:32:25.954122+00:00",
+  "generated_at": "2026-09-30T10:23:53.801315+00:00",
   "total_history": 2459,
   "total_upcoming": 608,
-  "new_history": 1,
+  "new_history": 0,
   "leagues_covered": 21,
   "sources": [
     {
@@ -17,11 +17,9 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 1,
-      "history": 1,
-      "leagues": [
-        "Turkey Super Lig"
-      ],
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
       "errors": [],
       "status": "ok"
     },
@@ -38,9 +36,7 @@
       "fixtures": 0,
       "history": 0,
       "leagues": [],
-      "errors": [
-        "Ligue 1: The read operation timed out"
-      ],
+      "errors": [],
       "status": "ok"
     }
   ],
