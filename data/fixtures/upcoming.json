@@ -3,14 +3,14 @@
     {
       "league_id": 71,
       "league_name": "Brasileirao Serie A",
-      "home_team_id": "team_71_new_york_red_bulls",
-      "home_team_name": "New York Red Bulls",
-      "away_team_id": "team_71_st_louis_city_sc",
-      "away_team_name": "St. Louis City SC",
-      "match_date": "2026-09-30T23:30:00+00:00",
+      "home_team_id": "team_71_seattle_sounders",
+      "home_team_name": "Seattle Sounders",
+      "away_team_id": "team_71_sporting_kansas_city",
+      "away_team_name": "Sporting Kansas City",
+      "match_date": "2026-10-02T01:30:00+00:00",
       "season": 2025,
       "referee_name": null,
-      "venue": "Sports Illustrated Stadium",
+      "venue": "Lumen Field",
       "data_source": "thesportsdb",
       "home_corners": null,
       "away_corners": null,
@@ -18,14 +18,14 @@
       "away_yellow_cards": null,
       "home_red_cards": null,
       "away_red_cards": null,
-      "id": "71_team_71_new_york_red_bulls_team_71_st_louis_city_sc_20260930",
-      "api_fixture_id": "tsdb_2407102",
-      "fixture_date": "2026-09-30T23:30:00+00:00",
+      "id": "71_team_71_seattle_sounders_team_71_sporting_kansas_city_20261002",
+      "api_fixture_id": "tsdb_2407065",
+      "fixture_date": "2026-10-02T01:30:00+00:00",
       "league_country": "Brazil",
       "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/dqo6r91549878326.png",
-      "round": "27",
-      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/suytvy1473536462.png",
-      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/22wanp1674118724.png",
+      "round": "24",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/2dy5cx1706711036.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/tqupxw1473536504.png",
       "status": "NS",
       "is_featured": false,
       "home_xg_adjustment": 1.0,
@@ -18849,5 +18849,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-09-30T10:23:53.785685"
+  "last_updated": "2026-10-01T10:50:00.975855"
 }
