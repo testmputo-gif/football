@@ -3831,12 +3831,12 @@
       "avg_cards": 0.0
     },
     "team_98_avispa_fukuoka_team_98_sanfrecce_hiroshima": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 1,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.0,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -4130,6 +4130,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_kashiwa_reysol_team_98_machida_zelvia": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_clube_do_remo_team_71_cr_vasco_da_gama": {
       "matches_played": 2,
       "home_wins": 0,
@@ -4187,6 +4197,16 @@
       "draws": 2,
       "avg_goals": 0.0,
       "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_98_kashima_antlers_team_98_kawasaki_frontale": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 4.0,
+      "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -4830,6 +4850,26 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_mito_hollyhock_team_98_yokohama_f_marinos": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_98_gamba_osaka_team_98_vissel_kobe": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_botafogo_fr_team_71_clube_do_remo": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5370,6 +5410,26 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_103_aalesund_team_103_molde": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_103_kristiansund_bk_team_103_rosenborg": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_portland_timbers_team_71_seattle_sounders": {
       "matches_played": 2,
       "home_wins": 2,
@@ -5390,6 +5450,26 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_if_brommapojkarna_team_113_ifk_g_teborg": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_103_hamarkameratene_team_103_tromso": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 5.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_98_sandefjord_team_98_viking": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5399,7 +5479,67 @@
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "team_113_degerfors_if_team_113_hammarby_if": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_103_lillestrom_team_103_viking_fk": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_113_bk_h_cken_team_113_kalmar_ff": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_columbus_crew_team_253_inter_miami_cf": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_charlotte_fc_team_253_chicago_fire_fc": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_houston_dynamo_fc_team_253_sporting_kansas_city": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-01T10:50:01.120312"
+  "last_updated": "2026-10-02T10:25:43.612708"
 }
