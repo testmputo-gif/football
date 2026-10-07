@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T11:07:45.592874",
+  "last_updated": "2026-10-07T10:59:01.378416",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -68448,6 +68448,50 @@
       "away_red_cards": null,
       "api_fixture_id": "espn_401841595",
       "home_goals": 1,
+      "away_goals": 1
+    },
+    "tsdb_2406928": {
+      "league_id": 71,
+      "league_name": "Brasileirao Serie A",
+      "home_team_id": "team_71_chicago_fire",
+      "home_team_name": "Chicago Fire",
+      "away_team_id": "team_71_vancouver_whitecaps",
+      "away_team_name": "Vancouver Whitecaps",
+      "match_date": "2026-10-07T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Soldier Field",
+      "data_source": "thesportsdb",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "tsdb_2406928",
+      "home_goals": 3,
+      "away_goals": 1
+    },
+    "espn_761660": {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_chicago_fire_fc",
+      "home_team_name": "Chicago Fire FC",
+      "away_team_id": "team_253_vancouver_whitecaps",
+      "away_team_name": "Vancouver Whitecaps",
+      "match_date": "2026-10-07T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Soldier Field",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_761660",
+      "home_goals": 3,
       "away_goals": 1
     }
   }
