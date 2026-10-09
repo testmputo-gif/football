@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-08T11:15:59.293925+00:00",
-  "total_history": 2678,
-  "total_upcoming": 1013,
-  "new_history": 7,
-  "leagues_covered": 25,
+  "generated_at": "2026-10-09T11:15:04.431238+00:00",
+  "total_history": 2682,
+  "total_upcoming": 1025,
+  "new_history": 4,
+  "leagues_covered": 24,
   "sources": [
     {
       "source": "openligadb",
@@ -17,21 +17,30 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 1,
-      "history": 1,
-      "leagues": [
-        "Austrian Bundesliga"
-      ],
+      "fixtures": 0,
+      "history": 0,
+      "leagues": [],
       "errors": [],
       "status": "ok"
     },
     {
       "source": "espn",
-      "fixtures": 11,
-      "history": 6,
+      "fixtures": 17,
+      "history": 4,
       "leagues": [
+        "Premier League",
+        "Championship",
+        "La Liga",
+        "Serie A",
+        "Ligue 1",
+        "Eredivisie",
+        "Primeira Liga",
         "Brasileirao",
-        "Argentine Primera"
+        "Argentine Primera",
+        "Turkey Super Lig",
+        "Allsvenskan",
+        "Liga MX",
+        "A-League"
       ],
       "errors": [],
       "status": "ok"
@@ -48,33 +57,32 @@
   "upcoming_by_league": {
     "Bundesliga": 307,
     "2. Bundesliga": 294,
+    "Argentine Primera": 48,
     "MLS": 47,
-    "Argentine Primera": 45,
-    "Championship": 37,
+    "Championship": 38,
     "J1 League": 31,
-    "Liga MX": 27,
-    "Brasileirao": 24,
-    "La Liga": 22,
-    "Serie A": 21,
-    "Turkey Super Lig": 20,
-    "Premier League": 20,
-    "Eredivisie": 18,
-    "Ligue 1": 18,
-    "Allsvenskan": 17,
+    "Liga MX": 29,
+    "La Liga": 23,
+    "Serie A": 22,
+    "Turkey Super Lig": 21,
+    "Premier League": 21,
+    "Brasileirao": 21,
+    "Allsvenskan": 19,
+    "Eredivisie": 19,
+    "Ligue 1": 19,
     "Eliteserien": 17,
     "Greek Super League": 15,
+    "Primeira Liga": 12,
     "Scottish Prem": 12,
-    "Primeira Liga": 11,
-    "A-League": 5,
-    "Austrian Bundesliga": 1,
+    "A-League": 6,
     "Veikkausliiga": 1,
     "K League 1": 1,
     "Denmark Superliga": 1,
     "Brasileirao Serie A": 1
   },
   "upcoming_by_source": {
-    "espn": 403,
-    "thesportsdb": 23,
+    "espn": 416,
+    "thesportsdb": 22,
     "openligadb": 587
   }
 }
