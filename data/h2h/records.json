@@ -2841,12 +2841,12 @@
       "avg_cards": 0.0
     },
     "team_79_eintracht_braunschweig_team_79_holstein_kiel": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 1,
       "draws": 1,
-      "avg_goals": 2.0,
-      "btts_rate": 0.5,
+      "avg_goals": 1.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -3311,12 +3311,12 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_dortmund_team_78_sv_werder_bremen": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 2,
       "away_wins": 0,
-      "draws": 0,
-      "avg_goals": 2.5,
-      "btts_rate": 0.0,
+      "draws": 1,
+      "avg_goals": 3.0,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -4560,6 +4560,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_avispa_fukuoka_team_98_fagiano_okayama": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_ec_bahia_team_71_santos_fc": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5390,6 +5400,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_ifk_g_teborg_team_113_v_ster_s_sk": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 5.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_119_joventut_badalona_team_119_valencia_basket": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5541,5 +5561,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-09T11:15:04.602060"
+  "last_updated": "2026-10-10T10:32:59.648794"
 }

@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-09T11:15:10.211216",
-  "total_evaluated": 602,
+  "last_updated": "2026-10-10T10:33:03.585881",
+  "total_evaluated": 682,
   "by_market": {
     "winner": {
-      "total": 290,
-      "correct": 268
+      "total": 370,
+      "correct": 284
     },
     "over25": {
-      "total": 443,
+      "total": 487,
       "correct": 300
     },
     "btts": {
-      "total": 295,
+      "total": 331,
       "correct": 219
     }
   },
@@ -25,7 +25,7 @@
     "over25_75": {
       "market": "over25",
       "bucket": 75,
-      "total": 4,
+      "total": 32,
       "correct": 3
     },
     "btts_65": {
@@ -37,7 +37,7 @@
     "over25_65": {
       "market": "over25",
       "bucket": 65,
-      "total": 29,
+      "total": 37,
       "correct": 15
     },
     "btts_60": {
@@ -49,14 +49,14 @@
     "btts_55": {
       "market": "btts",
       "bucket": 55,
-      "total": 114,
+      "total": 150,
       "correct": 74
     },
     "winner_65": {
       "market": "winner",
       "bucket": 65,
-      "total": 31,
-      "correct": 31
+      "total": 67,
+      "correct": 39
     },
     "winner_60": {
       "market": "winner",
@@ -79,13 +79,13 @@
     "winner_55": {
       "market": "winner",
       "bucket": 55,
-      "total": 39,
-      "correct": 31
+      "total": 55,
+      "correct": 39
     },
     "over25_55": {
       "market": "over25",
       "bucket": 55,
-      "total": 172,
+      "total": 180,
       "correct": 123
     },
     "over25_85": {
@@ -109,7 +109,7 @@
     "winner_75": {
       "market": "winner",
       "bucket": 75,
-      "total": 34,
+      "total": 62,
       "correct": 34
     },
     "over25_80": {
@@ -126,6 +126,3206 @@
     }
   },
   "recent_results": [
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 68.9,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 68.9,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 69.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 69.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 69.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 69.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 69.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261011",
+      "fixture_date": "2026-10-11",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_fc_tokyo_team_98_urawa_red_diamonds_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "FC Tokyo",
+      "away_team": "Urawa Red Diamonds",
+      "league": "J1 League",
+      "actual_score": "3-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_yokohama_f_marinos_20261010",
+      "fixture_date": "2026-10-10",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 69.8,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_sv_werder_bremen_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "actual_score": "2-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_ifk_g_teborg_team_113_v_ster_s_sk_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "IFK Göteborg",
+      "away_team": "Västerås SK",
+      "league": "Allsvenskan",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 69.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_1_fc_kaiserslautern_20261009",
+      "fixture_date": "2026-10-09",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.3,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
     {
       "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_1_fc_union_berlin_20260918",
       "fixture_date": "2026-09-18",
@@ -911,3206 +4111,6 @@
           "confidence": null,
           "correct": null,
           "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_magdeburg_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "SpVgg Greuther Fürth",
-      "away_team": "1. FC Magdeburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 72.0,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 68.8,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_rb_leipzig_team_78_hamburger_sv_20260913",
-      "fixture_date": "2026-09-13",
-      "home_team": "RB Leipzig",
-      "away_team": "Hamburger SV",
-      "league": "Bundesliga",
-      "actual_score": "5-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 78.5,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 59.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_1_fc_union_berlin_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "FC Bayern München",
-      "away_team": "1. FC Union Berlin",
-      "league": "Bundesliga",
-      "actual_score": "7-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 85.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_magdeburg_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "SpVgg Greuther Fürth",
-      "away_team": "1. FC Magdeburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 71.6,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 68.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_1_fc_union_berlin_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "FC Bayern München",
-      "away_team": "1. FC Union Berlin",
-      "league": "Bundesliga",
-      "actual_score": "7-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 85.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_magdeburg_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "SpVgg Greuther Fürth",
-      "away_team": "1. FC Magdeburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 71.6,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 68.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_1_fc_union_berlin_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "FC Bayern München",
-      "away_team": "1. FC Union Berlin",
-      "league": "Bundesliga",
-      "actual_score": "7-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 85.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_magdeburg_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "SpVgg Greuther Fürth",
-      "away_team": "1. FC Magdeburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 71.6,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 68.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_1_fc_union_berlin_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "FC Bayern München",
-      "away_team": "1. FC Union Berlin",
-      "league": "Bundesliga",
-      "actual_score": "7-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 85.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_magdeburg_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "SpVgg Greuther Fürth",
-      "away_team": "1. FC Magdeburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 71.6,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 68.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_1_fc_union_berlin_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "FC Bayern München",
-      "away_team": "1. FC Union Berlin",
-      "league": "Bundesliga",
-      "actual_score": "7-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 85.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_spvgg_greuther_f_rth_team_79_1_fc_magdeburg_20260918",
-      "fixture_date": "2026-09-18",
-      "home_team": "SpVgg Greuther Fürth",
-      "away_team": "1. FC Magdeburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 71.6,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 68.5,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fsv_mainz_05_team_78_eintracht_frankfurt_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "1. FSV Mainz 05",
-      "away_team": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 56.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_augsburg_team_78_bayer_04_leverkusen_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "FC Augsburg",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_borussia_m_nchengladbach_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "SC Freiburg",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "5-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_vfb_stuttgart_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 78.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_eintracht_braunschweig_team_79_dynamo_dresden_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "Eintracht Braunschweig",
-      "away_team": "Dynamo Dresden",
-      "league": "2. Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 59.2,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_spvgg_greuther_f_rth_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "VfL Bochum",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fsv_mainz_05_team_78_eintracht_frankfurt_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "1. FSV Mainz 05",
-      "away_team": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 56.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_augsburg_team_78_bayer_04_leverkusen_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "FC Augsburg",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_borussia_m_nchengladbach_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "SC Freiburg",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "5-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_vfb_stuttgart_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 78.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_eintracht_braunschweig_team_79_dynamo_dresden_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "Eintracht Braunschweig",
-      "away_team": "Dynamo Dresden",
-      "league": "2. Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 59.2,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_spvgg_greuther_f_rth_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "VfL Bochum",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fsv_mainz_05_team_78_eintracht_frankfurt_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "1. FSV Mainz 05",
-      "away_team": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 56.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_augsburg_team_78_bayer_04_leverkusen_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "FC Augsburg",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_borussia_m_nchengladbach_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "SC Freiburg",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "5-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_vfb_stuttgart_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 78.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_eintracht_braunschweig_team_79_dynamo_dresden_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "Eintracht Braunschweig",
-      "away_team": "Dynamo Dresden",
-      "league": "2. Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 59.2,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_spvgg_greuther_f_rth_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "VfL Bochum",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fsv_mainz_05_team_78_eintracht_frankfurt_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "1. FSV Mainz 05",
-      "away_team": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 56.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_augsburg_team_78_bayer_04_leverkusen_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "FC Augsburg",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_borussia_m_nchengladbach_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "SC Freiburg",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "5-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_vfb_stuttgart_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 78.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_eintracht_braunschweig_team_79_dynamo_dresden_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "Eintracht Braunschweig",
-      "away_team": "Dynamo Dresden",
-      "league": "2. Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 59.2,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_spvgg_greuther_f_rth_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "VfL Bochum",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fsv_mainz_05_team_78_eintracht_frankfurt_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "1. FSV Mainz 05",
-      "away_team": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 56.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_augsburg_team_78_bayer_04_leverkusen_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "FC Augsburg",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_borussia_m_nchengladbach_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "SC Freiburg",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "5-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.4,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_vfb_stuttgart_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 78.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_eintracht_braunschweig_team_79_dynamo_dresden_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "Eintracht Braunschweig",
-      "away_team": "Dynamo Dresden",
-      "league": "2. Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 59.2,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_spvgg_greuther_f_rth_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "VfL Bochum",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 59.9,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.9,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_1_fsv_mainz_05_team_78_eintracht_frankfurt_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "1. FSV Mainz 05",
-      "away_team": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 56.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_augsburg_team_78_bayer_04_leverkusen_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "FC Augsburg",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.0,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_borussia_m_nchengladbach_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "SC Freiburg",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "5-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.2,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_vfb_stuttgart_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.4,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 78.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_eintracht_braunschweig_team_79_dynamo_dresden_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "Eintracht Braunschweig",
-      "away_team": "Dynamo Dresden",
-      "league": "2. Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.8,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 59.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_spvgg_greuther_f_rth_20260912",
-      "fixture_date": "2026-09-12",
-      "home_team": "VfL Bochum",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.9,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.2,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.2,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.8,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_rb_leipzig_20260920",
-      "fixture_date": "2026-09-20",
-      "home_team": "Bayer 04 Leverkusen",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_dynamo_dresden_team_79_hertha_bsc_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Dynamo Dresden",
-      "away_team": "Hertha BSC",
-      "league": "2. Bundesliga",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_sc_freiburg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Eintracht Frankfurt",
-      "away_team": "SC Freiburg",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 55.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_karlsruher_sc_team_79_1_fc_n_rnberg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Karlsruher SC",
-      "away_team": "1. FC Nürnberg",
-      "league": "2. Bundesliga",
-      "actual_score": "0-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 72.8,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 69.3,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_eintracht_braunschweig_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "Eintracht Braunschweig",
-      "league": "2. Bundesliga",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 58.6,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_dynamo_dresden_team_79_hertha_bsc_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Dynamo Dresden",
-      "away_team": "Hertha BSC",
-      "league": "2. Bundesliga",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.4,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_sc_freiburg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Eintracht Frankfurt",
-      "away_team": "SC Freiburg",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 55.9,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_karlsruher_sc_team_79_1_fc_n_rnberg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Karlsruher SC",
-      "away_team": "1. FC Nürnberg",
-      "league": "2. Bundesliga",
-      "actual_score": "0-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 72.9,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 69.5,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_eintracht_braunschweig_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "Eintracht Braunschweig",
-      "league": "2. Bundesliga",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 61.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_dynamo_dresden_team_79_hertha_bsc_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Dynamo Dresden",
-      "away_team": "Hertha BSC",
-      "league": "2. Bundesliga",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.4,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_sc_freiburg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Eintracht Frankfurt",
-      "away_team": "SC Freiburg",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 55.9,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_karlsruher_sc_team_79_1_fc_n_rnberg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Karlsruher SC",
-      "away_team": "1. FC Nürnberg",
-      "league": "2. Bundesliga",
-      "actual_score": "0-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 72.9,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 69.5,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_eintracht_braunschweig_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "Eintracht Braunschweig",
-      "league": "2. Bundesliga",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 61.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_dynamo_dresden_team_79_hertha_bsc_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Dynamo Dresden",
-      "away_team": "Hertha BSC",
-      "league": "2. Bundesliga",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.4,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_sc_freiburg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Eintracht Frankfurt",
-      "away_team": "SC Freiburg",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 55.9,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_karlsruher_sc_team_79_1_fc_n_rnberg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Karlsruher SC",
-      "away_team": "1. FC Nürnberg",
-      "league": "2. Bundesliga",
-      "actual_score": "0-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 72.9,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 69.5,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_eintracht_braunschweig_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "Eintracht Braunschweig",
-      "league": "2. Bundesliga",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 61.3,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_dynamo_dresden_team_79_hertha_bsc_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Dynamo Dresden",
-      "away_team": "Hertha BSC",
-      "league": "2. Bundesliga",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.4,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_sc_freiburg_20260919",
-      "fixture_date": "2026-09-19",
-      "home_team": "Eintracht Frankfurt",
-      "away_team": "SC Freiburg",
-      "league": "Bundesliga",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 55.9,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
         },
         "corners": {
           "pick": "under",
