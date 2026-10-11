@@ -521,12 +521,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_magdeburg_team_79_hannover_96": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 2,
       "draws": 0,
-      "avg_goals": 3.5,
-      "btts_rate": 1.0,
+      "avg_goals": 3.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -751,10 +751,10 @@
       "avg_cards": 0.0
     },
     "team_78_fc_augsburg_team_78_fc_bayern_m_nchen": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
       "away_wins": 1,
-      "draws": 0,
+      "draws": 1,
       "avg_goals": 4.0,
       "btts_rate": 1.0,
       "avg_corners": null,
@@ -1651,11 +1651,11 @@
       "avg_cards": 0.0
     },
     "team_78_1_fsv_mainz_05_team_78_bayer_04_leverkusen": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 1,
-      "avg_goals": 4.5,
+      "avg_goals": 5.333,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -2801,12 +2801,12 @@
       "avg_cards": 0.0
     },
     "team_78_eintracht_frankfurt_team_78_rb_leipzig": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 2,
+      "away_wins": 3,
       "draws": 0,
-      "avg_goals": 5.0,
-      "btts_rate": 0.5,
+      "avg_goals": 5.333,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2961,11 +2961,11 @@
       "avg_cards": 0.0
     },
     "team_78_hamburger_sv_team_78_tsg_hoffenheim": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 2,
       "draws": 0,
-      "avg_goals": 4.0,
+      "avg_goals": 4.333,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -4930,6 +4930,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_88_go_ahead_eagles_team_88_sparta_rotterdam": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "draws": 2,
+      "avg_goals": 5.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_cr_flamengo_team_71_cr_vasco_da_gama": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5450,6 +5460,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_253_cf_montr_al_team_253_toronto_fc": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_portland_timbers_team_71_seattle_sounders": {
       "matches_played": 2,
       "home_wins": 2,
@@ -5520,6 +5540,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_253_chicago_fire_fc_team_253_new_york_city_fc": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_113_bk_h_cken_team_113_kalmar_ff": {
       "matches_played": 2,
       "home_wins": 1,
@@ -5527,6 +5557,16 @@
       "draws": 1,
       "avg_goals": 3.5,
       "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_lafc_team_253_vancouver_whitecaps": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "draws": 2,
+      "avg_goals": 2.0,
+      "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5561,5 +5601,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-10T10:32:59.648794"
+  "last_updated": "2026-10-11T10:43:45.897312"
 }
