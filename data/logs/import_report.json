@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-11T10:43:45.696219+00:00",
-  "total_history": 2815,
-  "total_upcoming": 1055,
-  "new_history": 103,
-  "leagues_covered": 25,
+  "generated_at": "2026-10-12T11:48:40.676768+00:00",
+  "total_history": 2885,
+  "total_upcoming": 998,
+  "new_history": 70,
+  "leagues_covered": 24,
   "sources": [
     {
       "source": "openligadb",
       "fixtures": 0,
-      "history": 10,
+      "history": 5,
       "leagues": [
         "Bundesliga",
         "2. Bundesliga"
@@ -20,7 +20,7 @@
     },
     {
       "source": "thesportsdb",
-      "fixtures": 13,
+      "fixtures": 10,
       "history": 14,
       "leagues": [
         "Premier League",
@@ -32,11 +32,9 @@
         "Eredivisie",
         "Brasileirao Serie A",
         "J1 League",
-        "Allsvenskan",
-        "Eliteserien",
         "Veikkausliiga",
         "Argentine Primera",
-        "Austrian Bundesliga",
+        "Turkey Super Lig",
         "Denmark Superliga",
         "K League 1"
       ],
@@ -45,11 +43,10 @@
     },
     {
       "source": "espn",
-      "fixtures": 63,
-      "history": 79,
+      "fixtures": 9,
+      "history": 51,
       "leagues": [
         "Premier League",
-        "Championship",
         "La Liga",
         "Bundesliga",
         "Serie A",
@@ -59,12 +56,10 @@
         "MLS",
         "Brasileirao",
         "Argentine Primera",
-        "J1 League",
         "Turkey Super Lig",
         "Allsvenskan",
         "Eliteserien",
         "Liga MX",
-        "A-League",
         "Scottish Prem",
         "Greek Super League"
       ],
@@ -81,35 +76,34 @@
     }
   ],
   "upcoming_by_league": {
-    "Bundesliga": 299,
-    "2. Bundesliga": 288,
-    "MLS": 48,
-    "Argentine Primera": 47,
-    "Championship": 38,
+    "Bundesliga": 295,
+    "2. Bundesliga": 279,
+    "MLS": 47,
+    "Argentine Primera": 44,
+    "Championship": 37,
     "J1 League": 31,
-    "Liga MX": 30,
-    "Serie A": 28,
-    "La Liga": 26,
-    "Brasileirao": 26,
-    "Premier League": 24,
-    "Eredivisie": 23,
-    "Eliteserien": 22,
-    "Allsvenskan": 21,
-    "Ligue 1": 21,
-    "Greek Super League": 20,
-    "Turkey Super Lig": 19,
-    "Scottish Prem": 14,
-    "Primeira Liga": 14,
+    "Liga MX": 27,
+    "Serie A": 23,
+    "La Liga": 23,
+    "Brasileirao": 23,
+    "Premier League": 21,
+    "Turkey Super Lig": 20,
+    "Allsvenskan": 19,
+    "Eliteserien": 18,
+    "Eredivisie": 18,
+    "Ligue 1": 18,
+    "Greek Super League": 16,
+    "Primeira Liga": 12,
+    "Scottish Prem": 12,
     "A-League": 11,
     "Veikkausliiga": 1,
     "K League 1": 1,
     "Denmark Superliga": 1,
-    "Austrian Bundesliga": 1,
     "Brasileirao Serie A": 1
   },
   "upcoming_by_source": {
-    "espn": 468,
-    "openligadb": 571,
-    "thesportsdb": 16
+    "espn": 423,
+    "thesportsdb": 15,
+    "openligadb": 560
   }
 }
