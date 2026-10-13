@@ -5540,6 +5540,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_kalmar_ff_team_113_malm_ff": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_103_lillestrom_team_103_viking_fk": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5621,5 +5631,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-12T11:48:40.804744"
+  "last_updated": "2026-10-13T11:35:21.552374"
 }
