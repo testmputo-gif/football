@@ -1,20 +1,20 @@
 {
   "model_version": "v1.0.0",
   "ml_active": false,
-  "total_fixtures": 989,
-  "predictions_made": 645,
+  "total_fixtures": 1017,
+  "predictions_made": 662,
   "fixtures": [
     {
       "league_id": 94,
       "league_name": "Primeira Liga",
-      "home_team_id": "team_94_lens",
-      "home_team_name": "Lens",
-      "away_team_id": "team_94_sporting_cp",
-      "away_team_name": "Sporting CP",
-      "match_date": "2026-10-13T16:45:00+00:00",
+      "home_team_id": "team_94_feyenoord",
+      "home_team_name": "Feyenoord",
+      "away_team_id": "team_94_como",
+      "away_team_name": "Como",
+      "match_date": "2026-10-14T16:45:00+00:00",
       "season": 2025,
       "referee_name": null,
-      "venue": "Stade Bollaert-Delelis",
+      "venue": "Stadion Feyenoord",
       "data_source": "thesportsdb",
       "home_corners": null,
       "away_corners": null,
@@ -22,283 +22,19 @@
       "away_yellow_cards": null,
       "home_red_cards": null,
       "away_red_cards": null,
-      "id": "94_team_94_lens_team_94_sporting_cp_20261013",
-      "api_fixture_id": "tsdb_2594564",
-      "fixture_date": "2026-10-13T16:45:00+00:00",
+      "id": "94_team_94_feyenoord_team_94_como_20261014",
+      "api_fixture_id": "tsdb_2594590",
+      "fixture_date": "2026-10-14T16:45:00+00:00",
       "league_country": "Portugal",
       "league_logo": "https://r2.thesportsdb.com/images/media/league/badge/facv1u1742998896.png",
       "round": "2",
-      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png",
-      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/5hiuk71783137875.png",
+      "home_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/uturtx1473534803.png",
+      "away_team_logo": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
       "status": "NS",
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Lens has only 0 matches (need 5)",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_bristol_city",
-      "home_team_name": "Bristol City",
-      "away_team_id": "team_40_blackburn_rovers",
-      "away_team_name": "Blackburn Rovers",
-      "match_date": "2026-10-13T18:45:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "Ashton Gate",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_bristol_city_team_40_blackburn_rovers_20261013",
-      "api_fixture_id": "espn_401880231",
-      "fixture_date": "2026-10-13T18:45:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Bristol City has only 2 matches (need 5)",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_burnley",
-      "home_team_name": "Burnley",
-      "away_team_id": "team_40_charlton_athletic",
-      "away_team_name": "Charlton Athletic",
-      "match_date": "2026-10-13T18:45:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "Turf Moor",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_burnley_team_40_charlton_athletic_20261013",
-      "api_fixture_id": "espn_401880230",
-      "fixture_date": "2026-10-13T18:45:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient home/away specific data",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_cardiff_city",
-      "home_team_name": "Cardiff City",
-      "away_team_id": "team_40_watford",
-      "away_team_name": "Watford",
-      "match_date": "2026-10-13T18:45:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "Cardiff City Stadium",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_cardiff_city_team_40_watford_20261013",
-      "api_fixture_id": "espn_401880229",
-      "fixture_date": "2026-10-13T18:45:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Cardiff City has only 3 matches (need 5)",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_millwall",
-      "home_team_name": "Millwall",
-      "away_team_id": "team_40_swansea_city",
-      "away_team_name": "Swansea City",
-      "match_date": "2026-10-13T18:45:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "The Den",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_millwall_team_40_swansea_city_20261013",
-      "api_fixture_id": "espn_401880228",
-      "fixture_date": "2026-10-13T18:45:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Millwall has only 3 matches (need 5)",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_wolverhampton_wanderers",
-      "home_team_name": "Wolverhampton Wanderers",
-      "away_team_id": "team_40_bolton_wanderers",
-      "away_team_name": "Bolton Wanderers",
-      "match_date": "2026-10-13T18:45:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "Molineux Stadium",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_wolverhampton_wanderers_team_40_bolton_wanderers_20261013",
-      "api_fixture_id": "espn_401880226",
-      "fixture_date": "2026-10-13T18:45:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Bolton Wanderers has only 3 matches (need 5)",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_wrexham",
-      "home_team_name": "Wrexham",
-      "away_team_id": "team_40_west_bromwich_albion",
-      "away_team_name": "West Bromwich Albion",
-      "match_date": "2026-10-13T18:45:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "STōK Cae Ras",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_wrexham_team_40_west_bromwich_albion_20261013",
-      "api_fixture_id": "espn_401880225",
-      "fixture_date": "2026-10-13T18:45:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: West Bromwich Albion has only 3 matches (need 5)",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_birmingham_city",
-      "home_team_name": "Birmingham City",
-      "away_team_id": "team_40_preston_north_end",
-      "away_team_name": "Preston North End",
-      "match_date": "2026-10-13T19:00:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "St. Andrew's Stadium",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_birmingham_city_team_40_preston_north_end_20261013",
-      "api_fixture_id": "espn_401880232",
-      "fixture_date": "2026-10-13T19:00:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Preston North End has only 3 matches (need 5)",
-      "predictions": {}
-    },
-    {
-      "league_id": 40,
-      "league_name": "Championship",
-      "home_team_id": "team_40_stoke_city",
-      "home_team_name": "Stoke City",
-      "away_team_id": "team_40_middlesbrough",
-      "away_team_name": "Middlesbrough",
-      "match_date": "2026-10-13T19:00:00+00:00",
-      "season": 2025,
-      "referee_name": null,
-      "venue": "bet365 Stadium",
-      "data_source": "espn",
-      "home_corners": null,
-      "away_corners": null,
-      "home_yellow_cards": null,
-      "away_yellow_cards": null,
-      "home_red_cards": null,
-      "away_red_cards": null,
-      "id": "40_team_40_stoke_city_team_40_middlesbrough_20261013",
-      "api_fixture_id": "espn_401880227",
-      "fixture_date": "2026-10-13T19:00:00+00:00",
-      "league_country": "England",
-      "league_logo": null,
-      "round": "",
-      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
-      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
-      "status": "NS",
-      "is_featured": false,
-      "home_xg_adjustment": 1.0,
-      "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Stoke City has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Feyenoord has only 0 matches (need 5)",
       "predictions": {}
     },
     {
@@ -3178,85 +2914,85 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "xg_home": 1.098,
-      "xg_away": 1.098,
-      "home_win_probability": 0.33674,
-      "draw_probability": 0.32659,
-      "away_win_probability": 0.33667,
+      "xg_home": 1.205,
+      "xg_away": 1.204,
+      "home_win_probability": 0.34498,
+      "draw_probability": 0.31008,
+      "away_win_probability": 0.34494,
       "most_likely_score": "1-1",
       "score_matrix": [
         [
-          0.1287109867500318,
-          0.10473132005956456,
-          0.06707078780449267,
-          0.024547320414039668,
-          0.006738078072818974,
-          0.0014796465064084697,
-          0.0002707688256040592
+          0.10691437410264319,
+          0.0913756461494422,
+          0.06524679034225164,
+          0.02619595498468367,
+          0.007888066837770496,
+          0.0019001895055481537,
+          0.00038145384997944953
         ],
         [
-          0.10474682781175387,
-          0.15159922106578078,
-          0.07365130889838539,
-          0.02695573345153065,
-          0.007399171618040627,
-          0.0016248191719705314,
-          0.00029733478713189917
+          0.09138318868053254,
+          0.14746801195200654,
+          0.07859333611875237,
+          0.0315544639707698,
+          0.009501608968903138,
+          0.002288882437212592,
+          0.0004594820754855301
         ],
         [
-          0.06708781598924543,
-          0.07366065774118563,
-          0.04043873256906958,
-          0.014800221646481386,
-          0.004062563541231976,
-          0.0008921175869266024,
-          0.00016325360839000225
+          0.06525587541823537,
+          0.0785988076643477,
+          0.04733499111507423,
+          0.01900454091222803,
+          0.005722604464103251,
+          0.0013785421917349623,
+          0.00027673567550027926
         ],
         [
-          0.024556669256890106,
-          0.026962577074878216,
-          0.014802100295315344,
-          0.005417438957314859,
-          0.0014870513780494276,
-          0.00032654866159189576,
-          5.9756973857515424e-05
+          0.02620142653028783,
+          0.031558857668931725,
+          0.01900586397875318,
+          0.007630670483878666,
+          0.00229773027282381,
+          0.0005535098828135884,
+          0.00011111443105250151
         ],
         [
-          0.00674149988452032,
-          0.007401989591306697,
-          0.004063594960197136,
-          0.0014872401351778096,
-          0.00040823763958066907,
-          8.964683855870861e-05,
-          1.6404978547597286e-05
+          0.007890263686856799,
+          0.009503593568694093,
+          0.005723401289450653,
+          0.0022978902372250507,
+          0.0006919355216364288,
+          0.00016668324999907715,
+          3.346085601124998e-05
         ],
         [
-          0.0014805858308405808,
-          0.0016256443071493054,
-          0.000892457349759514,
-          0.00032663156699859144,
-          8.965821777536822e-05,
-          1.968847307324714e-05,
-          3.602904280780015e-06
+          0.0019008510388139421,
+          0.002289519897492055,
+          0.001378830127657656,
+          0.0005535869544874094,
+          0.00016669485422721376,
+          4.015582260468757e-05,
+          8.061087111009578e-06
         ],
         [
-          0.0002709751094015223,
-          0.0002975235442633221,
-          0.0001633365137973659,
-          5.977973229095694e-05,
-          1.6409143505468174e-05,
-          3.6033616112232777e-06,
-          6.593993818604215e-07
+          0.00038161321504995917,
+          0.00045964203988754337,
+          0.0002768127471742866,
+          0.00011113763950881254,
+          3.346551515873825e-05,
+          8.061648311333345e-06,
+          1.6183368956410141e-06
         ]
       ],
-      "home_elo": 1499.1,
-      "away_elo": 1517.0,
-      "home_form": "DLDDW",
-      "away_form": "DDWWL",
-      "home_attack_strength": 0.889,
-      "away_attack_strength": 0.824,
-      "home_defense_strength": 1.098,
-      "away_defense_strength": 0.667,
+      "home_elo": 1496.5,
+      "away_elo": 1497.2,
+      "home_form": "LDDWD",
+      "away_form": "DWWLL",
+      "home_attack_strength": 0.982,
+      "away_attack_strength": 0.803,
+      "home_defense_strength": 1.204,
+      "away_defense_strength": 0.654,
       "predictions": {
         "winner": {
           "pick": "no_pick",
@@ -3299,16 +3035,16 @@
       "expected_cards": 1.0,
       "red_card_probability": 0.05,
       "reasoning": {
-        "winner": "Model favours Burnley win (34%). xG: Burnley 1.10 — Wolverhampton Wanderers 1.10. Teams are closely matched on Elo. Home form: 40%, Away form: 42%.",
-        "over25": "Combined xG 2.20 goals expected. Poisson model gives Over 2.5 a 38% probability. Burnley scores 1.3/game at home, Wolverhampton Wanderers concedes 1.0/game away.",
-        "btts": "Burnley scored in 100% of home games. Wolverhampton Wanderers scored in 67% of away games. BTTS probability: 46%.",
+        "winner": "Model favours Burnley win (34%). xG: Burnley 1.21 — Wolverhampton Wanderers 1.20. Teams are closely matched on Elo. Home form: 40%, Away form: 42%.",
+        "over25": "Combined xG 2.41 goals expected. Poisson model gives Over 2.5 a 43% probability. Burnley scores 1.5/game at home, Wolverhampton Wanderers concedes 1.0/game away.",
+        "btts": "Burnley scored in 100% of home games. Wolverhampton Wanderers scored in 67% of away games. BTTS probability: 51%.",
         "corners": "Expected 4.0 total corners. Burnley avg 0.0 at home, Wolverhampton Wanderers avg 0.0 away.",
         "cards": "Expected 1.0 total cards. Burnley avg 0.0 yellows at home, Wolverhampton Wanderers avg 0.0 away."
       },
       "no_prediction_reason": null,
       "data_freshness_score": 100.0,
-      "home_matches_used": 5,
-      "away_matches_used": 5,
+      "home_matches_used": 6,
+      "away_matches_used": 6,
       "ml_used": false
     },
     {
@@ -5759,7 +5495,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Cardiff City has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Cardiff City has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -5792,7 +5528,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Millwall has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Millwall has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -5825,7 +5561,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Watford has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Watford has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -7430,7 +7166,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Bristol City has only 2 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Bristol City has only 3 matches (need 5)",
       "predictions": {}
     },
     {
@@ -7562,7 +7298,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Swansea City has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Swansea City has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -7595,7 +7331,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: West Bromwich Albion has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: West Bromwich Albion has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -7628,7 +7364,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Preston North End has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Preston North End has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -22893,7 +22629,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Bolton Wanderers has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Bolton Wanderers has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -26914,7 +26650,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Blackburn Rovers has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Blackburn Rovers has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -26947,7 +26683,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Cardiff City has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Cardiff City has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -27013,7 +26749,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Preston North End has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Preston North End has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -27079,7 +26815,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Stoke City has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Stoke City has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -27145,7 +26881,7 @@
       "is_featured": false,
       "home_xg_adjustment": 1.0,
       "away_xg_adjustment": 1.0,
-      "no_prediction_reason": "Insufficient data: Watford has only 3 matches (need 5)",
+      "no_prediction_reason": "Insufficient data: Watford has only 4 matches (need 5)",
       "predictions": {}
     },
     {
@@ -38168,6 +37904,169 @@
     {
       "league_id": 262,
       "league_name": "Liga MX",
+      "home_team_id": "team_262_am_rica",
+      "home_team_name": "América",
+      "away_team_id": "team_262_pachuca",
+      "away_team_name": "Pachuca",
+      "match_date": "2026-10-26T01:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estadio Banorte",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "262_team_262_am_rica_team_262_pachuca_20261026",
+      "api_fixture_id": "espn_401876922",
+      "fixture_date": "2026-10-26T01:00:00+00:00",
+      "league_country": "Mexico",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.889,
+      "xg_away": 0.643,
+      "home_win_probability": 0.37622,
+      "draw_probability": 0.39054,
+      "away_win_probability": 0.23324,
+      "most_likely_score": "0-0",
+      "score_matrix": [
+        [
+          0.232142157402835,
+          0.12283204419310711,
+          0.044636660255853326,
+          0.00956357149472244,
+          0.0015367732354484428,
+          0.00019755564987360168,
+          2.1163518629339968e-05
+        ],
+        [
+          0.17612084510312956,
+          0.13958358395217976,
+          0.03969863521814619,
+          0.008505581151803608,
+          0.0013667644428903684,
+          0.00017570063787618358,
+          1.882225957728179e-05
+        ],
+        [
+          0.08545945501427829,
+          0.05493002410424904,
+          0.0176534448270777,
+          0.0037823166151808242,
+          0.0006077816164609051,
+          7.813169142428786e-05,
+          8.37000363218016e-06
+        ],
+        [
+          0.025335107294521243,
+          0.016284424633169894,
+          0.005233498373435673,
+          0.0011212966107898349,
+          0.00018018149615044822,
+          2.3162735884590348e-05,
+          2.481351420289158e-06
+        ],
+        [
+          0.005633089353755495,
+          0.0036207314208998895,
+          0.0011636328841075187,
+          0.0002493126998522031,
+          4.006213417254078e-05,
+          5.150077297819548e-06,
+          5.517116665844802e-07
+        ],
+        [
+          0.001001983383721625,
+          0.000644036068457143,
+          0.00020698070657276007,
+          4.4346390925991914e-05,
+          7.126035153436783e-06,
+          9.160678187816892e-07,
+          9.813547909629145e-08
+        ],
+        [
+          0.0001485228084456746,
+          9.546470249065592e-05,
+          3.068050462082026e-05,
+          6.573412924567993e-06,
+          1.0562837380994714e-06,
+          1.3578764616515807e-07,
+          1.4546505661008432e-08
+        ]
+      ],
+      "home_elo": 1540.4,
+      "away_elo": 1467.3,
+      "home_form": "DWDWD",
+      "away_form": "LLDLD",
+      "home_attack_strength": 1.271,
+      "away_attack_strength": 0.643,
+      "home_defense_strength": 0.643,
+      "away_defense_strength": 0.423,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Draw (39%). xG: América 0.89 — Pachuca 0.64. Elo gap of 73 pts favours home. Home form: 55%, Away form: 24%.",
+        "over25": "Combined xG 1.53 goals expected. Poisson model gives Over 2.5 a 20% probability. América scores 2.0/game at home, Pachuca concedes 0.7/game away.",
+        "btts": "América scored in 100% of home games. Pachuca scored in 33% of away games. BTTS probability: 30%.",
+        "corners": "Expected 4.0 total corners. América avg 0.0 at home, Pachuca avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. América avg 0.0 yellows at home, Pachuca avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 6,
+      "ml_used": false
+    },
+    {
+      "league_id": 262,
+      "league_name": "Liga MX",
       "home_team_id": "team_262_tijuana",
       "home_team_name": "Tijuana",
       "away_team_id": "team_262_santos",
@@ -39308,6 +39207,3241 @@
       "data_freshness_score": 100.0,
       "home_matches_used": 7,
       "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_ac_milan",
+      "home_team_name": "AC Milan",
+      "away_team_id": "team_135_bologna",
+      "away_team_name": "Bologna",
+      "match_date": "2026-10-28T17:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "San Siro",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "135_team_135_ac_milan_team_135_bologna_20261028",
+      "api_fixture_id": "espn_401874993",
+      "fixture_date": "2026-10-28T17:30:00+00:00",
+      "league_country": "Italy",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Bologna has only 2 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_parma",
+      "home_team_name": "Parma",
+      "away_team_id": "team_135_udinese",
+      "away_team_name": "Udinese",
+      "match_date": "2026-10-28T17:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Ennio Tardini",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "135_team_135_parma_team_135_udinese_20261028",
+      "api_fixture_id": "espn_401874965",
+      "fixture_date": "2026-10-28T17:30:00+00:00",
+      "league_country": "Italy",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Parma has only 2 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_venezia",
+      "home_team_name": "Venezia",
+      "away_team_id": "team_135_internazionale",
+      "away_team_name": "Internazionale",
+      "match_date": "2026-10-28T17:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Stadio Pier Luigi Penzo",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "135_team_135_venezia_team_135_internazionale_20261028",
+      "api_fixture_id": "espn_401874773",
+      "fixture_date": "2026-10-28T17:30:00+00:00",
+      "league_country": "Italy",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Venezia has only 2 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_degerfors_if",
+      "home_team_name": "Degerfors IF",
+      "away_team_id": "team_113_v_ster_s_sk",
+      "away_team_name": "Västerås SK",
+      "match_date": "2026-10-28T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Stora Valla",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "113_team_113_degerfors_if_team_113_v_ster_s_sk_20261028",
+      "api_fixture_id": "espn_401842863",
+      "fixture_date": "2026-10-28T18:00:00+00:00",
+      "league_country": "Sweden",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20856.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22163.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.829,
+      "xg_away": 0.778,
+      "home_win_probability": 0.32189,
+      "draw_probability": 0.38582,
+      "away_win_probability": 0.29229,
+      "most_likely_score": "0-0",
+      "score_matrix": [
+        [
+          0.21729741375589157,
+          0.1390913209637683,
+          0.06061568189079983,
+          0.015711875563871814,
+          0.0030544451456388814,
+          0.0004750361016946784,
+          6.156581832750428e-05
+        ],
+        [
+          0.1494805680960337,
+          0.14612051683130317,
+          0.05027673319872284,
+          0.013031970459383924,
+          0.002533461950227248,
+          0.00039401129542171654,
+          5.106480906688899e-05
+        ],
+        [
+          0.06896369554889167,
+          0.05362716226673612,
+          0.020850626622408906,
+          0.005404582456240004,
+          0.001050670276795353,
+          0.0001634032659476482,
+          2.1177455249326942e-05
+        ],
+        [
+          0.01906695436645103,
+          0.014826738149744568,
+          0.005764742494687391,
+          0.0014942489123105883,
+          0.00029048736530717164,
+          4.517743126083012e-05,
+          5.855103465999871e-06
+        ],
+        [
+          0.003953697078427905,
+          0.003074451754518559,
+          0.0011953689677486265,
+          0.0003098453714999938,
+          6.0235055135811744e-05,
+          9.367929169700323e-06,
+          1.2141060927983762e-06
+        ],
+        [
+          0.0006558664918388399,
+          0.0005100112240681928,
+          0.00019829603426321348,
+          5.139928345218788e-05,
+          9.992205653082719e-06,
+          1.5540165871203134e-06,
+          2.0140427756808787e-07
+        ],
+        [
+          9.066637432089053e-05,
+          7.050347765073e-05,
+          2.7412259495754835e-05,
+          7.105389177965089e-06,
+          1.3813132235094103e-06,
+          2.148258088222999e-07,
+          2.784194016166296e-08
+        ]
+      ],
+      "home_elo": 1419.7,
+      "away_elo": 1514.7,
+      "home_form": "LLLLD",
+      "away_form": "DWLWL",
+      "home_attack_strength": 0.305,
+      "away_attack_strength": 0.622,
+      "home_defense_strength": 1.037,
+      "away_defense_strength": 1.222,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Draw (39%). xG: Degerfors IF 0.83 — Västerås SK 0.78. Elo gap of 95 pts favours away. Home form: 6%, Away form: 24%.",
+        "over25": "Combined xG 1.61 goals expected. Poisson model gives Over 2.5 a 22% probability. Degerfors IF scores 0.5/game at home, Västerås SK concedes 2.0/game away.",
+        "btts": "Degerfors IF scored in 25% of home games. Västerås SK scored in 25% of away games. BTTS probability: 32%.",
+        "corners": "Expected 4.0 total corners. Degerfors IF avg 0.0 at home, Västerås SK avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Degerfors IF avg 0.0 yellows at home, Västerås SK avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 8,
+      "away_matches_used": 8,
+      "ml_used": false
+    },
+    {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_halmstads_bk",
+      "home_team_name": "Halmstads BK",
+      "away_team_id": "team_113_malm_ff",
+      "away_team_name": "Malmö FF",
+      "match_date": "2026-10-28T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Örjans Vall",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "113_team_113_halmstads_bk_team_113_malm_ff_20261028",
+      "api_fixture_id": "espn_401842862",
+      "fixture_date": "2026-10-28T18:00:00+00:00",
+      "league_country": "Sweden",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3017.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2720.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.778,
+      "xg_away": 2.074,
+      "home_win_probability": 0.11789,
+      "draw_probability": 0.22136,
+      "away_win_probability": 0.66075,
+      "most_likely_score": "0-2",
+      "score_matrix": [
+        [
+          0.07024554951284438,
+          0.10824897364086035,
+          0.124872267561612,
+          0.0863219805152381,
+          0.0447546388736589,
+          0.018562852138065054,
+          0.006416084979712094
+        ],
+        [
+          0.03298928205337573,
+          0.10584424240223501,
+          0.09712598855155856,
+          0.06714147068030263,
+          0.03481027955808844,
+          0.014438236763470417,
+          0.004990448307330307
+        ],
+        [
+          0.017565139408877578,
+          0.03642740661498236,
+          0.037772428723867824,
+          0.02611140904209305,
+          0.01353776494916004,
+          0.005615049866462988,
+          0.0019407921175362494
+        ],
+        [
+          0.004554071031801671,
+          0.009444445237087496,
+          0.009793165852428148,
+          0.0067698416021691465,
+          0.003509903437438722,
+          0.0014558003408761421,
+          0.000503184458459453
+        ],
+        [
+          0.0008855422015130646,
+          0.001836478783250622,
+          0.0019042877434678241,
+          0.0013164002920498755,
+          0.0006825031044494078,
+          0.0002830813638655322,
+          9.784455929644544e-05
+        ],
+        [
+          0.0001377554254528821,
+          0.00028568363618314627,
+          0.0002962320348345915,
+          0.00020477994384432904,
+          0.00010617055332393884,
+          4.4036290591740026e-05,
+          1.522075274459152e-05
+        ],
+        [
+          1.78577572863275e-05,
+          3.703425123810525e-05,
+          3.840168008715165e-05,
+          2.6546399332421307e-05,
+          1.3763290745034854e-05,
+          5.708591052527781e-06,
+          1.9731237977344704e-06
+        ]
+      ],
+      "home_elo": 1437.5,
+      "away_elo": 1534.3,
+      "home_form": "LDLWL",
+      "away_form": "DLWLW",
+      "home_attack_strength": 0.458,
+      "away_attack_strength": 1.037,
+      "home_defense_strength": 1.659,
+      "away_defense_strength": 0.764,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 64.4
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Malmö FF win (66%). xG: Halmstads BK 0.78 — Malmö FF 2.07. Elo gap of 97 pts favours away. Home form: 37%, Away form: 51%.",
+        "over25": "Combined xG 2.85 goals expected. Poisson model gives Over 2.5 a 54% probability. Halmstads BK scores 0.8/game at home, Malmö FF concedes 1.2/game away.",
+        "btts": "Halmstads BK scored in 50% of home games. Malmö FF scored in 75% of away games. BTTS probability: 48%.",
+        "corners": "Expected 4.0 total corners. Halmstads BK avg 0.0 at home, Malmö FF avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Halmstads BK avg 0.0 yellows at home, Malmö FF avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 8,
+      "away_matches_used": 8,
+      "ml_used": false
+    },
+    {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_if_brommapojkarna",
+      "home_team_name": "IF Brommapojkarna",
+      "away_team_id": "team_113_bk_h_cken",
+      "away_team_name": "BK Häcken",
+      "match_date": "2026-10-28T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Grimsta IP",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "113_team_113_if_brommapojkarna_team_113_bk_h_cken_20261028",
+      "api_fixture_id": "espn_401842864",
+      "fixture_date": "2026-10-28T18:00:00+00:00",
+      "league_country": "Sweden",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8221.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7834.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.885,
+      "xg_away": 3.871,
+      "home_win_probability": 0.04294,
+      "draw_probability": 0.0919,
+      "away_win_probability": 0.86516,
+      "most_likely_score": "0-3",
+      "score_matrix": [
+        [
+          0.013777184016455044,
+          0.032655263254431875,
+          0.07141985464004212,
+          0.09215527303752842,
+          0.08918312412659232,
+          0.06904546526157192,
+          0.04454576206611265
+        ],
+        [
+          0.004190269220958233,
+          0.0368966379876567,
+          0.06319763684495813,
+          0.0815458881585067,
+          0.07891590818348213,
+          0.06109659927738856,
+          0.03941742682374126
+        ],
+        [
+          0.003731966615415891,
+          0.014446419870663122,
+          0.027961001341411103,
+          0.036078954878966674,
+          0.03491535324319739,
+          0.02703142363600906,
+          0.017439745840457523
+        ],
+        [
+          0.0011007745304964956,
+          0.004261091453711274,
+          0.008247329436620295,
+          0.010641787215792915,
+          0.010298573254819112,
+          0.00797314277642963,
+          0.005143997794677083
+        ],
+        [
+          0.00024351193858176035,
+          0.000942633220173972,
+          0.0018244637058671654,
+          0.0023541626037836246,
+          0.00227823724879984,
+          0.0017638084823799612,
+          0.001137948635564024
+        ],
+        [
+          4.30955205368723e-05,
+          0.00016682249558415803,
+          0.0003228844284305077,
+          0.00041662788046192785,
+          0.00040319099225829505,
+          0.0003121499714478832,
+          0.0002013884373779466
+        ],
+        [
+          6.355690748882956e-06,
+          2.4602839893362876e-05,
+          4.761872113781122e-05,
+          6.144392578604567e-05,
+          5.94622649316064e-05,
+          4.603561254348816e-05,
+          2.970059561712175e-05
+        ]
+      ],
+      "home_elo": 1458.6,
+      "away_elo": 1526.5,
+      "home_form": "LDLLW",
+      "away_form": "WDDWW",
+      "home_attack_strength": 0.489,
+      "away_attack_strength": 2.765,
+      "home_defense_strength": 1.161,
+      "away_defense_strength": 0.815,
+      "predictions": {
+        "winner": {
+          "pick": "away",
+          "confidence": 76.0
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 85.0
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 71.2
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 75.0
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours BK Häcken win (87%). xG: IF Brommapojkarna 0.89 — BK Häcken 3.87. Elo gap of 68 pts favours away. Home form: 12%, Away form: 76%.",
+        "over25": "Combined xG 4.76 goals expected. Poisson model gives Over 2.5 a 84% probability. IF Brommapojkarna scores 0.8/game at home, BK Häcken concedes 1.3/game away.",
+        "btts": "IF Brommapojkarna scored in 80% of home games. BK Häcken scored in 100% of away games. BTTS probability: 58%.",
+        "corners": "Expected 4.0 total corners. IF Brommapojkarna avg 0.0 at home, BK Häcken avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. IF Brommapojkarna avg 0.0 yellows at home, BK Häcken avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 8,
+      "away_matches_used": 8,
+      "ml_used": false
+    },
+    {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "home_team_id": "team_113_ifk_g_teborg",
+      "home_team_name": "IFK Göteborg",
+      "away_team_id": "team_113_djurg_rden",
+      "away_team_name": "Djurgården",
+      "match_date": "2026-10-28T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Gamla Ullevi",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "113_team_113_ifk_g_teborg_team_113_djurg_rden_20261028",
+      "api_fixture_id": "espn_401842860",
+      "fixture_date": "2026-10-28T18:00:00+00:00",
+      "league_country": "Sweden",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2556.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2339.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.622,
+      "xg_away": 0.933,
+      "home_win_probability": 0.21823,
+      "draw_probability": 0.38457,
+      "away_win_probability": 0.3972,
+      "most_likely_score": "0-0",
+      "score_matrix": [
+        [
+          0.2270846189587743,
+          0.18110045389751303,
+          0.09193186984038049,
+          0.028595477696010105,
+          0.006670983735695548,
+          0.0012450087241067161,
+          0.00019363045298298616
+        ],
+        [
+          0.11542024944968728,
+          0.1385087417716599,
+          0.05719015349167106,
+          0.017789040530144247,
+          0.004149970890913955,
+          0.0007745109520100015,
+          0.00012045610892050734
+        ],
+        [
+          0.04085746303177322,
+          0.03812623440171047,
+          0.01778879110193109,
+          0.005533216936384116,
+          0.001290833487067218,
+          0.00024090883990143878,
+          3.746743849621643e-05
+        ],
+        [
+          0.008472377736993194,
+          0.007906018523206791,
+          0.003688759568424985,
+          0.0011473914557376737,
+          0.00026767273556580753,
+          4.995588419766905e-05,
+          7.769407795355446e-06
+        ],
+        [
+          0.0013176512782219825,
+          0.0012295692822174827,
+          0.0005736876838205892,
+          0.00017844598826990916,
+          4.1629319786281423e-05,
+          7.76929885696158e-06,
+          1.2083231449747816e-06
+        ],
+        [
+          0.00016394027224911687,
+          0.00015298123730270172,
+          7.137739447907867e-05,
+          2.2201992577434568e-05,
+          5.179459946730136e-06,
+          9.666449620219287e-07,
+          1.5033782353960763e-07
+        ],
+        [
+          1.6997676920369222e-05,
+          1.58614208142726e-05,
+          7.400560424405788e-06,
+          2.301949921409266e-06,
+          5.370174490300437e-07,
+          1.0022381038982219e-07,
+          1.5587346039993505e-08
+        ]
+      ],
+      "home_elo": 1530.2,
+      "away_elo": 1555.7,
+      "home_form": "WLWWW",
+      "away_form": "DWWLW",
+      "home_attack_strength": 0.916,
+      "away_attack_strength": 1.244,
+      "home_defense_strength": 0.622,
+      "away_defense_strength": 0.305,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Djurgården win (40%). xG: IFK Göteborg 0.62 — Djurgården 0.93. Teams are closely matched on Elo. Home form: 85%, Away form: 88%.",
+        "over25": "Combined xG 1.56 goals expected. Poisson model gives Over 2.5 a 21% probability. IFK Göteborg scores 1.5/game at home, Djurgården concedes 0.5/game away.",
+        "btts": "IFK Göteborg scored in 100% of home games. Djurgården scored in 75% of away games. BTTS probability: 30%.",
+        "corners": "Expected 4.0 total corners. IFK Göteborg avg 0.0 at home, Djurgården avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. IFK Göteborg avg 0.0 yellows at home, Djurgården avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 8,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_genoa",
+      "home_team_name": "Genoa",
+      "away_team_id": "team_135_juventus",
+      "away_team_name": "Juventus",
+      "match_date": "2026-10-28T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Stadio Luigi Ferraris",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "135_team_135_genoa_team_135_juventus_20261028",
+      "api_fixture_id": "espn_401874988",
+      "fixture_date": "2026-10-28T19:45:00+00:00",
+      "league_country": "Italy",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Genoa has only 2 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_monza",
+      "home_team_name": "Monza",
+      "away_team_id": "team_135_napoli",
+      "away_team_name": "Napoli",
+      "match_date": "2026-10-28T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "U-Power Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "135_team_135_monza_team_135_napoli_20261028",
+      "api_fixture_id": "espn_401874799",
+      "fixture_date": "2026-10-28T19:45:00+00:00",
+      "league_country": "Italy",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Monza has only 2 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 179,
+      "league_name": "Scottish Prem",
+      "home_team_id": "team_179_aberdeen",
+      "home_team_name": "Aberdeen",
+      "away_team_id": "team_179_falkirk",
+      "away_team_name": "Falkirk",
+      "match_date": "2026-10-28T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Pittodrie Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "179_team_179_aberdeen_team_179_falkirk_20261028",
+      "api_fixture_id": "espn_401878356",
+      "fixture_date": "2026-10-28T19:45:00+00:00",
+      "league_country": "Scotland",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/263.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/254.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Aberdeen has only 3 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 179,
+      "league_name": "Scottish Prem",
+      "home_team_id": "team_179_celtic",
+      "home_team_name": "Celtic",
+      "away_team_id": "team_179_dundee_united",
+      "away_team_name": "Dundee United",
+      "match_date": "2026-10-28T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Celtic Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "179_team_179_celtic_team_179_dundee_united_20261028",
+      "api_fixture_id": "espn_401878355",
+      "fixture_date": "2026-10-28T19:45:00+00:00",
+      "league_country": "Scotland",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/264.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Celtic has only 3 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 179,
+      "league_name": "Scottish Prem",
+      "home_team_id": "team_179_dundee",
+      "home_team_name": "Dundee",
+      "away_team_id": "team_179_kilmarnock",
+      "away_team_name": "Kilmarnock",
+      "match_date": "2026-10-28T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "The Scot Foam Stadium at Dens Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "179_team_179_dundee_team_179_kilmarnock_20261028",
+      "api_fixture_id": "espn_401878354",
+      "fixture_date": "2026-10-28T19:45:00+00:00",
+      "league_country": "Scotland",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/261.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/260.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Dundee has only 3 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 179,
+      "league_name": "Scottish Prem",
+      "home_team_id": "team_179_st_johnstone",
+      "home_team_name": "St Johnstone",
+      "away_team_id": "team_179_motherwell",
+      "away_team_name": "Motherwell",
+      "match_date": "2026-10-28T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "McDiarmid Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "179_team_179_st_johnstone_team_179_motherwell_20261028",
+      "api_fixture_id": "espn_401878352",
+      "fixture_date": "2026-10-28T19:45:00+00:00",
+      "league_country": "Scotland",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/267.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/266.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: St Johnstone has only 3 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 179,
+      "league_name": "Scottish Prem",
+      "home_team_id": "team_179_st_mirren",
+      "home_team_name": "St Mirren",
+      "away_team_id": "team_179_hibernian",
+      "away_team_name": "Hibernian",
+      "match_date": "2026-10-28T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "The SMISA Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "179_team_179_st_mirren_team_179_hibernian_20261028",
+      "api_fixture_id": "espn_401878351",
+      "fixture_date": "2026-10-28T19:45:00+00:00",
+      "league_country": "Scotland",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/250.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/258.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: St Mirren has only 3 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 179,
+      "league_name": "Scottish Prem",
+      "home_team_id": "team_179_heart_of_midlothian",
+      "home_team_name": "Heart of Midlothian",
+      "away_team_id": "team_179_rangers",
+      "away_team_name": "Rangers",
+      "match_date": "2026-10-28T20:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Tynecastle Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "179_team_179_heart_of_midlothian_team_179_rangers_20261028",
+      "api_fixture_id": "espn_401878353",
+      "fixture_date": "2026-10-28T20:00:00+00:00",
+      "league_country": "Scotland",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/257.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient data: Heart of Midlothian has only 3 matches (need 5)",
+      "predictions": {}
+    },
+    {
+      "league_id": 71,
+      "league_name": "Brasileirao",
+      "home_team_id": "team_71_fluminense",
+      "home_team_name": "Fluminense",
+      "away_team_id": "team_71_internacional",
+      "away_team_name": "Internacional",
+      "match_date": "2026-10-28T22:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estadio do Maracana",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "71_team_71_fluminense_team_71_internacional_20261028",
+      "api_fixture_id": "espn_401841289",
+      "fixture_date": "2026-10-28T22:30:00+00:00",
+      "league_country": "Brazil",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 2.421,
+      "xg_away": 0.138,
+      "home_win_probability": 0.87617,
+      "draw_probability": 0.11362,
+      "away_win_probability": 0.01021,
+      "most_likely_score": "2-0",
+      "score_matrix": [
+        [
+          0.0817157014686843,
+          0.007421285057902381,
+          0.0007488632581939909,
+          3.452204384120378e-05,
+          1.1935805682149663e-06,
+          3.3013910285809654e-08,
+          7.609584565578005e-10
+        ],
+        [
+          0.18617335099130508,
+          0.02962717811241887,
+          0.0018129969796140722,
+          8.357782349363667e-05,
+          2.889657012040527e-06,
+          7.992663410643364e-08,
+          1.8422794392106401e-09
+        ],
+        [
+          0.22948863107229583,
+          0.031737769864855686,
+          0.0021946316714861924,
+          0.00010117090129519269,
+          3.4979279445386864e-06,
+          9.67511389029488e-08,
+          2.230078069892947e-09
+        ],
+        [
+          0.18519722634598831,
+          0.02561236659922773,
+          0.0017710668128141924,
+          8.164487373185325e-05,
+          2.822826343334673e-06,
+          7.807812738661046e-08,
+          1.7996720410479942e-09
+        ],
+        [
+          0.11209056136894964,
+          0.01550187660333154,
+          0.0010719376158441023,
+          4.9415533429227724e-05,
+          1.708514731642453e-06,
+          4.7256761356950554e-08,
+          1.089250920984124e-09
+        ],
+        [
+          0.054274220822436964,
+          0.007506004641747198,
+          0.0005190319163332832,
+          2.3926988505022897e-05,
+          8.272623911511245e-07,
+          2.2881711625996245e-08,
+          5.274150142039668e-10
+        ],
+        [
+          0.02189963640342276,
+          0.0030286712550779346,
+          0.00020942926636676262,
+          9.654534704480895e-06,
+          3.3380019651882796e-07,
+          9.2327657090958e-09,
+          2.1281184455066503e-10
+        ]
+      ],
+      "home_elo": 1517.0,
+      "away_elo": 1464.8,
+      "home_form": "DDWWL",
+      "away_form": "LDLWD",
+      "home_attack_strength": 1.088,
+      "away_attack_strength": 0.415,
+      "home_defense_strength": 0.277,
+      "away_defense_strength": 1.142,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 76.4
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 55.0
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Fluminense win (88%). xG: Fluminense 2.42 — Internacional 0.14. Elo gap of 52 pts favours home. Home form: 66%, Away form: 15%.",
+        "over25": "Combined xG 2.56 goals expected. Poisson model gives Over 2.5 a 46% probability. Fluminense scores 1.7/game at home, Internacional concedes 1.8/game away.",
+        "btts": "Fluminense scored in 67% of home games. Internacional scored in 50% of away games. BTTS probability: 12%.",
+        "corners": "Expected 4.0 total corners. Fluminense avg 0.0 at home, Internacional avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Fluminense avg 0.0 yellows at home, Internacional avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 71,
+      "league_name": "Brasileirao",
+      "home_team_id": "team_71_red_bull_bragantino",
+      "home_team_name": "Red Bull Bragantino",
+      "away_team_id": "team_71_chapecoense",
+      "away_team_name": "Chapecoense",
+      "match_date": "2026-10-28T22:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "71_team_71_red_bull_bragantino_team_71_chapecoense_20261028",
+      "api_fixture_id": "espn_401841291",
+      "fixture_date": "2026-10-28T22:30:00+00:00",
+      "league_country": "Brazil",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 3.32,
+      "xg_away": 0.498,
+      "home_win_probability": 0.88469,
+      "draw_probability": 0.09055,
+      "away_win_probability": 0.02475,
+      "most_likely_score": "3-0",
+      "score_matrix": [
+        [
+          0.028165892630623038,
+          0.006562046939689113,
+          0.002874645571554993,
+          0.0004771835298194906,
+          5.940839891293519e-05,
+          5.9169818585038375e-06,
+          4.9110163650391e-07
+        ],
+        [
+          0.07198619014843267,
+          0.04331289227248505,
+          0.009544015590518552,
+          0.0015842812391206706,
+          0.00019723985838229516,
+          1.9644775573438287e-05,
+          1.6304902843334144e-06
+        ],
+        [
+          0.12777126250778345,
+          0.0636290706474565,
+          0.015843385092999207,
+          0.0026299598454070606,
+          0.000327424761873167,
+          3.2610984498466915e-05,
+          2.7066684059853377e-06
+        ],
+        [
+          0.14140304616577845,
+          0.07041759029108582,
+          0.017533699438800652,
+          0.0029105475373351975,
+          0.00036235737058753776,
+          3.6090216657812996e-05,
+          2.9954400547907544e-06
+        ],
+        [
+          0.11736689302735367,
+          0.05844777754821849,
+          0.014553263753560652,
+          0.0024158031296225378,
+          0.00030076267735817177,
+          2.9955483369471274e-05,
+          2.486265338784199e-06
+        ],
+        [
+          0.07793318716907828,
+          0.03881010623856563,
+          0.009663561833939587,
+          0.0016041255980137395,
+          0.00019971044153451937,
+          1.9890841718278503e-05,
+          1.6509134475793122e-06
+        ],
+        [
+          0.04312389909446236,
+          0.021475358137814274,
+          0.005347278618488932,
+          0.0008876340482971518,
+          0.00011050867084597119,
+          1.1006487509640873e-05,
+          9.135238466847787e-07
+        ]
+      ],
+      "home_elo": 1501.7,
+      "away_elo": 1439.0,
+      "home_form": "DLLDW",
+      "away_form": "LDDLL",
+      "home_attack_strength": 1.305,
+      "away_attack_strength": 0.498,
+      "home_defense_strength": 0.83,
+      "away_defense_strength": 1.305,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.9
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 78.6
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 65.3
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Red Bull Bragantino win (88%). xG: Red Bull Bragantino 3.32 — Chapecoense 0.50. Elo gap of 63 pts favours home. Home form: 71%, Away form: 17%.",
+        "over25": "Combined xG 3.82 goals expected. Poisson model gives Over 2.5 a 72% probability. Red Bull Bragantino scores 2.0/game at home, Chapecoense concedes 2.0/game away.",
+        "btts": "Red Bull Bragantino scored in 75% of home games. Chapecoense scored in 40% of away games. BTTS probability: 38%.",
+        "corners": "Expected 4.0 total corners. Red Bull Bragantino avg 0.0 at home, Chapecoense avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Red Bull Bragantino avg 0.0 yellows at home, Chapecoense avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 71,
+      "league_name": "Brasileirao",
+      "home_team_id": "team_71_santos",
+      "home_team_name": "Santos",
+      "away_team_id": "team_71_palmeiras",
+      "away_team_name": "Palmeiras",
+      "match_date": "2026-10-28T22:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "71_team_71_santos_team_71_palmeiras_20261028",
+      "api_fixture_id": "espn_401841293",
+      "fixture_date": "2026-10-28T22:30:00+00:00",
+      "league_country": "Brazil",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.646,
+      "xg_away": 3.228,
+      "home_win_probability": 0.03941,
+      "draw_probability": 0.10893,
+      "away_win_probability": 0.85166,
+      "most_likely_score": "0-3",
+      "score_matrix": [
+        [
+          0.027700901726629663,
+          0.06445407235201889,
+          0.11355608697970777,
+          0.12218397413854398,
+          0.09860055017761496,
+          0.06365527763439452,
+          0.03424587357282108
+        ],
+        [
+          0.00816578925490382,
+          0.0513213552771301,
+          0.07330182039755131,
+          0.07887122536516318,
+          0.06364784145398418,
+          0.04109024758264578,
+          0.022106123421114024
+        ],
+        [
+          0.0045411822955651925,
+          0.014658651462485758,
+          0.02365860349941012,
+          0.025456162456906024,
+          0.02054272371936118,
+          0.013262124596333852,
+          0.007134884319279898
+        ],
+        [
+          0.0009771292697018925,
+          0.003154111961623115,
+          0.00509063773593085,
+          0.005477419714073276,
+          0.004420191773668685,
+          0.002853620330143201,
+          0.0015352178905290474
+        ],
+        [
+          0.00015768717498533988,
+          0.0005090043049959558,
+          0.0008215169766612381,
+          0.0008839350817775939,
+          0.0007133217428804484,
+          0.0004605115641232364,
+          0.0002477504048346996
+        ],
+        [
+          2.035779373383682e-05,
+          6.57136805939101e-05,
+          0.0001060598185062899,
+          0.00011411814607372746,
+          9.209155347460076e-05,
+          5.9453151058981216e-05,
+          3.1985173426870574e-05
+        ],
+        [
+          2.190200131726925e-06,
+          7.069828576454357e-06,
+          1.1410481484411324e-05,
+          1.2277439384194215e-05,
+          9.907700961512476e-06,
+          6.396287386708876e-06,
+          3.4411357128745928e-06
+        ]
+      ],
+      "home_elo": 1515.3,
+      "away_elo": 1553.3,
+      "home_form": "DWWDL",
+      "away_form": "LWDWW",
+      "home_attack_strength": 1.523,
+      "away_attack_strength": 1.937,
+      "home_defense_strength": 1.383,
+      "away_defense_strength": 0.217,
+      "predictions": {
+        "winner": {
+          "pick": "away",
+          "confidence": 73.5
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 79.5
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 55.7
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 66.0
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Palmeiras win (85%). xG: Santos 0.65 — Palmeiras 3.23. Elo gap of 38 pts favours away. Home form: 55%, Away form: 74%.",
+        "over25": "Combined xG 3.87 goals expected. Poisson model gives Over 2.5 a 73% probability. Santos scores 2.3/game at home, Palmeiras concedes 0.3/game away.",
+        "btts": "Santos scored in 100% of home games. Palmeiras scored in 67% of away games. BTTS probability: 46%.",
+        "corners": "Expected 4.0 total corners. Santos avg 0.0 at home, Palmeiras avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Santos avg 0.0 yellows at home, Palmeiras avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_charlotte_fc",
+      "home_team_name": "Charlotte FC",
+      "away_team_id": "team_253_cf_montr_al",
+      "away_team_name": "CF Montréal",
+      "match_date": "2026-10-28T23:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Bank of America Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_charlotte_fc_team_253_cf_montr_al_20261028",
+      "api_fixture_id": "espn_761907",
+      "fixture_date": "2026-10-28T23:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_inter_miami_cf",
+      "home_team_name": "Inter Miami CF",
+      "away_team_id": "team_253_fc_cincinnati",
+      "away_team_name": "FC Cincinnati",
+      "match_date": "2026-10-28T23:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Nu Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_inter_miami_cf_team_253_fc_cincinnati_20261028",
+      "api_fixture_id": "espn_761908",
+      "fixture_date": "2026-10-28T23:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 3.82,
+      "xg_away": 1.823,
+      "home_win_probability": 0.70749,
+      "draw_probability": 0.14378,
+      "away_win_probability": 0.14873,
+      "most_likely_score": "3-1",
+      "score_matrix": [
+        [
+          0.007461583212445758,
+          0.0035943747485692678,
+          0.006507760042276462,
+          0.0039545669317817625,
+          0.0018023021188951973,
+          0.000657122356770545,
+          0.00019965658885221242
+        ],
+        [
+          0.011414040520135333,
+          0.03081604463292449,
+          0.024857480619054767,
+          0.01510513144690777,
+          0.006884195129980099,
+          0.0025099890195179235,
+          0.0007626218169722768
+        ],
+        [
+          0.028569680236955757,
+          0.05208276518311331,
+          0.04747365750370687,
+          0.028848291097902913,
+          0.013147668776168586,
+          0.004793661951377197,
+          0.0014564809482761338
+        ],
+        [
+          0.03637556128730571,
+          0.0663129513952363,
+          0.06044453153608897,
+          0.036730294919731274,
+          0.01673990844091002,
+          0.006103398520974378,
+          0.0018544243953168217
+        ],
+        [
+          0.03473563883088963,
+          0.06332335908942005,
+          0.057719505691108404,
+          0.035074379977446286,
+          0.015985221755699264,
+          0.005828238497574394,
+          0.0017708212259915103
+        ],
+        [
+          0.026535719308030538,
+          0.04837483745783867,
+          0.04409386593044262,
+          0.026794495029037708,
+          0.012211646938493775,
+          0.004452386829124881,
+          0.0013527897162445752
+        ],
+        [
+          0.016892938177575794,
+          0.03079596709022462,
+          0.02807065233569381,
+          0.017057677720004886,
+          0.007774072162269522,
+          0.002834439668808875,
+          0.0008612011899320929
+        ]
+      ],
+      "home_elo": 1522.7,
+      "away_elo": 1515.5,
+      "home_form": "WDDLW",
+      "away_form": "LWDLW",
+      "home_attack_strength": 1.478,
+      "away_attack_strength": 1.215,
+      "home_defense_strength": 1.042,
+      "away_defense_strength": 1.075,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 54.9
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 85.0
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 80.6
+        },
+        "over35": {
+          "pick": "over",
+          "confidence": 64.2
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 68.0
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 75.0
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Inter Miami CF win (71%). xG: Inter Miami CF 3.82 — FC Cincinnati 1.82. Teams are closely matched on Elo. Home form: 71%, Away form: 45%.",
+        "over25": "Combined xG 5.64 goals expected. Poisson model gives Over 2.5 a 91% probability. Inter Miami CF scores 2.8/game at home, FC Cincinnati concedes 2.0/game away.",
+        "btts": "Inter Miami CF scored in 100% of home games. FC Cincinnati scored in 100% of away games. BTTS probability: 82%.",
+        "corners": "Expected 4.0 total corners. Inter Miami CF avg 0.0 at home, FC Cincinnati avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Inter Miami CF avg 0.0 yellows at home, FC Cincinnati avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 6,
+      "ml_used": false
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_new_england_revolution",
+      "home_team_name": "New England Revolution",
+      "away_team_id": "team_253_red_bull_new_york",
+      "away_team_name": "Red Bull New York",
+      "match_date": "2026-10-28T23:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Gillette Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_new_england_revolution_team_253_red_bull_new_york_20261028",
+      "api_fixture_id": "espn_761909",
+      "fixture_date": "2026-10-28T23:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_new_york_city_fc",
+      "home_team_name": "New York City FC",
+      "away_team_id": "team_253_atlanta_united_fc",
+      "away_team_name": "Atlanta United FC",
+      "match_date": "2026-10-28T23:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Yankee Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_new_york_city_fc_team_253_atlanta_united_fc_20261028",
+      "api_fixture_id": "espn_761905",
+      "fixture_date": "2026-10-28T23:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.852,
+      "xg_away": 0.833,
+      "home_win_probability": 0.59964,
+      "draw_probability": 0.24988,
+      "away_win_probability": 0.15048,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.08214790614200426,
+          0.043287755782808225,
+          0.023752935964561888,
+          0.006597351588896971,
+          0.0013743053085876963,
+          0.00022902706405897094,
+          3.1806006365363626e-05
+        ],
+        [
+          0.11298229354267028,
+          0.11930383308672564,
+          0.043986513935657244,
+          0.012217205403003728,
+          0.0025449864260245533,
+          0.00042412029232523563,
+          5.8899470125080805e-05
+        ],
+        [
+          0.11732069262688538,
+          0.09775707631266098,
+          0.04072787909457607,
+          0.01131212319428156,
+          0.0023564472421725804,
+          0.0003927003629486501,
+          5.4536044877252286e-05
+        ],
+        [
+          0.07241951463561792,
+          0.060343319326241485,
+          0.025140434906462693,
+          0.006982727879331094,
+          0.0014545836861473798,
+          0.00024240540219462592,
+          3.366391564629938e-05
+        ],
+        [
+          0.03352724474235217,
+          0.02793646499560726,
+          0.011638983197818779,
+          0.0032327146592672235,
+          0.0006734121802538349,
+          0.00011222369118517069,
+          1.5585002806747233e-05
+        ],
+        [
+          0.01241738385759056,
+          0.010346743734548226,
+          0.0043106948748697915,
+          0.0011972907148994957,
+          0.00024940962494379373,
+          4.156394783021472e-05,
+          5.772170178617236e-06
+        ],
+        [
+          0.0038324906368852668,
+          0.0031934100563918394,
+          0.0013304491458004603,
+          0.0003695307729153464,
+          7.697757138770037e-05,
+          1.2828260986223113e-05,
+          1.7815176222112356e-06
+        ]
+      ],
+      "home_elo": 1494.2,
+      "away_elo": 1466.8,
+      "home_form": "WDLDL",
+      "away_form": "LLWDL",
+      "home_attack_strength": 0.717,
+      "away_attack_strength": 0.833,
+      "home_defense_strength": 0.694,
+      "away_defense_strength": 1.075,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 59.6
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours New York City FC win (60%). xG: New York City FC 1.85 — Atlanta United FC 0.83. Teams are closely matched on Elo. Home form: 37%, Away form: 38%.",
+        "over25": "Combined xG 2.69 goals expected. Poisson model gives Over 2.5 a 50% probability. New York City FC scores 1.3/game at home, Atlanta United FC concedes 2.0/game away.",
+        "btts": "New York City FC scored in 67% of home games. Atlanta United FC scored in 80% of away games. BTTS probability: 49%.",
+        "corners": "Expected 4.0 total corners. New York City FC avg 0.0 at home, Atlanta United FC avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. New York City FC avg 0.0 yellows at home, Atlanta United FC avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_toronto_fc",
+      "home_team_name": "Toronto FC",
+      "away_team_id": "team_253_d_c_united",
+      "away_team_name": "D.C. United",
+      "match_date": "2026-10-28T23:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "BMO Field",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_toronto_fc_team_253_d_c_united_20261028",
+      "api_fixture_id": "espn_761906",
+      "fixture_date": "2026-10-28T23:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_austin_fc",
+      "home_team_name": "Austin FC",
+      "away_team_id": "team_253_real_salt_lake",
+      "away_team_name": "Real Salt Lake",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Q2 Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_austin_fc_team_253_real_salt_lake_20261029",
+      "api_fixture_id": "espn_761910",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 3.241,
+      "xg_away": 1.482,
+      "home_win_probability": 0.69898,
+      "draw_probability": 0.15892,
+      "away_win_probability": 0.1421,
+      "most_likely_score": "3-1",
+      "score_matrix": [
+        [
+          0.01517062584730563,
+          0.008008037301476832,
+          0.010251900633044111,
+          0.005063203632511197,
+          0.0018754593861584096,
+          0.0005557505744457179,
+          0.000137236909916684
+        ],
+        [
+          0.02444029960966381,
+          0.05068103573179515,
+          0.03322609506850167,
+          0.01640968745861196,
+          0.006078306266523971,
+          0.0018011705421129185,
+          0.00044478060986094243
+        ],
+        [
+          0.04905346576456803,
+          0.07267950449477077,
+          0.05384237679512637,
+          0.026591646518053735,
+          0.009849801958479731,
+          0.0029187692023629392,
+          0.0007207601476467725
+        ],
+        [
+          0.05299359196152862,
+          0.0785173472481529,
+          0.05816716314835356,
+          0.028727569870930864,
+          0.010640968538181675,
+          0.003153213778660723,
+          0.0007786538335506036
+        ],
+        [
+          0.04293765096736768,
+          0.06361807770026745,
+          0.0471294972954291,
+          0.023276292898850266,
+          0.008621763049745271,
+          0.0025548672517220184,
+          0.0006308982896209443
+        ],
+        [
+          0.02783192159435287,
+          0.0412368471643441,
+          0.030549050634011973,
+          0.015087550072553687,
+          0.005588573846016103,
+          0.0016560492582127454,
+          0.000408944395772518
+        ],
+        [
+          0.015033733840084168,
+          0.02227455918095019,
+          0.01650142246707738,
+          0.008149714396139186,
+          0.003018732697339475,
+          0.0008945341301583281,
+          0.00022089603768808778
+        ]
+      ],
+      "home_elo": 1470.1,
+      "away_elo": 1455.6,
+      "home_form": "LLDDL",
+      "away_form": "DLLWL",
+      "home_attack_strength": 1.254,
+      "away_attack_strength": 0.556,
+      "home_defense_strength": 1.852,
+      "away_defense_strength": 1.075,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 53.7
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 85.0
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 70.9
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 57.5
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 73.7
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Austin FC win (70%). xG: Austin FC 3.24 — Real Salt Lake 1.48. Teams are closely matched on Elo. Home form: 37%, Away form: 7%.",
+        "over25": "Combined xG 4.72 goals expected. Poisson model gives Over 2.5 a 84% probability. Austin FC scores 2.3/game at home, Real Salt Lake concedes 2.0/game away.",
+        "btts": "Austin FC scored in 100% of home games. Real Salt Lake scored in 80% of away games. BTTS probability: 75%.",
+        "corners": "Expected 4.0 total corners. Austin FC avg 0.0 at home, Real Salt Lake avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Austin FC avg 0.0 yellows at home, Real Salt Lake avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_chicago_fire_fc",
+      "home_team_name": "Chicago Fire FC",
+      "away_team_id": "team_253_orlando_city_sc",
+      "away_team_name": "Orlando City SC",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Soldier Field",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_chicago_fire_fc_team_253_orlando_city_sc_20261029",
+      "api_fixture_id": "espn_761911",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 4.456,
+      "xg_away": 1.736,
+      "home_win_probability": 0.78113,
+      "draw_probability": 0.11545,
+      "away_win_probability": 0.10342,
+      "most_likely_score": "4-1",
+      "score_matrix": [
+        [
+          0.00491367206244136,
+          0.00178919056512867,
+          0.0036915595311577155,
+          0.0021361687771289262,
+          0.0009270913158515583,
+          0.0003218840447925901,
+          9.313118758324074e-05
+        ],
+        [
+          0.008453447787588672,
+          0.02141598098047508,
+          0.016450400461057363,
+          0.009519237476622101,
+          0.004131322624219975,
+          0.001434386034999799,
+          0.0004150130366928408
+        ],
+        [
+          0.024324795078805934,
+          0.04222757399860385,
+          0.03665329964816905,
+          0.021209906985467025,
+          0.00920504071905504,
+          0.0031959696833190306,
+          0.0009246946436233769
+        ],
+        [
+          0.03613221068242512,
+          0.06272511630137644,
+          0.05444505249902865,
+          0.03150533541066749,
+          0.013673228059010046,
+          0.004747314399081684,
+          0.0013735475087073158
+        ],
+        [
+          0.04025326764016592,
+          0.06987922539342324,
+          0.060654779448418454,
+          0.03509867440786429,
+          0.015232727202935059,
+          0.005288769036520592,
+          0.0015302073811767054
+        ],
+        [
+          0.03587548118662917,
+          0.06227943674904206,
+          0.05405820512344147,
+          0.03128148116200406,
+          0.01357607593686768,
+          0.004713583398153643,
+          0.0013637880682329546
+        ],
+        [
+          0.026644837918862657,
+          0.046255142592338344,
+          0.04014920681358155,
+          0.023232858984876727,
+          0.010082996267847378,
+          0.0035007938989722646,
+          0.0010128898855658848
+        ]
+      ],
+      "home_elo": 1524.7,
+      "away_elo": 1505.9,
+      "home_form": "WLWWW",
+      "away_form": "WLLLW",
+      "home_attack_strength": 1.254,
+      "away_attack_strength": 1.736,
+      "home_defense_strength": 0.694,
+      "away_defense_strength": 1.478,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 64.4
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 85.0
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 84.0
+        },
+        "over35": {
+          "pick": "over",
+          "confidence": 70.4
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 67.0
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 75.0
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Chicago Fire FC win (78%). xG: Chicago Fire FC 4.46 — Orlando City SC 1.74. Teams are closely matched on Elo. Home form: 100%, Away form: 15%.",
+        "over25": "Combined xG 6.19 goals expected. Poisson model gives Over 2.5 a 94% probability. Chicago Fire FC scores 2.3/game at home, Orlando City SC concedes 2.8/game away.",
+        "btts": "Chicago Fire FC scored in 100% of home games. Orlando City SC scored in 100% of away games. BTTS probability: 81%.",
+        "corners": "Expected 4.0 total corners. Chicago Fire FC avg 0.0 at home, Orlando City SC avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Chicago Fire FC avg 0.0 yellows at home, Orlando City SC avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 6,
+      "ml_used": false
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_fc_dallas",
+      "home_team_name": "FC Dallas",
+      "away_team_id": "team_253_columbus_crew",
+      "away_team_name": "Columbus Crew",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Toyota Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_fc_dallas_team_253_columbus_crew_20261029",
+      "api_fixture_id": "espn_761912",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_minnesota_united_fc",
+      "home_team_name": "Minnesota United FC",
+      "away_team_id": "team_253_sporting_kansas_city",
+      "away_team_name": "Sporting Kansas City",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Allianz Field",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_minnesota_united_fc_team_253_sporting_kansas_city_20261029",
+      "api_fixture_id": "espn_761913",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.953,
+      "xg_away": 1.302,
+      "home_win_probability": 0.51146,
+      "draw_probability": 0.24636,
+      "away_win_probability": 0.24219,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.051549317375874606,
+          0.03763894255952844,
+          0.03284626877024128,
+          0.014257379181257938,
+          0.004641460097189162,
+          0.0012088141339254737,
+          0.00026235128238757336
+        ],
+        [
+          0.06285500515646417,
+          0.11133741311679124,
+          0.0641516158347033,
+          0.02784589989333627,
+          0.00906517471283532,
+          0.0023609189974541193,
+          0.0005123948415327339
+        ],
+        [
+          0.07388892230801163,
+          0.09621753904610322,
+          0.06264683886913718,
+          0.027192730550682147,
+          0.00885253679375538,
+          0.0023055399321147453,
+          0.0005003758152809233
+        ],
+        [
+          0.048103827677765804,
+          0.06264040363937749,
+          0.040784905874733296,
+          0.017703254880956625,
+          0.005763257754156161,
+          0.0015009732465218317,
+          0.00032575914278540303
+        ],
+        [
+          0.02348773840149738,
+          0.030585537265383718,
+          0.019914115906377313,
+          0.008643998608267367,
+          0.002814035743201139,
+          0.0007328827801003884,
+          0.00015905897507561807
+        ],
+        [
+          0.009174718634245656,
+          0.01194724216909881,
+          0.007778799608868258,
+          0.003376496014644315,
+          0.0010992112450015571,
+          0.00028627674509846087,
+          6.213119873973285e-05
+        ],
+        [
+          0.0029865037301125053,
+          0.003889000276192628,
+          0.0025321118798094706,
+          0.0010990983314524666,
+          0.0003578091726023456,
+          9.318722471659921e-05,
+          2.0224604610758162e-05
+        ]
+      ],
+      "home_elo": 1449.6,
+      "away_elo": 1462.9,
+      "home_form": "DDLLD",
+      "away_form": "LLWLD",
+      "home_attack_strength": 0.672,
+      "away_attack_strength": 0.868,
+      "home_defense_strength": 1.042,
+      "away_defense_strength": 1.21,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 71.7
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 57.3
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Minnesota United FC win (51%). xG: Minnesota United FC 1.95 — Sporting Kansas City 1.30. Teams are closely matched on Elo. Home form: 29%, Away form: 27%.",
+        "over25": "Combined xG 3.25 goals expected. Poisson model gives Over 2.5 a 63% probability. Minnesota United FC scores 1.2/game at home, Sporting Kansas City concedes 2.2/game away.",
+        "btts": "Minnesota United FC scored in 75% of home games. Sporting Kansas City scored in 75% of away games. BTTS probability: 64%.",
+        "corners": "Expected 4.0 total corners. Minnesota United FC avg 0.0 at home, Sporting Kansas City avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Minnesota United FC avg 0.0 yellows at home, Sporting Kansas City avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 8,
+      "ml_used": false
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_nashville_sc",
+      "home_team_name": "Nashville SC",
+      "away_team_id": "team_253_philadelphia_union",
+      "away_team_name": "Philadelphia Union",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "GEODIS Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_nashville_sc_team_253_philadelphia_union_20261029",
+      "api_fixture_id": "espn_761914",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_st_louis_city_sc",
+      "home_team_name": "St. Louis CITY SC",
+      "away_team_id": "team_253_portland_timbers",
+      "away_team_name": "Portland Timbers",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Energizer Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_st_louis_city_sc_team_253_portland_timbers_20261029",
+      "api_fixture_id": "espn_761915",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 4.537,
+      "xg_away": 2.5,
+      "home_win_probability": 0.66939,
+      "draw_probability": 0.14441,
+      "away_win_probability": 0.1862,
+      "most_likely_score": "4-2",
+      "score_matrix": [
+        [
+          0.00266926831778035,
+          0.0011060069811531905,
+          0.0033705388242723355,
+          0.002808625063546101,
+          0.0017552923639625386,
+          0.0008775970343567722,
+          0.0003656449539518791
+        ],
+        [
+          0.0033037761804333805,
+          0.013825768047708253,
+          0.015293134749497868,
+          0.012743565286449586,
+          0.007964282284343389,
+          0.003981918144816305,
+          0.0016590396499785917
+        ],
+        [
+          0.011103561970075443,
+          0.027757350444278493,
+          0.03469474506302289,
+          0.028910668482920003,
+          0.01806815593999236,
+          0.009033572067411674,
+          0.0037637775804822415
+        ],
+        [
+          0.01679338509962856,
+          0.04198111170202686,
+          0.05247345098329932,
+          0.04372542708635605,
+          0.027326861556514672,
+          0.013662665634878356,
+          0.005692458555977875
+        ],
+        [
+          0.019049142779439334,
+          0.047620190099087835,
+          0.059521904248649,
+          0.049598809216754254,
+          0.030997519821988336,
+          0.015497891990358363,
+          0.006457093382635644
+        ],
+        [
+          0.017286322607560137,
+          0.04321338646139339,
+          0.05401370817426015,
+          0.04500890286764264,
+          0.028128988998679834,
+          0.014063706896649234,
+          0.005859549724193244
+        ],
+        [
+          0.013072195809215632,
+          0.032678659436541295,
+          0.04084603681565899,
+          0.034036457886448976,
+          0.021271594916619164,
+          0.01063520186045883,
+          0.004431085956650487
+        ]
+      ],
+      "home_elo": 1577.1,
+      "away_elo": 1501.4,
+      "home_form": "WDWWW",
+      "away_form": "WWLLD",
+      "home_attack_strength": 1.505,
+      "away_attack_strength": 2.083,
+      "home_defense_strength": 0.833,
+      "away_defense_strength": 1.254,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 85.0
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0
+        },
+        "over35": {
+          "pick": "over",
+          "confidence": 79.8
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 80.4
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 75.0
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours St. Louis CITY SC win (67%). xG: St. Louis CITY SC 4.54 — Portland Timbers 2.50. Elo gap of 76 pts favours home. Home form: 89%, Away form: 42%.",
+        "over25": "Combined xG 7.04 goals expected. Poisson model gives Over 2.5 a 96% probability. St. Louis CITY SC scores 2.8/game at home, Portland Timbers concedes 2.3/game away.",
+        "btts": "St. Louis CITY SC scored in 100% of home games. Portland Timbers scored in 100% of away games. BTTS probability: 91%.",
+        "corners": "Expected 4.0 total corners. St. Louis CITY SC avg 0.0 at home, Portland Timbers avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. St. Louis CITY SC avg 0.0 yellows at home, Portland Timbers avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 71,
+      "league_name": "Brasileirao",
+      "home_team_id": "team_71_bahia",
+      "home_team_name": "Bahia",
+      "away_team_id": "team_71_s_o_paulo",
+      "away_team_name": "São Paulo",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Arena Fonte Nova",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "71_team_71_bahia_team_71_s_o_paulo_20261029",
+      "api_fixture_id": "espn_401841296",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "Brazil",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.66,
+      "xg_away": 0.138,
+      "home_win_probability": 0.76146,
+      "draw_probability": 0.21603,
+      "away_win_probability": 0.02251,
+      "most_likely_score": "1-0",
+      "score_matrix": [
+        [
+          0.17076527387769835,
+          0.017982582478573476,
+          0.0015857203636330036,
+          7.310053913614133e-05,
+          2.527410701413833e-06,
+          6.990706147022652e-08,
+          1.6113319851644538e-09
+        ],
+        [
+          0.27034216683806345,
+          0.043021600489871574,
+          0.002632651393606936,
+          0.00012136328740161199,
+          4.196068523740138e-06,
+          1.160613983545662e-07,
+          2.6751724286290427e-09
+        ],
+        [
+          0.2285228566263298,
+          0.03160420539604428,
+          0.0021853958362436114,
+          0.00010074513610286181,
+          3.4832073485471498e-06,
+          9.634397373256986e-08,
+          2.220693062878227e-09
+        ],
+        [
+          0.12646639570800214,
+          0.01749002268157628,
+          0.0012094157174699048,
+          5.575317251032947e-05,
+          1.9276350968896063e-06,
+          5.331753368577796e-08,
+          1.228949487950761e-09
+        ],
+        [
+          0.05249064408530443,
+          0.007259339925700372,
+          0.0005019753241284871,
+          2.3140692185324204e-05,
+          8.000766308766663e-07,
+          2.21297655281348e-08,
+          5.100829339659813e-10
+        ],
+        [
+          0.01742924798996715,
+          0.0024104264295725045,
+          0.00016667832070913703,
+          7.683747642761873e-06,
+          2.6566132409929534e-07,
+          7.348074653510907e-09,
+          1.693704107934945e-10
+        ],
+        [
+          0.004822743347717541,
+          0.0006669747332228563,
+          4.6120564861515674e-05,
+          2.1261240215872336e-06,
+          7.350956187456975e-08,
+          2.0332419490588936e-09,
+          4.686547706617677e-11
+        ]
+      ],
+      "home_elo": 1516.1,
+      "away_elo": 1473.2,
+      "home_form": "DDLLW",
+      "away_form": "DWLLW",
+      "home_attack_strength": 0.979,
+      "away_attack_strength": 0.277,
+      "home_defense_strength": 0.415,
+      "away_defense_strength": 0.87,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 60.6
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Bahia win (76%). xG: Bahia 1.66 — São Paulo 0.14. Elo gap of 43 pts favours home. Home form: 84%, Away form: 13%.",
+        "over25": "Combined xG 1.80 goals expected. Poisson model gives Over 2.5 a 27% probability. Bahia scores 1.5/game at home, São Paulo concedes 1.3/game away.",
+        "btts": "Bahia scored in 100% of home games. São Paulo scored in 33% of away games. BTTS probability: 11%.",
+        "corners": "Expected 4.0 total corners. Bahia avg 0.0 at home, São Paulo avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Bahia avg 0.0 yellows at home, São Paulo avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 8,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 71,
+      "league_name": "Brasileirao",
+      "home_team_id": "team_71_remo",
+      "home_team_name": "Remo",
+      "away_team_id": "team_71_botafogo",
+      "away_team_name": "Botafogo",
+      "match_date": "2026-10-29T00:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Mangueirão",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "71_team_71_remo_team_71_botafogo_20261029",
+      "api_fixture_id": "espn_401841297",
+      "fixture_date": "2026-10-29T00:30:00+00:00",
+      "league_country": "Brazil",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.297,
+      "xg_away": 0.467,
+      "home_win_probability": 0.56101,
+      "draw_probability": 0.31908,
+      "away_win_probability": 0.11991,
+      "most_likely_score": "1-0",
+      "score_matrix": [
+        [
+          0.18495565170502426,
+          0.06655234953129155,
+          0.01868608222915881,
+          0.0029079750185680886,
+          0.000339409778555147,
+          3.169188099437772e-05,
+          2.4659850334831764e-06
+        ],
+        [
+          0.20887610039261936,
+          0.11731490780610768,
+          0.024234743911334164,
+          0.0037714716766890388,
+          0.0004401944165401926,
+          4.1102495993982214e-05,
+          3.1982367969242262e-06
+        ],
+        [
+          0.14420199651390828,
+          0.06732322993351697,
+          0.015715515035341562,
+          0.0024456878957425923,
+          0.00028545306675906043,
+          2.665375364174556e-05,
+          2.0739620213250406e-06
+        ],
+        [
+          0.06234048803738977,
+          0.029104749669010714,
+          0.006794031294619674,
+          0.001057304203087263,
+          0.00012340525043849223,
+          1.152278089225007e-05,
+          8.966020423159968e-07
+        ],
+        [
+          0.020212981838110832,
+          0.009436784904693666,
+          0.0022028642297978085,
+          0.00034281526063035167,
+          4.001232849419964e-05,
+          3.736091394727125e-06,
+          2.9070996021841777e-07
+        ],
+        [
+          0.005243008486462353,
+          0.0024477904218437175,
+          0.0005713969341019173,
+          8.892222509124492e-05,
+          1.0378724897613388e-05,
+          9.69097931499654e-07,
+          7.540672626789206e-08
+        ],
+        [
+          0.001133312005838678,
+          0.0005291065768852493,
+          0.00012351134032858574,
+          1.922114479539873e-05,
+          2.2434320986000404e-06,
+          2.0947712051922368e-07,
+          1.6299677641387036e-08
+        ]
+      ],
+      "home_elo": 1481.5,
+      "away_elo": 1484.7,
+      "home_form": "WLLDD",
+      "away_form": "DWLLD",
+      "home_attack_strength": 0.816,
+      "away_attack_strength": 0.623,
+      "home_defense_strength": 0.623,
+      "away_defense_strength": 0.816,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Remo win (56%). xG: Remo 1.30 — Botafogo 0.47. Teams are closely matched on Elo. Home form: 51%, Away form: 35%.",
+        "over25": "Combined xG 1.76 goals expected. Poisson model gives Over 2.5 a 26% probability. Remo scores 1.2/game at home, Botafogo concedes 1.2/game away.",
+        "btts": "Remo scored in 100% of home games. Botafogo scored in 75% of away games. BTTS probability: 28%.",
+        "corners": "Expected 4.0 total corners. Remo avg 0.0 at home, Botafogo avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Remo avg 0.0 yellows at home, Botafogo avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_san_jose_earthquakes",
+      "home_team_name": "San Jose Earthquakes",
+      "away_team_id": "team_253_colorado_rapids",
+      "away_team_name": "Colorado Rapids",
+      "match_date": "2026-10-29T02:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "PayPal Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_san_jose_earthquakes_team_253_colorado_rapids_20261029",
+      "api_fixture_id": "espn_761917",
+      "fixture_date": "2026-10-29T02:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_seattle_sounders_fc",
+      "home_team_name": "Seattle Sounders FC",
+      "away_team_id": "team_253_houston_dynamo_fc",
+      "away_team_name": "Houston Dynamo FC",
+      "match_date": "2026-10-29T02:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Lumen Field",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_seattle_sounders_fc_team_253_houston_dynamo_fc_20261029",
+      "api_fixture_id": "espn_761916",
+      "fixture_date": "2026-10-29T02:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 253,
+      "league_name": "MLS",
+      "home_team_id": "team_253_vancouver_whitecaps",
+      "home_team_name": "Vancouver Whitecaps",
+      "away_team_id": "team_253_san_diego_fc",
+      "away_team_name": "San Diego FC",
+      "match_date": "2026-10-29T02:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "BC Place",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "253_team_253_vancouver_whitecaps_team_253_san_diego_fc_20261029",
+      "api_fixture_id": "espn_761918",
+      "fixture_date": "2026-10-29T02:30:00+00:00",
+      "league_country": "USA",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 262,
+      "league_name": "Liga MX",
+      "home_team_id": "team_262_am_rica",
+      "home_team_name": "América",
+      "away_team_id": "team_262_tijuana",
+      "away_team_name": "Tijuana",
+      "match_date": "2026-10-29T03:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estadio Banorte",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "262_team_262_am_rica_team_262_tijuana_20261029",
+      "api_fixture_id": "espn_401876986",
+      "fixture_date": "2026-10-29T03:00:00+00:00",
+      "league_country": "Mexico",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.334,
+      "xg_away": 0.643,
+      "home_win_probability": 0.5194,
+      "draw_probability": 0.31631,
+      "away_win_probability": 0.16429,
+      "most_likely_score": "1-0",
+      "score_matrix": [
+        [
+          0.15400709124094272,
+          0.07361424544094664,
+          0.02862252024731041,
+          0.006132482071357439,
+          0.00098543042411825,
+          0.00012667929356870365,
+          1.3570756346924055e-05
+        ],
+        [
+          0.16941520268537924,
+          0.1342690648171888,
+          0.038187145467516614,
+          0.00818173881658341,
+          0.001314726118761547,
+          0.00016901099446981434,
+          1.8105619010712727e-05
+        ],
+        [
+          0.12331820045896062,
+          0.07926415775260404,
+          0.02547396361950874,
+          0.0054578920316329755,
+          0.0008770303438218101,
+          0.00011274421986014526,
+          1.2077935502665788e-05
+        ],
+        [
+          0.05484224798083851,
+          0.03525047056543183,
+          0.01132881784421501,
+          0.002427241616707427,
+          0.0003900341995227422,
+          5.0139772077147436e-05,
+          5.371316897818388e-06
+        ],
+        [
+          0.018292142719391502,
+          0.011757480086043869,
+          0.0037786261591752084,
+          0.0008095847946052772,
+          0.00013009242884438993,
+          1.6723673819377213e-05,
+          1.791554848741832e-06
+        ],
+        [
+          0.004880944856724258,
+          0.003137282101630286,
+          0.0010082616454527367,
+          0.00021602383055549672,
+          3.4712935559684636e-05,
+          4.4624258057909316e-06,
+          4.780457138701321e-07
+        ],
+        [
+          0.001085330418450083,
+          0.000697608310708009,
+          0.00022419778663527085,
+          4.8035214757443094e-05,
+          7.718793385817528e-06,
+          9.922682204510575e-07,
+          1.0629858969993485e-07
+        ]
+      ],
+      "home_elo": 1540.4,
+      "away_elo": 1509.6,
+      "home_form": "DWDWD",
+      "away_form": "WDDLD",
+      "home_attack_strength": 1.271,
+      "away_attack_strength": 0.643,
+      "home_defense_strength": 0.643,
+      "away_defense_strength": 0.635,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours América win (52%). xG: América 1.33 — Tijuana 0.64. Elo gap of 31 pts favours home. Home form: 55%, Away form: 40%.",
+        "over25": "Combined xG 1.98 goals expected. Poisson model gives Over 2.5 a 32% probability. América scores 2.0/game at home, Tijuana concedes 1.0/game away.",
+        "btts": "América scored in 100% of home games. Tijuana scored in 67% of away games. BTTS probability: 36%.",
+        "corners": "Expected 4.0 total corners. América avg 0.0 at home, Tijuana avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. América avg 0.0 yellows at home, Tijuana avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 6,
       "ml_used": false
     },
     {
@@ -116492,6 +119626,6 @@
       "ml_used": false
     }
   ],
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T11:35:26.659669"
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T09:27:03.131587"
 }
