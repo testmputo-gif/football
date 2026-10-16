@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T09:01:56.406573",
+  "last_updated": "2026-10-16T08:53:28.799790",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -74367,6 +74367,28 @@
       "api_fixture_id": "espn_401841598",
       "home_goals": 1,
       "away_goals": 1
+    },
+    "espn_401841622": {
+      "league_id": 128,
+      "league_name": "Argentine Primera",
+      "home_team_id": "team_128_hurac_n",
+      "home_team_name": "Huracán",
+      "away_team_id": "team_128_gimnasia_la_plata",
+      "away_team_name": "Gimnasia La Plata",
+      "match_date": "2026-10-15T23:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estadio Tomás Adolfo Ducó",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401841622",
+      "home_goals": 1,
+      "away_goals": 2
     }
   }
 }
