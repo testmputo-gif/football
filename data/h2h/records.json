@@ -2441,12 +2441,12 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_k_ln_team_78_eintracht_frankfurt": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 1,
-      "avg_goals": 5.5,
-      "btts_rate": 1.0,
+      "avg_goals": 4.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2541,11 +2541,11 @@
       "avg_cards": 0.0
     },
     "team_79_hertha_bsc_team_79_holstein_kiel": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
       "away_wins": 1,
-      "draws": 0,
-      "avg_goals": 1.0,
+      "draws": 1,
+      "avg_goals": 0.667,
       "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5631,5 +5631,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-16T08:53:29.068989"
+  "last_updated": "2026-10-17T08:22:35.084350"
 }
