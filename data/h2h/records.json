@@ -331,12 +331,12 @@
       "avg_cards": 0.0
     },
     "team_79_eintracht_braunschweig_team_79_spvgg_greuther_f_rth": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 1,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.333,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -491,12 +491,12 @@
       "avg_cards": 0.0
     },
     "team_78_fc_bayern_m_nchen_team_78_rb_leipzig": {
-      "matches_played": 2,
-      "home_wins": 2,
+      "matches_played": 3,
+      "home_wins": 3,
       "away_wins": 0,
       "draws": 0,
-      "avg_goals": 6.0,
-      "btts_rate": 0.5,
+      "avg_goals": 6.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -811,11 +811,11 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_union_berlin_team_78_borussia_dortmund": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
       "away_wins": 2,
-      "draws": 0,
-      "avg_goals": 3.0,
+      "draws": 1,
+      "avg_goals": 2.0,
       "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -1451,12 +1451,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_kaiserslautern_team_79_vfl_bochum": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 5.0,
-      "btts_rate": 1.0,
+      "avg_goals": 4.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2661,12 +2661,12 @@
       "avg_cards": 0.0
     },
     "team_78_hamburger_sv_team_78_vfb_stuttgart": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 3.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.667,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -3837,6 +3837,16 @@
       "draws": 1,
       "avg_goals": 2.0,
       "btts_rate": 0.333,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_98_fagiano_okayama_team_98_vissel_kobe": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 4.0,
+      "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5440,6 +5450,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_aik_team_113_ifk_g_teborg": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_103_aalesund_team_103_molde": {
       "matches_played": 2,
       "home_wins": 1,
@@ -5550,6 +5570,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_103_bodo_glimt_team_103_hamarkameratene": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_103_lillestrom_team_103_viking_fk": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5631,5 +5661,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-17T08:22:35.084350"
+  "last_updated": "2026-10-18T08:43:21.244517"
 }
