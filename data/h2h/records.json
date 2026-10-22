@@ -3780,6 +3780,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_cerezo_osaka_team_98_nagoya_grampus": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_98_gamba_osaka_team_98_kyoto_sanga_fc": {
       "matches_played": 2,
       "home_wins": 1,
@@ -4440,6 +4450,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_sanfrecce_hiroshima_team_98_v_varen_nagasaki": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_244_ff_jaro_team_244_kuopion_palloseura": {
       "matches_played": 2,
       "home_wins": 0,
@@ -4557,6 +4577,16 @@
       "draws": 0,
       "avg_goals": 2.0,
       "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_98_avispa_fukuoka_team_98_gamba_osaka": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -4746,6 +4776,16 @@
       "away_wins": 2,
       "draws": 0,
       "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_98_fc_tokyo_team_98_kashiwa_reysol": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 2.0,
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5701,5 +5741,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-21T09:13:53.534028"
+  "last_updated": "2026-10-22T09:16:45.212757"
 }
