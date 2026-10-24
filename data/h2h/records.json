@@ -731,12 +731,12 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_m_nchengladbach_team_78_vfb_stuttgart": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 2,
       "draws": 0,
-      "avg_goals": 2.0,
-      "btts_rate": 0.0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -4160,6 +4160,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_sanfrecce_hiroshima_team_98_shimizu_s_pulse": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_clube_do_remo_team_71_cr_vasco_da_gama": {
       "matches_played": 2,
       "home_wins": 0,
@@ -4596,6 +4606,16 @@
       "away_wins": 1,
       "draws": 0,
       "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_98_kashima_antlers_team_98_kashiwa_reysol": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5490,6 +5510,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_halmstads_bk_team_113_v_ster_s_sk": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_113_aik_team_113_ifk_g_teborg": {
       "matches_played": 2,
       "home_wins": 1,
@@ -5690,6 +5720,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_if_elfsborg_team_113_malm_ff": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_113_bk_h_cken_team_113_kalmar_ff": {
       "matches_played": 2,
       "home_wins": 1,
@@ -5741,5 +5781,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-23T09:13:39.140150"
+  "last_updated": "2026-10-24T08:47:04.467014"
 }
