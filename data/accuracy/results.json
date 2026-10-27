@@ -1,156 +1,196 @@
 {
-  "last_updated": "2026-10-26T09:54:53.407705",
-  "total_evaluated": 5193,
+  "last_updated": "2026-10-27T09:42:12.957060",
+  "total_evaluated": 5715,
   "by_market": {
     "winner": {
-      "total": 2828,
-      "correct": 1568
+      "total": 3126,
+      "correct": 1706
     },
     "over25": {
-      "total": 3734,
-      "correct": 2229
+      "total": 4070,
+      "correct": 2395
     },
     "btts": {
-      "total": 2378,
-      "correct": 1296
+      "total": 2600,
+      "correct": 1424
     }
   },
   "calibration": {
     "winner_70": {
       "market": "winner",
       "bucket": 70,
-      "total": 366,
-      "correct": 133
+      "total": 380,
+      "correct": 135
     },
     "over25_75": {
       "market": "over25",
       "bucket": 75,
-      "total": 357,
-      "correct": 175
+      "total": 385,
+      "correct": 202
     },
     "btts_65": {
       "market": "btts",
       "bucket": 65,
-      "total": 632,
-      "correct": 501
+      "total": 654,
+      "correct": 516
     },
     "over25_65": {
       "market": "over25",
       "bucket": 65,
-      "total": 444,
-      "correct": 192
+      "total": 481,
+      "correct": 202
     },
     "btts_60": {
       "market": "btts",
       "bucket": 60,
-      "total": 442,
-      "correct": 204
+      "total": 502,
+      "correct": 233
     },
     "btts_55": {
       "market": "btts",
       "bucket": 55,
-      "total": 766,
-      "correct": 220
+      "total": 811,
+      "correct": 231
     },
     "winner_65": {
       "market": "winner",
       "bucket": 65,
-      "total": 475,
-      "correct": 194
+      "total": 533,
+      "correct": 220
     },
     "winner_60": {
       "market": "winner",
       "bucket": 60,
-      "total": 398,
-      "correct": 191
+      "total": 444,
+      "correct": 208
     },
     "over25_60": {
       "market": "over25",
       "bucket": 60,
-      "total": 642,
-      "correct": 390
+      "total": 710,
+      "correct": 425
     },
     "over25_70": {
       "market": "over25",
       "bucket": 70,
-      "total": 738,
-      "correct": 409
+      "total": 775,
+      "correct": 428
     },
     "winner_55": {
       "market": "winner",
       "bucket": 55,
-      "total": 427,
-      "correct": 193
+      "total": 501,
+      "correct": 213
     },
     "over25_55": {
       "market": "over25",
       "bucket": 55,
-      "total": 922,
-      "correct": 593
+      "total": 994,
+      "correct": 630
     },
     "over25_85": {
       "market": "over25",
       "bucket": 85,
-      "total": 270,
-      "correct": 188
+      "total": 319,
+      "correct": 207
     },
     "btts_75": {
       "market": "btts",
       "bucket": 75,
-      "total": 180,
-      "correct": 156
+      "total": 229,
+      "correct": 199
     },
     "btts_70": {
       "market": "btts",
       "bucket": 70,
-      "total": 242,
-      "correct": 165
+      "total": 268,
+      "correct": 191
     },
     "winner_75": {
       "market": "winner",
       "bucket": 75,
-      "total": 449,
-      "correct": 284
+      "total": 493,
+      "correct": 326
     },
     "over25_80": {
       "market": "over25",
       "bucket": 80,
-      "total": 361,
-      "correct": 282
+      "total": 406,
+      "correct": 301
     },
     "winner_80": {
       "market": "winner",
       "bucket": 80,
-      "total": 448,
-      "correct": 314
+      "total": 492,
+      "correct": 328
     },
     "winner_50": {
       "market": "winner",
       "bucket": 50,
-      "total": 265,
-      "correct": 259
+      "total": 283,
+      "correct": 276
     },
     "btts_85": {
       "market": "btts",
       "bucket": 85,
-      "total": 100,
+      "total": 116,
       "correct": 34
     },
     "btts_80": {
       "market": "btts",
       "bucket": 80,
-      "total": 16,
-      "correct": 16
+      "total": 20,
+      "correct": 20
     }
   },
   "recent_results": [
     {
-      "fixture_id": "262_team_262_tijuana_team_262_santos_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "Tijuana",
-      "away_team": "Santos",
-      "league": "Liga MX",
-      "actual_score": "4-1",
+      "fixture_id": "128_team_128_instituto_c_rdoba_team_128_deportivo_riestra_20261027",
+      "fixture_date": "2026-10-27",
+      "home_team": "Instituto (Córdoba)",
+      "away_team": "Deportivo Riestra",
+      "league": "Argentine Primera",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.7,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_magdeburg_team_79_karlsruher_sc_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "1. FC Magdeburg",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "6-1",
       "results": {
         "winner": {
           "pick": "no_pick",
@@ -160,13 +200,93 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 67.9,
+          "confidence": 55.0,
           "correct": true,
           "actual": "over"
         },
         "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_n_rnberg_team_79_1_fc_kaiserslautern_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "1. FC Nürnberg",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 58.6,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_energie_cottbus_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "Energie Cottbus",
+      "league": "2. Bundesliga",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 57.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
           "pick": "yes",
-          "confidence": 57.1,
+          "confidence": 77.5,
           "correct": true,
           "actual": "yes"
         },
@@ -185,11 +305,491 @@
       }
     },
     {
-      "fixture_id": "253_team_253_lafc_team_253_la_galaxy_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "LAFC",
-      "away_team": "LA Galaxy",
+      "fixture_id": "98_team_98_fc_tokyo_team_98_mito_hollyhock_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "FC Tokyo",
+      "away_team": "Mito Hollyhock",
+      "league": "J1 League",
+      "actual_score": "6-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.0,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_nagoya_grampus_team_98_yokohama_f_marinos_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Nagoya Grampus",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "262_team_262_pumas_unam_team_262_tigres_uanl_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Pumas UNAM",
+      "away_team": "Tigres UANL",
+      "league": "Liga MX",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 73.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 67.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "128_team_128_rosario_central_team_128_hurac_n_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Rosario Central",
+      "away_team": "Huracán",
+      "league": "Argentine Primera",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 66.5,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_sporting_kansas_city_team_253_austin_fc_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Sporting Kansas City",
+      "away_team": "Austin FC",
       "league": "MLS",
+      "actual_score": "1-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 66.7,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_d_c_united_team_253_fc_cincinnati_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "D.C. United",
+      "away_team": "FC Cincinnati",
+      "league": "MLS",
+      "actual_score": "0-2",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 65.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 63.5,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "262_team_262_le_n_team_262_toluca_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "León",
+      "away_team": "Toluca",
+      "league": "Liga MX",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_team_71_vasco_da_gama_team_71_corinthians_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Vasco da Gama",
+      "away_team": "Corinthians",
+      "league": "Brasileirao",
+      "actual_score": "3-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_team_71_palmeiras_team_71_red_bull_bragantino_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Palmeiras",
+      "away_team": "Red Bull Bragantino",
+      "league": "Brasileirao",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_team_71_mirassol_team_71_s_o_paulo_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Mirassol",
+      "away_team": "São Paulo",
+      "league": "Brasileirao",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 71.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_n_rnberg_team_79_1_fc_kaiserslautern_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "1. FC Nürnberg",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 58.6,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_kalmar_ff_team_113_if_brommapojkarna_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Kalmar FF",
+      "away_team": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "actual_score": "0-3",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 85.0,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_djurg_rden_team_113_rgryte_is_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Djurgården",
+      "away_team": "Örgryte IS",
+      "league": "Allsvenskan",
       "actual_score": "2-2",
       "results": {
         "winner": {
@@ -200,7 +800,7 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 81.5,
+          "confidence": 76.3,
           "correct": true,
           "actual": "over"
         },
@@ -225,11 +825,491 @@
       }
     },
     {
-      "fixture_id": "128_team_128_independiente_team_128_boca_juniors_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Independiente",
-      "away_team": "Boca Juniors",
+      "fixture_id": "88_team_88_fc_utrecht_team_88_pec_zwolle_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "FC Utrecht",
+      "away_team": "PEC Zwolle",
+      "league": "Eredivisie",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 82.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 66.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_1_fc_k_ln_team_78_fc_schalke_04_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "1. FC Köln",
+      "away_team": "FC Schalke 04",
+      "league": "Bundesliga",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 60.1,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 55.4,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_fc_augsburg_team_78_1_fc_union_berlin_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "FC Augsburg",
+      "away_team": "1. FC Union Berlin",
+      "league": "Bundesliga",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 66.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 57.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_eintracht_frankfurt_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Borussia Dortmund",
+      "away_team": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 75.7,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 81.5,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_bk_h_cken_team_113_degerfors_if_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "BK Häcken",
+      "away_team": "Degerfors IF",
+      "league": "Allsvenskan",
+      "actual_score": "4-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 82.0,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_magdeburg_team_79_karlsruher_sc_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "1. FC Magdeburg",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "6-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 55.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_energie_cottbus_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "Energie Cottbus",
+      "league": "2. Bundesliga",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 57.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 77.5,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "262_team_262_pachuca_team_262_cruz_azul_20261022",
+      "fixture_date": "2026-10-22",
+      "home_team": "Pachuca",
+      "away_team": "Cruz Azul",
+      "league": "Liga MX",
+      "actual_score": "1-2",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 81.4,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 76.9,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "128_team_128_estudiantes_de_la_plata_team_128_san_lorenzo_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Estudiantes de La Plata",
+      "away_team": "San Lorenzo",
       "league": "Argentine Primera",
+      "actual_score": "1-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 82.0,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_m_nchengladbach_team_78_tsg_hoffenheim_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "TSG Hoffenheim",
+      "league": "Bundesliga",
+      "actual_score": "1-2",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 74.5,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 71.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "103_team_103_sandefjord_team_103_lillestrom_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Sandefjord",
+      "away_team": "Lillestrom",
+      "league": "Eliteserien",
+      "actual_score": "0-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 63.7,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "103_team_103_molde_team_103_ik_start_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Molde",
+      "away_team": "IK Start",
+      "league": "Eliteserien",
+      "actual_score": "6-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 60.6,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_malm_ff_team_113_bk_h_cken_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Malmö FF",
+      "away_team": "BK Häcken",
+      "league": "Allsvenskan",
       "actual_score": "0-1",
       "results": {
         "winner": {
@@ -240,13 +1320,13 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 57.3,
+          "confidence": 83.4,
           "correct": false,
           "actual": "under"
         },
         "btts": {
           "pick": "yes",
-          "confidence": 55.0,
+          "confidence": 79.0,
           "correct": false,
           "actual": "no"
         },
@@ -265,114 +1345,34 @@
       }
     },
     {
-      "fixture_id": "103_team_103_molde_team_103_fredrikstad_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Molde",
-      "away_team": "Fredrikstad",
-      "league": "Eliteserien",
-      "actual_score": "5-1",
+      "fixture_id": "113_team_113_halmstads_bk_team_113_hammarby_if_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Halmstads BK",
+      "away_team": "Hammarby IF",
+      "league": "Allsvenskan",
+      "actual_score": "0-1",
       "results": {
         "winner": {
-          "pick": "home",
-          "confidence": 67.7,
+          "pick": "away",
+          "confidence": 58.1,
           "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_fc_bayern_m_nchen_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "SC Freiburg",
-      "away_team": "FC Bayern München",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
           "actual": "away"
         },
         "over25": {
-          "pick": "over",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 60.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
           "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_bayer_04_leverkusen_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
+        },
+        "btts": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 75.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 71.5,
-          "correct": false,
           "actual": "no"
         },
         "corners": {
-          "pick": "under",
-          "confidence": 58.7,
+          "pick": "no_pick",
+          "confidence": null,
           "correct": null,
           "actual": "under"
         },
@@ -385,24 +1385,24 @@
       }
     },
     {
-      "fixture_id": "113_team_113_gais_team_113_ifk_g_teborg_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "GAIS",
-      "away_team": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "actual_score": "1-1",
+      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_sc_freiburg_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Bayer 04 Leverkusen",
+      "away_team": "SC Freiburg",
+      "league": "Bundesliga",
+      "actual_score": "2-1",
       "results": {
         "winner": {
           "pick": "home",
-          "confidence": 69.7,
-          "correct": false,
-          "actual": "draw"
+          "confidence": 75.9,
+          "correct": true,
+          "actual": "home"
         },
         "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
         },
         "btts": {
           "pick": "no_pick",
@@ -411,8 +1411,8 @@
           "actual": "yes"
         },
         "corners": {
-          "pick": "no_pick",
-          "confidence": null,
+          "pick": "under",
+          "confidence": 58.7,
           "correct": null,
           "actual": "under"
         },
@@ -425,50 +1425,10 @@
       }
     },
     {
-      "fixture_id": "79_team_79_vfl_osnabr_ck_team_79_spvgg_greuther_f_rth_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "VfL Osnabrück",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.0,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_vfl_wolfsburg_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "VfL Bochum",
-      "away_team": "VfL Wolfsburg",
+      "fixture_id": "79_team_79_energie_cottbus_team_79_1_fc_n_rnberg_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Energie Cottbus",
+      "away_team": "1. FC Nürnberg",
       "league": "2. Bundesliga",
       "actual_score": "1-1",
       "results": {
@@ -480,13 +1440,13 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 63.3,
+          "confidence": 73.4,
           "correct": false,
           "actual": "under"
         },
         "btts": {
           "pick": "yes",
-          "confidence": 61.7,
+          "confidence": 68.3,
           "correct": true,
           "actual": "yes"
         },
@@ -505,12 +1465,52 @@
       }
     },
     {
-      "fixture_id": "88_team_88_fortuna_sittard_team_88_excelsior_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Fortuna Sittard",
-      "away_team": "Excelsior",
-      "league": "Eredivisie",
-      "actual_score": "1-0",
+      "fixture_id": "79_team_79_dsc_arminia_bielefeld_team_79_vfl_osnabr_ck_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "DSC Arminia Bielefeld",
+      "away_team": "VfL Osnabrück",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.3,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_1_fc_magdeburg_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Dynamo Dresden",
+      "away_team": "1. FC Magdeburg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-0",
       "results": {
         "winner": {
           "pick": "no_pick",
@@ -525,14 +1525,14 @@
           "actual": "under"
         },
         "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
+          "pick": "yes",
+          "confidence": 60.2,
+          "correct": false,
           "actual": "no"
         },
         "corners": {
-          "pick": "no_pick",
-          "confidence": null,
+          "pick": "under",
+          "confidence": 58.7,
           "correct": null,
           "actual": "under"
         },
@@ -545,143 +1545,143 @@
       }
     },
     {
-      "fixture_id": "98_team_98_kawasaki_frontale_team_98_fagiano_okayama_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Kawasaki Frontale",
-      "away_team": "Fagiano Okayama",
-      "league": "J1 League",
+      "fixture_id": "79_team_79_karlsruher_sc_team_79_sv_darmstadt_98_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Karlsruher SC",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "4-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 72.4,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 68.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_m_nchengladbach_team_78_tsg_hoffenheim_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "TSG Hoffenheim",
+      "league": "Bundesliga",
+      "actual_score": "1-2",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 74.5,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 71.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_1_fc_k_ln_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "1. FC Köln",
+      "league": "Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.5,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_sc_freiburg_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Bayer 04 Leverkusen",
+      "away_team": "SC Freiburg",
+      "league": "Bundesliga",
       "actual_score": "2-1",
       "results": {
         "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 67.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 65.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 54.2,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_fc_bayern_m_nchen_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "SC Freiburg",
-      "away_team": "FC Bayern München",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 60.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_bayer_04_leverkusen_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 75.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 71.5,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_vfb_stuttgart_team_78_borussia_m_nchengladbach_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "VfB Stuttgart",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "2-3",
-      "results": {
-        "winner": {
           "pick": "home",
-          "confidence": 67.7,
-          "correct": false,
-          "actual": "away"
+          "confidence": 75.9,
+          "correct": true,
+          "actual": "home"
         },
         "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
           "actual": "over"
         },
         "btts": {
@@ -705,16 +1705,16 @@
       }
     },
     {
-      "fixture_id": "98_team_98_kashima_antlers_team_98_kashiwa_reysol_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "Kashima Antlers",
-      "away_team": "Kashiwa Reysol",
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_kawasaki_frontale_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Kawasaki Frontale",
       "league": "J1 League",
-      "actual_score": "2-3",
+      "actual_score": "2-4",
       "results": {
         "winner": {
           "pick": "home",
-          "confidence": 58.3,
+          "confidence": 55.9,
           "correct": false,
           "actual": "away"
         },
@@ -745,22 +1745,22 @@
       }
     },
     {
-      "fixture_id": "128_team_128_gimnasia_la_plata_team_128_sarmiento_jun_n_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "Gimnasia La Plata",
-      "away_team": "Sarmiento (Junín)",
-      "league": "Argentine Primera",
-      "actual_score": "2-0",
+      "fixture_id": "262_team_262_necaxa_team_262_atlas_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Necaxa",
+      "away_team": "Atlas",
+      "league": "Liga MX",
+      "actual_score": "0-2",
       "results": {
         "winner": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
-          "actual": "home"
+          "actual": "away"
         },
         "over25": {
           "pick": "over",
-          "confidence": 70.5,
+          "confidence": 72.0,
           "correct": false,
           "actual": "under"
         },
@@ -785,458 +1785,458 @@
       }
     },
     {
-      "fixture_id": "78_team_78_vfb_stuttgart_team_78_borussia_m_nchengladbach_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "VfB Stuttgart",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "2-3",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 67.7,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "113_team_113_v_ster_s_sk_team_113_halmstads_bk_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "Västerås SK",
-      "away_team": "Halmstads BK",
-      "league": "Allsvenskan",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 81.4,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 82.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_vfl_wolfsburg_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "VfL Bochum",
-      "away_team": "VfL Wolfsburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 63.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "98_team_98_kawasaki_frontale_team_98_vissel_kobe_20261021",
-      "fixture_date": "2026-10-21",
-      "home_team": "Kawasaki Frontale",
-      "away_team": "Vissel Kobe",
-      "league": "J1 League",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 75.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 70.2,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "98_team_98_fc_tokyo_team_98_kashiwa_reysol_20261021",
-      "fixture_date": "2026-10-21",
-      "home_team": "FC Tokyo",
-      "away_team": "Kashiwa Reysol",
-      "league": "J1 League",
-      "actual_score": "0-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 58.0,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_deportivo_riestra_team_128_uni_n_santa_fe_20261020",
-      "fixture_date": "2026-10-20",
-      "home_team": "Deportivo Riestra",
-      "away_team": "Unión (Santa Fe)",
-      "league": "Argentine Primera",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 73.6,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_corinthians_team_71_vit_ria_20261019",
-      "fixture_date": "2026-10-19",
-      "home_team": "Corinthians",
-      "away_team": "Vitória",
+      "fixture_id": "71_team_71_mirassol_team_71_internacional_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "Mirassol",
+      "away_team": "Internacional",
       "league": "Brasileirao",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 57.3,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_gr_mio_team_71_cruzeiro_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Grêmio",
-      "away_team": "Cruzeiro",
-      "league": "Brasileirao",
-      "actual_score": "2-4",
-      "results": {
-        "winner": {
-          "pick": "away",
-          "confidence": 60.2,
-          "correct": true,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_fluminense_team_71_santos_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Fluminense",
-      "away_team": "Santos",
-      "league": "Brasileirao",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.7,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_independiente_rivadavia_team_128_tigre_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Independiente Rivadavia",
-      "away_team": "Tigre",
-      "league": "Argentine Primera",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_deportivo_riestra_team_128_uni_n_santa_fe_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Deportivo Riestra",
-      "away_team": "Unión (Santa Fe)",
-      "league": "Argentine Primera",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 73.6,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_vfl_bochum_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "VfL Bochum",
-      "league": "2. Bundesliga",
       "actual_score": "2-0",
       "results": {
         "winner": {
           "pick": "home",
-          "confidence": 54.8,
+          "confidence": 78.6,
           "correct": true,
           "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_1_fc_k_ln_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "1. FC Köln",
+      "league": "Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.5,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_if_brommapojkarna_team_113_djurg_rden_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "IF Brommapojkarna",
+      "away_team": "Djurgården",
+      "league": "Allsvenskan",
+      "actual_score": "0-2",
+      "results": {
+        "winner": {
+          "pick": "away",
+          "confidence": 54.9,
+          "correct": true,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_energie_cottbus_team_79_1_fc_n_rnberg_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "Energie Cottbus",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 73.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 68.3,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_lafc_team_253_austin_fc_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "LAFC",
+      "away_team": "Austin FC",
+      "league": "MLS",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_la_galaxy_team_253_portland_timbers_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "LA Galaxy",
+      "away_team": "Portland Timbers",
+      "league": "MLS",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "away",
+          "confidence": 64.1,
+          "correct": false,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 81.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.2,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_st_louis_city_sc_team_253_vancouver_whitecaps_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "St. Louis CITY SC",
+      "away_team": "Vancouver Whitecaps",
+      "league": "MLS",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 55.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 67.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_nashville_sc_team_253_sporting_kansas_city_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "Nashville SC",
+      "away_team": "Sporting Kansas City",
+      "league": "MLS",
+      "actual_score": "4-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 81.4,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_inter_miami_cf_team_253_new_york_city_fc_20261014",
+      "fixture_date": "2026-10-14",
+      "home_team": "Inter Miami CF",
+      "away_team": "New York City FC",
+      "league": "MLS",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 73.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "128_team_128_instituto_c_rdoba_team_128_deportivo_riestra_20261027",
+      "fixture_date": "2026-10-27",
+      "home_team": "Instituto (Córdoba)",
+      "away_team": "Deportivo Riestra",
+      "league": "Argentine Primera",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 65.7,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_magdeburg_team_79_karlsruher_sc_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "1. FC Magdeburg",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "6-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 55.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_n_rnberg_team_79_1_fc_kaiserslautern_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "1. FC Nürnberg",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 58.6,
+          "correct": false,
+          "actual": "away"
         },
         "over25": {
           "pick": "no_pick",
@@ -1265,28 +2265,28 @@
       }
     },
     {
-      "fixture_id": "79_team_79_vfl_wolfsburg_team_79_1_fc_heidenheim_1846_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "VfL Wolfsburg",
-      "away_team": "1. FC Heidenheim 1846",
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_energie_cottbus_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "Energie Cottbus",
       "league": "2. Bundesliga",
-      "actual_score": "3-1",
+      "actual_score": "1-1",
       "results": {
         "winner": {
           "pick": "home",
-          "confidence": 66.7,
-          "correct": true,
-          "actual": "home"
+          "confidence": 57.0,
+          "correct": false,
+          "actual": "draw"
         },
         "over25": {
           "pick": "over",
-          "confidence": 84.3,
-          "correct": true,
-          "actual": "over"
+          "confidence": 88.0,
+          "correct": false,
+          "actual": "under"
         },
         "btts": {
           "pick": "yes",
-          "confidence": 65.9,
+          "confidence": 77.5,
           "correct": true,
           "actual": "yes"
         },
@@ -1305,11 +2305,451 @@
       }
     },
     {
-      "fixture_id": "98_team_98_fagiano_okayama_team_98_vissel_kobe_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Fagiano Okayama",
-      "away_team": "Vissel Kobe",
+      "fixture_id": "98_team_98_fc_tokyo_team_98_mito_hollyhock_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "FC Tokyo",
+      "away_team": "Mito Hollyhock",
       "league": "J1 League",
+      "actual_score": "6-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.0,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_nagoya_grampus_team_98_yokohama_f_marinos_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Nagoya Grampus",
+      "away_team": "Yokohama F. Marinos",
+      "league": "J1 League",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 58.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "262_team_262_pumas_unam_team_262_tigres_uanl_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Pumas UNAM",
+      "away_team": "Tigres UANL",
+      "league": "Liga MX",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 73.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 67.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "128_team_128_rosario_central_team_128_hurac_n_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Rosario Central",
+      "away_team": "Huracán",
+      "league": "Argentine Primera",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 66.5,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_sporting_kansas_city_team_253_austin_fc_20261025",
+      "fixture_date": "2026-10-25",
+      "home_team": "Sporting Kansas City",
+      "away_team": "Austin FC",
+      "league": "MLS",
+      "actual_score": "1-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 66.7,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_d_c_united_team_253_fc_cincinnati_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "D.C. United",
+      "away_team": "FC Cincinnati",
+      "league": "MLS",
+      "actual_score": "0-2",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 65.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 63.5,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "262_team_262_le_n_team_262_toluca_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "León",
+      "away_team": "Toluca",
+      "league": "Liga MX",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.6,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 62.0,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_team_71_vasco_da_gama_team_71_corinthians_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Vasco da Gama",
+      "away_team": "Corinthians",
+      "league": "Brasileirao",
+      "actual_score": "3-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 62.1,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_team_71_palmeiras_team_71_red_bull_bragantino_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Palmeiras",
+      "away_team": "Red Bull Bragantino",
+      "league": "Brasileirao",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 57.0,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_team_71_mirassol_team_71_s_o_paulo_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Mirassol",
+      "away_team": "São Paulo",
+      "league": "Brasileirao",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 71.4,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_n_rnberg_team_79_1_fc_kaiserslautern_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "1. FC Nürnberg",
+      "away_team": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "actual_score": "0-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 58.6,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_kalmar_ff_team_113_if_brommapojkarna_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Kalmar FF",
+      "away_team": "IF Brommapojkarna",
+      "league": "Allsvenskan",
       "actual_score": "0-3",
       "results": {
         "winner": {
@@ -1317,326 +2757,6 @@
           "confidence": null,
           "correct": null,
           "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.3,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "253_team_253_san_jose_earthquakes_team_253_nashville_sc_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "San Jose Earthquakes",
-      "away_team": "Nashville SC",
-      "league": "MLS",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.2,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "253_team_253_sporting_kansas_city_team_253_real_salt_lake_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Sporting Kansas City",
-      "away_team": "Real Salt Lake",
-      "league": "MLS",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "253_team_253_austin_fc_team_253_vancouver_whitecaps_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Austin FC",
-      "away_team": "Vancouver Whitecaps",
-      "league": "MLS",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 80.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 76.0,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "253_team_253_new_england_revolution_team_253_chicago_fire_fc_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "New England Revolution",
-      "away_team": "Chicago Fire FC",
-      "league": "MLS",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.2,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_atl_tico_mg_team_71_coritiba_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Atlético-MG",
-      "away_team": "Coritiba",
-      "league": "Brasileirao",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_independiente_rivadavia_team_128_tigre_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Independiente Rivadavia",
-      "away_team": "Tigre",
-      "league": "Argentine Primera",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 60.2,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_bayern_munich_team_78_rb_leipzig_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Bayern Munich",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "6-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 74.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "113_team_113_aik_team_113_ifk_g_teborg_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "AIK",
-      "away_team": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
         },
         "over25": {
           "pick": "over",
@@ -1647,170 +2767,10 @@
         "btts": {
           "pick": "yes",
           "confidence": 85.0,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_hamburger_sv_team_78_vfb_stuttgart_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Hamburger SV",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 73.2,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 70.6,
           "correct": false,
           "actual": "no"
         },
         "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_rb_leipzig_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "FC Bayern München",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
-      "actual_score": "6-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 88.0,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_vfl_bochum_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "VfL Bochum",
-      "league": "2. Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 54.8,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_wolfsburg_team_79_1_fc_heidenheim_1846_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "VfL Wolfsburg",
-      "away_team": "1. FC Heidenheim 1846",
-      "league": "2. Bundesliga",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 66.7,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 65.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
@@ -1825,51 +2785,11 @@
       }
     },
     {
-      "fixture_id": "262_team_262_tijuana_team_262_santos_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "Tijuana",
-      "away_team": "Santos",
-      "league": "Liga MX",
-      "actual_score": "4-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 67.9,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 57.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "253_team_253_lafc_team_253_la_galaxy_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "LAFC",
-      "away_team": "LA Galaxy",
-      "league": "MLS",
+      "fixture_id": "113_team_113_djurg_rden_team_113_rgryte_is_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Djurgården",
+      "away_team": "Örgryte IS",
+      "league": "Allsvenskan",
       "actual_score": "2-2",
       "results": {
         "winner": {
@@ -1880,7 +2800,7 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 81.5,
+          "confidence": 76.3,
           "correct": true,
           "actual": "over"
         },
@@ -1905,423 +2825,23 @@
       }
     },
     {
-      "fixture_id": "128_team_128_barracas_central_team_128_estudiantes_de_r_o_cuarto_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "Barracas Central",
-      "away_team": "Estudiantes de Río Cuarto",
-      "league": "Argentine Primera",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 53.2,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_independiente_team_128_boca_juniors_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Independiente",
-      "away_team": "Boca Juniors",
-      "league": "Argentine Primera",
-      "actual_score": "0-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 58.5,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.9,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "103_team_103_molde_team_103_fredrikstad_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Molde",
-      "away_team": "Fredrikstad",
-      "league": "Eliteserien",
-      "actual_score": "5-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 67.8,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_fc_bayern_m_nchen_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "SC Freiburg",
-      "away_team": "FC Bayern München",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 60.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_bayer_04_leverkusen_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 75.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 71.5,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "113_team_113_gais_team_113_ifk_g_teborg_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "GAIS",
-      "away_team": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 70.1,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 55.2,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_osnabr_ck_team_79_spvgg_greuther_f_rth_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "VfL Osnabrück",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.0,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_vfl_wolfsburg_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "VfL Bochum",
-      "away_team": "VfL Wolfsburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 63.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "88_team_88_fortuna_sittard_team_88_excelsior_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Fortuna Sittard",
-      "away_team": "Excelsior",
+      "fixture_id": "88_team_88_fc_utrecht_team_88_pec_zwolle_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "FC Utrecht",
+      "away_team": "PEC Zwolle",
       "league": "Eredivisie",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 59.9,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "98_team_98_kawasaki_frontale_team_98_fagiano_okayama_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Kawasaki Frontale",
-      "away_team": "Fagiano Okayama",
-      "league": "J1 League",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 67.8,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 65.2,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 54.2,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_vit_ria_team_71_athletico_pr_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "Vitória",
-      "away_team": "Athletico-PR",
-      "league": "Brasileirao",
       "actual_score": "1-1",
       "results": {
         "winner": {
-          "pick": "away",
-          "confidence": 64.4,
+          "pick": "home",
+          "confidence": 82.0,
           "correct": false,
           "actual": "draw"
         },
         "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
+          "pick": "over",
+          "confidence": 66.6,
+          "correct": false,
           "actual": "under"
         },
         "btts": {
@@ -2345,331 +2865,11 @@
       }
     },
     {
-      "fixture_id": "103_team_103_bodo_glimt_team_103_v_lerenga_20261024",
+      "fixture_id": "78_team_78_1_fc_k_ln_team_78_fc_schalke_04_20261024",
       "fixture_date": "2026-10-24",
-      "home_team": "Bodo/Glimt",
-      "away_team": "Vålerenga",
-      "league": "Eliteserien",
-      "actual_score": "0-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 73.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_fc_bayern_m_nchen_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "SC Freiburg",
-      "away_team": "FC Bayern München",
+      "home_team": "1. FC Köln",
+      "away_team": "FC Schalke 04",
       "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 60.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_bayer_04_leverkusen_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 75.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 71.5,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_vfb_stuttgart_team_78_borussia_m_nchengladbach_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "VfB Stuttgart",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "2-3",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 67.7,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "98_team_98_kashima_antlers_team_98_kashiwa_reysol_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "Kashima Antlers",
-      "away_team": "Kashiwa Reysol",
-      "league": "J1 League",
-      "actual_score": "2-3",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 58.3,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_gimnasia_la_plata_team_128_sarmiento_jun_n_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "Gimnasia La Plata",
-      "away_team": "Sarmiento (Junín)",
-      "league": "Argentine Primera",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 71.4,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 64.9,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_vfb_stuttgart_team_78_borussia_m_nchengladbach_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "VfB Stuttgart",
-      "away_team": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "actual_score": "2-3",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 67.7,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "113_team_113_v_ster_s_sk_team_113_halmstads_bk_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "Västerås SK",
-      "away_team": "Halmstads BK",
-      "league": "Allsvenskan",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 80.7,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "113_team_113_if_elfsborg_team_113_malm_ff_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "IF Elfsborg",
-      "away_team": "Malmö FF",
-      "league": "Allsvenskan",
       "actual_score": "0-0",
       "results": {
         "winner": {
@@ -2680,449 +2880,9 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 55.1,
+          "confidence": 60.1,
           "correct": false,
           "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 55.0,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_vfl_wolfsburg_20261023",
-      "fixture_date": "2026-10-23",
-      "home_team": "VfL Bochum",
-      "away_team": "VfL Wolfsburg",
-      "league": "2. Bundesliga",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 63.3,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.7,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "98_team_98_kawasaki_frontale_team_98_vissel_kobe_20261021",
-      "fixture_date": "2026-10-21",
-      "home_team": "Kawasaki Frontale",
-      "away_team": "Vissel Kobe",
-      "league": "J1 League",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 75.6,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 70.3,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "98_team_98_fc_tokyo_team_98_kashiwa_reysol_20261021",
-      "fixture_date": "2026-10-21",
-      "home_team": "FC Tokyo",
-      "away_team": "Kashiwa Reysol",
-      "league": "J1 League",
-      "actual_score": "0-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 58.1,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_deportivo_riestra_team_128_uni_n_santa_fe_20261020",
-      "fixture_date": "2026-10-20",
-      "home_team": "Deportivo Riestra",
-      "away_team": "Unión (Santa Fe)",
-      "league": "Argentine Primera",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 74.0,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_corinthians_team_71_vit_ria_20261019",
-      "fixture_date": "2026-10-19",
-      "home_team": "Corinthians",
-      "away_team": "Vitória",
-      "league": "Brasileirao",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 57.0,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_fluminense_team_71_santos_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Fluminense",
-      "away_team": "Santos",
-      "league": "Brasileirao",
-      "actual_score": "1-2",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 60.4,
-          "correct": false,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_independiente_rivadavia_team_128_tigre_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Independiente Rivadavia",
-      "away_team": "Tigre",
-      "league": "Argentine Primera",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_deportivo_riestra_team_128_uni_n_santa_fe_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Deportivo Riestra",
-      "away_team": "Unión (Santa Fe)",
-      "league": "Argentine Primera",
-      "actual_score": "1-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 74.0,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_vfl_bochum_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "VfL Bochum",
-      "league": "2. Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 54.8,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_wolfsburg_team_79_1_fc_heidenheim_1846_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "VfL Wolfsburg",
-      "away_team": "1. FC Heidenheim 1846",
-      "league": "2. Bundesliga",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 66.7,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 65.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "98_team_98_fagiano_okayama_team_98_vissel_kobe_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Fagiano Okayama",
-      "away_team": "Vissel Kobe",
-      "league": "J1 League",
-      "actual_score": "0-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "away"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 57.8,
-          "correct": true,
-          "actual": "over"
         },
         "btts": {
           "pick": "yes",
@@ -3145,22 +2905,22 @@
       }
     },
     {
-      "fixture_id": "253_team_253_san_jose_earthquakes_team_253_nashville_sc_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "San Jose Earthquakes",
-      "away_team": "Nashville SC",
-      "league": "MLS",
+      "fixture_id": "78_team_78_fc_augsburg_team_78_1_fc_union_berlin_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "FC Augsburg",
+      "away_team": "1. FC Union Berlin",
+      "league": "Bundesliga",
       "actual_score": "1-1",
       "results": {
         "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
+          "pick": "home",
+          "confidence": 66.4,
+          "correct": false,
           "actual": "draw"
         },
         "over25": {
           "pick": "over",
-          "confidence": 62.2,
+          "confidence": 57.9,
           "correct": false,
           "actual": "under"
         },
@@ -3171,6 +2931,86 @@
           "actual": "yes"
         },
         "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_dortmund_team_78_eintracht_frankfurt_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "Borussia Dortmund",
+      "away_team": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 75.7,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 81.5,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.1,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "113_team_113_bk_h_cken_team_113_degerfors_if_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "BK Häcken",
+      "away_team": "Degerfors IF",
+      "league": "Allsvenskan",
+      "actual_score": "4-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 82.0,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
@@ -3185,22 +3025,22 @@
       }
     },
     {
-      "fixture_id": "253_team_253_sporting_kansas_city_team_253_real_salt_lake_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Sporting Kansas City",
-      "away_team": "Real Salt Lake",
-      "league": "MLS",
-      "actual_score": "1-3",
+      "fixture_id": "79_team_79_1_fc_magdeburg_team_79_karlsruher_sc_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "1. FC Magdeburg",
+      "away_team": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "actual_score": "6-1",
       "results": {
         "winner": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
-          "actual": "away"
+          "actual": "home"
         },
         "over25": {
           "pick": "over",
-          "confidence": 62.7,
+          "confidence": 55.0,
           "correct": true,
           "actual": "over"
         },
@@ -3208,6 +3048,46 @@
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_1_fc_heidenheim_1846_team_79_energie_cottbus_20261024",
+      "fixture_date": "2026-10-24",
+      "home_team": "1. FC Heidenheim 1846",
+      "away_team": "Energie Cottbus",
+      "league": "2. Bundesliga",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 57.0,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 88.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 77.5,
+          "correct": true,
           "actual": "yes"
         },
         "corners": {
@@ -3225,11 +3105,11 @@
       }
     },
     {
-      "fixture_id": "253_team_253_austin_fc_team_253_vancouver_whitecaps_20261018",
-      "fixture_date": "2026-10-18",
-      "home_team": "Austin FC",
-      "away_team": "Vancouver Whitecaps",
-      "league": "MLS",
+      "fixture_id": "262_team_262_pachuca_team_262_cruz_azul_20261022",
+      "fixture_date": "2026-10-22",
+      "home_team": "Pachuca",
+      "away_team": "Cruz Azul",
+      "league": "Liga MX",
       "actual_score": "1-2",
       "results": {
         "winner": {
@@ -3240,13 +3120,13 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 80.5,
+          "confidence": 81.4,
           "correct": true,
           "actual": "over"
         },
         "btts": {
           "pick": "yes",
-          "confidence": 76.0,
+          "confidence": 76.9,
           "correct": true,
           "actual": "yes"
         },
@@ -3265,103 +3145,23 @@
       }
     },
     {
-      "fixture_id": "253_team_253_new_england_revolution_team_253_chicago_fire_fc_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "New England Revolution",
-      "away_team": "Chicago Fire FC",
-      "league": "MLS",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 62.2,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.7,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "71_team_71_atl_tico_mg_team_71_coritiba_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Atlético-MG",
-      "away_team": "Coritiba",
-      "league": "Brasileirao",
-      "actual_score": "1-0",
+      "fixture_id": "128_team_128_estudiantes_de_la_plata_team_128_san_lorenzo_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Estudiantes de La Plata",
+      "away_team": "San Lorenzo",
+      "league": "Argentine Primera",
+      "actual_score": "1-2",
       "results": {
         "winner": {
           "pick": "home",
           "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
+          "correct": false,
+          "actual": "away"
         },
         "over25": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_independiente_rivadavia_team_128_tigre_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Independiente Rivadavia",
-      "away_team": "Tigre",
-      "league": "Argentine Primera",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 61.4,
-          "correct": true,
           "actual": "over"
         },
         "btts": {
@@ -3385,18 +3185,18 @@
       }
     },
     {
-      "fixture_id": "78_team_78_bayern_munich_team_78_rb_leipzig_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Bayern Munich",
-      "away_team": "RB Leipzig",
+      "fixture_id": "78_team_78_borussia_m_nchengladbach_team_78_tsg_hoffenheim_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "TSG Hoffenheim",
       "league": "Bundesliga",
-      "actual_score": "6-1",
+      "actual_score": "1-2",
       "results": {
         "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
         },
         "over25": {
           "pick": "over",
@@ -3405,90 +3205,10 @@
           "actual": "over"
         },
         "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "113_team_113_aik_team_113_ifk_g_teborg_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "AIK",
-      "away_team": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 88.0,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
           "pick": "yes",
-          "confidence": 85.0,
+          "confidence": 71.8,
           "correct": true,
           "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_hamburger_sv_team_78_vfb_stuttgart_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "Hamburger SV",
-      "away_team": "VfB Stuttgart",
-      "league": "Bundesliga",
-      "actual_score": "1-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 73.2,
-          "correct": false,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 70.6,
-          "correct": false,
-          "actual": "no"
         },
         "corners": {
           "pick": "under",
@@ -3505,134 +3225,54 @@
       }
     },
     {
-      "fixture_id": "78_team_78_fc_bayern_m_nchen_team_78_rb_leipzig_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "FC Bayern München",
-      "away_team": "RB Leipzig",
-      "league": "Bundesliga",
+      "fixture_id": "103_team_103_sandefjord_team_103_lillestrom_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Sandefjord",
+      "away_team": "Lillestrom",
+      "league": "Eliteserien",
+      "actual_score": "0-2",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 63.7,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "103_team_103_molde_team_103_ik_start_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Molde",
+      "away_team": "IK Start",
+      "league": "Eliteserien",
       "actual_score": "6-1",
       "results": {
         "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 88.0,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_1_fc_kaiserslautern_team_79_vfl_bochum_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "1. FC Kaiserslautern",
-      "away_team": "VfL Bochum",
-      "league": "2. Bundesliga",
-      "actual_score": "2-0",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 54.8,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_wolfsburg_team_79_1_fc_heidenheim_1846_20261017",
-      "fixture_date": "2026-10-17",
-      "home_team": "VfL Wolfsburg",
-      "away_team": "1. FC Heidenheim 1846",
-      "league": "2. Bundesliga",
-      "actual_score": "3-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 66.7,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 84.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 65.9,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "262_team_262_tijuana_team_262_santos_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "Tijuana",
-      "away_team": "Santos",
-      "league": "Liga MX",
-      "actual_score": "4-1",
-      "results": {
-        "winner": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
@@ -3640,47 +3280,7 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 67.9,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 57.1,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "253_team_253_lafc_team_253_la_galaxy_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "LAFC",
-      "away_team": "LA Galaxy",
-      "league": "MLS",
-      "actual_score": "2-2",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 82.0,
-          "correct": false,
-          "actual": "draw"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 81.5,
+          "confidence": 60.6,
           "correct": true,
           "actual": "over"
         },
@@ -3705,51 +3305,11 @@
       }
     },
     {
-      "fixture_id": "128_team_128_barracas_central_team_128_estudiantes_de_r_o_cuarto_20261026",
-      "fixture_date": "2026-10-26",
-      "home_team": "Barracas Central",
-      "away_team": "Estudiantes de Río Cuarto",
-      "league": "Argentine Primera",
-      "actual_score": "2-1",
-      "results": {
-        "winner": {
-          "pick": "home",
-          "confidence": 53.2,
-          "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "128_team_128_independiente_team_128_boca_juniors_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Independiente",
-      "away_team": "Boca Juniors",
-      "league": "Argentine Primera",
+      "fixture_id": "113_team_113_malm_ff_team_113_bk_h_cken_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Malmö FF",
+      "away_team": "BK Häcken",
+      "league": "Allsvenskan",
       "actual_score": "0-1",
       "results": {
         "winner": {
@@ -3760,13 +3320,13 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 58.5,
+          "confidence": 83.4,
           "correct": false,
           "actual": "under"
         },
         "btts": {
           "pick": "yes",
-          "confidence": 55.9,
+          "confidence": 79.0,
           "correct": false,
           "actual": "no"
         },
@@ -3785,114 +3345,34 @@
       }
     },
     {
-      "fixture_id": "103_team_103_molde_team_103_fredrikstad_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Molde",
-      "away_team": "Fredrikstad",
-      "league": "Eliteserien",
-      "actual_score": "5-1",
+      "fixture_id": "113_team_113_halmstads_bk_team_113_hammarby_if_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Halmstads BK",
+      "away_team": "Hammarby IF",
+      "league": "Allsvenskan",
+      "actual_score": "0-1",
       "results": {
         "winner": {
-          "pick": "home",
-          "confidence": 67.8,
+          "pick": "away",
+          "confidence": 58.1,
           "correct": true,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_sc_freiburg_team_78_fc_bayern_m_nchen_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "SC Freiburg",
-      "away_team": "FC Bayern München",
-      "league": "Bundesliga",
-      "actual_score": "1-3",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
           "actual": "away"
         },
         "over25": {
-          "pick": "over",
-          "confidence": 64.5,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 60.6,
-          "correct": true,
-          "actual": "yes"
-        },
-        "corners": {
-          "pick": "under",
-          "confidence": 58.7,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
           "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "78_team_78_tsg_hoffenheim_team_78_bayer_04_leverkusen_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "TSG Hoffenheim",
-      "away_team": "Bayer 04 Leverkusen",
-      "league": "Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
+        },
+        "btts": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 75.3,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 71.5,
-          "correct": false,
           "actual": "no"
         },
         "corners": {
-          "pick": "under",
-          "confidence": 58.7,
+          "pick": "no_pick",
+          "confidence": null,
           "correct": null,
           "actual": "under"
         },
@@ -3905,24 +3385,24 @@
       }
     },
     {
-      "fixture_id": "113_team_113_gais_team_113_ifk_g_teborg_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "GAIS",
-      "away_team": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "actual_score": "1-1",
+      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_sc_freiburg_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Bayer 04 Leverkusen",
+      "away_team": "SC Freiburg",
+      "league": "Bundesliga",
+      "actual_score": "2-1",
       "results": {
         "winner": {
           "pick": "home",
-          "confidence": 70.1,
-          "correct": false,
-          "actual": "draw"
+          "confidence": 75.9,
+          "correct": true,
+          "actual": "home"
         },
         "over25": {
           "pick": "over",
-          "confidence": 55.2,
-          "correct": false,
-          "actual": "under"
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
         },
         "btts": {
           "pick": "no_pick",
@@ -3931,8 +3411,8 @@
           "actual": "yes"
         },
         "corners": {
-          "pick": "no_pick",
-          "confidence": null,
+          "pick": "under",
+          "confidence": 58.7,
           "correct": null,
           "actual": "under"
         },
@@ -3945,50 +3425,10 @@
       }
     },
     {
-      "fixture_id": "79_team_79_vfl_osnabr_ck_team_79_spvgg_greuther_f_rth_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "VfL Osnabrück",
-      "away_team": "SpVgg Greuther Fürth",
-      "league": "2. Bundesliga",
-      "actual_score": "3-0",
-      "results": {
-        "winner": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "home"
-        },
-        "over25": {
-          "pick": "over",
-          "confidence": 62.1,
-          "correct": true,
-          "actual": "over"
-        },
-        "btts": {
-          "pick": "yes",
-          "confidence": 61.0,
-          "correct": false,
-          "actual": "no"
-        },
-        "corners": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        },
-        "cards": {
-          "pick": "no_pick",
-          "confidence": null,
-          "correct": null,
-          "actual": "under"
-        }
-      }
-    },
-    {
-      "fixture_id": "79_team_79_vfl_bochum_team_79_vfl_wolfsburg_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "VfL Bochum",
-      "away_team": "VfL Wolfsburg",
+      "fixture_id": "79_team_79_energie_cottbus_team_79_1_fc_n_rnberg_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Energie Cottbus",
+      "away_team": "1. FC Nürnberg",
       "league": "2. Bundesliga",
       "actual_score": "1-1",
       "results": {
@@ -4000,13 +3440,13 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 63.3,
+          "confidence": 73.4,
           "correct": false,
           "actual": "under"
         },
         "btts": {
           "pick": "yes",
-          "confidence": 61.7,
+          "confidence": 68.3,
           "correct": true,
           "actual": "yes"
         },
@@ -4025,12 +3465,52 @@
       }
     },
     {
-      "fixture_id": "88_team_88_fortuna_sittard_team_88_excelsior_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Fortuna Sittard",
-      "away_team": "Excelsior",
-      "league": "Eredivisie",
-      "actual_score": "1-0",
+      "fixture_id": "79_team_79_dsc_arminia_bielefeld_team_79_vfl_osnabr_ck_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "DSC Arminia Bielefeld",
+      "away_team": "VfL Osnabrück",
+      "league": "2. Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 62.3,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_dynamo_dresden_team_79_1_fc_magdeburg_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Dynamo Dresden",
+      "away_team": "1. FC Magdeburg",
+      "league": "2. Bundesliga",
+      "actual_score": "2-0",
       "results": {
         "winner": {
           "pick": "no_pick",
@@ -4045,6 +3525,286 @@
           "actual": "under"
         },
         "btts": {
+          "pick": "yes",
+          "confidence": 60.2,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_karlsruher_sc_team_79_sv_darmstadt_98_20261018",
+      "fixture_date": "2026-10-18",
+      "home_team": "Karlsruher SC",
+      "away_team": "SV Darmstadt 98",
+      "league": "2. Bundesliga",
+      "actual_score": "4-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 72.4,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 68.6,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_borussia_m_nchengladbach_team_78_tsg_hoffenheim_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "TSG Hoffenheim",
+      "league": "Bundesliga",
+      "actual_score": "1-2",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 74.5,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 71.8,
+          "correct": true,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_1_fc_k_ln_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "1. FC Köln",
+      "league": "Bundesliga",
+      "actual_score": "1-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 59.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 56.5,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "78_team_78_bayer_04_leverkusen_team_78_sc_freiburg_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Bayer 04 Leverkusen",
+      "away_team": "SC Freiburg",
+      "league": "Bundesliga",
+      "actual_score": "2-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 75.9,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 63.0,
+          "correct": true,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "under",
+          "confidence": 58.7,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "98_team_98_cerezo_osaka_team_98_kawasaki_frontale_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Cerezo Osaka",
+      "away_team": "Kawasaki Frontale",
+      "league": "J1 League",
+      "actual_score": "2-4",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 55.9,
+          "correct": false,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "262_team_262_necaxa_team_262_atlas_20261017",
+      "fixture_date": "2026-10-17",
+      "home_team": "Necaxa",
+      "away_team": "Atlas",
+      "league": "Liga MX",
+      "actual_score": "0-2",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "away"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 72.0,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.2,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "71_team_71_mirassol_team_71_internacional_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "Mirassol",
+      "away_team": "Internacional",
+      "league": "Brasileirao",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 78.6,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "btts": {
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
@@ -4065,12 +3825,12 @@
       }
     },
     {
-      "fixture_id": "98_team_98_kawasaki_frontale_team_98_fagiano_okayama_20261025",
-      "fixture_date": "2026-10-25",
-      "home_team": "Kawasaki Frontale",
-      "away_team": "Fagiano Okayama",
-      "league": "J1 League",
-      "actual_score": "2-1",
+      "fixture_id": "78_team_78_eintracht_frankfurt_team_78_1_fc_k_ln_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "1. FC Köln",
+      "league": "Bundesliga",
+      "actual_score": "1-0",
       "results": {
         "winner": {
           "pick": "no_pick",
@@ -4080,19 +3840,19 @@
         },
         "over25": {
           "pick": "over",
-          "confidence": 67.8,
-          "correct": true,
-          "actual": "over"
+          "confidence": 59.7,
+          "correct": false,
+          "actual": "under"
         },
         "btts": {
           "pick": "yes",
-          "confidence": 65.2,
-          "correct": true,
-          "actual": "yes"
+          "confidence": 56.5,
+          "correct": false,
+          "actual": "no"
         },
         "corners": {
           "pick": "under",
-          "confidence": 54.2,
+          "confidence": 58.7,
           "correct": null,
           "actual": "under"
         },
@@ -4105,18 +3865,18 @@
       }
     },
     {
-      "fixture_id": "71_team_71_vit_ria_team_71_athletico_pr_20261024",
-      "fixture_date": "2026-10-24",
-      "home_team": "Vitória",
-      "away_team": "Athletico-PR",
-      "league": "Brasileirao",
-      "actual_score": "1-1",
+      "fixture_id": "113_team_113_if_brommapojkarna_team_113_djurg_rden_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "IF Brommapojkarna",
+      "away_team": "Djurgården",
+      "league": "Allsvenskan",
+      "actual_score": "0-2",
       "results": {
         "winner": {
           "pick": "away",
-          "confidence": 64.4,
-          "correct": false,
-          "actual": "draw"
+          "confidence": 54.9,
+          "correct": true,
+          "actual": "away"
         },
         "over25": {
           "pick": "no_pick",
@@ -4128,7 +3888,247 @@
           "pick": "no_pick",
           "confidence": null,
           "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "79_team_79_energie_cottbus_team_79_1_fc_n_rnberg_20261016",
+      "fixture_date": "2026-10-16",
+      "home_team": "Energie Cottbus",
+      "away_team": "1. FC Nürnberg",
+      "league": "2. Bundesliga",
+      "actual_score": "1-1",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 73.4,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 68.3,
+          "correct": true,
           "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_lafc_team_253_austin_fc_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "LAFC",
+      "away_team": "Austin FC",
+      "league": "MLS",
+      "actual_score": "3-1",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 77.8,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "yes"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_la_galaxy_team_253_portland_timbers_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "LA Galaxy",
+      "away_team": "Portland Timbers",
+      "league": "MLS",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "away",
+          "confidence": 64.1,
+          "correct": false,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 81.9,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.2,
+          "correct": false,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_st_louis_city_sc_team_253_vancouver_whitecaps_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "St. Louis CITY SC",
+      "away_team": "Vancouver Whitecaps",
+      "league": "MLS",
+      "actual_score": "0-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 55.5,
+          "correct": false,
+          "actual": "draw"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 67.3,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_nashville_sc_team_253_sporting_kansas_city_20261015",
+      "fixture_date": "2026-10-15",
+      "home_team": "Nashville SC",
+      "away_team": "Sporting Kansas City",
+      "league": "MLS",
+      "actual_score": "4-0",
+      "results": {
+        "winner": {
+          "pick": "home",
+          "confidence": 81.4,
+          "correct": true,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "over"
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "no"
+        },
+        "corners": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        },
+        "cards": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "under"
+        }
+      }
+    },
+    {
+      "fixture_id": "253_team_253_inter_miami_cf_team_253_new_york_city_fc_20261014",
+      "fixture_date": "2026-10-14",
+      "home_team": "Inter Miami CF",
+      "away_team": "New York City FC",
+      "league": "MLS",
+      "actual_score": "2-0",
+      "results": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null,
+          "correct": null,
+          "actual": "home"
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 73.7,
+          "correct": false,
+          "actual": "under"
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 64.1,
+          "correct": false,
+          "actual": "no"
         },
         "corners": {
           "pick": "no_pick",
