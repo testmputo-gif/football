@@ -5480,6 +5480,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_halmstads_bk_team_113_malm_ff": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 5.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_98_fagiano_okayama_team_98_urawa_red_diamonds": {
       "matches_played": 2,
       "home_wins": 1,
@@ -5567,6 +5577,16 @@
       "draws": 0,
       "avg_goals": 5.0,
       "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_113_degerfors_if_team_113_v_ster_s_sk": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5730,6 +5750,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_253_minnesota_united_fc_team_253_sporting_kansas_city": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_253_la_galaxy_team_253_st_louis_city_sc": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5747,6 +5777,16 @@
       "draws": 0,
       "avg_goals": 2.5,
       "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_d_c_united_team_253_toronto_fc": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 3.0,
+      "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5860,6 +5900,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_253_atlanta_united_fc_team_253_new_york_city_fc": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 3.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_253_houston_dynamo_fc_team_253_minnesota_united_fc": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5867,6 +5917,16 @@
       "draws": 2,
       "avg_goals": 2.0,
       "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_colorado_rapids_team_253_san_jose_earthquakes": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "draws": 2,
+      "avg_goals": 3.0,
+      "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5891,5 +5951,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-28T10:27:27.520345"
+  "last_updated": "2026-10-29T10:47:18.634977"
 }
