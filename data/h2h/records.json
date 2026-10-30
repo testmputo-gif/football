@@ -5480,6 +5480,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_gais_team_113_kalmar_ff": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_113_halmstads_bk_team_113_malm_ff": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5951,5 +5961,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-29T10:47:18.634977"
+  "last_updated": "2026-10-30T10:47:07.218633"
 }

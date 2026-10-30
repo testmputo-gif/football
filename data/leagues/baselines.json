@@ -93,29 +93,29 @@
     },
     "71": {
       "league_id": 71,
-      "sample_matches": 319,
-      "avg_goals_home": 1.5329,
-      "avg_goals_away": 1.1975,
-      "avg_goals_total": 2.7304,
+      "sample_matches": 322,
+      "avg_goals_home": 1.528,
+      "avg_goals_away": 1.2019,
+      "avg_goals_total": 2.7298,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4734,
-      "draw_rate": 0.2727,
-      "away_win_rate": 0.2539,
-      "home_advantage_factor": 1.2801
+      "home_win_rate": 0.472,
+      "draw_rate": 0.2702,
+      "away_win_rate": 0.2578,
+      "home_advantage_factor": 1.2713
     },
     "113": {
       "league_id": 113,
-      "sample_matches": 167,
-      "avg_goals_home": 1.5629,
-      "avg_goals_away": 1.2515,
-      "avg_goals_total": 2.8144,
+      "sample_matches": 170,
+      "avg_goals_home": 1.5529,
+      "avg_goals_away": 1.2471,
+      "avg_goals_total": 2.8,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.4192,
-      "draw_rate": 0.2575,
-      "away_win_rate": 0.3234,
-      "home_advantage_factor": 1.2488
+      "home_win_rate": 0.4176,
+      "draw_rate": 0.2529,
+      "away_win_rate": 0.3294,
+      "home_advantage_factor": 1.2453
     },
     "244": {
       "league_id": 244,
@@ -171,15 +171,15 @@
     },
     "135": {
       "league_id": 135,
-      "sample_matches": 143,
-      "avg_goals_home": 1.4266,
-      "avg_goals_away": 1.3986,
-      "avg_goals_total": 2.8252,
+      "sample_matches": 145,
+      "avg_goals_home": 1.4552,
+      "avg_goals_away": 1.4,
+      "avg_goals_total": 2.8552,
       "avg_corners": 10.0,
       "avg_cards": 0.0,
-      "home_win_rate": 0.3846,
-      "draw_rate": 0.2378,
-      "away_win_rate": 0.3776,
+      "home_win_rate": 0.3862,
+      "draw_rate": 0.2414,
+      "away_win_rate": 0.3724,
       "home_advantage_factor": 1.05
     },
     "61": {
@@ -339,5 +339,5 @@
       "home_advantage_factor": 1.6
     }
   },
-  "last_updated": "2026-10-29T10:47:18.599336"
+  "last_updated": "2026-10-30T10:47:07.190546"
 }
