@@ -701,11 +701,11 @@
       "avg_cards": 0.0
     },
     "team_79_dsc_arminia_bielefeld_team_79_eintracht_braunschweig": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 3.5,
+      "avg_goals": 3.667,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -4170,6 +4170,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_nagoya_grampus_team_98_vissel_kobe": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 4.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_clube_do_remo_team_71_cr_vasco_da_gama": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5961,5 +5971,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-10-30T10:47:07.218633"
+  "last_updated": "2026-10-31T10:16:31.241945"
 }
