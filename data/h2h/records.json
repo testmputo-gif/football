@@ -611,12 +611,12 @@
       "avg_cards": 0.0
     },
     "team_79_holstein_kiel_team_79_spvgg_greuther_f_rth": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 0,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "avg_goals": 2.0,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -1191,12 +1191,12 @@
       "avg_cards": 0.0
     },
     "team_79_dynamo_dresden_team_79_hannover_96": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 2,
-      "avg_goals": 2.0,
-      "btts_rate": 0.5,
+      "avg_goals": 2.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -3141,21 +3141,21 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_k_ln_team_78_1_fc_union_berlin": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
       "away_wins": 1,
-      "draws": 1,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "draws": 2,
+      "avg_goals": 2.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
     "team_78_eintracht_frankfurt_team_78_hamburger_sv": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 1,
       "draws": 1,
-      "avg_goals": 2.5,
+      "avg_goals": 3.0,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5620,6 +5620,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_103_tromso_team_103_v_lerenga": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 4.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_113_degerfors_if_team_113_v_ster_s_sk": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5710,12 +5720,32 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_103_kristiansund_bk_team_103_sarpsborg_fk": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_98_sandefjord_team_98_viking": {
       "matches_played": 2,
       "home_wins": 0,
       "away_wins": 1,
       "draws": 1,
       "avg_goals": 2.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_103_molde_team_103_sk_brann": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 4.0,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5807,6 +5837,16 @@
       "draws": 0,
       "avg_goals": 6.0,
       "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_113_degerfors_if_team_113_djurg_rden": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -6021,5 +6061,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-01T11:08:06.564079"
+  "last_updated": "2026-11-02T12:07:19.303335"
 }
