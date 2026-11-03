@@ -5720,6 +5720,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_aik_team_113_gais": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_103_kristiansund_bk_team_103_sarpsborg_fk": {
       "matches_played": 2,
       "home_wins": 1,
@@ -5846,6 +5856,16 @@
       "away_wins": 2,
       "draws": 0,
       "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_113_kalmar_ff_team_113_mj_llby_aif": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -6061,5 +6081,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-02T12:07:19.303335"
+  "last_updated": "2026-11-03T11:44:03.778310"
 }
