@@ -6010,6 +6010,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_halmstads_bk_team_113_ik_sirius": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_103_ik_start_team_103_sandefjord": {
       "matches_played": 2,
       "home_wins": 1,
@@ -6081,5 +6091,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-03T11:44:03.778310"
+  "last_updated": "2026-11-04T11:58:08.736097"
 }
