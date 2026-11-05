@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T11:58:08.539038+00:00",
-  "total_history": 3588,
-  "total_upcoming": 681,
-  "new_history": 12,
+  "generated_at": "2026-11-05T12:01:50.973974+00:00",
+  "total_history": 3595,
+  "total_upcoming": 678,
+  "new_history": 7,
   "leagues_covered": 20,
   "sources": [
     {
@@ -25,12 +25,12 @@
     },
     {
       "source": "espn",
-      "fixtures": 6,
-      "history": 12,
+      "fixtures": 4,
+      "history": 7,
       "leagues": [
         "Championship",
         "Brasileirao",
-        "Allsvenskan"
+        "Liga MX"
       ],
       "errors": [],
       "status": "ok"
@@ -40,7 +40,13 @@
       "fixtures": 0,
       "history": 0,
       "leagues": [],
-      "errors": [],
+      "errors": [
+        "Premier League: The read operation timed out",
+        "La Liga: The read operation timed out",
+        "Bundesliga: The read operation timed out",
+        "Serie A: The read operation timed out",
+        "Ligue 1: The read operation timed out"
+      ],
       "status": "ok"
     }
   ],
@@ -48,13 +54,13 @@
     "Bundesliga": 251,
     "2. Bundesliga": 234,
     "Argentine Primera": 28,
-    "Championship": 15,
-    "Brasileirao": 15,
     "MLS": 15,
+    "Brasileirao": 14,
+    "Championship": 12,
+    "Liga MX": 11,
     "Serie A": 10,
     "Premier League": 10,
     "La Liga": 10,
-    "Liga MX": 10,
     "J1 League": 10,
     "Turkey Super Lig": 9,
     "Eredivisie": 9,
@@ -67,7 +73,7 @@
     "Scottish Prem": 6
   },
   "upcoming_by_source": {
-    "espn": 201,
+    "espn": 198,
     "openligadb": 479,
     "thesportsdb": 1
   }
