@@ -1,15 +1,18 @@
 {
-  "generated_at": "2026-11-05T12:01:50.973974+00:00",
-  "total_history": 3595,
-  "total_upcoming": 678,
-  "new_history": 7,
+  "generated_at": "2026-11-06T11:56:39.917132+00:00",
+  "total_history": 3600,
+  "total_upcoming": 740,
+  "new_history": 5,
   "leagues_covered": 20,
   "sources": [
     {
       "source": "openligadb",
-      "fixtures": 0,
+      "fixtures": 55,
       "history": 0,
-      "leagues": [],
+      "leagues": [
+        "Bundesliga",
+        "2. Bundesliga"
+      ],
       "errors": [
         "Austrian Bundesliga: no data"
       ],
@@ -25,12 +28,18 @@
     },
     {
       "source": "espn",
-      "fixtures": 4,
-      "history": 7,
+      "fixtures": 12,
+      "history": 5,
       "leagues": [
-        "Championship",
+        "La Liga",
+        "Bundesliga",
+        "Ligue 1",
         "Brasileirao",
-        "Liga MX"
+        "Argentine Primera",
+        "J1 League",
+        "Eliteserien",
+        "Liga MX",
+        "A-League"
       ],
       "errors": [],
       "status": "ok"
@@ -40,41 +49,35 @@
       "fixtures": 0,
       "history": 0,
       "leagues": [],
-      "errors": [
-        "Premier League: The read operation timed out",
-        "La Liga: The read operation timed out",
-        "Bundesliga: The read operation timed out",
-        "Serie A: The read operation timed out",
-        "Ligue 1: The read operation timed out"
-      ],
+      "errors": [],
       "status": "ok"
     }
   ],
   "upcoming_by_league": {
-    "Bundesliga": 251,
-    "2. Bundesliga": 234,
-    "Argentine Primera": 28,
+    "Bundesliga": 278,
+    "2. Bundesliga": 263,
+    "Argentine Primera": 26,
     "MLS": 15,
-    "Brasileirao": 14,
+    "Liga MX": 14,
+    "J1 League": 13,
     "Championship": 12,
-    "Liga MX": 11,
+    "Brasileirao": 12,
+    "La Liga": 11,
     "Serie A": 10,
+    "Ligue 1": 10,
     "Premier League": 10,
-    "La Liga": 10,
-    "J1 League": 10,
     "Turkey Super Lig": 9,
     "Eredivisie": 9,
-    "Ligue 1": 9,
     "Primeira Liga": 9,
+    "Eliteserien": 9,
     "Allsvenskan": 8,
     "Greek Super League": 8,
-    "Eliteserien": 8,
-    "A-League": 7,
+    "A-League": 8,
     "Scottish Prem": 6
   },
   "upcoming_by_source": {
-    "espn": 198,
-    "openligadb": 479,
+    "espn": 205,
+    "openligadb": 534,
     "thesportsdb": 1
   }
 }
