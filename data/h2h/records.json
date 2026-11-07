@@ -241,12 +241,12 @@
       "avg_cards": 0.0
     },
     "team_79_dynamo_dresden_team_79_spvgg_greuther_f_rth": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 3.5,
-      "btts_rate": 0.5,
+      "avg_goals": 3.333,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -641,12 +641,12 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_m_nchengladbach_team_78_hamburger_sv": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 2,
-      "avg_goals": 0.0,
-      "btts_rate": 0.0,
+      "avg_goals": 1.333,
+      "btts_rate": 0.333,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -4170,6 +4170,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_98_avispa_fukuoka_team_98_v_varen_nagasaki": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_98_nagoya_grampus_team_98_vissel_kobe": {
       "matches_played": 2,
       "home_wins": 0,
@@ -5600,6 +5610,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_hammarby_if_team_113_if_elfsborg": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 4.0,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_103_aalesund_team_103_molde": {
       "matches_played": 2,
       "home_wins": 1,
@@ -6091,5 +6111,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-06T11:56:40.116909"
+  "last_updated": "2026-11-07T10:58:07.633000"
 }
