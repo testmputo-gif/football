@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T12:39:30.607654",
+  "last_updated": "2026-11-10T12:19:40.608751",
   "matches": {
     "554780": {
       "api_fixture_id": 554780,
@@ -92935,6 +92935,28 @@
       "api_fixture_id": "espn_401896730",
       "home_goals": 1,
       "away_goals": 1
+    },
+    "espn_401843480": {
+      "league_id": 103,
+      "league_name": "Eliteserien",
+      "home_team_id": "team_103_kristiansund_bk",
+      "home_team_name": "Kristiansund BK",
+      "away_team_id": "team_103_v_lerenga",
+      "away_team_name": "Vålerenga",
+      "match_date": "2026-11-09T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Nordmore Stadion",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "api_fixture_id": "espn_401843480",
+      "home_goals": 1,
+      "away_goals": 0
     }
   }
 }
