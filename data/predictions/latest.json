@@ -1,8 +1,8 @@
 {
   "model_version": "v1.0.0",
   "ml_active": false,
-  "total_fixtures": 684,
-  "predictions_made": 666,
+  "total_fixtures": 696,
+  "predictions_made": 678,
   "fixtures": [
     {
       "league_id": 71,
@@ -31077,6 +31077,1962 @@
       "data_freshness_score": 100.0,
       "home_matches_used": 12,
       "away_matches_used": 12,
+      "ml_used": false
+    },
+    {
+      "league_id": 98,
+      "league_name": "J1 League",
+      "home_team_id": "team_98_avispa_fukuoka",
+      "home_team_name": "Avispa Fukuoka",
+      "away_team_id": "team_98_yokohama_f_marinos",
+      "away_team_name": "Yokohama F. Marinos",
+      "match_date": "2026-11-25T10:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Best Denki Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "98_team_98_avispa_fukuoka_team_98_yokohama_f_marinos_20261125",
+      "api_fixture_id": "espn_401877527",
+      "fixture_date": "2026-11-25T10:00:00+00:00",
+      "league_country": "Japan",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7107.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7116.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.259,
+      "xg_away": 1.119,
+      "home_win_probability": 0.37823,
+      "draw_probability": 0.3114,
+      "away_win_probability": 0.31037,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.10976827416939669,
+          0.08683847497717362,
+          0.05810224831666132,
+          0.02167536965746557,
+          0.006064588678572537,
+          0.0013574572954091215,
+          0.00025320352933553127
+        ],
+        [
+          0.09980276004811893,
+          0.14770647471590428,
+          0.07314521541783482,
+          0.027287232917661098,
+          0.007634741480176862,
+          0.0017089098816291234,
+          0.000318759208711938
+        ],
+        [
+          0.07351724937016915,
+          0.08227806681148035,
+          0.04604144154080211,
+          0.01717601803497339,
+          0.0048057074072542965,
+          0.001075677663454414,
+          0.00020064379316770163
+        ],
+        [
+          0.03085041283772879,
+          0.03452675869092517,
+          0.019320601509803643,
+          0.0072076587716054415,
+          0.0020166431519306064,
+          0.0004513920240786045,
+          8.419716332672174e-05
+        ],
+        [
+          0.009709435340808146,
+          0.010866477956082475,
+          0.006080700835080601,
+          0.0022684395560478928,
+          0.0006346905758488799,
+          0.00014206492775966313,
+          2.649905910498839e-05
+        ],
+        [
+          0.00244465148996754,
+          0.0027359728546094194,
+          0.0015310050311627469,
+          0.0005711500150051168,
+          0.00015980303771075688,
+          3.576925177719805e-05,
+          6.671960011050018e-06
+        ],
+        [
+          0.0005129306955577538,
+          0.0005740550197445841,
+          0.00032123166789191517,
+          0.00011983727564712551,
+          3.352947592800185e-05,
+          7.5050154465584925e-06,
+          1.399894055756326e-06
+        ]
+      ],
+      "home_elo": 1463.8,
+      "away_elo": 1524.1,
+      "home_form": "LLLLD",
+      "away_form": "DDDWD",
+      "home_attack_strength": 0.776,
+      "away_attack_strength": 0.895,
+      "home_defense_strength": 0.979,
+      "away_defense_strength": 0.798,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 56.0
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "under",
+          "confidence": 56.2
+        },
+        "corners_95": {
+          "pick": "under",
+          "confidence": 57.0
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Avispa Fukuoka win (38%). xG: Avispa Fukuoka 1.26 — Yokohama F. Marinos 1.12. Elo gap of 60 pts favours away. Home form: 36%, Away form: 50%.",
+        "over25": "Combined xG 2.38 goals expected. Poisson model gives Over 2.5 a 42% probability. Avispa Fukuoka scores 1.2/game at home, Yokohama F. Marinos concedes 1.3/game away.",
+        "btts": "Avispa Fukuoka scored in 88% of home games. Yokohama F. Marinos scored in 57% of away games. BTTS probability: 50%.",
+        "corners": "Expected 4.0 total corners. Avispa Fukuoka avg 0.0 at home, Yokohama F. Marinos avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Avispa Fukuoka avg 0.0 yellows at home, Yokohama F. Marinos avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 17,
+      "away_matches_used": 15,
+      "ml_used": false
+    },
+    {
+      "league_id": 98,
+      "league_name": "J1 League",
+      "home_team_id": "team_98_fagiano_okayama",
+      "home_team_name": "Fagiano Okayama",
+      "away_team_id": "team_98_shimizu_s_pulse",
+      "away_team_name": "Shimizu S-Pulse",
+      "match_date": "2026-11-25T10:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "City Light Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "98_team_98_fagiano_okayama_team_98_shimizu_s_pulse_20261125",
+      "api_fixture_id": "espn_401877528",
+      "fixture_date": "2026-11-25T10:00:00+00:00",
+      "league_country": "Japan",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22522.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7104.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.371,
+      "xg_away": 1.371,
+      "home_win_probability": 0.35618,
+      "draw_probability": 0.28771,
+      "away_win_probability": 0.35611,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.08030018865127654,
+          0.0726956588173471,
+          0.060628762344398644,
+          0.02770221595037752,
+          0.009493177069186665,
+          0.0026025473493777574,
+          0.0005945719977261422
+        ],
+        [
+          0.07270587511006904,
+          0.13703682735597278,
+          0.0831162457784578,
+          0.037977093717668726,
+          0.013014239578549403,
+          0.0035678439865256518,
+          0.0008151014532553849
+        ],
+        [
+          0.0606427670978584,
+          0.0831258448142408,
+          0.056972219497593374,
+          0.02603148516754197,
+          0.00892064008569013,
+          0.0024455867662178665,
+          0.0005587131429329914
+        ],
+        [
+          0.027711814986203186,
+          0.037985866118985676,
+          0.026034491525147124,
+          0.011895560432045173,
+          0.004076448675474156,
+          0.001117555336628592,
+          0.00025531412876220703
+        ],
+        [
+          0.00949756326987438,
+          0.013018749114977177,
+          0.008922700681359124,
+          0.004076919461616346,
+          0.0013971055028689755,
+          0.00038301542221251864,
+          8.750282479942853e-05
+        ],
+        [
+          0.0026040505282003803,
+          0.003569492463071842,
+          0.0024464341812775775,
+          0.001117813482867472,
+          0.00038305965638971026,
+          0.00010501551652570281,
+          2.39916040212903e-05
+        ],
+        [
+          0.0005949841168672697,
+          0.0008155722394038547,
+          0.0005589712891735925,
+          0.0002554025971169834,
+          8.752303724383556e-05,
+          2.399437479448073e-05,
+          5.481699827346138e-06
+        ]
+      ],
+      "home_elo": 1452.5,
+      "away_elo": 1440.4,
+      "home_form": "LWLLD",
+      "away_form": "DLLLL",
+      "home_attack_strength": 0.621,
+      "away_attack_strength": 0.783,
+      "home_defense_strength": 1.371,
+      "away_defense_strength": 1.086,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 66.4
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "under",
+          "confidence": 56.7
+        },
+        "corners_95": {
+          "pick": "under",
+          "confidence": 57.5
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 53.7
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Fagiano Okayama win (36%). xG: Fagiano Okayama 1.37 — Shimizu S-Pulse 1.37. Teams are closely matched on Elo. Home form: 34%, Away form: 30%.",
+        "over25": "Combined xG 2.74 goals expected. Poisson model gives Over 2.5 a 52% probability. Fagiano Okayama scores 1.0/game at home, Shimizu S-Pulse concedes 1.8/game away.",
+        "btts": "Fagiano Okayama scored in 75% of home games. Shimizu S-Pulse scored in 50% of away games. BTTS probability: 57%.",
+        "corners": "Expected 4.0 total corners. Fagiano Okayama avg 0.0 at home, Shimizu S-Pulse avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Fagiano Okayama avg 0.0 yellows at home, Shimizu S-Pulse avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 16,
+      "away_matches_used": 16,
+      "ml_used": false
+    },
+    {
+      "league_id": 98,
+      "league_name": "J1 League",
+      "home_team_id": "team_98_fc_tokyo",
+      "home_team_name": "FC Tokyo",
+      "away_team_id": "team_98_sanfrecce_hiroshima",
+      "away_team_name": "Sanfrecce Hiroshima",
+      "match_date": "2026-11-25T10:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Tokyo Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "98_team_98_fc_tokyo_team_98_sanfrecce_hiroshima_20261125",
+      "api_fixture_id": "espn_401877546",
+      "fixture_date": "2026-11-25T10:00:00+00:00",
+      "league_country": "Japan",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3384.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.741,
+      "xg_away": 0.484,
+      "home_win_probability": 0.67023,
+      "draw_probability": 0.24439,
+      "away_win_probability": 0.08537,
+      "most_likely_score": "1-0",
+      "score_matrix": [
+        [
+          0.12022160540935792,
+          0.040542444978375024,
+          0.012669954555761212,
+          0.0020422853009607654,
+          0.0002468988285729774,
+          2.387875250222139e-05,
+          1.9245225002954593e-06
+        ],
+        [
+          0.1767831403795155,
+          0.1030812177515886,
+          0.022056353337368616,
+          0.003555290274756516,
+          0.0004298111550141083,
+          4.156906799678155e-05,
+          3.3502841770597396e-06
+        ],
+        [
+          0.16419772873320146,
+          0.07940169154524956,
+          0.019198282061779013,
+          0.003094594308599269,
+          0.0003741160499673206,
+          3.618253118458128e-05,
+          2.916152984788082e-06
+        ],
+        [
+          0.09528061331222637,
+          0.04607519194587881,
+          0.011140373886411384,
+          0.0017957303426222274,
+          0.00021709195958948766,
+          2.0995989341955878e-05,
+          1.6921844598372022e-06
+        ],
+        [
+          0.041467056258304616,
+          0.020052374875789893,
+          0.004848399843655185,
+          0.0007815194356300956,
+          9.448054739135188e-05,
+          9.137660233027993e-06,
+          7.364552531327367e-07
+        ],
+        [
+          0.014437495267539407,
+          0.006981591979154857,
+          0.001688056884527266,
+          0.0002720999311625813,
+          3.289508778583709e-05,
+          3.181439394900477e-06,
+          2.5641003223442067e-07
+        ],
+        [
+          0.004188892910993615,
+          0.002025638146159956,
+          0.0004897725946167781,
+          7.894703697610591e-05,
+          9.544176290912126e-06,
+          9.230623928249921e-07,
+          7.43947718375574e-08
+        ]
+      ],
+      "home_elo": 1608.8,
+      "away_elo": 1570.7,
+      "home_form": "WDWWW",
+      "away_form": "WLWWD",
+      "home_attack_strength": 1.379,
+      "away_attack_strength": 0.87,
+      "home_defense_strength": 0.435,
+      "away_defense_strength": 0.621,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 53.0
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "under",
+          "confidence": 56.2
+        },
+        "corners_95": {
+          "pick": "under",
+          "confidence": 57.0
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours FC Tokyo win (67%). xG: FC Tokyo 1.74 — Sanfrecce Hiroshima 0.48. Elo gap of 38 pts favours home. Home form: 83%, Away form: 65%.",
+        "over25": "Combined xG 2.23 goals expected. Poisson model gives Over 2.5 a 38% probability. FC Tokyo scores 2.2/game at home, Sanfrecce Hiroshima concedes 1.0/game away.",
+        "btts": "FC Tokyo scored in 78% of home games. Sanfrecce Hiroshima scored in 67% of away games. BTTS probability: 33%.",
+        "corners": "Expected 4.0 total corners. FC Tokyo avg 0.0 at home, Sanfrecce Hiroshima avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. FC Tokyo avg 0.0 yellows at home, Sanfrecce Hiroshima avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 15,
+      "away_matches_used": 16,
+      "ml_used": false
+    },
+    {
+      "league_id": 98,
+      "league_name": "J1 League",
+      "home_team_id": "team_98_jef_united_ichihara_chiba",
+      "home_team_name": "JEF United Ichihara-Chiba",
+      "away_team_id": "team_98_nagoya_grampus",
+      "away_team_name": "Nagoya Grampus",
+      "match_date": "2026-11-25T10:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Fukuda Denshi Arena",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "98_team_98_jef_united_ichihara_chiba_team_98_nagoya_grampus_20261125",
+      "api_fixture_id": "espn_401877529",
+      "fixture_date": "2026-11-25T10:00:00+00:00",
+      "league_country": "Japan",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7111.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7108.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.41,
+      "xg_away": 0.764,
+      "home_win_probability": 0.50738,
+      "draw_probability": 0.30549,
+      "away_win_probability": 0.18713,
+      "most_likely_score": "1-0",
+      "score_matrix": [
+        [
+          0.12975052674426202,
+          0.07099143452107912,
+          0.033194562189250855,
+          0.008450699811044958,
+          0.001613539746869762,
+          0.00024646579080476013,
+          3.137273508697291e-05
+        ],
+        [
+          0.14455661407473389,
+          0.13850859953913983,
+          0.04680748248991829,
+          0.011916288613113042,
+          0.0022752441504666236,
+          0.0003475401519587878,
+          4.4238533404120514e-05
+        ],
+        [
+          0.11315393279973379,
+          0.08642047270375078,
+          0.03300149591600101,
+          0.008401548835364973,
+          0.0016041550740461656,
+          0.0002450322960220014,
+          3.119026492784372e-05
+        ],
+        [
+          0.053185927441895285,
+          0.04062035562520717,
+          0.015511746908248534,
+          0.003948993691170339,
+          0.0007540036237606425,
+          0.0001151729294306758,
+          1.466041105510466e-05
+        ],
+        [
+          0.01874930111484294,
+          0.014319638965420921,
+          0.0054682587591937245,
+          0.0013921139552799217,
+          0.00026580416406229843,
+          4.0601189789036164e-05,
+          5.1681426753312335e-06
+        ],
+        [
+          0.005287658735353984,
+          0.004038409943860859,
+          0.001542152745754163,
+          0.00039260255468491506,
+          7.49618186506601e-05,
+          1.145030604281062e-05,
+          1.457514314554216e-06
+        ],
+        [
+          0.0012426834263629867,
+          0.000949090203673934,
+          0.0003624302841738853,
+          9.22678093033269e-05,
+          1.7617212893177934e-05,
+          2.691003004987262e-06,
+          3.425389142974031e-07
+        ]
+      ],
+      "home_elo": 1486.8,
+      "away_elo": 1503.9,
+      "home_form": "DLDWW",
+      "away_form": "WDDLL",
+      "home_attack_strength": 0.745,
+      "away_attack_strength": 1.273,
+      "home_defense_strength": 0.47,
+      "away_defense_strength": 0.931,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours JEF United Ichihara-Chiba win (51%). xG: JEF United Ichihara-Chiba 1.41 — Nagoya Grampus 0.76. Teams are closely matched on Elo. Home form: 70%, Away form: 47%.",
+        "over25": "Combined xG 2.17 goals expected. Poisson model gives Over 2.5 a 37% probability. JEF United Ichihara-Chiba scores 1.2/game at home, Nagoya Grampus concedes 1.5/game away.",
+        "btts": "JEF United Ichihara-Chiba scored in 80% of home games. Nagoya Grampus scored in 88% of away games. BTTS probability: 42%.",
+        "corners": "Expected 4.0 total corners. JEF United Ichihara-Chiba avg 0.0 at home, Nagoya Grampus avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. JEF United Ichihara-Chiba avg 0.0 yellows at home, Nagoya Grampus avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 9,
+      "away_matches_used": 16,
+      "ml_used": false
+    },
+    {
+      "league_id": 98,
+      "league_name": "J1 League",
+      "home_team_id": "team_98_mito_hollyhock",
+      "home_team_name": "Mito Hollyhock",
+      "away_team_id": "team_98_tokyo_verdy_1969",
+      "away_team_name": "Tokyo Verdy 1969",
+      "match_date": "2026-11-25T10:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Kasamatsu Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "98_team_98_mito_hollyhock_team_98_tokyo_verdy_1969_20261125",
+      "api_fixture_id": "espn_401877530",
+      "fixture_date": "2026-11-25T10:00:00+00:00",
+      "league_country": "Japan",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131701.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3393.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.94,
+      "xg_away": 1.567,
+      "home_win_probability": 0.21102,
+      "draw_probability": 0.28533,
+      "away_win_probability": 0.50365,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.09726768378951889,
+          0.11228163532635137,
+          0.10020481651666761,
+          0.05233339648094259,
+          0.020498897775856728,
+          0.006423505268618188,
+          0.0016773836812729627
+        ],
+        [
+          0.06110336590160211,
+          0.135852992010945,
+          0.09418296270151515,
+          0.0491883973260743,
+          0.01926700723337536,
+          0.006037481811332117,
+          0.0015765805495306085
+        ],
+        [
+          0.036060599291028075,
+          0.056499488916000304,
+          0.04426149745885482,
+          0.023116199159640097,
+          0.009054573855384376,
+          0.002837328304239676,
+          0.0007409176138138874
+        ],
+        [
+          0.011297840416870104,
+          0.017701375516698863,
+          0.013867194243392923,
+          0.0072423402351823474,
+          0.0028368117133968055,
+          0.0008889392584094972,
+          0.00023213061145659197
+        ],
+        [
+          0.002654722895512602,
+          0.004159400835231941,
+          0.003258459731780703,
+          0.0017017771299656119,
+          0.0006665830572865507,
+          0.00020887951280457688,
+          5.45451543166579e-05
+        ],
+        [
+          0.0004990372242422756,
+          0.0007818879517835148,
+          0.0006125282237938015,
+          0.0003199016125760437,
+          0.00012530488933421374,
+          3.926536078295562e-05,
+          1.0253447714660855e-05
+        ],
+        [
+          7.81745593863411e-05,
+          0.00012248334022171113,
+          9.595301047829549e-05,
+          5.011283005608234e-05,
+          1.9629105879886704e-05,
+          6.1509485249602305e-06,
+          1.6062103553528764e-06
+        ]
+      ],
+      "home_elo": 1381.4,
+      "away_elo": 1498.8,
+      "home_form": "LLLLL",
+      "away_form": "LDWWW",
+      "home_attack_strength": 0.532,
+      "away_attack_strength": 1.097,
+      "home_defense_strength": 1.119,
+      "away_defense_strength": 0.869,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 56.6
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Tokyo Verdy 1969 win (50%). xG: Mito Hollyhock 0.94 — Tokyo Verdy 1969 1.57. Elo gap of 117 pts favours away. Home form: 11%, Away form: 69%.",
+        "over25": "Combined xG 2.51 goals expected. Poisson model gives Over 2.5 a 46% probability. Mito Hollyhock scores 0.9/game at home, Tokyo Verdy 1969 concedes 1.4/game away.",
+        "btts": "Mito Hollyhock scored in 57% of home games. Tokyo Verdy 1969 scored in 100% of away games. BTTS probability: 50%.",
+        "corners": "Expected 4.0 total corners. Mito Hollyhock avg 0.0 at home, Tokyo Verdy 1969 avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Mito Hollyhock avg 0.0 yellows at home, Tokyo Verdy 1969 avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 15,
+      "away_matches_used": 9,
+      "ml_used": false
+    },
+    {
+      "league_id": 98,
+      "league_name": "J1 League",
+      "home_team_id": "team_98_v_varen_nagasaki",
+      "home_team_name": "V-Varen Nagasaki",
+      "away_team_id": "team_98_kawasaki_frontale",
+      "away_team_name": "Kawasaki Frontale",
+      "match_date": "2026-11-25T10:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "PEACE STADIUM Connected by SoftBank",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "98_team_98_v_varen_nagasaki_team_98_kawasaki_frontale_20261125",
+      "api_fixture_id": "espn_401877545",
+      "fixture_date": "2026-11-25T10:00:00+00:00",
+      "league_country": "Japan",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19001.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7112.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 2.154,
+      "xg_away": 1.346,
+      "home_win_probability": 0.54482,
+      "draw_probability": 0.23023,
+      "away_win_probability": 0.22494,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.041864426954177206,
+          0.0294714375662976,
+          0.02755724122800964,
+          0.012367922465646988,
+          0.004163120997416246,
+          0.00112106630598748,
+          0.00025157201035801705
+        ],
+        [
+          0.0540242667557321,
+          0.09963552774896593,
+          0.05935920245274363,
+          0.026640911094248914,
+          0.008967499325357812,
+          0.002414813633536807,
+          0.0005418943707292073
+        ],
+        [
+          0.07053031683866903,
+          0.09496380456816636,
+          0.0639308355773372,
+          0.028692698628368513,
+          0.009658143998240902,
+          0.002600793928767117,
+          0.0005836291338811999
+        ],
+        [
+          0.0506415394492556,
+          0.06818505106521151,
+          0.04590303967185029,
+          0.02060167165869698,
+          0.006934653099776685,
+          0.0018673985067203605,
+          0.00041905210598707144
+        ],
+        [
+          0.02727088469973161,
+          0.03671820971611534,
+          0.024719163672198282,
+          0.011094169303226271,
+          0.0037343676194153733,
+          0.0010056094249711934,
+          0.00022566299898928364
+        ],
+        [
+          0.0117484762176516,
+          0.015818445875676726,
+          0.010649178041734637,
+          0.004779440991690198,
+          0.0016087900941879427,
+          0.00043322314415551917,
+          9.721710190266136e-05
+        ],
+        [
+          0.004217767256070592,
+          0.005678908636348291,
+          0.0038231131949699334,
+          0.0017158454716693433,
+          0.0005775644479717028,
+          0.0001555294795801479,
+          3.490147160693539e-05
+        ]
+      ],
+      "home_elo": 1478.6,
+      "away_elo": 1476.9,
+      "home_form": "LWLLD",
+      "away_form": "WWWLL",
+      "home_attack_strength": 0.853,
+      "away_attack_strength": 1.077,
+      "home_defense_strength": 0.979,
+      "away_defense_strength": 1.241,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 80.4
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "under",
+          "confidence": 56.7
+        },
+        "corners_95": {
+          "pick": "under",
+          "confidence": 57.5
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 65.8
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours V-Varen Nagasaki win (54%). xG: V-Varen Nagasaki 2.15 — Kawasaki Frontale 1.35. Teams are closely matched on Elo. Home form: 52%, Away form: 17%.",
+        "over25": "Combined xG 3.50 goals expected. Poisson model gives Over 2.5 a 68% probability. V-Varen Nagasaki scores 1.4/game at home, Kawasaki Frontale concedes 2.0/game away.",
+        "btts": "V-Varen Nagasaki scored in 88% of home games. Kawasaki Frontale scored in 75% of away games. BTTS probability: 66%.",
+        "corners": "Expected 4.0 total corners. V-Varen Nagasaki avg 0.0 at home, Kawasaki Frontale avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. V-Varen Nagasaki avg 0.0 yellows at home, Kawasaki Frontale avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 16,
+      "away_matches_used": 16,
+      "ml_used": false
+    },
+    {
+      "league_id": 98,
+      "league_name": "J1 League",
+      "home_team_id": "team_98_urawa_red_diamonds",
+      "home_team_name": "Urawa Red Diamonds",
+      "away_team_id": "team_98_cerezo_osaka",
+      "away_team_name": "Cerezo Osaka",
+      "match_date": "2026-11-25T10:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Saitama Stadium 2002",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "98_team_98_urawa_red_diamonds_team_98_cerezo_osaka_20261125",
+      "api_fixture_id": "espn_401877547",
+      "fixture_date": "2026-11-25T10:30:00+00:00",
+      "league_country": "Japan",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7109.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 2.056,
+      "xg_away": 1.057,
+      "home_win_probability": 0.58929,
+      "draw_probability": 0.23453,
+      "away_win_probability": 0.17617,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.05730498090949406,
+          0.03461422172464998,
+          0.024978289455204326,
+          0.008804376814995312,
+          0.002327532813229009,
+          0.0004922469004217086,
+          8.675388290896762e-05
+        ],
+        [
+          0.0792371520639988,
+          0.10977137265055059,
+          0.05136151646802325,
+          0.018103967671006582,
+          0.004785980846723609,
+          0.0010121808912369403,
+          0.00017838735489413246
+        ],
+        [
+          0.09444927259819853,
+          0.0998747717310351,
+          0.05280596532893057,
+          0.01861310870263031,
+          0.0049205778184987356,
+          0.0010406466304891994,
+          0.00018340417350262356
+        ],
+        [
+          0.06473699061265452,
+          0.06845571153838989,
+          0.03619402445092351,
+          0.012757712264027315,
+          0.0033726400562143067,
+          0.0007132752777849852,
+          0.00012570805398227556
+        ],
+        [
+          0.03327880012965966,
+          0.035190451710222004,
+          0.01860595764788067,
+          0.006558249812484818,
+          0.0017337446995582203,
+          0.0003666674212408322,
+          6.462168172437196e-05
+        ],
+        [
+          0.013685882245546966,
+          0.014472047561728919,
+          0.007651686492373937,
+          0.0026970754450534816,
+          0.0007130012413172202,
+          0.0001507917091610513,
+          2.6575619407646405e-05
+        ],
+        [
+          0.004690257564105198,
+          0.004959682490807262,
+          0.002622292067484037,
+          0.0009243085889651333,
+          0.0002443510330795511,
+          5.1677483541632373e-05,
+          9.107670058176282e-06
+        ]
+      ],
+      "home_elo": 1505.4,
+      "away_elo": 1511.8,
+      "home_form": "WWWLD",
+      "away_form": "LDDLW",
+      "home_attack_strength": 1.086,
+      "away_attack_strength": 0.94,
+      "home_defense_strength": 0.881,
+      "away_defense_strength": 0.931,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 73.5
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "under",
+          "confidence": 56.2
+        },
+        "corners_95": {
+          "pick": "under",
+          "confidence": 57.0
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 59.6
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Urawa Red Diamonds win (59%). xG: Urawa Red Diamonds 2.06 — Cerezo Osaka 1.06. Teams are closely matched on Elo. Home form: 87%, Away form: 55%.",
+        "over25": "Combined xG 3.11 goals expected. Poisson model gives Over 2.5 a 60% probability. Urawa Red Diamonds scores 1.8/game at home, Cerezo Osaka concedes 1.5/game away.",
+        "btts": "Urawa Red Diamonds scored in 88% of home games. Cerezo Osaka scored in 80% of away games. BTTS probability: 58%.",
+        "corners": "Expected 4.0 total corners. Urawa Red Diamonds avg 0.0 at home, Cerezo Osaka avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Urawa Red Diamonds avg 0.0 yellows at home, Cerezo Osaka avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 15,
+      "away_matches_used": 16,
+      "ml_used": false
+    },
+    {
+      "league_id": 40,
+      "league_name": "Championship",
+      "home_team_id": "team_40_bolton_wanderers",
+      "home_team_name": "Bolton Wanderers",
+      "away_team_id": "team_40_west_bromwich_albion",
+      "away_team_name": "West Bromwich Albion",
+      "match_date": "2026-11-25T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Toughsheet Community Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "40_team_40_bolton_wanderers_team_40_west_bromwich_albion_20261125",
+      "api_fixture_id": "espn_401880140",
+      "fixture_date": "2026-11-25T19:45:00+00:00",
+      "league_country": "England",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.171,
+      "xg_away": 3.806,
+      "home_win_probability": 0.0718,
+      "draw_probability": 0.11281,
+      "away_win_probability": 0.81539,
+      "most_likely_score": "1-3",
+      "score_matrix": [
+        [
+          0.011980979528121974,
+          0.0244742021085768,
+          0.054946930683987885,
+          0.06971736045885937,
+          0.06634370139759592,
+          0.05050663635185347,
+          0.03204172943123837
+        ],
+        [
+          0.00448806423563279,
+          0.03821419082972129,
+          0.06436280780353991,
+          0.08166434441244047,
+          0.07771256463053453,
+          0.059161610809772315,
+          0.03753249994866043
+        ],
+        [
+          0.005203421652555868,
+          0.01980650157096321,
+          0.03769610947133947,
+          0.04782930036665079,
+          0.04551481583204105,
+          0.034649864319053224,
+          0.02198209299874472
+        ],
+        [
+          0.0020316987292724057,
+          0.007733535115935103,
+          0.014718610719124616,
+          0.018675159398082106,
+          0.017771458794542217,
+          0.013529190983764096,
+          0.008583004298788754
+        ],
+        [
+          0.0005949642373061731,
+          0.0022646944429505125,
+          0.004310209419605496,
+          0.005468848214434939,
+          0.005204207826275229,
+          0.003961898818486446,
+          0.0025134536596640145
+        ],
+        [
+          0.00013938383228701844,
+          0.000530555906766401,
+          0.0010097640651215427,
+          0.001281201414349364,
+          0.0012192034165425779,
+          0.0009281644270828203,
+          0.0005888333808869201
+        ],
+        [
+          2.7211513293330275e-05,
+          0.00010357893647306063,
+          0.00019713339653770715,
+          0.00025012534628988167,
+          0.00023802165166620935,
+          0.0001812029288587206,
+          0.00011495628372856374
+        ]
+      ],
+      "home_elo": 1471.2,
+      "away_elo": 1545.4,
+      "home_form": "DLLWL",
+      "away_form": "WDWDW",
+      "home_attack_strength": 0.929,
+      "away_attack_strength": 1.171,
+      "home_defense_strength": 2.538,
+      "away_defense_strength": 0.62,
+      "predictions": {
+        "winner": {
+          "pick": "away",
+          "confidence": 70.1
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 85.0
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 75.0
+        },
+        "over35": {
+          "pick": "over",
+          "confidence": 53.2
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 75.0
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours West Bromwich Albion win (82%). xG: Bolton Wanderers 1.17 — West Bromwich Albion 3.81. Elo gap of 74 pts favours away. Home form: 0%, Away form: 68%.",
+        "over25": "Combined xG 4.98 goals expected. Poisson model gives Over 2.5 a 86% probability. Bolton Wanderers scores 1.5/game at home, West Bromwich Albion concedes 1.0/game away.",
+        "btts": "Bolton Wanderers scored in 100% of home games. West Bromwich Albion scored in 75% of away games. BTTS probability: 68%.",
+        "corners": "Expected 4.0 total corners. Bolton Wanderers avg 0.0 at home, West Bromwich Albion avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Bolton Wanderers avg 0.0 yellows at home, West Bromwich Albion avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 9,
+      "away_matches_used": 9,
+      "ml_used": false
+    },
+    {
+      "league_id": 40,
+      "league_name": "Championship",
+      "home_team_id": "team_40_burnley",
+      "home_team_name": "Burnley",
+      "away_team_id": "team_40_birmingham_city",
+      "away_team_name": "Birmingham City",
+      "match_date": "2026-11-25T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Turf Moor",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "40_team_40_burnley_team_40_birmingham_city_20261125",
+      "api_fixture_id": "espn_401880139",
+      "fixture_date": "2026-11-25T19:45:00+00:00",
+      "league_country": "England",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.547,
+      "xg_away": 1.249,
+      "home_win_probability": 0.14781,
+      "draw_probability": 0.32977,
+      "away_win_probability": 0.52242,
+      "most_likely_score": "0-1",
+      "score_matrix": [
+        [
+          0.18076830385635587,
+          0.19268833504831145,
+          0.1295730379933536,
+          0.05396011090394839,
+          0.016853584745669257,
+          0.004211159896021213,
+          0.0008768593317817412
+        ],
+        [
+          0.07600874013582912,
+          0.12811261210823505,
+          0.07082113684509009,
+          0.02949314500676282,
+          0.009211716033582465,
+          0.0023017067122248977,
+          0.000479267721832642
+        ],
+        [
+          0.024800032652399592,
+          0.030983587320388372,
+          0.019354464098805233,
+          0.008060079823949087,
+          0.002517438087026709,
+          0.0006290254846540815,
+          0.00013097742184251776
+        ],
+        [
+          0.004518343562411977,
+          0.005644931773747508,
+          0.0035262098034499517,
+          0.001468474267574937,
+          0.0004586546450852059,
+          0.00011460280270658607,
+          2.386291175895677e-05
+        ],
+        [
+          0.0006174012601354702,
+          0.0007713419624580312,
+          0.0004818328544697648,
+          0.00020065713258716816,
+          6.267207261490965e-05,
+          1.5659702240157243e-05,
+          3.260706404232946e-06
+        ],
+        [
+          6.749098394162533e-05,
+          8.431895326927911e-05,
+          5.267137523566276e-05,
+          2.193475813483381e-05,
+          6.850973782452503e-06,
+          1.7118343946839112e-06,
+          3.5644288046667285e-07
+        ],
+        [
+          6.1481260345031476e-06,
+          7.681078590368303e-06,
+          4.7981261265882804e-06,
+          1.9981581194007084e-06,
+          6.24092994555035e-07,
+          1.5594043817492817e-07,
+          3.247034826319751e-08
+        ]
+      ],
+      "home_elo": 1456.2,
+      "away_elo": 1577.0,
+      "home_form": "LLDDL",
+      "away_form": "WLWWW",
+      "home_attack_strength": 0.723,
+      "away_attack_strength": 0.937,
+      "home_defense_strength": 1.041,
+      "away_defense_strength": 0.372,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Birmingham City win (52%). xG: Burnley 0.55 — Birmingham City 1.25. Elo gap of 121 pts favours away. Home form: 31%, Away form: 69%.",
+        "over25": "Combined xG 1.80 goals expected. Poisson model gives Over 2.5 a 27% probability. Burnley scores 1.2/game at home, Birmingham City concedes 0.6/game away.",
+        "btts": "Burnley scored in 83% of home games. Birmingham City scored in 60% of away games. BTTS probability: 32%.",
+        "corners": "Expected 4.0 total corners. Burnley avg 0.0 at home, Birmingham City avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Burnley avg 0.0 yellows at home, Birmingham City avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 11,
+      "away_matches_used": 11,
+      "ml_used": false
+    },
+    {
+      "league_id": 40,
+      "league_name": "Championship",
+      "home_team_id": "team_40_watford",
+      "home_team_name": "Watford",
+      "away_team_id": "team_40_blackburn_rovers",
+      "away_team_name": "Blackburn Rovers",
+      "match_date": "2026-11-25T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Vicarage Road",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "40_team_40_watford_team_40_blackburn_rovers_20261125",
+      "api_fixture_id": "espn_401880137",
+      "fixture_date": "2026-11-25T19:45:00+00:00",
+      "league_country": "England",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.288,
+      "xg_away": 1.093,
+      "home_win_probability": 0.39225,
+      "draw_probability": 0.31021,
+      "away_win_probability": 0.29754,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.10937457330691831,
+          0.08413208662003734,
+          0.05523769489906325,
+          0.02012802343476298,
+          0.00550082685561031,
+          0.0012026653761995662,
+          0.0002191191804849684
+        ],
+        [
+          0.10218812044865759,
+          0.14714144130044246,
+          0.07117269383086197,
+          0.025934566095861734,
+          0.007087708245725062,
+          0.0015496109089570599,
+          0.0002823307955486483
+        ],
+        [
+          0.07673925635948169,
+          0.08388888529069266,
+          0.04585231476800384,
+          0.016708091600762316,
+          0.004566187001985308,
+          0.000998321734656915,
+          0.00018188886508865162
+        ],
+        [
+          0.03295901230528504,
+          0.03602973150561371,
+          0.01969327145398792,
+          0.007176016849677408,
+          0.0019611476671297116,
+          0.0004287727025012445,
+          7.812008647267129e-05
+        ],
+        [
+          0.010616761326020881,
+          0.01160590179379793,
+          0.006343599159432449,
+          0.0023115394799713925,
+          0.0006317251413404793,
+          0.0001381163186385509,
+          2.5164052404430528e-05
+        ],
+        [
+          0.002735898030187479,
+          0.002990795674984041,
+          0.001634720788349391,
+          0.0005956747180945229,
+          0.00016279310768504363,
+          3.559203720383366e-05,
+          6.484678263989879e-06
+        ],
+        [
+          0.0005875252192993966,
+          0.0006422636609392472,
+          0.000351050981824218,
+          0.0001279192117242793,
+          3.49592913324081e-05,
+          7.643274432293697e-06,
+          1.3925636032844424e-06
+        ]
+      ],
+      "home_elo": 1461.6,
+      "away_elo": 1516.5,
+      "home_form": "WLLWD",
+      "away_form": "LWLLW",
+      "home_attack_strength": 0.465,
+      "away_attack_strength": 1.093,
+      "home_defense_strength": 0.781,
+      "away_defense_strength": 1.363,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Watford win (39%). xG: Watford 1.29 — Blackburn Rovers 1.09. Elo gap of 55 pts favours away. Home form: 63%, Away form: 28%.",
+        "over25": "Combined xG 2.38 goals expected. Poisson model gives Over 2.5 a 43% probability. Watford scores 0.8/game at home, Blackburn Rovers concedes 2.2/game away.",
+        "btts": "Watford scored in 50% of home games. Blackburn Rovers scored in 80% of away games. BTTS probability: 50%.",
+        "corners": "Expected 4.0 total corners. Watford avg 0.0 at home, Blackburn Rovers avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Watford avg 0.0 yellows at home, Blackburn Rovers avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 9,
+      "away_matches_used": 9,
+      "ml_used": false
+    },
+    {
+      "league_id": 40,
+      "league_name": "Championship",
+      "home_team_id": "team_40_stoke_city",
+      "home_team_name": "Stoke City",
+      "away_team_id": "team_40_millwall",
+      "away_team_name": "Millwall",
+      "match_date": "2026-11-25T20:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "bet365 Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "40_team_40_stoke_city_team_40_millwall_20261125",
+      "api_fixture_id": "espn_401880138",
+      "fixture_date": "2026-11-25T20:00:00+00:00",
+      "league_country": "England",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 2.186,
+      "xg_away": 0.5,
+      "home_win_probability": 0.75242,
+      "draw_probability": 0.18629,
+      "away_win_probability": 0.0613,
+      "most_likely_score": "2-0",
+      "score_matrix": [
+        [
+          0.07838298453553455,
+          0.024552295372850256,
+          0.008572030164991036,
+          0.0014280810534648533,
+          0.00017843633211836249,
+          1.783625630637958e-05,
+          1.4857402042232728e-06
+        ],
+        [
+          0.1403121324949701,
+          0.0847500567322775,
+          0.018742260931062342,
+          0.0031224187525677777,
+          0.00039014098548118535,
+          3.899796936001822e-05,
+          3.2484872366698622e-06
+        ],
+        [
+          0.1640512055653068,
+          0.08199169180109646,
+          0.020489448709749922,
+          0.0034134963287736336,
+          0.0004265106403646113,
+          4.263343125600167e-05,
+          3.5513171471064177e-06
+        ],
+        [
+          0.1195629056197853,
+          0.05975673799311703,
+          0.014933008348481991,
+          0.0024878057920042222,
+          0.00031084716058028464,
+          3.1071865031066344e-05,
+          2.5882516097474176e-06
+        ],
+        [
+          0.0653543889740949,
+          0.03266368509849082,
+          0.008162545323744627,
+          0.001359861794758398,
+          0.000169912450176312,
+          1.6984220506053418e-05,
+          1.4147665748787927e-06
+        ],
+        [
+          0.02857873776845049,
+          0.014283461380857338,
+          0.0035693890799415916,
+          0.0005946522374976104,
+          7.43007995852964e-05,
+          7.427008218781412e-06,
+          6.186614790791844e-07
+        ],
+        [
+          0.010414299958257817,
+          0.005204997241923498,
+          0.0013007113486753926,
+          0.00021669560154563306,
+          2.7075751920502988e-05,
+          2.706455827738588e-06,
+          2.254447438494901e-07
+        ]
+      ],
+      "home_elo": 1579.3,
+      "away_elo": 1474.0,
+      "home_form": "WDWWW",
+      "away_form": "DLWLL",
+      "home_attack_strength": 0.867,
+      "away_attack_strength": 0.625,
+      "home_defense_strength": 0.625,
+      "away_defense_strength": 1.239,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 61.1
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 60.4
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Stoke City win (75%). xG: Stoke City 2.19 — Millwall 0.50. Elo gap of 105 pts favours home. Home form: 67%, Away form: 18%.",
+        "over25": "Combined xG 2.69 goals expected. Poisson model gives Over 2.5 a 50% probability. Stoke City scores 1.4/game at home, Millwall concedes 2.0/game away.",
+        "btts": "Stoke City scored in 80% of home games. Millwall scored in 60% of away games. BTTS probability: 36%.",
+        "corners": "Expected 4.0 total corners. Stoke City avg 0.0 at home, Millwall avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Stoke City avg 0.0 yellows at home, Millwall avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 9,
+      "away_matches_used": 9,
+      "ml_used": false
+    },
+    {
+      "league_id": 71,
+      "league_name": "Brasileirao",
+      "home_team_id": "team_71_atl_tico_mg",
+      "home_team_name": "Atlético-MG",
+      "away_team_id": "team_71_corinthians",
+      "away_team_name": "Corinthians",
+      "match_date": "2026-11-25T23:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Arena MRV",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "71_team_71_atl_tico_mg_team_71_corinthians_20261125",
+      "api_fixture_id": "espn_401841319",
+      "fixture_date": "2026-11-25T23:00:00+00:00",
+      "league_country": "Brazil",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.531,
+      "xg_away": 0.742,
+      "home_win_probability": 0.54569,
+      "draw_probability": 0.28851,
+      "away_win_probability": 0.16579,
+      "most_likely_score": "1-0",
+      "score_matrix": [
+        [
+          0.11833836377784983,
+          0.06130146693469422,
+          0.028402379694714153,
+          0.007027141391191674,
+          0.0013039589462900526,
+          0.0001935704821014308,
+          2.3946006664030365e-05
+        ],
+        [
+          0.14260703817498271,
+          0.13238303287978725,
+          0.04347795463508311,
+          0.010757047046920742,
+          0.001996081614364189,
+          0.0002963149119882885,
+          3.665620284711106e-05
+        ],
+        [
+          0.1208072631829277,
+          0.08966816111123198,
+          0.033277714043132574,
+          0.008233366509083663,
+          0.001527786523701058,
+          0.00022679730430339763,
+          2.805639424603747e-05
+        ],
+        [
+          0.06164334074248234,
+          0.045754244103367835,
+          0.01698034879563106,
+          0.004201173040470884,
+          0.0007795712176648825,
+          0.0001157260179587158,
+          1.4316108360927736e-05
+        ],
+        [
+          0.023590685016222464,
+          0.01750998482231901,
+          0.006498318473308522,
+          0.001607773827677906,
+          0.00029833910398323213,
+          4.428793126658552e-05,
+          5.478723231624046e-06
+        ],
+        [
+          0.00722245631507236,
+          0.005360806622182171,
+          0.0019895065049032627,
+          0.0004922314136675196,
+          9.133864252415672e-05,
+          1.3559065734542247e-05,
+          1.6773501564522602e-06
+        ],
+        [
+          0.0018426720542189053,
+          0.0013677076218726516,
+          0.0005075846607228998,
+          0.0001255834622745955,
+          2.330331354144963e-05,
+          3.459337159051797e-06,
+          4.279439187446746e-07
+        ]
+      ],
+      "home_elo": 1517.8,
+      "away_elo": 1484.9,
+      "home_form": "WWLLL",
+      "away_form": "LDLWD",
+      "home_attack_strength": 0.65,
+      "away_attack_strength": 1.113,
+      "home_defense_strength": 0.557,
+      "away_defense_strength": 1.191,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "under",
+          "confidence": 54.2
+        },
+        "corners_95": {
+          "pick": "under",
+          "confidence": 55.0
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Atlético-MG win (55%). xG: Atlético-MG 1.53 — Corinthians 0.74. Elo gap of 33 pts favours home. Home form: 59%, Away form: 23%.",
+        "over25": "Combined xG 2.27 goals expected. Poisson model gives Over 2.5 a 40% probability. Atlético-MG scores 1.0/game at home, Corinthians concedes 1.8/game away.",
+        "btts": "Atlético-MG scored in 83% of home games. Corinthians scored in 83% of away games. BTTS probability: 43%.",
+        "corners": "Expected 4.0 total corners. Atlético-MG avg 0.0 at home, Corinthians avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Atlético-MG avg 0.0 yellows at home, Corinthians avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 11,
+      "away_matches_used": 11,
       "ml_used": false
     },
     {
@@ -109157,6 +111113,6 @@
       "ml_used": false
     }
   ],
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T12:19:44.863877"
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T11:48:27.459587"
 }
