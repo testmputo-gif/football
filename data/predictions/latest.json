@@ -1,8 +1,8 @@
 {
   "model_version": "v1.0.0",
   "ml_active": false,
-  "total_fixtures": 833,
-  "predictions_made": 800,
+  "total_fixtures": 841,
+  "predictions_made": 806,
   "fixtures": [
     {
       "league_id": 71,
@@ -57979,6 +57979,1050 @@
       "home_matches_used": 12,
       "away_matches_used": 11,
       "ml_used": false
+    },
+    {
+      "league_id": 203,
+      "league_name": "Turkey Super Lig",
+      "home_team_id": "team_203_goztepe",
+      "home_team_name": "Goztepe",
+      "away_team_id": "team_203_trabzonspor",
+      "away_team_name": "Trabzonspor",
+      "match_date": "2026-11-30T16:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Göztepe Gürsel Aksel Stadi",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "203_team_203_goztepe_team_203_trabzonspor_20261130",
+      "api_fixture_id": "espn_401888239",
+      "fixture_date": "2026-11-30T16:00:00+00:00",
+      "league_country": "Turkey",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 1.279,
+      "xg_away": 3.07,
+      "home_win_probability": 0.12472,
+      "draw_probability": 0.16066,
+      "away_win_probability": 0.71462,
+      "most_likely_score": "1-3",
+      "score_matrix": [
+        [
+          0.02027468727877594,
+          0.03435452084418699,
+          0.06325058314435433,
+          0.06472490856546817,
+          0.04967519958567543,
+          0.030499855571129643,
+          0.015605392590578486
+        ],
+        [
+          0.010317092361891081,
+          0.05956003495894916,
+          0.08090487128327288,
+          0.08279070541309652,
+          0.06354037273107241,
+          0.039012871762920814,
+          0.019961116816650037
+        ],
+        [
+          0.010980660792437076,
+          0.033709836199779714,
+          0.051743382210597086,
+          0.052949483087064694,
+          0.04063777297804605,
+          0.024951006073464715,
+          0.012766298004207357
+        ],
+        [
+          0.004681848524041099,
+          0.014372937097401943,
+          0.022061939824097945,
+          0.022576187710912164,
+          0.017326816758479923,
+          0.010638415407463348,
+          0.005443194594412162
+        ],
+        [
+          0.001497157549286311,
+          0.0045961656320779535,
+          0.0070549484012436174,
+          0.007219394154239466,
+          0.005540754764245991,
+          0.003401943454159419,
+          0.0017406201498002731
+        ],
+        [
+          0.00038300781682706415,
+          0.0011758063574250556,
+          0.0018048203318855689,
+          0.0018468893905971568,
+          0.0014174542865175634,
+          0.000870296473452538,
+          0.00044529122791251964
+        ],
+        [
+          8.165194316643712e-05,
+          0.00025066557300723494,
+          0.0003847626097701549,
+          0.00039373114837451203,
+          0.00030218155285330063,
+          0.00018553511199063326,
+          9.492990073997063e-05
+        ]
+      ],
+      "home_elo": 1543.3,
+      "away_elo": 1580.8,
+      "home_form": "WWWWL",
+      "away_form": "WWWWW",
+      "home_attack_strength": 0.94,
+      "away_attack_strength": 2.302,
+      "home_defense_strength": 1.023,
+      "away_defense_strength": 0.564,
+      "predictions": {
+        "winner": {
+          "pick": "away",
+          "confidence": 55.5
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 83.9
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 65.2
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 70.5
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Trabzonspor win (71%). xG: Goztepe 1.28 — Trabzonspor 3.07. Elo gap of 38 pts favours away. Home form: 42%, Away form: 100%.",
+        "over25": "Combined xG 4.35 goals expected. Poisson model gives Over 2.5 a 80% probability. Goztepe scores 1.7/game at home, Trabzonspor concedes 1.0/game away.",
+        "btts": "Goztepe scored in 100% of home games. Trabzonspor scored in 100% of away games. BTTS probability: 69%.",
+        "corners": "Expected 4.0 total corners. Goztepe avg 0.0 at home, Trabzonspor avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Goztepe avg 0.0 yellows at home, Trabzonspor avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 6,
+      "ml_used": false
+    },
+    {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_lecce",
+      "home_team_name": "Lecce",
+      "away_team_id": "team_135_atalanta",
+      "away_team_name": "Atalanta",
+      "match_date": "2026-11-30T17:30:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Via Del Mare",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "135_team_135_lecce_team_135_atalanta_20261130",
+      "api_fixture_id": "espn_401875095",
+      "fixture_date": "2026-11-30T17:30:00+00:00",
+      "league_country": "Italy",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.837,
+      "xg_away": 1.794,
+      "home_win_probability": 0.15768,
+      "draw_probability": 0.25699,
+      "away_win_probability": 0.58533,
+      "most_likely_score": "1-1",
+      "score_matrix": [
+        [
+          0.08630825801236278,
+          0.11542490777524768,
+          0.11615148269311758,
+          0.0694419789744947,
+          0.03113728080833979,
+          0.011169385094782557,
+          0.0033388476277965017
+        ],
+        [
+          0.04635560002529244,
+          0.12251714755433289,
+          0.09723150846938587,
+          0.05813053962151078,
+          0.02606531326533922,
+          0.00934999826313481,
+          0.0027949810357377446
+        ],
+        [
+          0.025301840735078233,
+          0.045380649086938216,
+          0.04069670924567733,
+          0.024330813195352383,
+          0.010909760550418687,
+          0.003913486139960416,
+          0.0011698525750468542
+        ],
+        [
+          0.007060137000069433,
+          0.012662857341508323,
+          0.01135586717721018,
+          0.0067891848771355345,
+          0.003044221364381721,
+          0.0010920054625783739,
+          0.00032643156425627795
+        ],
+        [
+          0.001477526921311422,
+          0.002650049513574669,
+          0.0023765260460242867,
+          0.001420822772933369,
+          0.0006370866486388501,
+          0.00022853203403316562,
+          6.831474008927964e-05
+        ],
+        [
+          0.0002473703615868687,
+          0.0004436763194908317,
+          0.0003978825013921555,
+          0.00023787684543807023,
+          0.00010666225593783392,
+          3.826126690320478e-05,
+          1.1437383450582966e-05
+        ],
+        [
+          3.451267954862114e-05,
+          6.190094294106238e-05,
+          5.551186965350749e-05,
+          3.318816080461599e-05,
+          1.4881331116228949e-05,
+          5.338144938963729e-06,
+          1.5957237050245982e-06
+        ]
+      ],
+      "home_elo": 1446.6,
+      "away_elo": 1485.3,
+      "home_form": "WLLLD",
+      "away_form": "LDDLW",
+      "home_attack_strength": 0.455,
+      "away_attack_strength": 0.897,
+      "home_defense_strength": 1.435,
+      "away_defense_strength": 1.193,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 58.8
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Atalanta win (59%). xG: Lecce 0.84 — Atalanta 1.79. Elo gap of 39 pts favours away. Home form: 0%, Away form: 48%.",
+        "over25": "Combined xG 2.63 goals expected. Poisson model gives Over 2.5 a 49% probability. Lecce scores 0.7/game at home, Atalanta concedes 1.8/game away.",
+        "btts": "Lecce scored in 67% of home games. Atalanta scored in 75% of away games. BTTS probability: 49%.",
+        "corners": "Expected 4.0 total corners. Lecce avg 0.0 at home, Atalanta avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Lecce avg 0.0 yellows at home, Atalanta avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 7,
+      "ml_used": false
+    },
+    {
+      "league_id": 203,
+      "league_name": "Turkey Super Lig",
+      "home_team_id": "team_203_besiktas",
+      "home_team_name": "Besiktas",
+      "away_team_id": "team_203_galatasaray",
+      "away_team_name": "Galatasaray",
+      "match_date": "2026-11-30T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Vodafone Park",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "203_team_203_besiktas_team_203_galatasaray_20261130",
+      "api_fixture_id": "espn_401888237",
+      "fixture_date": "2026-11-30T18:00:00+00:00",
+      "league_country": "Turkey",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 2.387,
+      "xg_away": 0.426,
+      "home_win_probability": 0.80175,
+      "draw_probability": 0.15607,
+      "away_win_probability": 0.04218,
+      "most_likely_score": "2-0",
+      "score_matrix": [
+        [
+          0.06869082074572802,
+          0.01783600547377774,
+          0.005513134744346001,
+          0.0007834780019458096,
+          8.350572877288906e-05,
+          7.120257845731953e-06,
+          5.059340691821605e-07
+        ],
+        [
+          0.1368038005289424,
+          0.06977323468782201,
+          0.013162242046742167,
+          0.0018705015527662357,
+          0.00019936436625743158,
+          1.6999141422554935e-05,
+          1.2078838967428048e-06
+        ],
+        [
+          0.1728869566224629,
+          0.07370750051554957,
+          0.015711988163784548,
+          0.002232848944202326,
+          0.0002379845737370015,
+          2.029215903165914e-05,
+          1.441871181327066e-06
+        ],
+        [
+          0.13758536509095803,
+          0.05865724960685814,
+          0.012503775125961337,
+          0.0017769260514654828,
+          0.00018939077362049593,
+          1.6148726100554525e-05,
+          1.1474571406229504e-06
+        ],
+        [
+          0.08211897411331104,
+          0.03501006926746287,
+          0.007462982601446479,
+          0.0010605731527120951,
+          0.00011303946481487775,
+          9.638502029177945e-06,
+          6.84869376656853e-07
+        ],
+        [
+          0.03921071637213445,
+          0.01671684176571744,
+          0.003563474790512007,
+          0.0005064095543316529,
+          5.39748388429463e-05,
+          4.602256340865294e-06,
+          3.2701600537529673e-07
+        ],
+        [
+          0.015602162340444535,
+          0.006651724405463834,
+          0.0014179264579098898,
+          0.00020150318097859632,
+          2.1476888867183388e-05,
+          1.8312634199550035e-06,
+          1.3012148911961654e-07
+        ]
+      ],
+      "home_elo": 1519.0,
+      "away_elo": 1563.6,
+      "home_form": "WLWDW",
+      "away_form": "WWWWW",
+      "home_attack_strength": 1.316,
+      "away_attack_strength": 1.279,
+      "home_defense_strength": 0.256,
+      "away_defense_strength": 0.752,
+      "predictions": {
+        "winner": {
+          "pick": "home",
+          "confidence": 66.1
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 61.7
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Besiktas win (80%). xG: Besiktas 2.39 — Galatasaray 0.43. Elo gap of 45 pts favours away. Home form: 100%, Away form: 76%.",
+        "over25": "Combined xG 2.81 goals expected. Poisson model gives Over 2.5 a 53% probability. Besiktas scores 2.3/game at home, Galatasaray concedes 1.3/game away.",
+        "btts": "Besiktas scored in 100% of home games. Galatasaray scored in 67% of away games. BTTS probability: 32%.",
+        "corners": "Expected 4.0 total corners. Besiktas avg 0.0 at home, Galatasaray avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Besiktas avg 0.0 yellows at home, Galatasaray avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 6,
+      "ml_used": false
+    },
+    {
+      "league_id": 103,
+      "league_name": "Eliteserien",
+      "home_team_id": "team_103_lillestrom",
+      "home_team_name": "Lillestrom",
+      "away_team_id": "team_103_hamarkameratene",
+      "away_team_name": "Hamarkameratene",
+      "match_date": "2026-11-30T18:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Arasen Stadion",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "103_team_103_lillestrom_team_103_hamarkameratene_20261130",
+      "api_fixture_id": "espn_401843496",
+      "fixture_date": "2026-11-30T18:00:00+00:00",
+      "league_country": "Norway",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21380.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 2.835,
+      "xg_away": 2.32,
+      "home_win_probability": 0.48603,
+      "draw_probability": 0.19301,
+      "away_win_probability": 0.32096,
+      "most_likely_score": "2-2",
+      "score_matrix": [
+        [
+          0.011096612873015594,
+          0.008761885025514882,
+          0.016095355993057343,
+          0.012445892589215952,
+          0.007217931793918507,
+          0.003348802121387531,
+          0.0012947471159788471
+        ],
+        [
+          0.011845559512006922,
+          0.044458897426969755,
+          0.04563488553158187,
+          0.03528762482123557,
+          0.020464877653673337,
+          0.009494800956459593,
+          0.003670974190041324
+        ],
+        [
+          0.024043623078142153,
+          0.05577590525153255,
+          0.0646939023398698,
+          0.05002519733310365,
+          0.029011857505545358,
+          0.013460222780412152,
+          0.005204124935919036
+        ],
+        [
+          0.02272349008432,
+          0.05271348772221335,
+          0.06114183555274691,
+          0.047278526695851385,
+          0.02741893990819893,
+          0.012721179245298158,
+          0.004918388588715818
+        ],
+        [
+          0.016106879980214123,
+          0.03736441087744946,
+          0.04333859822429445,
+          0.033511998038404135,
+          0.019435111976518343,
+          0.009017035083540948,
+          0.003486255606006795
+        ],
+        [
+          0.009133511858762908,
+          0.02118773407786563,
+          0.024575436168271018,
+          0.01900319812841459,
+          0.011020807625807831,
+          0.005113168842604587,
+          0.0019769040906281363
+        ],
+        [
+          0.004316014801161467,
+          0.010012202896020245,
+          0.011613051790751488,
+          0.0089799067061977,
+          0.005207850996339797,
+          0.0024162132536507284,
+          0.0009341803511692545
+        ]
+      ],
+      "home_elo": 1541.5,
+      "away_elo": 1478.2,
+      "home_form": "DWWWW",
+      "away_form": "WLLDW",
+      "home_attack_strength": 1.274,
+      "away_attack_strength": 1.289,
+      "home_defense_strength": 1.249,
+      "away_defense_strength": 1.075,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "over",
+          "confidence": 85.0
+        },
+        "over25": {
+          "pick": "over",
+          "confidence": 78.7
+        },
+        "over35": {
+          "pick": "over",
+          "confidence": 59.6
+        },
+        "btts": {
+          "pick": "yes",
+          "confidence": 74.2
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "over",
+          "confidence": 75.0
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Lillestrom win (49%). xG: Lillestrom 2.83 — Hamarkameratene 2.32. Elo gap of 63 pts favours home. Home form: 75%, Away form: 48%.",
+        "over25": "Combined xG 5.15 goals expected. Poisson model gives Over 2.5 a 88% probability. Lillestrom scores 2.2/game at home, Hamarkameratene concedes 1.9/game away.",
+        "btts": "Lillestrom scored in 100% of home games. Hamarkameratene scored in 71% of away games. BTTS probability: 85%.",
+        "corners": "Expected 4.0 total corners. Lillestrom avg 0.0 at home, Hamarkameratene avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Lillestrom avg 0.0 yellows at home, Hamarkameratene avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 10,
+      "away_matches_used": 11,
+      "ml_used": false
+    },
+    {
+      "league_id": 135,
+      "league_name": "Serie A",
+      "home_team_id": "team_135_cagliari",
+      "home_team_name": "Cagliari",
+      "away_team_id": "team_135_ac_milan",
+      "away_team_name": "AC Milan",
+      "match_date": "2026-11-30T19:45:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Unipol Domus",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "135_team_135_cagliari_team_135_ac_milan_20261130",
+      "api_fixture_id": "espn_401875019",
+      "fixture_date": "2026-11-30T19:45:00+00:00",
+      "league_country": "Italy",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.399,
+      "xg_away": 0.956,
+      "home_win_probability": 0.13743,
+      "draw_probability": 0.39163,
+      "away_win_probability": 0.47093,
+      "most_likely_score": "0-0",
+      "score_matrix": [
+        [
+          0.27073579466615083,
+          0.23394362713352412,
+          0.11799540774527893,
+          0.037620261968624696,
+          0.008995799948692774,
+          0.0017208687549149304,
+          0.00027433073290986153
+        ],
+        [
+          0.09002580402274281,
+          0.11111927260731062,
+          0.04702826053078002,
+          0.014993935059879183,
+          0.0035853668524386114,
+          0.0006858696087573494,
+          0.00010933728206385207
+        ],
+        [
+          0.020487869349817243,
+          0.01959633074321708,
+          0.009371793914748397,
+          0.002987992066181948,
+          0.0007144920707376092,
+          0.00013668012707924787,
+          2.1788738582633304e-05
+        ],
+        [
+          0.002721882362246252,
+          0.0026034384593136015,
+          0.001245074347342417,
+          0.00039696479729576807,
+          9.492267507664714e-05,
+          1.815841466061964e-05,
+          2.894707215818566e-06
+        ],
+        [
+          0.0002712084209713095,
+          0.00025940666776786336,
+          0.00012405923651158545,
+          3.955358150266784e-05,
+          9.458097520667599e-06,
+          1.8093048530520526e-06,
+          2.884286933431338e-07
+        ],
+        [
+          2.1618570626263277e-05,
+          2.067782905847317e-05,
+          9.889012135982794e-06,
+          3.1528958141293984e-06,
+          7.539240430232383e-07,
+          1.4422334162804092e-07,
+          2.2991233293375505e-08
+        ],
+        [
+          1.4360499151934926e-06,
+          1.3735595742732297e-06,
+          6.568942639516283e-07,
+          2.0943640746506867e-07,
+          5.008067261998229e-08,
+          9.580278044019281e-09,
+          1.5272313416057026e-09
+        ]
+      ],
+      "home_elo": 1480.8,
+      "away_elo": 1544.9,
+      "home_form": "LLLLW",
+      "away_form": "WWLWW",
+      "home_attack_strength": 0.455,
+      "away_attack_strength": 0.957,
+      "home_defense_strength": 0.717,
+      "away_defense_strength": 0.568,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours AC Milan win (47%). xG: Cagliari 0.40 — AC Milan 0.96. Elo gap of 64 pts favours away. Home form: 53%, Away form: 80%.",
+        "over25": "Combined xG 1.35 goals expected. Poisson model gives Over 2.5 a 16% probability. Cagliari scores 0.7/game at home, AC Milan concedes 0.8/game away.",
+        "btts": "Cagliari scored in 67% of home games. AC Milan scored in 83% of away games. BTTS probability: 22%.",
+        "corners": "Expected 4.0 total corners. Cagliari avg 0.0 at home, AC Milan avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Cagliari avg 0.0 yellows at home, AC Milan avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 7,
+      "away_matches_used": 13,
+      "ml_used": false
+    },
+    {
+      "league_id": 140,
+      "league_name": "La Liga",
+      "home_team_id": "team_140_espanyol",
+      "home_team_name": "Espanyol",
+      "away_team_id": "team_140_getafe",
+      "away_team_name": "Getafe",
+      "match_date": "2026-11-30T20:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "RCDE Stadium",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "140_team_140_espanyol_team_140_getafe_20261130",
+      "api_fixture_id": "espn_401882792",
+      "fixture_date": "2026-11-30T20:00:00+00:00",
+      "league_country": "Spain",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "xg_home": 0.835,
+      "xg_away": 0.1,
+      "home_win_probability": 0.52673,
+      "draw_probability": 0.43453,
+      "away_win_probability": 0.03874,
+      "most_likely_score": "0-0",
+      "score_matrix": [
+        [
+          0.39679442221745154,
+          0.03499149251913643,
+          0.001962663248802674,
+          6.542210829342249e-05,
+          1.6355527073355632e-06,
+          3.271105414671125e-08,
+          5.451842357785205e-10
+        ],
+        [
+          0.32356687807516255,
+          0.037044637510124996,
+          0.0016391432526603991,
+          5.463810842201333e-05,
+          1.3659527105503341e-06,
+          2.731905421100667e-08,
+          4.553175701834442e-10
+        ],
+        [
+          0.1368951400287947,
+          0.013689514002879474,
+          0.0006844757001439741,
+          2.2815856671465812e-05,
+          5.703964167866455e-07,
+          1.1407928335732908e-08,
+          1.9013213892888167e-10
+        ],
+        [
+          0.038109907585537055,
+          0.0038109907585537066,
+          0.00019054953792768542,
+          6.351651264256184e-06,
+          1.5879128160640467e-07,
+          3.175825632128092e-09,
+          5.2930427202134836e-11
+        ],
+        [
+          0.00795699388527972,
+          0.0007956993885279722,
+          3.978496942639863e-05,
+          1.3261656475466216e-06,
+          3.3154141188665553e-08,
+          6.630828237733108e-10,
+          1.105138039622184e-11
+        ],
+        [
+          0.0013290769923442547,
+          0.00013290769923442552,
+          6.645384961721278e-06,
+          2.2151283205737603e-07,
+          5.537820801434404e-09,
+          1.1075641602868803e-10,
+          1.845940267144799e-12
+        ],
+        [
+          0.0001849992678397825,
+          1.8499926783978253e-05,
+          9.249963391989132e-07,
+          3.083321130663045e-08,
+          7.708302826657617e-10,
+          1.5416605653315227e-11,
+          2.569434275552537e-13
+        ]
+      ],
+      "home_elo": 1473.6,
+      "away_elo": 1482.6,
+      "home_form": "DLLWD",
+      "away_form": "LDLWL",
+      "home_attack_strength": 0.216,
+      "away_attack_strength": 0.0,
+      "home_defense_strength": 1.113,
+      "away_defense_strength": 1.94,
+      "predictions": {
+        "winner": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over15": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over25": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "over35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "btts": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_85": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "corners_95": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "cards_35": {
+          "pick": "no_pick",
+          "confidence": null
+        },
+        "fh_over05": {
+          "pick": "no_pick",
+          "confidence": null
+        }
+      },
+      "expected_corners": 4.0,
+      "expected_cards": 1.0,
+      "red_card_probability": 0.05,
+      "reasoning": {
+        "winner": "Model favours Espanyol win (53%). xG: Espanyol 0.83 — Getafe 0.10. Teams are closely matched on Elo. Home form: 17%, Away form: 0%.",
+        "over25": "Combined xG 0.93 goals expected. Poisson model gives Over 2.5 a 7% probability. Espanyol scores 0.3/game at home, Getafe concedes 3.0/game away.",
+        "btts": "Espanyol scored in 33% of home games. Getafe scored in 0% of away games. BTTS probability: 6%.",
+        "corners": "Expected 4.0 total corners. Espanyol avg 0.0 at home, Getafe avg 0.0 away.",
+        "cards": "Expected 1.0 total cards. Espanyol avg 0.0 yellows at home, Getafe avg 0.0 away."
+      },
+      "no_prediction_reason": null,
+      "data_freshness_score": 100.0,
+      "home_matches_used": 6,
+      "away_matches_used": 6,
+      "ml_used": false
+    },
+    {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_benfica",
+      "home_team_name": "Benfica",
+      "away_team_id": "team_94_fc_famalicao",
+      "away_team_name": "FC Famalicao",
+      "match_date": "2026-11-30T20:15:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estádio da Luz",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "94_team_94_benfica_team_94_fc_famalicao_20261130",
+      "api_fixture_id": "espn_401885386",
+      "fixture_date": "2026-11-30T20:15:00+00:00",
+      "league_country": "Portugal",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
+    },
+    {
+      "league_id": 94,
+      "league_name": "Primeira Liga",
+      "home_team_id": "team_94_casa_pia",
+      "home_team_name": "Casa Pia",
+      "away_team_id": "team_94_braga",
+      "away_team_name": "Braga",
+      "match_date": "2026-11-30T20:15:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Estádio Municipal de Rio Maior",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "94_team_94_casa_pia_team_94_braga_20261130",
+      "api_fixture_id": "espn_401885391",
+      "fixture_date": "2026-11-30T20:15:00+00:00",
+      "league_country": "Portugal",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0,
+      "no_prediction_reason": "Insufficient home/away specific data",
+      "predictions": {}
     },
     {
       "league_id": 79,
@@ -131494,6 +132538,6 @@
       "ml_used": false
     }
   ],
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T11:51:01.562535"
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T12:33:38.220847"
 }
