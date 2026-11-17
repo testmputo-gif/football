@@ -12091,6 +12091,37 @@
       "away_xg_adjustment": 1.0
     },
     {
+      "league_id": 39,
+      "league_name": "Premier League",
+      "home_team_id": "team_39_coventry_city",
+      "home_team_name": "Coventry City",
+      "away_team_id": "team_39_ipswich_town",
+      "away_team_name": "Ipswich Town",
+      "match_date": "2026-12-01T20:00:00+00:00",
+      "season": 2025,
+      "referee_name": null,
+      "venue": "Coventry Building Society Arena",
+      "data_source": "espn",
+      "home_corners": null,
+      "away_corners": null,
+      "home_yellow_cards": null,
+      "away_yellow_cards": null,
+      "home_red_cards": null,
+      "away_red_cards": null,
+      "id": "39_team_39_coventry_city_team_39_ipswich_town_20261201",
+      "api_fixture_id": "espn_401879221",
+      "fixture_date": "2026-12-01T20:00:00+00:00",
+      "league_country": "England",
+      "league_logo": null,
+      "round": "",
+      "home_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+      "away_team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+      "status": "NS",
+      "is_featured": false,
+      "home_xg_adjustment": 1.0,
+      "away_xg_adjustment": 1.0
+    },
+    {
       "league_id": 79,
       "league_name": "2. Bundesliga",
       "home_team_id": "team_79_dsc_arminia_bielefeld",
@@ -26072,5 +26103,5 @@
       "away_xg_adjustment": 1.0
     }
   ],
-  "last_updated": "2026-11-16T12:33:34.343838"
+  "last_updated": "2026-11-17T12:53:44.035403"
 }
