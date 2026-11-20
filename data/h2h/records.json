@@ -6150,6 +6150,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_253_real_salt_lake_team_253_seattle_sounders_fc": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "draws": 1,
+      "avg_goals": 2.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_253_atlanta_united_fc_team_253_new_york_city_fc": {
       "matches_played": 2,
       "home_wins": 0,
@@ -6211,5 +6221,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-19T12:37:59.352361"
+  "last_updated": "2026-11-20T12:38:05.671271"
 }
