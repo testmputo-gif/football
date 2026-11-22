@@ -741,12 +741,12 @@
       "avg_cards": 0.0
     },
     "team_78_eintracht_frankfurt_team_78_tsg_hoffenheim": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 4.0,
-      "btts_rate": 1.0,
+      "avg_goals": 3.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -1541,11 +1541,11 @@
       "avg_cards": 0.0
     },
     "team_79_hannover_96_team_79_spvgg_greuther_f_rth": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 1,
       "draws": 1,
-      "avg_goals": 3.5,
+      "avg_goals": 3.333,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -2011,11 +2011,11 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_n_rnberg_team_79_eintracht_braunschweig": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 1,
-      "avg_goals": 2.5,
+      "avg_goals": 2.667,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -2891,11 +2891,11 @@
       "avg_cards": 0.0
     },
     "team_78_1_fc_union_berlin_team_78_rb_leipzig": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 0,
-      "avg_goals": 4.0,
+      "avg_goals": 4.667,
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -3071,11 +3071,11 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_dortmund_team_78_borussia_m_nchengladbach": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 1,
       "draws": 0,
-      "avg_goals": 1.5,
+      "avg_goals": 1.333,
       "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -5930,6 +5930,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_253_fc_dallas_team_253_portland_timbers": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_113_rgryte_is_team_113_v_ster_s_sk": {
       "matches_played": 2,
       "home_wins": 0,
@@ -6061,12 +6071,12 @@
       "avg_cards": 0.0
     },
     "team_253_columbus_crew_team_253_inter_miami_cf": {
-      "matches_played": 2,
-      "home_wins": 1,
+      "matches_played": 3,
+      "home_wins": 2,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 3.5,
-      "btts_rate": 1.0,
+      "avg_goals": 3.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -6140,6 +6150,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_179_falkirk_team_179_st_johnstone": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 2.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_253_new_england_revolution_team_253_orlando_city_sc": {
       "matches_played": 2,
       "home_wins": 1,
@@ -6177,6 +6197,16 @@
       "draws": 1,
       "avg_goals": 3.5,
       "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_179_dundee_united_team_179_hibernian": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -6229,7 +6259,27 @@
       "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "team_253_new_england_revolution_team_253_philadelphia_union": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_103_tromso_team_103_viking_fk": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 4.5,
+      "btts_rate": 1.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-21T12:17:25.796401"
+  "last_updated": "2026-11-22T12:22:22.425162"
 }
