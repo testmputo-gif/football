@@ -1121,12 +1121,12 @@
       "avg_cards": 0.0
     },
     "team_78_1_fsv_mainz_05_team_78_fc_augsburg": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 2,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 0,
-      "avg_goals": 3.5,
-      "btts_rate": 0.5,
+      "avg_goals": 3.667,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2741,12 +2741,12 @@
       "avg_cards": 0.0
     },
     "team_79_1_fc_kaiserslautern_team_79_dynamo_dresden": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
       "away_wins": 1,
-      "draws": 0,
-      "avg_goals": 2.5,
-      "btts_rate": 0.5,
+      "draws": 1,
+      "avg_goals": 3.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -2851,12 +2851,12 @@
       "avg_cards": 0.0
     },
     "team_78_hamburger_sv_team_78_sv_werder_bremen": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 1,
+      "away_wins": 2,
       "draws": 0,
-      "avg_goals": 4.5,
-      "btts_rate": 1.0,
+      "avg_goals": 4.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -6081,12 +6081,12 @@
       "avg_cards": 0.0
     },
     "team_253_charlotte_fc_team_253_chicago_fire_fc": {
-      "matches_played": 2,
-      "home_wins": 0,
+      "matches_played": 3,
+      "home_wins": 1,
       "away_wins": 2,
       "draws": 0,
-      "avg_goals": 2.0,
-      "btts_rate": 0.5,
+      "avg_goals": 2.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -6167,6 +6167,16 @@
       "draws": 0,
       "avg_goals": 3.5,
       "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
+    "team_253_real_salt_lake_team_253_vancouver_whitecaps": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 2,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -6279,7 +6289,17 @@
       "btts_rate": 1.0,
       "avg_corners": null,
       "avg_cards": 0.0
+    },
+    "team_253_fc_cincinnati_team_253_nashville_sc": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 1.5,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-22T12:22:22.425162"
+  "last_updated": "2026-11-23T14:10:52.434169"
 }
