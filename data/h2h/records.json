@@ -5640,6 +5640,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_113_kalmar_ff_team_113_rgryte_is": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 4.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_113_hammarby_if_team_113_if_elfsborg": {
       "matches_played": 2,
       "home_wins": 2,
@@ -6301,5 +6311,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-23T14:10:52.434169"
+  "last_updated": "2026-11-24T14:41:02.782069"
 }

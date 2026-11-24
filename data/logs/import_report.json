@@ -1,18 +1,15 @@
 {
-  "generated_at": "2026-11-23T14:10:52.270194+00:00",
-  "total_history": 3954,
-  "total_upcoming": 821,
-  "new_history": 53,
-  "leagues_covered": 19,
+  "generated_at": "2026-11-24T14:41:02.650967+00:00",
+  "total_history": 3966,
+  "total_upcoming": 825,
+  "new_history": 12,
+  "leagues_covered": 20,
   "sources": [
     {
       "source": "openligadb",
       "fixtures": 0,
-      "history": 5,
-      "leagues": [
-        "Bundesliga",
-        "2. Bundesliga"
-      ],
+      "history": 0,
+      "leagues": [],
       "errors": [
         "Austrian Bundesliga: no data"
       ],
@@ -28,25 +25,19 @@
     },
     {
       "source": "espn",
-      "fixtures": 8,
-      "history": 48,
+      "fixtures": 16,
+      "history": 12,
       "leagues": [
         "Premier League",
         "Championship",
         "La Liga",
-        "Bundesliga",
         "Serie A",
-        "Ligue 1",
-        "Eredivisie",
-        "Primeira Liga",
         "MLS",
         "Brasileirao",
         "Argentine Primera",
         "Turkey Super Lig",
         "Allsvenskan",
-        "Eliteserien",
         "Liga MX",
-        "Scottish Prem",
         "Greek Super League"
       ],
       "errors": [],
@@ -64,26 +55,27 @@
   "upcoming_by_league": {
     "Bundesliga": 260,
     "2. Bundesliga": 234,
-    "Championship": 36,
-    "Premier League": 31,
+    "Championship": 44,
+    "Premier League": 30,
     "J1 League": 27,
-    "Brasileirao": 24,
-    "La Liga": 23,
-    "MLS": 23,
-    "Serie A": 21,
+    "MLS": 22,
+    "La Liga": 22,
+    "Brasileirao": 21,
     "Scottish Prem": 20,
-    "Turkey Super Lig": 19,
+    "Serie A": 20,
+    "Turkey Super Lig": 18,
     "Eredivisie": 18,
     "Ligue 1": 18,
     "Primeira Liga": 18,
     "Eliteserien": 16,
-    "Greek Super League": 15,
-    "Allsvenskan": 10,
+    "Greek Super League": 14,
+    "Liga MX": 8,
+    "Allsvenskan": 8,
     "A-League": 5,
-    "Argentine Primera": 3
+    "Argentine Primera": 2
   },
   "upcoming_by_source": {
-    "espn": 341,
+    "espn": 345,
     "openligadb": 480
   }
 }
