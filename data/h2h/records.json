@@ -5600,6 +5600,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_71_chapecoense_team_71_palmeiras": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.0,
+      "btts_rate": 0.0,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_119_joventut_badalona_team_119_valencia_basket": {
       "matches_played": 2,
       "home_wins": 0,
@@ -6311,5 +6321,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-24T14:41:02.782069"
+  "last_updated": "2026-11-25T14:01:50.182916"
 }
