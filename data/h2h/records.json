@@ -6260,6 +6260,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_262_am_rica_team_262_monterrey": {
+      "matches_played": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "draws": 2,
+      "avg_goals": 1.0,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_103_aalesund_team_103_sarpsborg_fk": {
       "matches_played": 2,
       "home_wins": 0,
@@ -6321,5 +6331,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-25T14:01:50.182916"
+  "last_updated": "2026-11-26T13:40:13.402636"
 }

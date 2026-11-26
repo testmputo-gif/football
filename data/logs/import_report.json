@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T14:01:49.977809+00:00",
-  "total_history": 3985,
-  "total_upcoming": 813,
-  "new_history": 19,
+  "generated_at": "2026-11-26T13:40:13.249575+00:00",
+  "total_history": 3993,
+  "total_upcoming": 807,
+  "new_history": 8,
   "leagues_covered": 20,
   "sources": [
     {
@@ -25,15 +25,14 @@
     },
     {
       "source": "espn",
-      "fixtures": 7,
-      "history": 19,
+      "fixtures": 2,
+      "history": 8,
       "leagues": [
         "Championship",
-        "MLS",
+        "La Liga",
         "Brasileirao",
         "Argentine Primera",
-        "J1 League",
-        "Scottish Prem"
+        "Liga MX"
       ],
       "errors": [],
       "status": "ok"
@@ -50,13 +49,13 @@
   "upcoming_by_league": {
     "Bundesliga": 260,
     "2. Bundesliga": 234,
-    "Championship": 40,
+    "Championship": 36,
     "Premier League": 30,
-    "La Liga": 22,
+    "La Liga": 23,
     "MLS": 22,
-    "Brasileirao": 20,
     "Serie A": 20,
     "J1 League": 20,
+    "Brasileirao": 19,
     "Turkey Super Lig": 18,
     "Eredivisie": 18,
     "Ligue 1": 18,
@@ -64,13 +63,13 @@
     "Scottish Prem": 18,
     "Eliteserien": 16,
     "Greek Super League": 14,
-    "Liga MX": 8,
     "Allsvenskan": 8,
+    "Liga MX": 6,
     "A-League": 5,
     "Argentine Primera": 4
   },
   "upcoming_by_source": {
-    "espn": 333,
+    "espn": 327,
     "openligadb": 480
   }
 }
