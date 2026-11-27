@@ -5610,6 +5610,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_71_remo_team_71_s_o_paulo": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "draws": 0,
+      "avg_goals": 2.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_119_joventut_badalona_team_119_valencia_basket": {
       "matches_played": 2,
       "home_wins": 0,
@@ -6320,6 +6330,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_262_cruz_azul_team_262_le_n": {
+      "matches_played": 2,
+      "home_wins": 2,
+      "away_wins": 0,
+      "draws": 0,
+      "avg_goals": 3.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_253_fc_cincinnati_team_253_nashville_sc": {
       "matches_played": 2,
       "home_wins": 1,
@@ -6331,5 +6351,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-26T13:40:13.402636"
+  "last_updated": "2026-11-27T13:35:28.026020"
 }
