@@ -201,12 +201,12 @@
       "avg_cards": 0.0
     },
     "team_79_sv_darmstadt_98_team_79_vfl_bochum": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 1,
-      "away_wins": 0,
+      "away_wins": 1,
       "draws": 1,
-      "avg_goals": 5.5,
-      "btts_rate": 1.0,
+      "avg_goals": 4.333,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -1001,12 +1001,12 @@
       "avg_cards": 0.0
     },
     "team_78_borussia_m_nchengladbach_team_78_sv_werder_bremen": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
       "away_wins": 1,
-      "draws": 1,
-      "avg_goals": 3.0,
-      "btts_rate": 0.5,
+      "draws": 2,
+      "avg_goals": 4.0,
+      "btts_rate": 0.667,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -5610,6 +5610,16 @@
       "avg_corners": null,
       "avg_cards": 0.0
     },
+    "team_71_cruzeiro_team_71_fluminense": {
+      "matches_played": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "draws": 1,
+      "avg_goals": 1.5,
+      "btts_rate": 0.5,
+      "avg_corners": null,
+      "avg_cards": 0.0
+    },
     "team_71_remo_team_71_s_o_paulo": {
       "matches_played": 2,
       "home_wins": 1,
@@ -6101,12 +6111,12 @@
       "avg_cards": 0.0
     },
     "team_253_columbus_crew_team_253_inter_miami_cf": {
-      "matches_played": 3,
-      "home_wins": 2,
+      "matches_played": 4,
+      "home_wins": 3,
       "away_wins": 0,
       "draws": 1,
-      "avg_goals": 3.333,
-      "btts_rate": 0.667,
+      "avg_goals": 2.75,
+      "btts_rate": 0.5,
       "avg_corners": null,
       "avg_cards": 0.0
     },
@@ -6201,11 +6211,11 @@
       "avg_cards": 0.0
     },
     "team_253_real_salt_lake_team_253_vancouver_whitecaps": {
-      "matches_played": 2,
+      "matches_played": 3,
       "home_wins": 0,
-      "away_wins": 2,
+      "away_wins": 3,
       "draws": 0,
-      "avg_goals": 2.5,
+      "avg_goals": 2.0,
       "btts_rate": 0.0,
       "avg_corners": null,
       "avg_cards": 0.0
@@ -6351,5 +6361,5 @@
       "avg_cards": 0.0
     }
   },
-  "last_updated": "2026-11-27T13:35:28.026020"
+  "last_updated": "2026-11-28T12:48:26.828681"
 }
